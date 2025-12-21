@@ -1,0 +1,35 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2025-12-21T02:33:37.968365+00:00",
+  "as_of_et": "2025-12-20T21:33:37.968365-05:00",
+  "as_of_kst": "2025-12-21T11:33:37.968365+09:00",
+  "rows": [
+    {
+      "event_id": "401810248",
+      "start_utc": "2025-12-21T02:30Z",
+      "home": "UTAH",
+      "away": "ORL",
+      "details": "ORL -7.5",
+      "total": 240.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810249",
+      "start_utc": "2025-12-21T03:00Z",
+      "home": "SAC",
+      "away": "POR",
+      "details": "POR -4.5",
+      "total": 235.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810250",
+      "start_utc": "2025-12-21T03:30Z",
+      "home": "LAC",
+      "away": "LAL",
+      "details": "LAL -1.5",
+      "total": 229.5,
+      "provider": "Draft Kings"
+    }
+  ]
+}

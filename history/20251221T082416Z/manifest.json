@@ -1,0 +1,11 @@
+{
+  "as_of_utc": "2025-12-21T08:24:16.709276+00:00",
+  "as_of_kst": "2025-12-21T17:24:16.709276+09:00",
+  "as_of_et": "2025-12-21T03:24:16.709276-05:00",
+  "date_et": "20251221",
+  "status": {
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "OK (from scoreboard odds)",
+    "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-21_03AM.pdf"
+  }
+}

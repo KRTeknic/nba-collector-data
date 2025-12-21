@@ -1,0 +1,62 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2025-12-21T08:41:29.486051+00:00",
+  "as_of_et": "2025-12-21T03:41:29.486051-05:00",
+  "as_of_kst": "2025-12-21T17:41:29.486051+09:00",
+  "rows": [
+    {
+      "event_id": "401810251",
+      "start_utc": "2025-12-21T20:30Z",
+      "home": "ATL",
+      "away": "CHI",
+      "details": "ATL -3.5",
+      "total": 245.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810252",
+      "start_utc": "2025-12-21T23:00Z",
+      "home": "BKN",
+      "away": "TOR",
+      "details": "TOR -3.5",
+      "total": 218.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810253",
+      "start_utc": "2025-12-21T23:00Z",
+      "home": "NY",
+      "away": "MIA",
+      "details": "NY -7.5",
+      "total": 236.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810254",
+      "start_utc": "2025-12-22T00:00Z",
+      "home": "WSH",
+      "away": "SA",
+      "details": "SA -15.5",
+      "total": 238.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810255",
+      "start_utc": "2025-12-22T00:00Z",
+      "home": "MIN",
+      "away": "MIL",
+      "details": "MIN -12.5",
+      "total": 224.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810256",
+      "start_utc": "2025-12-22T03:00Z",
+      "home": "SAC",
+      "away": "HOU",
+      "details": "HOU -12.5",
+      "total": 226.5,
+      "provider": "Draft Kings"
+    }
+  ]
+}
