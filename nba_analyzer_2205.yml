@@ -1,24 +1,22 @@
-name: "NBA Analyzer (22:05 KST SSOT -> Draft 1st)"
+name: SSOT Draft Builder (22:05 KST)
 
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "5 13 * * *"  # 22:05 KST (UTC)
-    - cron: "5 23 * * *"  # 08:05 KST (UTC)
+    - cron: "5 13 * * *"  # 22:05 KST (UTC 기준)
 
 permissions:
   contents: write
 
 concurrency:
-  group: nba-analyzer-ssot
+  group: ssot-draft-2205
   cancel-in-progress: true
 
 jobs:
-  analyze:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout data repo
+      - name: Checkout (data repo)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -31,521 +29,261 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install -U pip
-          pip install requests python-dateutil pypdf
+          pip install requests python-dateutil
 
-      - name: Run Analyzer (SSOT load + fail-fast + draft)
+      - name: Build DRAFT_1ST from SSOT (fail-fast rules)
         env:
-          SSOT_MANIFEST_URL: https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json
-          SSOT_ODDS_URL: https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json
-          DOMESTIC_ANCHOR_PATH: latest/domestic_anchor.txt
-          OUT_DIR: analysis/latest
-          LOG_DIR: analysis/logs
+          SSOT_MANIFEST_URL: "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json"
+          SSOT_ODDS_URL: "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
+          # optional: 같은 latest 폴더에 있으면 사용 가능
+          SSOT_SCOREBOARD_URL: "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_scoreboard.json"
+          SSOT_INJURY_PDF_URL: "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/nba_injury_report.pdf"
         run: |
           python - << 'PY'
-          import os, re, json, sys
+          import os, json
           from pathlib import Path
           from datetime import datetime, timezone
           from zoneinfo import ZoneInfo
           import requests
-          from pypdf import PdfReader
 
           KST = ZoneInfo("Asia/Seoul")
           ET  = ZoneInfo("America/New_York")
 
-          SSOT_MANIFEST_URL = os.getenv("SSOT_MANIFEST_URL")
-          SSOT_ODDS_URL = os.getenv("SSOT_ODDS_URL")
-          DOMESTIC_ANCHOR_PATH = os.getenv("DOMESTIC_ANCHOR_PATH", "latest/domestic_anchor.txt")
-          OUT_DIR = Path(os.getenv("OUT_DIR", "analysis/latest"))
-          LOG_DIR = Path(os.getenv("LOG_DIR", "analysis/logs"))
+          now_utc = datetime.now(timezone.utc)
+          now_kst = now_utc.astimezone(KST)
+          now_et  = now_utc.astimezone(ET)
 
-          OUT_DIR.mkdir(parents=True, exist_ok=True)
-          LOG_DIR.mkdir(parents=True, exist_ok=True)
+          date_et = now_et.strftime("%Y%m%d")
+          slot = "2205"  # 이 워크플로우는 22:05 KST 전용
 
-          HEADERS = {
-            "User-Agent": "Mozilla/5.0 (compatible; TeknicAnalyzer/1.0)",
-            "Accept": "application/json,text/plain,*/*",
-            "Accept-Language": "en-US,en;q=0.9,ko;q=0.8",
-          }
+          latest_dir = Path("analysis/latest")
+          logs_dir   = Path("analysis/logs")
+          cfg_dir    = Path("analysis/config")
+          latest_dir.mkdir(parents=True, exist_ok=True)
+          logs_dir.mkdir(parents=True, exist_ok=True)
+          cfg_dir.mkdir(parents=True, exist_ok=True)
 
-          def get_json(url, timeout=30):
-            r = requests.get(url, headers=HEADERS, timeout=timeout)
+          sentinel = logs_dir / f"{date_et}_{slot}.captured"
+          if sentinel.exists():
+            # 중복 실행 방지: 오늘 이미 캡처되면 스킵 파일만 유지
+            md = (
+              "[SNAPSHOT_SOURCE]\n"
+              f"- verified_at (ET/KST): {now_et.isoformat()} / {now_kst.isoformat()}\n"
+              "- status: SKIPPED_ALREADY_CAPTURED\n"
+            )
+            (latest_dir / "draft_1st.md").write_text(md, encoding="utf-8")
+            (latest_dir / "draft_1st.json").write_text(json.dumps({
+              "status":"SKIPPED_ALREADY_CAPTURED",
+              "verified_at_et": now_et.isoformat(),
+              "verified_at_kst": now_kst.isoformat(),
+              "date_et": date_et,
+              "slot": slot
+            }, ensure_ascii=False, indent=2), encoding="utf-8")
+            raise SystemExit(0)
+
+          manifest_url = os.getenv("SSOT_MANIFEST_URL")
+          odds_url     = os.getenv("SSOT_ODDS_URL")
+          sb_url       = os.getenv("SSOT_SCOREBOARD_URL")
+          injury_pdf   = os.getenv("SSOT_INJURY_PDF_URL")
+
+          def fetch_json(url, timeout=30):
+            r = requests.get(url, timeout=timeout)
             r.raise_for_status()
             return r.json()
 
-          def now_kst_et():
-            now_utc = datetime.now(timezone.utc)
-            return now_utc, now_utc.astimezone(KST), now_utc.astimezone(ET)
-
-          def safe_write(path: Path, obj):
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
-
-          def read_text_file(path: Path):
-            if not path.exists():
-              return None
-            return path.read_text(encoding="utf-8", errors="ignore")
-
-          # --- Step A: Load SSOT (manifest + odds) ---
-          now_utc, now_kst, now_et = now_kst_et()
-
-          snapshot = {
-            "verified_at_utc": now_utc.isoformat(),
-            "verified_at_kst": now_kst.isoformat(),
-            "verified_at_et":  now_et.isoformat(),
-            "source_urls": {
-              "manifest.json": SSOT_MANIFEST_URL,
-              "espn_odds.json": SSOT_ODDS_URL,
-            },
-            "manifest_status": {},
-            "fail_fast": [],
-            "unresolved": [],
-          }
-
-          # 중복 실행 방지: 같은 KST 날짜 + 슬롯(22:05/08:05) 이미 생성 시 스킵
-          kst_date = now_kst.strftime("%Y%m%d")
-          slot = "2205" if now_kst.hour >= 21 and now_kst.hour <= 23 else "0805"
-          sentinel = LOG_DIR / f"{kst_date}_{slot}.captured"
-
-          if sentinel.exists():
-            # 오늘 해당 슬롯 이미 캡처됨
-            out_md = OUT_DIR / "draft_1st.md"
-            out_json = OUT_DIR / "draft_1st.json"
-            payload = {
-              "status": "SKIPPED_ALREADY_CAPTURED",
-              "kst_date": kst_date,
-              "slot": slot,
-              "verified_at_kst": snapshot["verified_at_kst"],
-              "sentinel": str(sentinel),
-            }
-            safe_write(out_json, payload)
-            out_md.write_text(
-              "\n".join([
-                "[SNAPSHOT_SOURCE]",
-                f"- verified_at (ET/KST): {snapshot['verified_at_et']} / {snapshot['verified_at_kst']}",
-                f"- status: SKIPPED_ALREADY_CAPTURED ({kst_date} {slot})",
-                "",
-                "[PROCESS_LOG]",
-                f"- SKIPPED: sentinel exists -> {sentinel}",
-              ]),
-              encoding="utf-8"
-            )
-            print(json.dumps(payload, ensure_ascii=False, indent=2))
-            sys.exit(0)
-
-          # Load manifest
-          try:
-            manifest = get_json(SSOT_MANIFEST_URL)
-          except Exception as e:
-            # manifest 자체가 안 열리면 스냅샷 생성 불가
-            payload = {
-              "status": "BLOCKED",
-              "reason": f"manifest.json fetch failed: {e}",
-              "verified_at_kst": snapshot["verified_at_kst"],
-              "verified_at_et": snapshot["verified_at_et"],
-            }
-            safe_write(OUT_DIR / "draft_1st.json", payload)
-            (OUT_DIR / "draft_1st.md").write_text(
-              "\n".join([
-                "[SNAPSHOT_SOURCE]",
-                f"- verified_at (ET/KST): {snapshot['verified_at_et']} / {snapshot['verified_at_kst']}",
-                f"- source_urls: {SSOT_MANIFEST_URL}, {SSOT_ODDS_URL}",
-                f"- manifest.status: UNAVAILABLE (manifest fetch failed)",
-                "",
-                "[PROCESS_LOG]",
-                f"- FAIL: manifest.json fetch failed -> {e}",
-              ]),
-              encoding="utf-8"
-            )
-            sys.exit(0)
-
-          snapshot["manifest_status"] = manifest.get("status", {}) or {}
-          as_of_et = manifest.get("as_of_et")
-          as_of_kst = manifest.get("as_of_kst")
-          snapshot["source_urls"]["nba_injury_report.pdf"] = None
-          inj_status = snapshot["manifest_status"].get("NBA_INJURY_PDF", "")
-          if isinstance(inj_status, str) and inj_status.startswith("OK:"):
-            snapshot["source_urls"]["nba_injury_report.pdf"] = inj_status.replace("OK:", "").strip()
-
-          # FAIL-FAST Rule 1: ESPN_ODDS must be OK
-          espn_odds_status = snapshot["manifest_status"].get("ESPN_ODDS", "")
-          if not (isinstance(espn_odds_status, str) and espn_odds_status.startswith("OK")):
-            snapshot["fail_fast"].append("FF1: manifest.status.ESPN_ODDS != OK -> MARKET=UNAVAILABLE 종료(대체금지)")
-
-          # FAIL-FAST Rule 2: ESPN_SCOREBOARD
-          espn_sb_status = snapshot["manifest_status"].get("ESPN_SCOREBOARD", "")
-          scoreboard_unavail = not (isinstance(espn_sb_status, str) and espn_sb_status.startswith("OK"))
-
-          # FAIL-FAST Rule 3: injury pdf failure does not block, but mark INJURY=FAILED
-          injury_failed = not (isinstance(inj_status, str) and inj_status.startswith("OK:"))
-
-          # Load odds only if fail-fast not triggered
+          manifest = None
           odds = None
-          if snapshot["fail_fast"]:
-            # create report and exit
-            md_lines = []
-            md_lines += ["[SNAPSHOT_SOURCE]"]
-            md_lines += [f"- verified_at (ET/KST): {snapshot['verified_at_et']} / {snapshot['verified_at_kst']}"]
-            md_lines += [f"- source_urls: {SSOT_MANIFEST_URL}, {SSOT_ODDS_URL}"]
-            md_lines += [f"- manifest.status 요약: ESPN_ODDS={espn_odds_status}, ESPN_SCOREBOARD={espn_sb_status}, NBA_INJURY_PDF={inj_status}"]
-            md_lines += [""]
-            md_lines += ["[MARKET_SNAPSHOT_LOG]"]
-            md_lines += ["- MARKET=UNAVAILABLE (FAIL-FAST: ESPN_ODDS not OK)"]
-            md_lines += [""]
-            md_lines += ["[INJURY_SNAPSHOT_LOG]"]
-            md_lines += [f"- nba_injury_report.pdf: {snapshot['source_urls'].get('nba_injury_report.pdf') or 'UNAVAILABLE'}"]
-            md_lines += [""]
-            md_lines += ["[UNRESOLVED_ZONE]"]
-            md_lines += ["- (none)"]
-            md_lines += [""]
-            md_lines += ["[DRAFT_ANALYSIS_1ST]"]
-            md_lines += ["- 종료: MARKET=UNAVAILABLE"]
-            md_lines += [""]
-            md_lines += ["[PROCESS_LOG]"]
-            md_lines += [f"- FAIL-FAST: {snapshot['fail_fast'][0]}"]
-            (OUT_DIR / "draft_1st.md").write_text("\n".join(md_lines), encoding="utf-8")
+          sb_ok = None
 
-            out_payload = {
-              "status": "MARKET_UNAVAILABLE",
-              "verified_at_et": snapshot["verified_at_et"],
-              "verified_at_kst": snapshot["verified_at_kst"],
-              "as_of_et": as_of_et,
-              "as_of_kst": as_of_kst,
-              "source_urls": snapshot["source_urls"],
-              "manifest_status": snapshot["manifest_status"],
-              "fail_fast": snapshot["fail_fast"],
-            }
-            safe_write(OUT_DIR / "draft_1st.json", out_payload)
+          manifest_status = {}
+          errors = []
 
-            # mark sentinel so we don't rerun same slot again
-            sentinel.write_text(snapshot["verified_at_kst"], encoding="utf-8")
-            sys.exit(0)
-
-          # odds json
+          # 1) manifest
           try:
-            odds = get_json(SSOT_ODDS_URL)
+            manifest = fetch_json(manifest_url)
+            manifest_status = (manifest.get("status") or {})
           except Exception as e:
-            # treat as MARKET unavailable
-            md_lines = []
-            md_lines += ["[SNAPSHOT_SOURCE]"]
-            md_lines += [f"- verified_at (ET/KST): {snapshot['verified_at_et']} / {snapshot['verified_at_kst']}"]
-            md_lines += [f"- source_urls: {SSOT_MANIFEST_URL}, {SSOT_ODDS_URL}"]
-            md_lines += [f"- manifest.status 요약: ESPN_ODDS={espn_odds_status}, ESPN_SCOREBOARD={espn_sb_status}, NBA_INJURY_PDF={inj_status}"]
-            md_lines += [""]
-            md_lines += ["[MARKET_SNAPSHOT_LOG]"]
-            md_lines += [f"- MARKET=UNAVAILABLE (espn_odds.json fetch failed: {e})"]
-            md_lines += [""]
-            md_lines += ["[PROCESS_LOG]"]
-            md_lines += [f"- FAIL: espn_odds.json fetch failed -> {e}"]
-            (OUT_DIR / "draft_1st.md").write_text("\n".join(md_lines), encoding="utf-8")
-            safe_write(OUT_DIR / "draft_1st.json", {"status":"MARKET_UNAVAILABLE", "error": str(e)})
-            sentinel.write_text(snapshot["verified_at_kst"], encoding="utf-8")
-            sys.exit(0)
+            errors.append(f"manifest_fetch_failed: {e}")
 
-          rows = (odds or {}).get("rows") or []
+          # 2) fail-fast: ESPN_ODDS
+          espn_odds_status = (manifest_status.get("ESPN_ODDS") if manifest_status else None)
+          market_available = bool(espn_odds_status and str(espn_odds_status).startswith("OK"))
 
-          # --- Domestic anchor parsing (optional) ---
-          # Accept lines: TEAM +/-spread total OPP
-          # Normalize: take first 3 letters upper for NBA abbreviations.
-          def norm_team(tok):
-            tok = tok.strip().upper()
-            tok = re.sub(r"[^A-Z]", "", tok)
-            if len(tok) >= 3:
-              return tok[:3]
-            return tok
-
-          domestic = {}
-          anchor_text = read_text_file(Path(DOMESTIC_ANCHOR_PATH))
-          if anchor_text:
-            for line in anchor_text.splitlines():
-              line = line.strip()
-              if not line or line.startswith("#"):
-                continue
-              parts = re.split(r"\s+", line)
-              if len(parts) < 4:
-                continue
-              t1 = norm_team(parts[0])
-              spread = None
-              total = None
-              opp = norm_team(parts[-1])
-
-              # spread token might be parts[1] like -4.5 or +4.5
-              try:
-                spread = float(parts[1].replace("−","-"))
-              except:
-                spread = None
-
-              # total token might be parts[2]
-              try:
-                total = float(parts[2].replace("−","-"))
-              except:
-                total = None
-
-              # store as (team, opp) key, where team is favored if spread negative
-              domestic[(t1, opp)] = {"team": t1, "opp": opp, "spread": spread, "total": total, "raw": line}
-
-          # --- helper to parse ESPN details like "ATL -4.5" ---
-          def parse_details(details: str):
-            if not details:
-              return None, None
-            m = re.search(r"([A-Z]{2,3})\s*([+-]\d+(\.\d+)?)", details.replace("−","-").upper())
-            if not m:
-              return None, None
-            return m.group(1), float(m.group(2))
-
-          # Build market snapshot table and drift vs domestic
-          market_lines = []
-          drift_lines = []
-          for r in rows:
-            away = (r.get("away") or "").upper()
-            home = (r.get("home") or "").upper()
-            details = r.get("details")
-            total = r.get("total")
-            provider = r.get("provider")
-            start_utc = r.get("start_utc")
-
-            fav_team, fav_spread = parse_details(details or "")
-            total_f = None
+          # 3) odds json (if market ok)
+          if market_available:
             try:
-              total_f = float(total) if total is not None else None
-            except:
-              total_f = None
-
-            market_lines.append({
-              "matchup": f"{away}@{home}",
-              "details": details,
-              "total": total_f,
-              "provider": provider,
-              "start_utc": start_utc
-            })
-
-            # drift: find domestic line for this matchup in either orientation
-            d = domestic.get((fav_team or "", (home if fav_team != home else away)))  # not reliable
-            # Instead, try both (away,home) and (home,away) keys
-            d1 = domestic.get((away, home))
-            d2 = domestic.get((home, away))
-            chosen = d1 or d2
-
-            if chosen:
-              # Domestic spread is for first token team in line; we interpret as "team spread vs opp"
-              # We compute drift as (domestic - ESPN) in the same semantics:
-              # - If domestic team matches fav_team semantics might differ; so we only compute numeric diffs if both are present.
-              spread_delta = None
-              total_delta = None
-              if chosen["spread"] is not None and fav_spread is not None:
-                # If chosen team == fav_team -> compare directly; else flip sign
-                if chosen["team"] == (fav_team or chosen["team"]):
-                  spread_delta = chosen["spread"] - fav_spread
-                else:
-                  # chosen is the other side: e.g. BKN +4.5 vs TOR -3.5 => +4.5 - (+3.5) after converting
-                  spread_delta = chosen["spread"] - (-fav_spread)
-              if chosen["total"] is not None and total_f is not None:
-                total_delta = chosen["total"] - total_f
-
-              drift_lines.append({
-                "matchup": f"{away}@{home}",
-                "domestic_raw": chosen["raw"],
-                "spread_delta": spread_delta,
-                "total_delta": total_delta
-              })
-
-          # --- Injury snapshot (best effort) ---
-          injury_log = {
-            "nba_injury_pdf": snapshot["source_urls"].get("nba_injury_report.pdf"),
-            "injury_status": "OK" if not injury_failed else "FAILED",
-            "parsed": {
-              "status": "SKIPPED",
-              "notes": []
-            },
-            "aux_checks": {
-              "rotowire": "SKIPPED",
-              "cbs": "SKIPPED",
-              "espn_injury_pages": "SKIPPED",
-              "conflicts": []
-            }
-          }
-
-          # If injury PDF exists, try partial parse for "NOT YET SUBMITTED" only (safe)
-          if not injury_failed and injury_log["nba_injury_pdf"]:
-            try:
-              pdf_url = injury_log["nba_injury_pdf"]
-              rr = requests.get(pdf_url, headers={"User-Agent": HEADERS["User-Agent"]}, timeout=30)
-              rr.raise_for_status()
-              pdf_path = OUT_DIR / "nba_injury_report.pdf"
-              pdf_path.write_bytes(rr.content)
-
-              reader = PdfReader(str(pdf_path))
-              text = ""
-              for p in reader.pages[:3]:  # first pages usually enough for meta flags; keep conservative
-                text += (p.extract_text() or "") + "\n"
-
-              not_submitted = []
-              if "NOT YET SUBMITTED" in text.upper():
-                # collect team lines around that phrase (best effort)
-                # (avoid hallucination: only report that the phrase exists, not which team unless found in same line)
-                for line in text.splitlines():
-                  if "NOT YET SUBMITTED" in line.upper():
-                    not_submitted.append(line.strip())
-
-              injury_log["parsed"]["status"] = "PARTIAL_OK"
-              if not_submitted:
-                injury_log["parsed"]["notes"].append({"not_yet_submitted_lines": not_submitted})
-                snapshot["unresolved"].append("U3: Official injury report contains NOT YET SUBMITTED lines (team not confirmed in parser)")
+              odds = fetch_json(odds_url)
             except Exception as e:
-              injury_log["parsed"]["status"] = f"FAILED: {e}"
-              snapshot["unresolved"].append("U3: Injury PDF parse failed -> lineup/status uncertainty")
+              market_available = False
+              errors.append(f"espn_odds_fetch_failed: {e}")
 
-          # If injury failed: allow AUX checks (best-effort, no hard asserts)
-          if injury_failed:
-            snapshot["unresolved"].append("U2/U3: INJURY PDF FAILED -> AUX checks attempted; conflicts remain unresolved")
-
-          # --- Unresolved U1 (market dispersion) ---
-          # If nba_cdn_odds.json exists in repo latest, compare totals/spreads (very light, best effort)
-          # We do not block. We only tag U1 if we can confidently detect large difference.
+          # 4) scoreboard availability flag (optional)
           try:
-            cdn_odds_path = Path("latest/nba_cdn_odds.json")
-            if cdn_odds_path.exists():
-              cdn = json.loads(cdn_odds_path.read_text(encoding="utf-8"))
-              # best-effort: tag presence only (parsing vendor schema varies)
-              snapshot["unresolved"].append("U1: NBA_CDN_ODDS available (dispersion check not fully implemented)")
-          except:
-            pass
+            if sb_url:
+              _ = requests.get(sb_url, timeout=15)
+              sb_ok = (_.status_code == 200)
+          except Exception:
+            sb_ok = False
 
-          # --- Draft heuristic (conservative) ---
-          # PLAY candidates based on drift:
-          # - Total: if domestic_total - espn_total >= +2.0 => Under candidate
-          # - Side: if domestic gives +1.0 better vs ESPN => value candidate, BUT block if injury uncertainty (NOT YET SUBMITTED) -> PASS/UNRESOLVED
-          candidates = []
-          for d in drift_lines:
-            td = d.get("total_delta")
-            sd = d.get("spread_delta")
-            matchup = d["matchup"]
-            if td is not None and td >= 2.0:
-              candidates.append({
-                "type": "TOTAL",
-                "matchup": matchup,
-                "pick": f"UNDER (domestic_total is higher by +{td:.1f})",
-                "status": "PLAY",
-                "reason": "OPEN 대비 ESPN total 과열(드리프트) 기반 보수 초안"
-              })
-            if sd is not None and abs(sd) >= 1.0:
-              candidates.append({
-                "type": "SIDE",
-                "matchup": matchup,
-                "pick": f"SIDE_VALUE (domestic vs ESPN spread Δ {sd:+.1f})",
-                "status": "PASS",  # default PASS until team submission/lineup certainty handled
-                "reason": "스프레드 가치 신호는 있으나, 라인업/리포트 불확정 가능성 고려(보수)"
-              })
+          # 5) open anchor (optional local file)
+          # analysis/config/open_anchor.json (사용자 OPEN 앵커를 파일로 보관할 때 사용)
+          anchor_path = cfg_dir / "open_anchor.json"
+          open_anchor = None
+          if anchor_path.exists():
+            try:
+              open_anchor = json.loads(anchor_path.read_text(encoding="utf-8"))
+            except Exception:
+              open_anchor = None
 
-          # Build 2-leg draft combos: take up to 2 PLAY totals from different matchups
-          play_totals = [c for c in candidates if c["status"] == "PLAY" and c["type"] == "TOTAL"]
-          combos = []
-          used = set()
-          for c in play_totals:
-            if c["matchup"] in used: 
-              continue
-            used.add(c["matchup"])
-          # Simple: first two distinct totals
-          if len(play_totals) >= 2:
-            a = play_totals[0]
-            b = next((x for x in play_totals[1:] if x["matchup"] != a["matchup"]), None)
-            if b:
-              combos.append({
-                "legs": [a, b],
-                "status": "PLAY",
-                "rule": "픽조합 v1.0: 동일 경기 핸디+언오버 중복 없음, 2폴 이상"
-              })
+          # Helper: drift calc (단순 매칭: away/home key)
+          def parse_details(details: str):
+            # e.g. "ORL -7.5" / "CHI +4.5"
+            if not details or not isinstance(details, str): return None, None
+            parts = details.strip().split()
+            if len(parts) < 2: return None, None
+            team = parts[0].strip().upper()
+            try:
+              val = float(parts[1])
+            except Exception:
+              return team, None
+            return team, val
 
-          # --- Output markdown blocks (fixed order) ---
-          md = []
-          md += ["[SNAPSHOT_SOURCE]"]
-          md += [f"- verified_at (ET/KST): {snapshot['verified_at_et']} / {snapshot['verified_at_kst']}"]
-          md += [f"- source_urls: {SSOT_MANIFEST_URL}, {SSOT_ODDS_URL}" + (f", {injury_log['nba_injury_pdf']}" if injury_log.get("nba_injury_pdf") else "")]
-          md += [f"- manifest.status 요약: ESPN_ODDS={espn_odds_status}, ESPN_SCOREBOARD={espn_sb_status}, NBA_INJURY_PDF={inj_status}"]
-          md += [""]
+          market_rows_md = []
+          drift_md = []
+          rows = []
 
-          md += ["[MARKET_SNAPSHOT_LOG]"]
-          for m in market_lines:
-            md += [f"- {m['matchup']} | details={m['details']} | total={m['total']} | provider={m['provider']} | start_utc={m['start_utc']}"]
-          if anchor_text:
-            md += ["- 국내 OPEN 앵커 드리프트(국내−ESPN):"]
-            for d in drift_lines:
-              md += [f"  - {d['matchup']} | Spread Δ={d.get('spread_delta')} | Total Δ={d.get('total_delta')} | anchor='{d['domestic_raw']}'"]
-          else:
-            md += ["- 국내 OPEN 앵커: (미존재) 드리프트 계산 생략"]
-          md += [""]
+          if market_available and odds:
+            for r in (odds.get("rows") or []):
+              away = r.get("away"); home = r.get("home")
+              details = r.get("details"); total = r.get("total")
+              provider = r.get("provider"); start_utc = r.get("start_utc")
+              team, spread = parse_details(details)
 
-          md += ["[INJURY_SNAPSHOT_LOG]"]
-          md += [f"- nba_injury_report.pdf: {injury_log.get('nba_injury_pdf') or 'UNAVAILABLE'}"]
-          md += [f"- INJURY 상태: {injury_log['injury_status']} | PDF_PARSE: {injury_log['parsed']['status']}"]
-          if injury_log["parsed"]["notes"]:
-            md += [f"- PDF_PARSE_NOTES: {json.dumps(injury_log['parsed']['notes'], ensure_ascii=False)}"]
-          if injury_failed:
-            md += ["- 보조 확인: (INJURY PDF 실패로 인해 AUX checks 대상)"]
-            md += ["  - RotoWire/CBS/ESPN: best-effort (충돌 시 UNRESOLVED 유지)"]
-          md += [""]
+              rows.append(r)
 
-          md += ["[UNRESOLVED_ZONE]"]
-          if snapshot["unresolved"]:
-            for u in snapshot["unresolved"]:
-              md += [f"- {u}"]
-          else:
-            md += ["- (none)"]
-          md += [""]
+              market_rows_md.append(
+                f"- {away}@{home} | spread(details): {details} | total: {total} | provider: {provider} | start_utc: {start_utc}"
+              )
 
-          md += ["[DRAFT_ANALYSIS_1ST]"]
-          if not combos:
-            md += ["- (초안 후보 부족) 2폴 이상 PLAY 조합을 만들 수 없음 -> PASS"]
-          else:
-            for i, cb in enumerate(combos, 1):
-              md += [f"- Candidate {i} (2폴) — {cb['status']}"]
-              for leg in cb["legs"]:
-                md += [f"  - {leg['matchup']} | {leg['pick']} | {leg['status']} | {leg['reason']}"]
-              md += [f"  - rule: {cb['rule']}"]
-          md += [""]
+              # drift vs OPEN anchor (if present)
+              if open_anchor and isinstance(open_anchor, dict):
+                key = f"{away}@{home}"
+                a = open_anchor.get(key)
+                if isinstance(a, dict):
+                  # anchor spread is stored as "details" style or numeric; we handle numeric only here
+                  a_spread = a.get("spread")  # numeric from perspective of details team
+                  a_total  = a.get("total")
+                  d_spread = None
+                  d_total = None
+                  if (a_spread is not None) and (spread is not None):
+                    try: d_spread = float(spread) - float(a_spread)
+                    except: d_spread = None
+                  if (a_total is not None) and (total is not None):
+                    try: d_total = float(total) - float(a_total)
+                    except: d_total = None
+                  drift_md.append(
+                    f"- {key} | Spread Δ: {d_spread if d_spread is not None else 'n/a'} | Total Δ: {d_total if d_total is not None else 'n/a'}"
+                  )
 
-          md += ["[PROCESS_LOG]"]
-          opened = f"OPENED: {SSOT_MANIFEST_URL}, {SSOT_ODDS_URL}"
-          if injury_log.get("nba_injury_pdf"):
-            opened += f", {injury_log['nba_injury_pdf']}"
-          md += [f"- {opened}"]
-          md += [f"- FAIL-FAST: {'YES' if snapshot['fail_fast'] else 'NO'} | SCOREBOARD_UNAVAILABLE: {'YES' if scoreboard_unavail else 'NO'} | INJURY_FAILED: {'YES' if injury_failed else 'NO'}"]
-          md += [f"- UNRESOLVED: {', '.join(snapshot['unresolved']) if snapshot['unresolved'] else '(none)'}"]
+          # INJURY snapshot: manifest link if present; pdf URL 자체는 “있으면 확인” 용
+          injury_status = (manifest_status.get("NBA_INJURY_PDF") if manifest_status else None)
+          if not injury_status:
+            injury_status = "UNAVAILABLE (manifest missing)"
 
-          (OUT_DIR / "draft_1st.md").write_text("\n".join(md), encoding="utf-8")
+          # UNRESOLVED / FAIL-FAST flags
+          unresolved = []
+          if not market_available:
+            unresolved.append("MARKET=UNAVAILABLE (FAIL-FAST: ESPN_ODDS not OK)")
+          if manifest_status and not str(manifest_status.get("ESPN_SCOREBOARD","")).startswith("OK"):
+            unresolved.append("SCOREBOARD=UNAVAILABLE")
+          if manifest_status and not str(manifest_status.get("NBA_INJURY_PDF","")).startswith("OK"):
+            unresolved.append("INJURY=FAILED (allow AUX check, conflicts -> UNRESOLVED)")
 
-          out_payload = {
-            "status": "OK",
-            "slot": slot,
-            "verified_at_et": snapshot["verified_at_et"],
-            "verified_at_kst": snapshot["verified_at_kst"],
-            "as_of_et": as_of_et,
-            "as_of_kst": as_of_kst,
-            "source_urls": snapshot["source_urls"],
-            "manifest_status": snapshot["manifest_status"],
-            "market_rows": market_lines,
-            "domestic_anchor_present": bool(anchor_text),
-            "drift": drift_lines,
-            "injury": injury_log,
-            "unresolved": snapshot["unresolved"],
-            "draft_candidates": candidates,
-            "draft_combos": combos,
+          # DRAFT: 오늘은 “시장/부상 상태 기반 초안 후보”만 (PLAY/PASS)
+          # 실제 픽엔진은 별도 모듈에서 확장 예정. 여기서는 규칙만 강제.
+          draft = {
+            "status": "OK" if market_available else "MARKET_UNAVAILABLE",
+            "verified_at_et": now_et.isoformat(),
+            "verified_at_kst": now_kst.isoformat(),
+            "source_urls": {
+              "manifest": manifest_url,
+              "odds": odds_url,
+              "scoreboard": sb_url,
+              "injury_pdf": injury_pdf
+            },
+            "manifest_status": manifest_status,
+            "unresolved": unresolved,
+            "candidates": [],
           }
-          safe_write(OUT_DIR / "draft_1st.json", out_payload)
 
-          # mark sentinel for this slot/day to prevent duplicates
-          sentinel.write_text(snapshot["verified_at_kst"], encoding="utf-8")
+          # 최소 동작: market unavailable이면 후보 없이 종료(하지만 파일은 남김)
+          if market_available:
+            draft["candidates"] = [{"label":"PASS (engine not yet integrated)", "reason":"DRAFT pipeline OK; pick engine integration next"}]
 
-          print(json.dumps({"done": True, "out": str(OUT_DIR)}, ensure_ascii=False))
+          # Markdown output (요구 블록 순서 고정)
+          md_lines = []
+          md_lines.append("[SNAPSHOT_SOURCE]")
+          md_lines.append(f"- verified_at (ET/KST): {now_et.isoformat()} / {now_kst.isoformat()}")
+          md_lines.append(f"- source_urls: {manifest_url} , {odds_url}")
+          md_lines.append(f"- manifest.status: {json.dumps(manifest_status, ensure_ascii=False)}")
+          md_lines.append("")
+
+          md_lines.append("[MARKET_SNAPSHOT_LOG]")
+          if market_available:
+            md_lines.extend(market_rows_md or ["- (rows empty)"])
+          else:
+            md_lines.append("- MARKET=UNAVAILABLE (FAIL-FAST)")
+          if drift_md:
+            md_lines.append("")
+            md_lines.append("- OPEN 대비 드리프트(변동값)")
+            md_lines.extend(drift_md)
+          md_lines.append("")
+
+          md_lines.append("[INJURY_SNAPSHOT_LOG]")
+          md_lines.append(f"- nba_injury_report.pdf: {injury_status}")
+          md_lines.append("- AUX(가능): RotoWire lineups / CBS injuries / ESPN injury page (충돌 시 UNRESOLVED)")
+          md_lines.append("")
+
+          md_lines.append("[UNRESOLVED_ZONE]")
+          if unresolved:
+            for u in unresolved:
+              md_lines.append(f"- {u}")
+          else:
+            md_lines.append("- (none)")
+          md_lines.append("")
+
+          md_lines.append("[DRAFT_ANALYSIS_1ST]")
+          md_lines.append("- 픽조합 v1.0 준수(같은 경기 핸디+언오버 한 조합 중복 금지, 최소 2폴)")
+          if draft["candidates"]:
+            for c in draft["candidates"]:
+              md_lines.append(f"- {c['label']}: {c['reason']}")
+          else:
+            md_lines.append("- 후보 없음 (MARKET UNAVAILABLE 또는 엔진 미연결)")
+          md_lines.append("")
+
+          md_lines.append("[PROCESS_LOG]")
+          md_lines.append(f"- opened: manifest, odds (scoreboard/pdf optional)")
+          if errors:
+            md_lines.append(f"- errors: {errors}")
+          else:
+            md_lines.append("- errors: none")
+          md_lines.append("")
+
+          (latest_dir / "draft_1st.md").write_text("\n".join(md_lines), encoding="utf-8")
+          (latest_dir / "draft_1st.json").write_text(json.dumps(draft, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          sentinel.write_text(f"captured_at_utc={now_utc.isoformat()}\n", encoding="utf-8")
+          print("OK: wrote analysis/latest/draft_1st.md, draft_1st.json, sentinel:", sentinel.as_posix())
           PY
 
-      - name: Commit & push analysis outputs
+      - name: Commit & push outputs
         run: |
           git config user.name "nba-bot"
           git config user.email "nba-bot@users.noreply.github.com"
-          git add analysis/latest analysis/logs || true
+          git add analysis
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Analyzer snapshot $(date -u +'%Y%m%dT%H%M%SZ')"
+          git commit -m "SSOT draft_1st $(date -u +'%Y%m%dT%H%M%SZ')"
           git push
