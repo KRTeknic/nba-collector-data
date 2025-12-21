@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2025-12-21 06:11:35.1135",
+    "time": "2025-12-21 08:43:09.439",
     "code": 200
   },
   "scoreboard": {
@@ -772,7 +772,7 @@
           "teamTricode": "PHX",
           "wins": 15,
           "losses": 13,
-          "score": 116,
+          "score": 114,
           "seed": null,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -795,7 +795,7 @@
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 29
+              "score": 27
             }
           ]
         },
