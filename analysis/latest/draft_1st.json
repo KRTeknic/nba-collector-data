@@ -1,0 +1,26 @@
+{
+  "status": "OK",
+  "verified_at_et": "2025-12-21T09:29:03.138246-05:00",
+  "verified_at_kst": "2025-12-21T23:29:03.138246+09:00",
+  "source_urls": {
+    "manifest": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
+    "odds": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json",
+    "scoreboard": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_scoreboard.json",
+    "injury_pdf": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/nba_injury_report.pdf"
+  },
+  "manifest_status": {
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "OK (from scoreboard odds)",
+    "NBA_CDN_SCOREBOARD": "OK",
+    "NBA_CDN_ODDS": "OK",
+    "NBA_SCHEDULE": "OK",
+    "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-21_09AM.pdf"
+  },
+  "unresolved": [],
+  "candidates": [
+    {
+      "label": "PASS (engine not yet integrated)",
+      "reason": "DRAFT pipeline OK; pick engine integration next"
+    }
+  ]
+}
