@@ -1099,7 +1099,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-175",
+                    "odds": "-185",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1131,7 +1131,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+145",
+                    "odds": "+154",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3348,7 +3348,7 @@
                 ]
               },
               "details": "NY -7.5",
-              "overUnder": 236.5,
+              "overUnder": 235.5,
               "spread": -7.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -3521,8 +3521,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o236.5",
-                    "odds": "-110",
+                    "line": "o235.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3530,7 +3530,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33328858%3Foutcomes%3D0OU82669634O23650_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33328858%3Foutcomes%3D0OU82669634O23550_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -3543,7 +3543,7 @@
                           "gameId": 401810253,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:236.5"
+                          "betDetails": "Over:235.5"
                         }
                       }
                     }
@@ -3555,8 +3555,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u236.5",
-                    "odds": "-110",
+                    "line": "u235.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3564,7 +3564,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33328858%3Foutcomes%3D0OU82669634U23650_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33328858%3Foutcomes%3D0OU82669634U23550_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -3577,7 +3577,7 @@
                           "gameId": 401810253,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:236.5"
+                          "betDetails": "Under:235.5"
                         }
                       }
                     }
@@ -5562,7 +5562,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $26",
-              "numberAvailable": 845,
+              "numberAvailable": 834,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-timberwolves-tickets-target-center-12-21-2025--sports-nba-basketball/production/5940613?wsUser=717"
@@ -6704,7 +6704,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $28",
-              "numberAvailable": 636,
+              "numberAvailable": 638,
               "links": [
                 {
                   "href": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-12-21-2025--sports-nba-basketball/production/5940803?wsUser=717"

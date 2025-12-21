@@ -1,16 +1,14 @@
 {
-  "as_of_utc": "2025-12-21T13:43:20.918453+00:00",
-  "as_of_kst": "2025-12-21T22:43:20.918453+09:00",
-  "as_of_et": "2025-12-21T08:43:20.918453-05:00",
+  "as_of_utc": "2025-12-21T14:04:03.893871+00:00",
+  "as_of_kst": "2025-12-21T23:04:03.893871+09:00",
+  "as_of_et": "2025-12-21T09:04:03.893871-05:00",
   "date_et": "20251221",
   "status": {
     "ESPN_SCOREBOARD": "OK",
     "ESPN_ODDS": "OK (from scoreboard odds)",
     "NBA_CDN_SCOREBOARD": "OK",
     "NBA_CDN_ODDS": "OK",
-    "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-21_08AM.pdf",
-    "NBA_REF_ASSIGNMENTS": "OK",
-    "FATIGUE_PACK": "OK",
-    "BDL_ODDS_AUX": "SKIPPED"
+    "NBA_SCHEDULE": "OK",
+    "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-21_09AM.pdf"
   }
 }
