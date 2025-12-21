@@ -1,0 +1,350 @@
+name: NBA Analysis (SSOT Load + FAIL-FAST + Drift + Draft_1st)
+
+on:
+  workflow_dispatch:
+    inputs:
+      open_anchor_lines:
+        description: "국내 OPEN 앵커(LOCK). 예: ATL -4.5 247.5 CHI (여러 줄 가능)"
+        required: false
+        default: ""
+      skip_if_already_captured:
+        description: "1이면 오늘(ET 기준) 이미 분석 산출물이 있으면 SKIP"
+        required: false
+        default: "1"
+  schedule:
+    - cron: "5 13 * * *"  # 22:05 KST (UTC 기준) - 수집(22:00) 이후 5분 버퍼
+    - cron: "5 23 * * *"  # 08:05 KST (UTC 기준)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-analysis-ssot
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run analysis (SSOT + gates) -> writes into ./analysis/latest
+        env:
+          OPEN_ANCHOR_LINES: ${{ inputs.open_anchor_lines }}
+          SKIP_IF_ALREADY_CAPTURED: ${{ inputs.skip_if_already_captured || '1' }}
+        run: |
+          python - << 'PY'
+          import os, json, re
+          from pathlib import Path
+          from datetime import datetime, timezone
+          from zoneinfo import ZoneInfo
+
+          KST = ZoneInfo("Asia/Seoul")
+          ET  = ZoneInfo("America/New_York")
+
+          ROOT = Path(".")
+          LATEST = ROOT / "latest"
+          ANALYSIS_DIR = ROOT / "analysis" / "latest"
+          ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
+
+          def load_json(p: Path):
+            return json.loads(p.read_text(encoding="utf-8"))
+
+          def now_stamp():
+            now_utc = datetime.now(timezone.utc)
+            return now_utc, now_utc.astimezone(ET), now_utc.astimezone(KST)
+
+          def normalize_team(t):
+            return (t or "").strip().upper()
+
+          def parse_anchor_lines(txt: str):
+            """
+            입력 예:
+              Atl -4.5 247.5 chi
+              Bkn +4.5 220.5 tor
+            의미:
+              TEAM1 spread total TEAM2
+            여기서는 TEAM1을 왼쪽(원정/홈 구분은 앵커 입력 규칙에 따름)으로만 저장하고,
+            드리프트는 ESPN odds의 매치업으로 매핑합니다.
+            """
+            anchors = []
+            for raw in (txt or "").splitlines():
+              s = raw.strip()
+              if not s:
+                continue
+              s = re.sub(r"\s+", " ", s)
+              parts = s.split(" ")
+              if len(parts) < 4:
+                continue
+              t1 = normalize_team(parts[0])
+              spread = parts[1]
+              total = parts[2]
+              t2 = normalize_team(parts[3])
+              try:
+                spr = float(spread)
+              except:
+                spr = None
+              try:
+                tot = float(total)
+              except:
+                tot = None
+              anchors.append({
+                "t1": t1, "t2": t2,
+                "spread": spr, "total": tot,
+                "raw": s
+              })
+            return anchors
+
+          # ---------- Load SSOT ----------
+          manifest_path = LATEST / "manifest.json"
+          odds_path     = LATEST / "espn_odds.json"
+          scoreboard_path = LATEST / "espn_scoreboard.json"
+          injury_pdf_path = LATEST / "nba_injury_report.pdf"
+
+          if not manifest_path.exists():
+            raise SystemExit("SSOT missing: latest/manifest.json")
+          if not odds_path.exists():
+            raise SystemExit("SSOT missing: latest/espn_odds.json")
+
+          manifest = load_json(manifest_path)
+          espn_odds = load_json(odds_path)
+
+          now_utc, now_et, now_kst = now_stamp()
+          verified_at = {
+            "verified_at_utc": now_utc.isoformat(),
+            "verified_at_et": now_et.isoformat(),
+            "verified_at_kst": now_kst.isoformat(),
+          }
+
+          # ---------- Skip-if-already-captured ----------
+          skip_flag = os.getenv("SKIP_IF_ALREADY_CAPTURED","1") == "1"
+          marker = ANALYSIS_DIR / "last_run.json"
+          date_et = now_et.strftime("%Y%m%d")
+          if skip_flag and marker.exists():
+            try:
+              prev = load_json(marker)
+              if prev.get("date_et") == date_et:
+                # 이미 오늘 ET 기준 결과가 있음
+                out = {
+                  "status": "SKIPPED_ALREADY_CAPTURED",
+                  "date_et": date_et,
+                  "verified_at": verified_at,
+                }
+                (ANALYSIS_DIR / "draft_1st.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+                print(json.dumps(out, ensure_ascii=False, indent=2))
+                raise SystemExit(0)
+            except:
+              pass
+
+          # ---------- FAIL-FAST RULES ----------
+          status_espn_odds = (manifest.get("status", {}) or {}).get("ESPN_ODDS", "")
+          status_espn_scoreboard = (manifest.get("status", {}) or {}).get("ESPN_SCOREBOARD", "")
+
+          fail_fast = False
+          market_available = False
+          if isinstance(status_espn_odds, str) and status_espn_odds.startswith("OK"):
+            market_available = True
+          else:
+            fail_fast = True
+
+          snapshot_source = {
+            "verified_at": verified_at,
+            "source_urls": {
+              "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
+              "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json",
+            },
+            "manifest_status_summary": {
+              "ESPN_ODDS": status_espn_odds,
+              "ESPN_SCOREBOARD": status_espn_scoreboard,
+              "NBA_INJURY_PDF": (manifest.get("status", {}) or {}).get("NBA_INJURY_PDF", ""),
+              "NBA_REF_ASSIGNMENTS": (manifest.get("status", {}) or {}).get("NBA_REF_ASSIGNMENTS", ""),
+              "FATIGUE_PACK": (manifest.get("status", {}) or {}).get("FATIGUE_PACK", ""),
+            }
+          }
+
+          # ---------- MARKET_SNAPSHOT_LOG ----------
+          rows = espn_odds.get("rows", []) or []
+          market_rows = []
+          for r in rows:
+            away = normalize_team(r.get("away"))
+            home = normalize_team(r.get("home"))
+            market_rows.append({
+              "match": f"{away}@{home}",
+              "details": r.get("details"),
+              "total": r.get("total"),
+              "provider": r.get("provider"),
+              "start_utc": r.get("start_utc"),
+              "event_id": r.get("event_id"),
+            })
+
+          # ---------- Drift vs OPEN anchor (user input) ----------
+          anchors = parse_anchor_lines(os.getenv("OPEN_ANCHOR_LINES",""))
+          anchor_map = {}
+          # 매치업 키: 양방향 매칭을 위해 (A,B) sorted key 사용
+          def key_pair(a,b):
+            x,y = sorted([a,b])
+            return f"{x}|{y}"
+          for a in anchors:
+            anchor_map[key_pair(a["t1"], a["t2"])] = a
+
+          drift_rows = []
+          for mr in market_rows:
+            m = mr["match"]
+            try:
+              away, home = m.split("@",1)
+            except:
+              continue
+            k = key_pair(away, home)
+            a = anchor_map.get(k)
+            if not a:
+              continue
+
+            # ESPN details 파싱: "TEAM -4.5" 형태를 기대
+            espn_spread = None
+            det = (mr.get("details") or "").strip()
+            m_sp = re.search(r"([A-Z]{2,4})\s*([+-]\d+(\.\d+)?)", det)
+            if m_sp:
+              team = m_sp.group(1)
+              val = float(m_sp.group(2))
+              # details는 그 팀 기준 스프레드
+              # match에서 home/away 기준으로 "spread Δ"를 일관되게 계산하기 위해
+              # (앵커는 사용자가 제공한 t1 spread, t2는 반대라고 가정)
+              # 여기서는 앵커 spread를 "a.t1 기준"으로 저장했으므로,
+              # ESPN team이 a.t1이면 그대로, 아니면 부호 반전
+              if team == a["t1"]:
+                espn_spread = val
+              elif team == a["t2"]:
+                espn_spread = -val
+              else:
+                espn_spread = val
+
+            espn_total = mr.get("total")
+            if espn_total is not None:
+              try:
+                espn_total = float(espn_total)
+              except:
+                espn_total = None
+
+            spread_delta = None
+            total_delta = None
+            if a["spread"] is not None and espn_spread is not None:
+              spread_delta = round(espn_spread - a["spread"], 2)
+            if a["total"] is not None and espn_total is not None:
+              total_delta = round(espn_total - a["total"], 2)
+
+            drift_rows.append({
+              "match": m,
+              "open_anchor_raw": a["raw"],
+              "open_spread_t1": a["spread"],
+              "open_total": a["total"],
+              "espn_details": det,
+              "espn_total": espn_total,
+              "spread_delta": spread_delta,
+              "total_delta": total_delta,
+            })
+
+          # ---------- INJURY_SNAPSHOT_LOG (현재는 “존재/실패” 중심, 보조확인은 추후 확장) ----------
+          injury_log = {
+            "nba_injury_report_pdf_present": injury_pdf_path.exists(),
+            "nba_injury_report_pdf_path": str(injury_pdf_path) if injury_pdf_path.exists() else None,
+            "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장",
+          }
+
+          # ---------- UNRESOLVED_ZONE ----------
+          unresolved = []
+          # U1: 시장 분산은 아직 AUX odds 통합 전이므로 placeholder
+          # U2/U3: 인저리/라인업 충돌은 아직 파서 미구현이므로 placeholder
+          if not market_available:
+            unresolved.append({"tag":"U0", "reason":"MARKET_UNAVAILABLE (FAIL-FAST) — manifest.status.ESPN_ODDS != OK"})
+          if not injury_pdf_path.exists():
+            unresolved.append({"tag":"U3", "reason":"INJURY PDF missing — INJURY=FAILED (보조확인 필요)"})
+
+          # ---------- DRAFT_ANALYSIS_1ST ----------
+          # 지금 단계에서는 '추천'을 강제하지 않고, PLAY/PASS 후보는 “게이트 통과 여부”로만 표시.
+          draft_candidates = []
+          if market_available:
+            for mr in market_rows:
+              draft_candidates.append({
+                "match": mr["match"],
+                "candidate": "PASS",
+                "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용.",
+              })
+
+          output = {
+            "SNAPSHOT_SOURCE": snapshot_source,
+            "MARKET_SNAPSHOT_LOG": {
+              "rows": market_rows,
+              "drift_vs_open_anchor": drift_rows,
+            },
+            "INJURY_SNAPSHOT_LOG": injury_log,
+            "UNRESOLVED_ZONE": unresolved,
+            "DRAFT_ANALYSIS_1ST": {
+              "status": "BLOCKED" if fail_fast else "OK",
+              "candidates": [] if fail_fast else draft_candidates,
+              "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지).",
+            },
+            "PROCESS_LOG": [
+              f"loaded: {manifest_path}",
+              f"loaded: {odds_path}",
+              f"FAIL_FAST={'YES' if fail_fast else 'NO'}",
+              f"anchors_count={len(anchors)}",
+              f"drift_rows={len(drift_rows)}",
+            ],
+          }
+
+          # 파일로 저장
+          (ANALYSIS_DIR / "draft_1st.json").write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+          marker.write_text(json.dumps({"date_et": date_et, **verified_at}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          # 보기용 마크다운도 생성
+          md = []
+          md.append("[SNAPSHOT_SOURCE]")
+          md.append(json.dumps(snapshot_source, ensure_ascii=False, indent=2))
+          md.append("")
+          md.append("[MARKET_SNAPSHOT_LOG]")
+          md.append(json.dumps({"rows": market_rows, "drift_vs_open_anchor": drift_rows}, ensure_ascii=False, indent=2))
+          md.append("")
+          md.append("[INJURY_SNAPSHOT_LOG]")
+          md.append(json.dumps(injury_log, ensure_ascii=False, indent=2))
+          md.append("")
+          md.append("[UNRESOLVED_ZONE]")
+          md.append(json.dumps(unresolved, ensure_ascii=False, indent=2))
+          md.append("")
+          md.append("[DRAFT_ANALYSIS_1ST]")
+          md.append(json.dumps(output["DRAFT_ANALYSIS_1ST"], ensure_ascii=False, indent=2))
+          md.append("")
+          md.append("[PROCESS_LOG]")
+          md.append("\n".join(output["PROCESS_LOG"]))
+
+          (ANALYSIS_DIR / "draft_1st.md").write_text("\n".join(md), encoding="utf-8")
+
+          print(json.dumps(output, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit analysis output (analysis/latest)
+        run: |
+          git config user.name "nba-bot"
+          git config user.email "nba-bot@users.noreply.github.com"
+          git add analysis/latest
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update analysis draft_1st $(date -u +'%Y%m%dT%H%M%SZ')"
+          git push
+
+      - name: Upload artifact (optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: nba_analysis_${{ github.run_id }}
+          path: analysis/latest
+          retention-days: 14
