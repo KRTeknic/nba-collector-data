@@ -1,0 +1,405 @@
+name: NBA SSOT Snapshot Collector (ESPN-SSOT + AUX APIs)
+
+on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Run slot override (2205 or 0805). Leave empty for auto."
+        required: false
+        default: ""
+  schedule:
+    # GitHub cron = UTC
+    # 22:05 KST = 13:05 UTC
+    - cron: "5 13 * * *"
+    # 08:05 KST = 23:05 UTC (previous day UTC)
+    - cron: "5 23 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-ssot-snapshot
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install requests python-dateutil beautifulsoup4 lxml
+
+      - name: Resolve run slot
+        id: slot
+        shell: bash
+        run: |
+          SLOT_INPUT="${{ inputs.slot }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "$SLOT_INPUT" ]; then
+            SLOT="$SLOT_INPUT"
+          else
+            CRON="${{ github.event.schedule }}"
+            if [ "$CRON" = "5 13 * * *" ]; then
+              SLOT="2205"
+            elif [ "$CRON" = "5 23 * * *" ]; then
+              SLOT="0805"
+            else
+              SLOT="manual"
+            fi
+          fi
+          echo "slot=$SLOT" >> $GITHUB_OUTPUT
+          echo "Resolved SLOT=$SLOT"
+
+      - name: Run collector (one-file)
+        env:
+          RUN_SLOT: ${{ steps.slot.outputs.slot }}
+          FAIL_FAST_ESPN_ODDS: "1"
+        run: |
+          python - << 'PY'
+          import os, json, math
+          from pathlib import Path
+          from datetime import datetime, timedelta, timezone
+          from zoneinfo import ZoneInfo
+          import requests
+          from bs4 import BeautifulSoup
+
+          # -----------------------------
+          # Config
+          # -----------------------------
+          RUN_SLOT = os.getenv("RUN_SLOT","manual")
+          FAIL_FAST = os.getenv("FAIL_FAST_ESPN_ODDS","1") == "1"
+
+          KST = ZoneInfo("Asia/Seoul")
+          ET  = ZoneInfo("America/New_York")
+          now_utc = datetime.now(timezone.utc)
+          now_kst = now_utc.astimezone(KST)
+          now_et  = now_utc.astimezone(ET)
+
+          date_kst = now_kst.strftime("%Y%m%d")
+          date_et  = now_et.strftime("%Y%m%d")
+
+          OUT = Path("out")
+          OUT.mkdir(parents=True, exist_ok=True)
+
+          HEADERS = {
+            "User-Agent": "Mozilla/5.0 (compatible; TeknicCollector/SSOT-1.0)",
+            "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9,ko;q=0.8",
+            "Referer": "https://www.nba.com/",
+          }
+
+          def get(url, timeout=30):
+            return requests.get(url, headers=HEADERS, timeout=timeout)
+
+          def write_json(path: Path, obj):
+            path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          def safe_read_json(path: Path):
+            try:
+              return json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+              return None
+
+          # -----------------------------
+          # Skip-if-already-captured (per KST date + slot)
+          # -----------------------------
+          latest_manifest_path = Path("latest/manifest.json")
+          prev = safe_read_json(latest_manifest_path) if latest_manifest_path.exists() else None
+
+          if prev:
+            prev_slot = prev.get("run_slot")
+            prev_date_kst = (prev.get("as_of_kst","")[:10].replace("-",""))  # YYYYMMDD
+            if prev_slot == RUN_SLOT and prev_date_kst == date_kst:
+              # 이미 오늘 해당 슬롯 생성됨
+              meta = {
+                "status": "SKIPPED_ALREADY_CAPTURED",
+                "run_slot": RUN_SLOT,
+                "as_of_utc": now_utc.isoformat(),
+                "as_of_kst": now_kst.isoformat(),
+                "as_of_et":  now_et.isoformat(),
+              }
+              write_json(OUT / "manifest.json", meta)
+              print(json.dumps(meta, ensure_ascii=False, indent=2))
+              raise SystemExit(0)
+
+          # -----------------------------
+          # Manifest skeleton
+          # -----------------------------
+          meta = {
+            "status": "OK",
+            "run_slot": RUN_SLOT,
+            "as_of_utc": now_utc.isoformat(),
+            "as_of_kst": now_kst.isoformat(),
+            "as_of_et":  now_et.isoformat(),
+            "date_et":   date_et,
+            "status_detail": {}
+          }
+
+          # -----------------------------
+          # (SSOT) 1) ESPN Scoreboard
+          # -----------------------------
+          scoreboard = None
+          try:
+            sb_url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={date_et}"
+            r = get(sb_url)
+            r.raise_for_status()
+            scoreboard = r.json()
+            write_json(OUT / "espn_scoreboard.json", scoreboard)
+            meta["status_detail"]["ESPN_SCOREBOARD"] = "OK"
+          except Exception as e:
+            meta["status_detail"]["ESPN_SCOREBOARD"] = f"FAILED: {e}"
+            scoreboard = None
+
+          # -----------------------------
+          # (SSOT) 2) ESPN Odds (from scoreboard payload)
+          # -----------------------------
+          try:
+            if not scoreboard:
+              raise RuntimeError("Scoreboard not available; cannot derive odds.")
+
+            rows = []
+            for ev in scoreboard.get("events", []):
+              comp = (ev.get("competitions") or [None])[0]
+              if not comp:
+                continue
+
+              odds_list = comp.get("odds") or []
+              if not odds_list:
+                continue
+
+              o = odds_list[0]
+              teams = comp.get("competitors") or []
+              home = next((t for t in teams if t.get("homeAway") == "home"), None)
+              away = next((t for t in teams if t.get("homeAway") == "away"), None)
+
+              rows.append({
+                "event_id": ev.get("id"),
+                "start_utc": ev.get("date"),
+                "home": (home or {}).get("team", {}).get("abbreviation"),
+                "away": (away or {}).get("team", {}).get("abbreviation"),
+                "details": o.get("details"),
+                "total": o.get("overUnder"),
+                "provider": (o.get("provider") or {}).get("name"),
+              })
+
+            if not rows:
+              raise RuntimeError("No odds found in ESPN scoreboard payload.")
+
+            payload = {
+              "source": "ESPN_SCOREBOARD.odds",
+              "as_of_utc": meta["as_of_utc"],
+              "as_of_et": meta["as_of_et"],
+              "as_of_kst": meta["as_of_kst"],
+              "rows": rows,
+            }
+            write_json(OUT / "espn_odds.json", payload)
+            meta["status_detail"]["ESPN_ODDS"] = "OK"
+          except Exception as e:
+            meta["status_detail"]["ESPN_ODDS"] = f"UNAVAILABLE: {e}"
+            meta["status"] = "MARKET_UNAVAILABLE"
+            if FAIL_FAST:
+              write_json(OUT / "manifest.json", meta)
+              print(json.dumps(meta, ensure_ascii=False, indent=2))
+              raise
+
+          # -----------------------------
+          # (AUX-1) NBA CDN todaysScoreboard (cross-check)
+          # -----------------------------
+          try:
+            url = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
+            r = get(url)
+            r.raise_for_status()
+            write_json(OUT / "nba_cdn_scoreboard.json", r.json())
+            meta["status_detail"]["NBA_CDN_SCOREBOARD"] = "OK"
+          except Exception as e:
+            meta["status_detail"]["NBA_CDN_SCOREBOARD"] = f"FAILED: {e}"
+
+          # -----------------------------
+          # (AUX-2) NBA Schedule (staticData) for travel/fatigue baseline
+          # -----------------------------
+          try:
+            url = "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json"
+            r = get(url, timeout=40)
+            r.raise_for_status()
+            data = r.json()
+            # 저장은 전체를 하되, 너무 커지면 later trimming 가능
+            write_json(OUT / "nba_schedule_leagueV2.json", data)
+            meta["status_detail"]["NBA_SCHEDULE_LEAGUEV2"] = "OK"
+          except Exception as e:
+            meta["status_detail"]["NBA_SCHEDULE_LEAGUEV2"] = f"FAILED: {e}"
+
+          # -----------------------------
+          # (AUX-3) Official Referee Assignments (HTML table)
+          # -----------------------------
+          try:
+            url = "https://official.nba.com/referee-assignments/"
+            r = get(url, timeout=30)
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "lxml")
+            table = soup.find("table")
+            if not table:
+              raise RuntimeError("Ref assignment table not found.")
+
+            out_rows = []
+            trs = table.find_all("tr")
+            for tr in trs[1:]:
+              tds = [td.get_text(" ", strip=True) for td in tr.find_all(["td","th"])]
+              if len(tds) < 4:
+                continue
+              out_rows.append({
+                "game": tds[0],
+                "crew_chief": tds[1],
+                "referee": tds[2],
+                "umpire": tds[3],
+                "alternate": tds[4] if len(tds) > 4 else None,
+              })
+
+            payload = {
+              "source": "official.nba.com/referee-assignments",
+              "as_of_utc": meta["as_of_utc"],
+              "as_of_et": meta["as_of_et"],
+              "as_of_kst": meta["as_of_kst"],
+              "rows": out_rows,
+            }
+            write_json(OUT / "ref_assignments.json", payload)
+            meta["status_detail"]["NBA_REF_ASSIGNMENTS"] = "OK"
+          except Exception as e:
+            meta["status_detail"]["NBA_REF_ASSIGNMENTS"] = f"FAILED: {e}"
+
+          # -----------------------------
+          # (AUX-4) Official NBA Injury Report PDF (scan time candidates)
+          # -----------------------------
+          try:
+            ymd = now_et.strftime("%Y-%m-%d")
+            candidates = ["11PM","10PM","09PM","08PM","07PM","06PM","05PM","04PM","03PM","02PM","01PM",
+                          "11AM","10AM","09AM","08AM","07AM","06AM","05AM","04AM","03AM","02AM","01AM"]
+            found = None
+            for hh in candidates:
+              url = f"https://ak-static.cms.nba.com/referee/injury/Injury-Report_{ymd}_{hh}.pdf"
+              rr = get(url, timeout=20)
+              if rr.status_code == 200 and rr.headers.get("content-type","").lower().startswith("application/pdf"):
+                (OUT / "nba_injury_report.pdf").write_bytes(rr.content)
+                found = url
+                break
+            if not found:
+              raise RuntimeError("Not found (all candidates failed)")
+            meta["status_detail"]["NBA_INJURY_PDF"] = f"OK: {found}"
+          except Exception as e:
+            meta["status_detail"]["NBA_INJURY_PDF"] = f"FAILED: {e}"
+
+          # -----------------------------
+          # (AUX-5) Fatigue pack (recent 8 days from ESPN scoreboard)
+          # -----------------------------
+          try:
+            days = 8
+            games = []
+            for i in range(days):
+              d = (now_et.date() - timedelta(days=i))
+              dates = d.strftime("%Y%m%d")
+              sb_url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={dates}"
+              r = get(sb_url)
+              if r.status_code != 200:
+                continue
+              data = r.json()
+              for ev in data.get("events", []):
+                comp = (ev.get("competitions") or [None])[0]
+                if not comp:
+                  continue
+                start_utc = ev.get("date")
+                teams = comp.get("competitors") or []
+                home = next((t for t in teams if t.get("homeAway") == "home"), None)
+                away = next((t for t in teams if t.get("homeAway") == "away"), None)
+                h = (home or {}).get("team", {}).get("abbreviation")
+                a = (away or {}).get("team", {}).get("abbreviation")
+                if not h or not a or not start_utc:
+                  continue
+                games.append({"start_utc": start_utc, "home": h, "away": a})
+
+            def to_dt(s):
+              return datetime.fromisoformat(s.replace("Z","+00:00")).astimezone(ET)
+
+            per = {}
+            for g in games:
+              per.setdefault(g["home"], []).append(g)
+              per.setdefault(g["away"], []).append(g)
+
+            fatigue = {}
+            for team, lst in per.items():
+              lst_sorted = sorted(lst, key=lambda x: to_dt(x["start_utc"]))
+              if not lst_sorted:
+                continue
+              last_dt = to_dt(lst_sorted[-1]["start_utc"])
+              rest_days = (now_et.date() - last_dt.date()).days
+              dates_played = sorted({to_dt(x["start_utc"]).date() for x in lst_sorted})
+
+              def count_in_span(span_days, need_games):
+                c = 0
+                for j in range(len(dates_played)):
+                  start = dates_played[j]
+                  end = start + timedelta(days=span_days-1)
+                  k = sum(1 for dd in dates_played if start <= dd <= end)
+                  if k >= need_games:
+                    c += 1
+                return c
+
+              fatigue[team] = {
+                "window_days": days,
+                "games_in_window": len(lst_sorted),
+                "rest_days": rest_days,
+                "b2b_flags_count": count_in_span(2, 2),
+                "3in4_flags_count": count_in_span(4, 3),
+                "4in6_flags_count": count_in_span(6, 4),
+              }
+
+            payload = {
+              "source": "derived_from_ESPN_scoreboard_recent_days",
+              "as_of_utc": meta["as_of_utc"],
+              "as_of_et": meta["as_of_et"],
+              "as_of_kst": meta["as_of_kst"],
+              "fatigue": fatigue,
+            }
+            write_json(OUT / "fatigue_pack.json", payload)
+            meta["status_detail"]["FATIGUE_PACK"] = "OK"
+          except Exception as e:
+            meta["status_detail"]["FATIGUE_PACK"] = f"FAILED: {e}"
+
+          # -----------------------------
+          # Final manifest
+          # -----------------------------
+          write_json(OUT / "manifest.json", meta)
+          print(json.dumps(meta, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Publish to latest/ and archive/
+        shell: bash
+        run: |
+          SLOT="${{ steps.slot.outputs.slot }}"
+          KST_DATE="$(TZ=Asia/Seoul date +%Y%m%d)"
+
+          mkdir -p latest
+          cp -f out/* latest/
+
+          mkdir -p "archive/${KST_DATE}/${SLOT}"
+          cp -f out/* "archive/${KST_DATE}/${SLOT}/"
+
+      - name: Commit & push
+        run: |
+          git config user.name "nba-bot"
+          git config user.email "nba-bot@users.noreply.github.com"
+          git add latest archive
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "SSOT snapshot $(date -u +'%Y%m%dT%H%M%SZ')"
+          git push
