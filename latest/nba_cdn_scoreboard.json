@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2025-12-22 10:55:39.5539",
+    "time": "2025-12-22 11:03:10.310",
     "code": 200
   },
   "scoreboard": {
@@ -695,7 +695,7 @@
         "gameLeaders": {
           "homeLeaders": {
             "personId": 203471,
-            "name": "Dennis Schroder",
+            "name": "Dennis SchrÃ¶der",
             "jerseyNum": "17",
             "position": "G",
             "teamTricode": "SAC",
