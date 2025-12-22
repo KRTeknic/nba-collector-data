@@ -1,22 +1,142 @@
 [SNAPSHOT_SOURCE]
-- verified_at (ET/KST): 2025-12-22T08:53:38.617481-05:00 / 2025-12-22T22:53:38.617481+09:00
-- source_urls: https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json , https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json
-- manifest.status: {"NBA_SCHEDULE_LEAGUEV2": "OK", "ESPN_SCOREBOARD": "OK", "ESPN_ODDS": "UNAVAILABLE: No odds found in ESPN scoreboard payload.", "NBA_CDN_SCOREBOARD": "OK", "NBA_CDN_ODDS": "OK", "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_07AM.pdf", "NBA_REF_ASSIGNMENTS": "OK", "FATIGUE_PACK": "OK", "FINAL_SCORES": "OK", "LINEUPS_AUX": "OK", "CBS_INJURIES_AUX": "OK", "ESPN_TEAM_INJURIES_AUX": "OK"}
+{
+  "verified_at": {
+    "verified_at_utc": "2025-12-22T23:36:29.465263+00:00",
+    "verified_at_et": "2025-12-22T18:36:29.465263-05:00",
+    "verified_at_kst": "2025-12-23T08:36:29.465263+09:00"
+  },
+  "source_urls": {
+    "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
+    "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
+  },
+  "manifest_status_summary": {
+    "ESPN_ODDS": "OK",
+    "ESPN_SCOREBOARD": "OK",
+    "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_08AM.pdf",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": ""
+  }
+}
 
 [MARKET_SNAPSHOT_LOG]
-- MARKET=UNAVAILABLE (FAIL-FAST)
+{
+  "rows": [
+    {
+      "match": "CHA@CLE",
+      "details": "CLE -9.5",
+      "total": 239.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T00:00Z",
+      "event_id": "401810257"
+    },
+    {
+      "match": "IND@BOS",
+      "details": "BOS -11.5",
+      "total": 226.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T00:30Z",
+      "event_id": "401810258"
+    },
+    {
+      "match": "DAL@NO",
+      "details": "NO -1.5",
+      "total": 241.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T01:00Z",
+      "event_id": "401810259"
+    },
+    {
+      "match": "UTAH@DEN",
+      "details": "DEN -12.5",
+      "total": 251.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T02:00Z",
+      "event_id": "401810260"
+    },
+    {
+      "match": "MEM@OKC",
+      "details": "OKC -15.5",
+      "total": 233.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T02:30Z",
+      "event_id": "401810261"
+    },
+    {
+      "match": "ORL@GS",
+      "details": "GS -6.5",
+      "total": 227.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T03:00Z",
+      "event_id": "401810262"
+    },
+    {
+      "match": "DET@POR",
+      "details": "DET -6.5",
+      "total": 234.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-23T03:00Z",
+      "event_id": "401810263"
+    }
+  ],
+  "drift_vs_open_anchor": []
+}
 
 [INJURY_SNAPSHOT_LOG]
-- nba_injury_report.pdf: OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_07AM.pdf
-- AUX(가능): RotoWire lineups / CBS injuries / ESPN injury page (충돌 시 UNRESOLVED)
+{
+  "nba_injury_report_pdf_present": true,
+  "nba_injury_report_pdf_path": "latest/nba_injury_report.pdf",
+  "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장"
+}
 
 [UNRESOLVED_ZONE]
-- MARKET=UNAVAILABLE (FAIL-FAST: ESPN_ODDS not OK)
+[]
 
 [DRAFT_ANALYSIS_1ST]
-- 픽조합 v1.0 준수(같은 경기 핸디+언오버 한 조합 중복 금지, 최소 2폴)
-- 후보 없음 (MARKET UNAVAILABLE 또는 엔진 미연결)
+{
+  "status": "OK",
+  "candidates": [
+    {
+      "match": "CHA@CLE",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "IND@BOS",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "DAL@NO",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "UTAH@DEN",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "MEM@OKC",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "ORL@GS",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "DET@POR",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    }
+  ],
+  "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
+}
 
 [PROCESS_LOG]
-- opened: manifest, odds (scoreboard/pdf optional)
-- errors: none
+loaded: latest/manifest.json
+loaded: latest/espn_odds.json
+FAIL_FAST=NO
+anchors_count=0
+drift_rows=0
