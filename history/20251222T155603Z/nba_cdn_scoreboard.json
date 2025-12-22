@@ -1,0 +1,727 @@
+{
+  "meta": {
+    "version": 1,
+    "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
+    "time": "2025-12-22 10:55:39.5539",
+    "code": 200
+  },
+  "scoreboard": {
+    "gameDate": "2025-12-21",
+    "leagueId": "00",
+    "leagueName": "National Basketball Association",
+    "games": [
+      {
+        "gameId": "0022500396",
+        "gameCode": "20251221/CHIATL",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-21T20:30:00Z",
+        "gameEt": "2025-12-21T15:30:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612737,
+          "teamName": "Hawks",
+          "teamCity": "Atlanta",
+          "teamTricode": "ATL",
+          "wins": 15,
+          "losses": 15,
+          "score": 150,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 38
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 35
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 42
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 35
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612741,
+          "teamName": "Bulls",
+          "teamCity": "Chicago",
+          "teamTricode": "CHI",
+          "wins": 13,
+          "losses": 15,
+          "score": 152,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 38
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 45
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 33
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 36
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 1630552,
+            "name": "Jalen Johnson",
+            "jerseyNum": "1",
+            "position": "F",
+            "teamTricode": "ATL",
+            "playerSlug": null,
+            "points": 36,
+            "rebounds": 11,
+            "assists": 9
+          },
+          "awayLeaders": {
+            "personId": 1630581,
+            "name": "Josh Giddey",
+            "jerseyNum": "3",
+            "position": "G",
+            "teamTricode": "CHI",
+            "playerSlug": null,
+            "points": 19,
+            "rebounds": 9,
+            "assists": 12
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      },
+      {
+        "gameId": "0022500397",
+        "gameCode": "20251221/TORBKN",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-21T23:00:00Z",
+        "gameEt": "2025-12-21T18:00:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612751,
+          "teamName": "Nets",
+          "teamCity": "Brooklyn",
+          "teamTricode": "BKN",
+          "wins": 8,
+          "losses": 19,
+          "score": 96,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 1,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 24
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 25
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 18
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 29
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612761,
+          "teamName": "Raptors",
+          "teamCity": "Toronto",
+          "teamTricode": "TOR",
+          "wins": 17,
+          "losses": 13,
+          "score": 81,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 18
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 21
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 26
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 16
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 1629008,
+            "name": "Michael Porter Jr.",
+            "jerseyNum": "17",
+            "position": "F",
+            "teamTricode": "BKN",
+            "playerSlug": null,
+            "points": 24,
+            "rebounds": 11,
+            "assists": 5
+          },
+          "awayLeaders": {
+            "personId": 1630193,
+            "name": "Immanuel Quickley",
+            "jerseyNum": "5",
+            "position": "G",
+            "teamTricode": "TOR",
+            "playerSlug": null,
+            "points": 17,
+            "rebounds": 5,
+            "assists": 10
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      },
+      {
+        "gameId": "0022500398",
+        "gameCode": "20251221/MIANYK",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-21T23:00:00Z",
+        "gameEt": "2025-12-21T18:00:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612752,
+          "teamName": "Knicks",
+          "teamCity": "New York",
+          "teamTricode": "NYK",
+          "wins": 20,
+          "losses": 8,
+          "score": 132,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 1,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 30
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 36
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 39
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 27
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612748,
+          "teamName": "Heat",
+          "teamCity": "Miami",
+          "teamTricode": "MIA",
+          "wins": 15,
+          "losses": 14,
+          "score": 125,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 1,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 37
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 25
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 37
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 26
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 1628973,
+            "name": "Jalen Brunson",
+            "jerseyNum": "11",
+            "position": "G",
+            "teamTricode": "NYK",
+            "playerSlug": null,
+            "points": 47,
+            "rebounds": 3,
+            "assists": 8
+          },
+          "awayLeaders": {
+            "personId": 1642276,
+            "name": "Kel'el Ware",
+            "jerseyNum": "7",
+            "position": "C",
+            "teamTricode": "MIA",
+            "playerSlug": null,
+            "points": 28,
+            "rebounds": 19,
+            "assists": 0
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      },
+      {
+        "gameId": "0022500399",
+        "gameCode": "20251221/SASWAS",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-22T00:00:00Z",
+        "gameEt": "2025-12-21T19:00:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612764,
+          "teamName": "Wizards",
+          "teamCity": "Washington",
+          "teamTricode": "WAS",
+          "wins": 5,
+          "losses": 22,
+          "score": 113,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 28
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 21
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 37
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 27
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612759,
+          "teamName": "Spurs",
+          "teamCity": "San Antonio",
+          "teamTricode": "SAS",
+          "wins": 21,
+          "losses": 7,
+          "score": 124,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 1,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 26
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 43
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 29
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 26
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 1642267,
+            "name": "Bub Carrington",
+            "jerseyNum": "7",
+            "position": "G",
+            "teamTricode": "WAS",
+            "playerSlug": null,
+            "points": 21,
+            "rebounds": 5,
+            "assists": 4
+          },
+          "awayLeaders": {
+            "personId": 1628368,
+            "name": "De'Aaron Fox",
+            "jerseyNum": "4",
+            "position": "G",
+            "teamTricode": "SAS",
+            "playerSlug": null,
+            "points": 27,
+            "rebounds": 7,
+            "assists": 6
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      },
+      {
+        "gameId": "0022500400",
+        "gameCode": "20251221/MILMIN",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-22T00:00:00Z",
+        "gameEt": "2025-12-21T19:00:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612750,
+          "teamName": "Timberwolves",
+          "teamCity": "Minnesota",
+          "teamTricode": "MIN",
+          "wins": 19,
+          "losses": 10,
+          "score": 103,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 23
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 25
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 27
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 28
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612749,
+          "teamName": "Bucks",
+          "teamCity": "Milwaukee",
+          "teamTricode": "MIL",
+          "wins": 11,
+          "losses": 18,
+          "score": 100,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 29
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 31
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 15
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 25
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 1630162,
+            "name": "Anthony Edwards",
+            "jerseyNum": "5",
+            "position": "G",
+            "teamTricode": "MIN",
+            "playerSlug": null,
+            "points": 24,
+            "rebounds": 4,
+            "assists": 6
+          },
+          "awayLeaders": {
+            "personId": 1629645,
+            "name": "Kevin Porter Jr.",
+            "jerseyNum": "7",
+            "position": "G-F",
+            "teamTricode": "MIL",
+            "playerSlug": null,
+            "points": 24,
+            "rebounds": 10,
+            "assists": 9
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      },
+      {
+        "gameId": "0022500401",
+        "gameCode": "20251221/HOUSAC",
+        "gameStatus": 3,
+        "gameStatusText": "Final/OT",
+        "period": 5,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-22T03:00:00Z",
+        "gameEt": "2025-12-21T22:00:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612758,
+          "teamName": "Kings",
+          "teamCity": "Sacramento",
+          "teamTricode": "SAC",
+          "wins": 7,
+          "losses": 22,
+          "score": 125,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 30
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 27
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 25
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 30
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 13
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612745,
+          "teamName": "Rockets",
+          "teamCity": "Houston",
+          "teamTricode": "HOU",
+          "wins": 17,
+          "losses": 9,
+          "score": 124,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 31
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 37
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 23
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 21
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 12
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 203471,
+            "name": "Dennis Schroder",
+            "jerseyNum": "17",
+            "position": "G",
+            "teamTricode": "SAC",
+            "playerSlug": null,
+            "points": 24,
+            "rebounds": 7,
+            "assists": 10
+          },
+          "awayLeaders": {
+            "personId": 201142,
+            "name": "Kevin Durant",
+            "jerseyNum": "7",
+            "position": "F",
+            "teamTricode": "HOU",
+            "playerSlug": null,
+            "points": 24,
+            "rebounds": 10,
+            "assists": 8
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      }
+    ]
+  }
+}
