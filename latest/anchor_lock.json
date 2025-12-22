@@ -1,0 +1,17 @@
+{
+  "schema_version": "ANCHOR_SCHEMA_V1",
+  "kind": "LOCK",
+  "slate_date_kst": "2025-12-23",
+  "received_at_utc": "2025-12-22T23:14:48.218Z",
+  "chat_id": "5102411363",
+  "raw_text": "cle -9.5 239.5 cha\nbos -10.5 225.5 ind\nnop -1.5 238.5 dal\nden -14.5 247.5 uta\nokc -16.5 229.5 mem\ngsw -5.5 229.5 orl\n\n1차 기준",
+  "normalized_lines": [
+    "CLE -9.5 239.5 CHA",
+    "BOS -10.5 225.5 IND",
+    "NOP -1.5 238.5 DAL",
+    "DEN -14.5 247.5 UTA",
+    "OKC -16.5 229.5 MEM",
+    "GSW -5.5 229.5 ORL"
+  ],
+  "parse_warnings": []
+}
