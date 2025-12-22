@@ -1,0 +1,20 @@
+{
+  "as_of_utc": "2025-12-22T08:54:49.792988+00:00",
+  "as_of_kst": "2025-12-22T17:54:49.792988+09:00",
+  "as_of_et": "2025-12-22T03:54:49.792988-05:00",
+  "date_et": "20251222",
+  "status": {
+    "NBA_SCHEDULE_LEAGUEV2": "OK",
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "OK",
+    "NBA_CDN_SCOREBOARD": "OK",
+    "NBA_CDN_ODDS": "OK",
+    "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_03AM.pdf",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": "OK",
+    "FINAL_SCORES": "OK",
+    "LINEUPS_AUX": "OK",
+    "CBS_INJURIES_AUX": "OK",
+    "ESPN_TEAM_INJURIES_AUX": "OK"
+  }
+}
