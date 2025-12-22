@@ -1,0 +1,64 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "snapshot_ts": "20251222T122240Z",
+  "as_of_utc": "2025-12-22T12:22:40.850166+00:00",
+  "as_of_et": "2025-12-22T07:22:40.850166-05:00",
+  "as_of_kst": "2025-12-22T21:22:40.850166+09:00",
+  "rows": [
+    {
+      "event_id": "401810251",
+      "start_utc": "2025-12-21T20:30Z",
+      "home": "ATL",
+      "away": "CHI",
+      "home_score": "150",
+      "away_score": "152",
+      "winner": "CHI"
+    },
+    {
+      "event_id": "401810252",
+      "start_utc": "2025-12-21T23:00Z",
+      "home": "BKN",
+      "away": "TOR",
+      "home_score": "96",
+      "away_score": "81",
+      "winner": "BKN"
+    },
+    {
+      "event_id": "401810253",
+      "start_utc": "2025-12-21T23:00Z",
+      "home": "NYK",
+      "away": "MIA",
+      "home_score": "132",
+      "away_score": "125",
+      "winner": "NYK"
+    },
+    {
+      "event_id": "401810254",
+      "start_utc": "2025-12-22T00:00Z",
+      "home": "WSH",
+      "away": "SAS",
+      "home_score": "113",
+      "away_score": "124",
+      "winner": "SAS"
+    },
+    {
+      "event_id": "401810255",
+      "start_utc": "2025-12-22T00:00Z",
+      "home": "MIN",
+      "away": "MIL",
+      "home_score": "103",
+      "away_score": "100",
+      "winner": "MIN"
+    },
+    {
+      "event_id": "401810256",
+      "start_utc": "2025-12-22T03:00Z",
+      "home": "SAC",
+      "away": "HOU",
+      "home_score": "125",
+      "away_score": "124",
+      "winner": "SAC"
+    }
+  ],
+  "note": "22:05 KST에는 대부분 비어있을 수 있으며, 경기 종료 후 채워집니다."
+}

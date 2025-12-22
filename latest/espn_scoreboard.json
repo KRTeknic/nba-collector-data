@@ -2391,6 +2391,225 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Michael Porter Jr. scored 24 points, Noah Clowney added 19 and Brooklyn Nets beat the Toronto Raptors 96-81 on Sunday night.",
+              "shortLinkText": "Porter and Clowney lead the Nets to a 96-81 victory over the Raptors",
+              "video": [
+                {
+                  "id": 47385380,
+                  "source": "espn",
+                  "headline": "Toronto Raptors vs. Brooklyn Nets: Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.jpg",
+                  "duration": 72,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NBA",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NBA_One-Play (Toronto Raptors vs. Brooklyn Nets: Game Highlights) 2025/12/21 ESHEET",
+                    "trackingId": "dm_20251221_NBA_toronto_raptors_vs_brooklyn_nets_game_highlights",
+                    "program": "NBA"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "BI",
+                      "UM",
+                      "EC",
+                      "BR",
+                      "SC",
+                      "AS",
+                      "SR",
+                      "SV",
+                      "NE",
+                      "SL",
+                      "CO",
+                      "GB",
+                      "UK",
+                      "GQ",
+                      "GM",
+                      "BS",
+                      "LR",
+                      "GT",
+                      "SX",
+                      "AG",
+                      "FM",
+                      "LS",
+                      "DO",
+                      "MQ",
+                      "BW",
+                      "GU",
+                      "VE",
+                      "GH",
+                      "LC",
+                      "ET",
+                      "CV",
+                      "PW",
+                      "TZ",
+                      "AO",
+                      "AR",
+                      "ER",
+                      "KE",
+                      "VI",
+                      "US",
+                      "MP",
+                      "PR",
+                      "GW",
+                      "ST",
+                      "SS",
+                      "NG",
+                      "ZM",
+                      "GY",
+                      "TC",
+                      "CM",
+                      "BZ",
+                      "MX",
+                      "MF",
+                      "HT",
+                      "PE",
+                      "BQ",
+                      "GF",
+                      "JM",
+                      "SZ",
+                      "AW",
+                      "NA",
+                      "AI",
+                      "CR",
+                      "KY",
+                      "MH",
+                      "GD",
+                      "ZA",
+                      "MZ",
+                      "KN",
+                      "CL",
+                      "CG",
+                      "GN",
+                      "RW",
+                      "AM",
+                      "FJ",
+                      "BJ",
+                      "MU",
+                      "BF",
+                      "PY",
+                      "TG",
+                      "AU",
+                      "HN",
+                      "BM",
+                      "BO",
+                      "RE",
+                      "ZW",
+                      "MS",
+                      "SN",
+                      "KM",
+                      "PH",
+                      "CF",
+                      "GA",
+                      "GP",
+                      "TT",
+                      "CD",
+                      "BB",
+                      "CI",
+                      "MG",
+                      "UY",
+                      "VC",
+                      "UG",
+                      "PA",
+                      "ML",
+                      "IE",
+                      "VG",
+                      "CU",
+                      "NZ",
+                      "MW",
+                      "NI"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=47385380",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=47385380"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/47385380"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=47385380"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6d3710b5-9224-4471-93e9-e376a12d0641/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385380"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6d3710b5-9224-4471-93e9-e376a12d0641/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385380"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/47385380"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/6d3710b5-9224-4471-93e9-e376a12d0641"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/6d3710b5-9224-4471-93e9-e376a12d0641/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=47385380&videoDSI=4d99f38c4a617"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 47385380,
@@ -2613,225 +2832,6 @@
                 "trackingId": "dm_20251221_NBA_toronto_raptors_vs_brooklyn_nets_game_highlights",
                 "program": "NBA"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Michael Porter Jr. scored 24 points, Noah Clowney added 19 and Brooklyn Nets beat the Toronto Raptors 96-81 on Sunday night.",
-              "shortLinkText": "Porter and Clowney lead the Nets to a 96-81 victory over the Raptors",
-              "video": [
-                {
-                  "id": 47385380,
-                  "source": "espn",
-                  "headline": "Toronto Raptors vs. Brooklyn Nets: Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.jpg",
-                  "duration": 72,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NBA",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NBA_One-Play (Toronto Raptors vs. Brooklyn Nets: Game Highlights) 2025/12/21 ESHEET",
-                    "trackingId": "dm_20251221_NBA_toronto_raptors_vs_brooklyn_nets_game_highlights",
-                    "program": "NBA"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "BI",
-                      "UM",
-                      "EC",
-                      "BR",
-                      "SC",
-                      "AS",
-                      "SR",
-                      "SV",
-                      "NE",
-                      "SL",
-                      "CO",
-                      "GB",
-                      "UK",
-                      "GQ",
-                      "GM",
-                      "BS",
-                      "LR",
-                      "GT",
-                      "SX",
-                      "AG",
-                      "FM",
-                      "LS",
-                      "DO",
-                      "MQ",
-                      "BW",
-                      "GU",
-                      "VE",
-                      "GH",
-                      "LC",
-                      "ET",
-                      "CV",
-                      "PW",
-                      "TZ",
-                      "AO",
-                      "AR",
-                      "ER",
-                      "KE",
-                      "VI",
-                      "US",
-                      "MP",
-                      "PR",
-                      "GW",
-                      "ST",
-                      "SS",
-                      "NG",
-                      "ZM",
-                      "GY",
-                      "TC",
-                      "CM",
-                      "BZ",
-                      "MX",
-                      "MF",
-                      "HT",
-                      "PE",
-                      "BQ",
-                      "GF",
-                      "JM",
-                      "SZ",
-                      "AW",
-                      "NA",
-                      "AI",
-                      "CR",
-                      "KY",
-                      "MH",
-                      "GD",
-                      "ZA",
-                      "MZ",
-                      "KN",
-                      "CL",
-                      "CG",
-                      "GN",
-                      "RW",
-                      "AM",
-                      "FJ",
-                      "BJ",
-                      "MU",
-                      "BF",
-                      "PY",
-                      "TG",
-                      "AU",
-                      "HN",
-                      "BM",
-                      "BO",
-                      "RE",
-                      "ZW",
-                      "MS",
-                      "SN",
-                      "KM",
-                      "PH",
-                      "CF",
-                      "GA",
-                      "GP",
-                      "TT",
-                      "CD",
-                      "BB",
-                      "CI",
-                      "MG",
-                      "UY",
-                      "VC",
-                      "UG",
-                      "PA",
-                      "ML",
-                      "IE",
-                      "VG",
-                      "CU",
-                      "NZ",
-                      "MW",
-                      "NI"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=47385380",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=47385380"
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/47385380"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=47385380"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6d3710b5-9224-4471-93e9-e376a12d0641/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385380"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/6d3710b5-9224-4471-93e9-e376a12d0641/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385380"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/47385380"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/6d3710b5-9224-4471-93e9-e376a12d0641"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/6d3710b5-9224-4471-93e9-e376a12d0641/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/2c0a7476-3e86-46bd-82de-2597e66ed9bc/2c0a7476-3e86-46bd-82de-2597e66ed9bc_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=47385380&videoDSI=4d99f38c4a617"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -3733,6 +3733,225 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Jalen Brunson scored a season-high 47 points and the New York Knicks overcame Karl-Anthony Towns’ quiet night to beat the Miami Heat 132-125 on Sunday.",
+              "shortLinkText": "Brunson scores season-high 47 points, Knicks overcome Towns’ quiet night to beat the Heat",
+              "video": [
+                {
+                  "id": 47385510,
+                  "source": "espn",
+                  "headline": "Miami Heat vs. New York Knicks: Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.jpg",
+                  "duration": 73,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NBA",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NBA_One-Play (Miami Heat vs. New York Knicks: Game Highlights) 2025/12/21 ESHEET",
+                    "trackingId": "dm_20251221_NBA_miami_heat_vs_new_york_knicks_game_highlights",
+                    "program": "NBA"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "FJ",
+                      "ZW",
+                      "DO",
+                      "ZA",
+                      "TZ",
+                      "AG",
+                      "ZM",
+                      "PH",
+                      "GH",
+                      "GP",
+                      "GB",
+                      "UK",
+                      "CL",
+                      "RW",
+                      "BQ",
+                      "CO",
+                      "IE",
+                      "AM",
+                      "CF",
+                      "KN",
+                      "GY",
+                      "HT",
+                      "AR",
+                      "KM",
+                      "UY",
+                      "VI",
+                      "SZ",
+                      "BR",
+                      "CG",
+                      "LR",
+                      "NI",
+                      "ER",
+                      "GM",
+                      "TT",
+                      "KY",
+                      "GA",
+                      "VG",
+                      "CD",
+                      "BS",
+                      "NE",
+                      "ET",
+                      "TC",
+                      "FM",
+                      "AU",
+                      "MQ",
+                      "BM",
+                      "NZ",
+                      "CI",
+                      "BW",
+                      "JM",
+                      "LS",
+                      "MZ",
+                      "AO",
+                      "GW",
+                      "CU",
+                      "EC",
+                      "NA",
+                      "SC",
+                      "SR",
+                      "RE",
+                      "VE",
+                      "LC",
+                      "GD",
+                      "GT",
+                      "ML",
+                      "PA",
+                      "GQ",
+                      "MP",
+                      "MW",
+                      "MX",
+                      "CR",
+                      "KE",
+                      "BF",
+                      "GF",
+                      "CM",
+                      "US",
+                      "AS",
+                      "GU",
+                      "PR",
+                      "UM",
+                      "NG",
+                      "SS",
+                      "SL",
+                      "AI",
+                      "BO",
+                      "UG",
+                      "ST",
+                      "BI",
+                      "BJ",
+                      "PE",
+                      "MS",
+                      "SN",
+                      "TG",
+                      "VC",
+                      "SV",
+                      "MU",
+                      "AW",
+                      "MH",
+                      "PW",
+                      "HN",
+                      "MF",
+                      "CV",
+                      "PY",
+                      "GN",
+                      "BB",
+                      "SX",
+                      "BZ",
+                      "MG"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=47385510",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=47385510"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/47385510"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=47385510"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7657efc3-e63e-4937-89f1-ffd6823865e7/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385510"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7657efc3-e63e-4937-89f1-ffd6823865e7/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385510"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/47385510"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/7657efc3-e63e-4937-89f1-ffd6823865e7"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/7657efc3-e63e-4937-89f1-ffd6823865e7/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=47385510&videoDSI=ffbf159507d5b"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 47385510,
@@ -3955,225 +4174,6 @@
                 "trackingId": "dm_20251221_NBA_miami_heat_vs_new_york_knicks_game_highlights",
                 "program": "NBA"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Jalen Brunson scored a season-high 47 points and the New York Knicks overcame Karl-Anthony Towns’ quiet night to beat the Miami Heat 132-125 on Sunday.",
-              "shortLinkText": "Brunson scores season-high 47 points, Knicks overcome Towns’ quiet night to beat the Heat",
-              "video": [
-                {
-                  "id": 47385510,
-                  "source": "espn",
-                  "headline": "Miami Heat vs. New York Knicks: Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.jpg",
-                  "duration": 73,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NBA",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NBA_One-Play (Miami Heat vs. New York Knicks: Game Highlights) 2025/12/21 ESHEET",
-                    "trackingId": "dm_20251221_NBA_miami_heat_vs_new_york_knicks_game_highlights",
-                    "program": "NBA"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "FJ",
-                      "ZW",
-                      "DO",
-                      "ZA",
-                      "TZ",
-                      "AG",
-                      "ZM",
-                      "PH",
-                      "GH",
-                      "GP",
-                      "GB",
-                      "UK",
-                      "CL",
-                      "RW",
-                      "BQ",
-                      "CO",
-                      "IE",
-                      "AM",
-                      "CF",
-                      "KN",
-                      "GY",
-                      "HT",
-                      "AR",
-                      "KM",
-                      "UY",
-                      "VI",
-                      "SZ",
-                      "BR",
-                      "CG",
-                      "LR",
-                      "NI",
-                      "ER",
-                      "GM",
-                      "TT",
-                      "KY",
-                      "GA",
-                      "VG",
-                      "CD",
-                      "BS",
-                      "NE",
-                      "ET",
-                      "TC",
-                      "FM",
-                      "AU",
-                      "MQ",
-                      "BM",
-                      "NZ",
-                      "CI",
-                      "BW",
-                      "JM",
-                      "LS",
-                      "MZ",
-                      "AO",
-                      "GW",
-                      "CU",
-                      "EC",
-                      "NA",
-                      "SC",
-                      "SR",
-                      "RE",
-                      "VE",
-                      "LC",
-                      "GD",
-                      "GT",
-                      "ML",
-                      "PA",
-                      "GQ",
-                      "MP",
-                      "MW",
-                      "MX",
-                      "CR",
-                      "KE",
-                      "BF",
-                      "GF",
-                      "CM",
-                      "US",
-                      "AS",
-                      "GU",
-                      "PR",
-                      "UM",
-                      "NG",
-                      "SS",
-                      "SL",
-                      "AI",
-                      "BO",
-                      "UG",
-                      "ST",
-                      "BI",
-                      "BJ",
-                      "PE",
-                      "MS",
-                      "SN",
-                      "TG",
-                      "VC",
-                      "SV",
-                      "MU",
-                      "AW",
-                      "MH",
-                      "PW",
-                      "HN",
-                      "MF",
-                      "CV",
-                      "PY",
-                      "GN",
-                      "BB",
-                      "SX",
-                      "BZ",
-                      "MG"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=47385510",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=47385510"
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/47385510"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=47385510"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7657efc3-e63e-4937-89f1-ffd6823865e7/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385510"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7657efc3-e63e-4937-89f1-ffd6823865e7/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385510"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/47385510"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/7657efc3-e63e-4937-89f1-ffd6823865e7"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/7657efc3-e63e-4937-89f1-ffd6823865e7/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/01adb0e9-c024-4fb0-800a-620684439333/01adb0e9-c024-4fb0-800a-620684439333_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=47385510&videoDSI=ffbf159507d5b"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
@@ -5075,6 +5075,228 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— De’Aaron Fox scored 27 points and sank five 3-pointers to help the San Antonio Spurs ease to a 124-113 victory over the Washington Wizards on Sunday night.",
+              "shortLinkText": "Fox scores 27, leads Spurs to 124-113 win over Wizards",
+              "video": [
+                {
+                  "id": 47385858,
+                  "source": "espn",
+                  "headline": "San Antonio Spurs vs. Washington Wizards: Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.jpg",
+                  "duration": 74,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NBA",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "NBA_One-Play (San Antonio Spurs vs. Washington Wizards: Game Highlights) 2025/12/22 ESHEET",
+                    "trackingId": "dm_20251222_NBA_san_antonio_spurs_vs_washington_wizards_game_highlights",
+                    "program": "NBA"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "BI",
+                      "UM",
+                      "EC",
+                      "BR",
+                      "SC",
+                      "AS",
+                      "SR",
+                      "SV",
+                      "NE",
+                      "SL",
+                      "CO",
+                      "GB",
+                      "UK",
+                      "GQ",
+                      "GM",
+                      "BS",
+                      "LR",
+                      "GT",
+                      "SX",
+                      "AG",
+                      "FM",
+                      "LS",
+                      "DO",
+                      "MQ",
+                      "BW",
+                      "GU",
+                      "VE",
+                      "GH",
+                      "LC",
+                      "ET",
+                      "CV",
+                      "PW",
+                      "TZ",
+                      "AO",
+                      "AR",
+                      "ER",
+                      "KE",
+                      "VI",
+                      "US",
+                      "MP",
+                      "PR",
+                      "GW",
+                      "ST",
+                      "SS",
+                      "NG",
+                      "ZM",
+                      "GY",
+                      "TC",
+                      "CM",
+                      "BZ",
+                      "MX",
+                      "MF",
+                      "HT",
+                      "PE",
+                      "BQ",
+                      "GF",
+                      "JM",
+                      "SZ",
+                      "AW",
+                      "NA",
+                      "AI",
+                      "CR",
+                      "KY",
+                      "MH",
+                      "GD",
+                      "ZA",
+                      "MZ",
+                      "KN",
+                      "CL",
+                      "CG",
+                      "GN",
+                      "RW",
+                      "AM",
+                      "FJ",
+                      "BJ",
+                      "MU",
+                      "BF",
+                      "PY",
+                      "TG",
+                      "AU",
+                      "HN",
+                      "BM",
+                      "BO",
+                      "RE",
+                      "ZW",
+                      "MS",
+                      "SN",
+                      "KM",
+                      "PH",
+                      "CF",
+                      "GA",
+                      "GP",
+                      "TT",
+                      "CD",
+                      "BB",
+                      "CI",
+                      "MG",
+                      "UY",
+                      "VC",
+                      "UG",
+                      "PA",
+                      "ML",
+                      "IE",
+                      "VG",
+                      "CU",
+                      "NZ",
+                      "MW",
+                      "NI"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=47385858",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=47385858",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=29580bb72d900"
+                        }
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/47385858"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=47385858"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/08b4a16f-18cb-4733-8010-eafedfaab074/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385858"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/08b4a16f-18cb-4733-8010-eafedfaab074/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385858"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/47385858"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/08b4a16f-18cb-4733-8010-eafedfaab074"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/08b4a16f-18cb-4733-8010-eafedfaab074/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=47385858&videoDSI=29580bb72d900"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 47385858,
@@ -5300,228 +5522,6 @@
                 "trackingId": "dm_20251222_NBA_san_antonio_spurs_vs_washington_wizards_game_highlights",
                 "program": "NBA"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— De’Aaron Fox scored 27 points and sank five 3-pointers to help the San Antonio Spurs ease to a 124-113 victory over the Washington Wizards on Sunday night.",
-              "shortLinkText": "Fox scores 27, leads Spurs to 124-113 win over Wizards",
-              "video": [
-                {
-                  "id": 47385858,
-                  "source": "espn",
-                  "headline": "San Antonio Spurs vs. Washington Wizards: Game Highlights",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.jpg",
-                  "duration": 74,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NBA",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "NBA_One-Play (San Antonio Spurs vs. Washington Wizards: Game Highlights) 2025/12/22 ESHEET",
-                    "trackingId": "dm_20251222_NBA_san_antonio_spurs_vs_washington_wizards_game_highlights",
-                    "program": "NBA"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "BI",
-                      "UM",
-                      "EC",
-                      "BR",
-                      "SC",
-                      "AS",
-                      "SR",
-                      "SV",
-                      "NE",
-                      "SL",
-                      "CO",
-                      "GB",
-                      "UK",
-                      "GQ",
-                      "GM",
-                      "BS",
-                      "LR",
-                      "GT",
-                      "SX",
-                      "AG",
-                      "FM",
-                      "LS",
-                      "DO",
-                      "MQ",
-                      "BW",
-                      "GU",
-                      "VE",
-                      "GH",
-                      "LC",
-                      "ET",
-                      "CV",
-                      "PW",
-                      "TZ",
-                      "AO",
-                      "AR",
-                      "ER",
-                      "KE",
-                      "VI",
-                      "US",
-                      "MP",
-                      "PR",
-                      "GW",
-                      "ST",
-                      "SS",
-                      "NG",
-                      "ZM",
-                      "GY",
-                      "TC",
-                      "CM",
-                      "BZ",
-                      "MX",
-                      "MF",
-                      "HT",
-                      "PE",
-                      "BQ",
-                      "GF",
-                      "JM",
-                      "SZ",
-                      "AW",
-                      "NA",
-                      "AI",
-                      "CR",
-                      "KY",
-                      "MH",
-                      "GD",
-                      "ZA",
-                      "MZ",
-                      "KN",
-                      "CL",
-                      "CG",
-                      "GN",
-                      "RW",
-                      "AM",
-                      "FJ",
-                      "BJ",
-                      "MU",
-                      "BF",
-                      "PY",
-                      "TG",
-                      "AU",
-                      "HN",
-                      "BM",
-                      "BO",
-                      "RE",
-                      "ZW",
-                      "MS",
-                      "SN",
-                      "KM",
-                      "PH",
-                      "CF",
-                      "GA",
-                      "GP",
-                      "TT",
-                      "CD",
-                      "BB",
-                      "CI",
-                      "MG",
-                      "UY",
-                      "VC",
-                      "UG",
-                      "PA",
-                      "ML",
-                      "IE",
-                      "VG",
-                      "CU",
-                      "NZ",
-                      "MW",
-                      "NI"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=47385858",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=47385858",
-                        "dsi": {
-                          "href": "https://www.espn.com/video/clip?id=29580bb72d900"
-                        }
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/47385858"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=47385858"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/08b4a16f-18cb-4733-8010-eafedfaab074/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385858"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/08b4a16f-18cb-4733-8010-eafedfaab074/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47385858"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/47385858"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/08b4a16f-18cb-4733-8010-eafedfaab074"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/08b4a16f-18cb-4733-8010-eafedfaab074/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1222/15d8c7da-f776-4cf9-9c90-621011e470d1/15d8c7da-f776-4cf9-9c90-621011e470d1_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=47385858&videoDSI=29580bb72d900"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
