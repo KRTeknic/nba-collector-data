@@ -995,7 +995,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $13",
-              "numberAvailable": 651,
+              "numberAvailable": 671,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-22-2025--sports-nba-basketball/production/5940019?wsUser=717"
@@ -2137,8 +2137,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $80",
-              "numberAvailable": 635,
+              "summary": "Tickets as low as $82",
+              "numberAvailable": 606,
               "links": [
                 {
                   "href": "https://www.vividseats.com/boston-celtics-tickets-td-garden-12-22-2025--sports-nba-basketball/production/5939654?wsUser=717"
@@ -2204,9 +2204,9 @@
                   }
                 ]
               },
-              "details": "BOS -10.5",
-              "overUnder": 224.5,
-              "spread": -10.5,
+              "details": "BOS -11.5",
+              "overUnder": 225.5,
+              "spread": -11.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -2238,7 +2238,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-470",
+                    "odds": "-575",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2270,7 +2270,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+360",
+                    "odds": "+425",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2306,8 +2306,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-10.5",
-                    "odds": "-108",
+                    "line": "-11.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2315,7 +2315,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0HC82686829N1050_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0HC82686829N1150_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -2328,7 +2328,7 @@
                           "gameId": 401810258,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:BOS-10.5"
+                          "betDetails": "Spread:BOS-11.5"
                         }
                       }
                     }
@@ -2340,8 +2340,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+10.5",
-                    "odds": "-112",
+                    "line": "+11.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2349,7 +2349,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0HC82686829P1050_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0HC82686829P1150_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -2362,7 +2362,7 @@
                           "gameId": 401810258,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:IND+10.5"
+                          "betDetails": "Spread:IND+11.5"
                         }
                       }
                     }
@@ -2378,8 +2378,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o224.5",
-                    "odds": "-112",
+                    "line": "o225.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2387,7 +2387,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0OU82686829O22450_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0OU82686829O22550_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -2400,7 +2400,7 @@
                           "gameId": 401810258,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:224.5"
+                          "betDetails": "Over:225.5"
                         }
                       }
                     }
@@ -2412,8 +2412,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u224.5",
-                    "odds": "-108",
+                    "line": "u225.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2421,7 +2421,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0OU82686829U22450_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336124%3Foutcomes%3D0OU82686829U22550_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -2434,7 +2434,7 @@
                           "gameId": 401810258,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:224.5"
+                          "betDetails": "Under:225.5"
                         }
                       }
                     }
@@ -3282,7 +3282,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $23",
-              "numberAvailable": 619,
+              "numberAvailable": 589,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-orleans-pelicans-tickets-smoothie-king-center-12-22-2025--sports-nba-basketball/production/5940409?wsUser=717"
@@ -3412,7 +3412,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-112",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3444,7 +3444,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-108",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4453,8 +4453,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $64",
-              "numberAvailable": 1105,
+              "summary": "Tickets as low as $54",
+              "numberAvailable": 1057,
               "links": [
                 {
                   "href": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-12-22-2025--sports-nba-basketball/production/5940664?wsUser=717"
@@ -4569,7 +4569,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-850",
+                    "odds": "-900",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4601,7 +4601,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+575",
+                    "odds": "+600",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5609,7 +5609,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $45",
-              "numberAvailable": 491,
+              "numberAvailable": 480,
               "links": [
                 {
                   "href": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-12-22-2025--sports-nba-basketball/production/5939801?wsUser=717"
@@ -5676,7 +5676,7 @@
                 ]
               },
               "details": "OKC -15.5",
-              "overUnder": 229.5,
+              "overUnder": 230.5,
               "spread": -15.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -5778,7 +5778,7 @@
                 "home": {
                   "close": {
                     "line": "-15.5",
-                    "odds": "-115",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5812,7 +5812,7 @@
                 "away": {
                   "close": {
                     "line": "+15.5",
-                    "odds": "-105",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5849,8 +5849,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o229.5",
-                    "odds": "-112",
+                    "line": "o230.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5858,7 +5858,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336127%3Foutcomes%3D0OU82686832O22950_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336127%3Foutcomes%3D0OU82686832O23050_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -5871,7 +5871,7 @@
                           "gameId": 401810261,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:229.5"
+                          "betDetails": "Over:230.5"
                         }
                       }
                     }
@@ -5883,8 +5883,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u229.5",
-                    "odds": "-108",
+                    "line": "u230.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5892,7 +5892,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336127%3Foutcomes%3D0OU82686832U22950_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33336127%3Foutcomes%3D0OU82686832U23050_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -5905,7 +5905,7 @@
                           "gameId": 401810261,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:229.5"
+                          "betDetails": "Under:230.5"
                         }
                       }
                     }
@@ -6750,8 +6750,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $148",
-              "numberAvailable": 465,
+              "summary": "Tickets as low as $121",
+              "numberAvailable": 353,
               "links": [
                 {
                   "href": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-12-22-2025--sports-nba-basketball/production/5940517?wsUser=717"
@@ -7894,7 +7894,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $17",
-              "numberAvailable": 624,
+              "numberAvailable": 586,
               "links": [
                 {
                   "href": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-22-2025--sports-nba-basketball/production/5940088?wsUser=717"
@@ -8078,7 +8078,7 @@
                 "home": {
                   "close": {
                     "line": "+5.5",
-                    "odds": "-108",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -8112,7 +8112,7 @@
                 "away": {
                   "close": {
                     "line": "-5.5",
-                    "odds": "-112",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [

@@ -1,17 +1,52 @@
 {
-  "status": "OK",
-  "run_slot": "2205",
-  "as_of_utc": "2025-12-22T13:53:56.069330+00:00",
-  "as_of_kst": "2025-12-22T22:53:56.069330+09:00",
-  "as_of_et": "2025-12-22T08:53:56.069330-05:00",
+  "as_of_utc": "2025-12-22T15:43:41.250119+00:00",
+  "as_of_kst": "2025-12-23T00:43:41.250119+09:00",
+  "as_of_et": "2025-12-22T10:43:41.250119-05:00",
+  "kst_slate_date_input": null,
+  "open_anchor_lines": [],
+  "date_et_resolve": {
+    "mode": "NO_ANCHOR_DEFAULT_KST_MINUS_1",
+    "candidates": [
+      "20251221",
+      "20251222",
+      "20251223"
+    ],
+    "chosen": "20251222",
+    "scores": {}
+  },
   "date_et": "20251222",
-  "status_detail": {
+  "status": {
+    "NBA_SCHEDULE_LEAGUEV2": "OK",
     "ESPN_SCOREBOARD": "OK",
     "ESPN_ODDS": "OK",
     "NBA_CDN_SCOREBOARD": "OK",
-    "NBA_SCHEDULE_LEAGUEV2": "OK",
-    "NBA_REF_ASSIGNMENTS": "OK",
+    "NBA_CDN_ODDS": "OK",
     "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_08AM.pdf",
-    "FATIGUE_PACK": "OK"
-  }
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": "OK",
+    "FINAL_SCORES": "OK",
+    "LINEUPS_AUX": "OK",
+    "CBS_INJURIES_AUX": "OK",
+    "ESPN_TEAM_INJURIES_AUX": "OK"
+  },
+  "schema_version": "MANIFEST_SCHEMA_RESUME_AUTO_V1",
+  "snapshot_ts": "20251222T154341Z",
+  "run_kind": "SNAPSHOT_2205",
+  "run_kind_source": "fallback_default_snapshot(00:43)",
+  "slate_date_et": "2025-12-22",
+  "slate_date_kst": "2025-12-23",
+  "baseline_ts": "20251222T154341Z",
+  "baseline_urls": {
+    "manifest": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/manifest.json",
+    "odds": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/espn_odds.json",
+    "scoreboard": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/espn_scoreboard.json",
+    "injury_pdf": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/nba_injury_report.pdf",
+    "lineups_aux": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/lineups_aux.json",
+    "injury_aux": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/injury_aux.json",
+    "ref_assignments": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/ref_assignments.json",
+    "fatigue_pack": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/fatigue_pack.json",
+    "final_scores": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T154341Z/final_scores.json"
+  },
+  "unresolved_flags": [],
+  "unresolved_notes": []
 }
