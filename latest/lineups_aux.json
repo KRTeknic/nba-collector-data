@@ -1,8 +1,8 @@
 {
   "source": "rotowire.com/nba-lineups.php",
-  "as_of_utc": "2025-12-22T16:03:16.544218+00:00",
-  "as_of_et": "2025-12-22T11:03:16.544218-05:00",
-  "as_of_kst": "2025-12-23T01:03:16.544218+09:00",
+  "as_of_utc": "2025-12-22T16:06:07.289446+00:00",
+  "as_of_et": "2025-12-22T11:06:07.289446-05:00",
+  "as_of_kst": "2025-12-23T01:06:07.289446+09:00",
   "rows": [
     {
       "away_team_raw": "CHA",
@@ -50,7 +50,7 @@
       "home_team_raw": null,
       "away": null,
       "home": null,
-      "raw_text_sample": "Make The Right Picks If you play on Sleeper, you should check out the RotoWire Picks tool. Get our best picks for today's NBA games. See Our Top Picks For Sleeper",
+      "raw_text_sample": "Make The Right Picks If you play on PrizePicks, you should check out the RotoWire Picks tool. Get our best picks for today's NBA games. See Our Top Picks For PrizePicks",
       "starters_lists_detected": []
     },
     {
