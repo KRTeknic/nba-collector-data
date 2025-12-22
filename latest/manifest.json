@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2025-12-22T16:06:07.289446+00:00",
-  "as_of_kst": "2025-12-23T01:06:07.289446+09:00",
-  "as_of_et": "2025-12-22T11:06:07.289446-05:00",
+  "as_of_utc": "2025-12-22T16:17:46.086379+00:00",
+  "as_of_kst": "2025-12-23T01:17:46.086379+09:00",
+  "as_of_et": "2025-12-22T11:17:46.086379-05:00",
   "kst_slate_date_input": null,
   "open_anchor_lines": [],
   "date_et_resolve": {
@@ -19,34 +19,8 @@
     "NBA_SCHEDULE_LEAGUEV2": "OK",
     "ESPN_SCOREBOARD": "OK",
     "ESPN_ODDS": "OK",
-    "NBA_CDN_SCOREBOARD": "OK",
-    "NBA_CDN_ODDS": "OK",
     "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_08AM.pdf",
     "NBA_REF_ASSIGNMENTS": "OK",
-    "FATIGUE_PACK": "OK",
-    "FINAL_SCORES": "OK",
-    "LINEUPS_AUX": "OK",
-    "CBS_INJURIES_AUX": "OK",
-    "ESPN_TEAM_INJURIES_AUX": "OK"
-  },
-  "schema_version": "MANIFEST_SCHEMA_RESUME_AUTO_V1",
-  "snapshot_ts": "20251222T160606Z",
-  "run_kind": "SNAPSHOT_2205",
-  "run_kind_source": "fallback_default_snapshot(01:06)",
-  "slate_date_et": "2025-12-22",
-  "slate_date_kst": "2025-12-23",
-  "baseline_ts": "20251222T160606Z",
-  "baseline_urls": {
-    "manifest": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/manifest.json",
-    "odds": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/espn_odds.json",
-    "scoreboard": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/espn_scoreboard.json",
-    "injury_pdf": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/nba_injury_report.pdf",
-    "lineups_aux": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/lineups_aux.json",
-    "injury_aux": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/injury_aux.json",
-    "ref_assignments": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/ref_assignments.json",
-    "fatigue_pack": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/fatigue_pack.json",
-    "final_scores": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251222T160606Z/final_scores.json"
-  },
-  "unresolved_flags": [],
-  "unresolved_notes": []
+    "LINEUPS_AUX": "OK"
+  }
 }
