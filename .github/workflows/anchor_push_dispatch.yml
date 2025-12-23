@@ -1,0 +1,34 @@
+name: "Anchor Push -> Trigger Collector"
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "latest/anchor_lock.json"
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch collector workflow in collector repo
+        env:
+          GH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          OWNER: "KRTeknic"
+          REPO: "nba-collector"   # collector workflow가 있는 레포명으로 수정
+          WORKFLOW_FILE: "nba_collector_onefile.yml"
+          REF: "main"
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Missing secret: DISPATCH_TOKEN"
+            exit 1
+          fi
+
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/$OWNER/$REPO/actions/workflows/$WORKFLOW_FILE/dispatches \
+            -d "{\"ref\":\"$REF\"}"
