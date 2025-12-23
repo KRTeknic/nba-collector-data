@@ -4413,16 +4413,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.560",
+                  "odds": "1.580",
                   "opening_odds": "1.600",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "2.500",
+                  "odds": "2.450",
                   "opening_odds": "2.400",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.tab.com.au/sports/betting/Basketball/competitions/NBA",
@@ -5402,14 +5402,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.350",
+                  "odds": "1.340",
                   "opening_odds": "1.410",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.300",
+                  "odds": "3.400",
                   "opening_odds": "3.000",
                   "odds_trend": "up"
                 }
@@ -5501,19 +5501,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.970",
                   "opening_odds": "1.790",
                   "odds_trend": "down",
-                  "spread": "-7.5",
+                  "spread": "-8.5",
                   "opening_spread": -1.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.960",
+                  "odds": "1.830",
                   "opening_odds": "1.910",
                   "odds_trend": "up",
-                  "spread": "7.5",
+                  "spread": "8.5",
                   "opening_spread": 1.5
                 }
               ],
@@ -5527,19 +5527,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.970",
                   "opening_odds": "1.790",
                   "odds_trend": "down",
-                  "spread": "-7.5",
+                  "spread": "-8.5",
                   "opening_spread": -1.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.960",
+                  "odds": "1.830",
                   "opening_odds": "1.910",
                   "odds_trend": "up",
-                  "spread": "7.5",
+                  "spread": "8.5",
                   "opening_spread": 1.5
                 }
               ],
@@ -5579,15 +5579,17 @@
                   "type": "home",
                   "odds": "1.900",
                   "opening_odds": "1.750",
-                  "spread": "-8",
+                  "odds_trend": "down",
+                  "spread": "-8.5",
                   "opening_spread": -5.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.900",
+                  "odds": "1.850",
                   "opening_odds": "2.000",
-                  "spread": "8",
+                  "odds_trend": "up",
+                  "spread": "8.5",
                   "opening_spread": 5.5
                 }
               ],
@@ -6060,16 +6062,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.800",
+                  "odds": "2.900",
                   "opening_odds": "3.000",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.460",
+                  "odds": "1.440",
                   "opening_odds": "1.410",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.tab.com.au/sports/betting/Basketball/competitions/NBA",
@@ -7709,14 +7711,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "3.300",
+                  "odds": "3.400",
                   "opening_odds": "3.100",
                   "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.350",
+                  "odds": "1.340",
                   "opening_odds": "1.390",
                   "odds_trend": "down"
                 }
@@ -7884,7 +7886,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.900",
                   "opening_odds": "1.750",
                   "odds_trend": "up",
                   "spread": "7.5",
@@ -7893,7 +7895,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.900",
+                  "odds": "1.850",
                   "opening_odds": "2.000",
                   "odds_trend": "down",
                   "spread": "-7.5",
