@@ -1,0 +1,19 @@
+{
+  "schema_version": "ANCHOR_INPUT_V1",
+  "mode": "LOCK_1ST",
+  "received_at_utc": "2025-12-23T04:53:42.881Z",
+  "run_ts": "20251223T045342Z",
+  "source": "telegram",
+  "chat_id": 5102411363,
+  "kst_slate_date_input": null,
+  "open_anchor_lines": [
+    "cle -9.5 239.5 cha",
+    "bos -10.5 225.5 ind",
+    "nop -1.5 238.5 dal",
+    "den -14.5 247.5 uta",
+    "okc -16.5 229.5 mem",
+    "gsw -5.5 229.5 orl"
+  ],
+  "open_anchor_text": "cle -9.5 239.5 cha\nbos -10.5 225.5 ind\nnop -1.5 238.5 dal\nden -14.5 247.5 uta\nokc -16.5 229.5 mem\ngsw -5.5 229.5 orl",
+  "note": "1차 기준(OPEN) 고정 저장. 이후 변동은 2차 확정으로 별도 저장."
+}
