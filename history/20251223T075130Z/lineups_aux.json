@@ -1,0 +1,300 @@
+{
+  "source": "rotowire.com/nba-lineups.php",
+  "as_of_utc": "2025-12-23T07:51:33.691106+00:00",
+  "as_of_et": "2025-12-23T02:51:33.691106-05:00",
+  "as_of_kst": "2025-12-23T16:51:33.691106+09:00",
+  "rows": [
+    {
+      "away_team_raw": "CHA",
+      "home_team_raw": "CLE",
+      "away": "CHA",
+      "home": "CLE",
+      "raw_text_sample": "7:00 PM ET Watch Now Tickets Alerts CHA CLE Hornets (9-20) Cavaliers (16-14) Confirmed Lineup PG LaMelo Ball SG Kon Knueppel SF B. Miller PF Miles Bridges C M. Plumlee Ques Project",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG LaMelo Ball",
+          "SG Kon Knueppel",
+          "SF B. Miller",
+          "PF Miles Bridges",
+          "C M. Plumlee Ques",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C R. Kalkbrenner Ques",
+          "C M. Plumlee Ques",
+          "G C. Sexton Ques",
+          "F G. Williams Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG D. Garland",
+          "SG D. Mitchell",
+          "SF Jaylon Tyson",
+          "PF Dean Wade",
+          "C Jarrett Allen",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F E. Mobley Out",
+          "C L. Nance Out",
+          "F Max Strus Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": null,
+      "home_team_raw": null,
+      "away": null,
+      "home": null,
+      "raw_text_sample": "Make The Right Picks If you play on PrizePicks, you should check out the RotoWire Picks tool. Get our best picks for today's NBA games. See Our Top Picks For PrizePicks",
+      "starters_lists_detected": []
+    },
+    {
+      "away_team_raw": "IND",
+      "home_team_raw": "BOS",
+      "away": "IND",
+      "home": "BOS",
+      "raw_text_sample": "7:30 PM ET Watch Now Tickets Alerts IND BOS Pacers (6-23) Celtics (18-11) Confirmed Lineup PG A. Nembhard SG E. Thompson SF B. Mathurin PF Pascal Siakam C Jay Huff Projected Minute",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG A. Nembhard",
+          "SG E. Thompson",
+          "SF B. Mathurin",
+          "PF Pascal Siakam",
+          "C Jay Huff",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "G T. Haliburton OFS",
+          "C I. Jackson Ques",
+          "G T. McConnell Ques",
+          "F A. Nesmith Out",
+          "G B. Sheppard Out",
+          "F Obi Toppin Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG P. Pritchard",
+          "SG Derrick White",
+          "SF Jaylen Brown",
+          "PF Josh Minott",
+          "C Neemias Queta",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F J. Walsh Ques",
+          "F J. Tatum Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "DAL",
+      "home_team_raw": "NOP",
+      "away": "DAL",
+      "home": "NOP",
+      "raw_text_sample": "8:00 PM ET Watch Now Tickets Alerts DAL NOP Mavericks (11-19) Pelicans (8-22) Confirmed Lineup PG Ryan Nembhard SG Naji Marshall SF Cooper Flagg PF P. Washington C Anthony Davis Pr",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG Ryan Nembhard",
+          "SG Naji Marshall",
+          "SF Cooper Flagg",
+          "PF P. Washington",
+          "C Anthony Davis",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "G M. Christie Ques",
+          "G Dante Exum OFS",
+          "C D. Lively OFS",
+          "G K. Irving Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG J. Fears",
+          "SG Trey Murphy",
+          "SF H. Jones Ques",
+          "PF Saddiq Bey",
+          "C Derik Queen",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F H. Jones Ques",
+          "G D. Murray Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "UTA",
+      "home_team_raw": "DEN",
+      "away": "UTA",
+      "home": "DEN",
+      "raw_text_sample": "9:00 PM ET Watch Now Tickets Alerts UTA DEN Jazz (10-18) Nuggets (21-7) Confirmed Lineup PG K. George SG S. Mykhailiuk SF Ace Bailey PF L. Markkanen C Jusuf Nurkic Projected Minute",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG K. George",
+          "SG S. Mykhailiuk",
+          "SF Ace Bailey",
+          "PF L. Markkanen",
+          "C Jusuf Nurkic",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C W. Kessler OFS",
+          "C K. Love Ques",
+          "F G. Niang Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG Jamal Murray",
+          "SG C. Johnson",
+          "SF Spencer Jones",
+          "PF Peyton Watson",
+          "C Nikola Jokic",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "G T. Bates Out",
+          "G C. Braun Out",
+          "F A. Gordon Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "MEM",
+      "home_team_raw": "OKC",
+      "away": "MEM",
+      "home": "OKC",
+      "raw_text_sample": "9:30 PM ET Watch Now Tickets Alerts MEM OKC Grizzlies (13-16) Thunder (26-3) Confirmed Lineup PG Cam Spencer SG Cedric Coward SF Jaylen Wells PF Jaren Jackson C Jock Landale Projec",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG Cam Spencer",
+          "SG Cedric Coward",
+          "SF Jaylen Wells",
+          "PF Jaren Jackson",
+          "C Jock Landale",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "G J. Morant Ques",
+          "F V. Williams Ques",
+          "F B. Clarke Out",
+          "C Zach Edey Out",
+          "G Ty Jerome Out",
+          "F J. Konchar Out",
+          "G S. Pippen Out",
+          "G J. Small Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG S. Gilgeous-Alexander",
+          "SG Cason Wallace",
+          "SF Luguentz Dort",
+          "PF J. Williams",
+          "C B. Carlson",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F A. Caruso Ques",
+          "F O. Dieng Ques",
+          "C I. Hartenstein Ques",
+          "C C. Holmgren Ques",
+          "G A. Mitchell Ques",
+          "C T. Sorber OFS",
+          "F A. Wiggins Ques",
+          "C J. Williams Ques",
+          "G N. Topic Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "ORL",
+      "home_team_raw": "GSW",
+      "away": "ORL",
+      "home": "GSW",
+      "raw_text_sample": "10:00 PM ET Watch Now Tickets Alerts ORL GSW Magic (16-13) Warriors (15-15) Confirmed Lineup PG Tyus Jones SG Anthony Black SF Desmond Bane PF P. Banchero C W. Carter Projected Min",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG Tyus Jones",
+          "SG Anthony Black",
+          "SF Desmond Bane",
+          "PF P. Banchero",
+          "C W. Carter",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F T. da Silva Ques",
+          "G J. Suggs Ques",
+          "C C. Castleton Out",
+          "C M. Wagner Out",
+          "F F. Wagner Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG Stephen Curry",
+          "SG Moses Moody",
+          "SF Jimmy Butler",
+          "PF D. Green",
+          "C Quinten Post",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "G S. Curry Ques",
+          "C A. Horford Ques"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "DET",
+      "home_team_raw": "POR",
+      "away": "DET",
+      "home": "POR",
+      "raw_text_sample": "10:00 PM ET Watch Now Tickets Alerts DET POR Pistons (23-6) Trail Blazers (12-17) Confirmed Lineup PG C. Cunningham SG D. Robinson SF A. Thompson PF Tobias Harris C Jalen Duren Pro",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG C. Cunningham",
+          "SG D. Robinson",
+          "SF A. Thompson",
+          "PF Tobias Harris",
+          "C Jalen Duren",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F R. Holland Ques"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG Deni Avdija",
+          "SG S. Sharpe",
+          "SF T. Camara",
+          "PF Kris Murray",
+          "C D. Clingan",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F J. Grant Ques",
+          "G D. Lillard OFS",
+          "G S. Henderson Out",
+          "G J. Holiday Out",
+          "F M. Thybulle Out",
+          "G B. Wesley Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": null,
+      "home_team_raw": null,
+      "away": null,
+      "home": null,
+      "raw_text_sample": "You may also be interested in... Daily Fantasy NBA Tools Build the best lineup for today's NBA games. Lineup Optimizer Generate the optimal NBA lineup. Best NBA Picks & Prop Bets S",
+      "starters_lists_detected": []
+    }
+  ],
+  "note": "best-effort parser. raw HTML saved as rotowire_lineups_raw.html"
+}

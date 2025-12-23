@@ -1,20 +1,11 @@
 {
   "source": "CBS+ESPN best-effort",
-  "as_of_utc": "2025-12-23T07:09:57.442138+00:00",
-  "as_of_et": "2025-12-23T02:09:57.442138-05:00",
-  "as_of_kst": "2025-12-23T16:09:57.442138+09:00",
+  "as_of_utc": "2025-12-23T07:51:33.691106+00:00",
+  "as_of_et": "2025-12-23T02:51:33.691106-05:00",
+  "as_of_kst": "2025-12-23T16:51:33.691106+09:00",
   "cbs": {
     "status": "OK",
     "rows": [
-      {
-        "cols": [
-          "E. N'Diaye Eli N'Diaye",
-          "PF",
-          "Mon, Dec 22",
-          "Shoulder",
-          "Out for the season"
-        ]
-      },
       {
         "cols": [
           "M. Gueye Mouhamed Gueye",
@@ -31,6 +22,15 @@
           "Mon, Dec 22",
           "Hip",
           "Expected to be out until at least Dec 26"
+        ]
+      },
+      {
+        "cols": [
+          "E. N'Diaye Eli N'Diaye",
+          "PF",
+          "Mon, Dec 22",
+          "Shoulder",
+          "Expected to be out until at least Jul 2"
         ]
       },
       {

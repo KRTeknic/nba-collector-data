@@ -1,0 +1,57 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2025-12-23T07:51:33.691106+00:00",
+  "as_of_et": "2025-12-23T02:51:33.691106-05:00",
+  "as_of_kst": "2025-12-23T16:51:33.691106+09:00",
+  "rows": [
+    {
+      "game": "Charlotte @ Cleveland",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Natalie Sago (#9)",
+      "umpire": "Sha'Rae Mitchell (#98)",
+      "alternate": ""
+    },
+    {
+      "game": "Indiana @ Boston",
+      "crew_chief": "Kevin Scott (#24)",
+      "referee": "Nate Green (#41)",
+      "umpire": "Simone Jelks (#81)",
+      "alternate": ""
+    },
+    {
+      "game": "Dallas @ New Orleans",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Leon Wood (#40)",
+      "alternate": ""
+    },
+    {
+      "game": "Utah @ Denver",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Ashley Moyer-Gleich (#13)",
+      "umpire": "Jenna Schroeder (#20)",
+      "alternate": ""
+    },
+    {
+      "game": "Memphis @ Oklahoma City",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Gediminas Petraitis (#50)",
+      "umpire": "Dannica Baroody (#89)",
+      "alternate": ""
+    },
+    {
+      "game": "Orlando @ Golden State",
+      "crew_chief": "Marc Davis (#8)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "Robert Hussey (#85)",
+      "alternate": ""
+    },
+    {
+      "game": "Detroit @ Portland",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Jenna Reneau (#93)",
+      "alternate": ""
+    }
+  ]
+}

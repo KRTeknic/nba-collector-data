@@ -3488,6 +3488,30 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-9.5",
+                  "opening_spread": -9.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "9.5",
+                  "opening_spread": 9.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
@@ -3706,14 +3730,14 @@
                   "type": "home",
                   "odds": "1.455",
                   "opening_odds": "1.476",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
                   "odds": "2.840",
                   "opening_odds": "2.760",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://servedby.flashtalking.com/click/8/270247;9354109;369307;211;0/?ft_width=1&ft_height=1&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&us_privacy=${US_PRIVACY}&url=41387574",
@@ -3795,13 +3819,37 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-5.5",
+                  "opening_spread": -5.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "5.5",
+                  "opening_spread": 5.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.760",
+                  "odds": "1.790",
                   "opening_odds": "1.830",
                   "odds_trend": "up",
                   "spread": "-4.5",
@@ -3810,9 +3858,9 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "2.060",
+                  "odds": "2.020",
                   "opening_odds": "1.870",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "4.5",
                   "opening_spread": 6.5
                 }
@@ -3827,7 +3875,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.760",
+                  "odds": "1.790",
                   "opening_odds": "1.830",
                   "odds_trend": "up",
                   "spread": "-4.5",
@@ -3836,9 +3884,9 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "2.060",
+                  "odds": "2.020",
                   "opening_odds": "1.870",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "4.5",
                   "opening_spread": 6.5
                 }
@@ -3969,14 +4017,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.250",
+                  "odds": "1.240",
                   "opening_odds": "1.190",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "4.150",
+                  "odds": "4.300",
                   "opening_odds": "4.700",
                   "odds_trend": "up"
                 }
@@ -3991,14 +4039,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.250",
+                  "odds": "1.240",
                   "opening_odds": "1.190",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "4.150",
+                  "odds": "4.300",
                   "opening_odds": "4.700",
                   "odds_trend": "up"
                 }
@@ -4013,14 +4061,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.270",
+                  "odds": "1.256",
                   "opening_odds": "1.313",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.950",
+                  "odds": "4.100",
                   "opening_odds": "3.600",
                   "odds_trend": "up"
                 }
@@ -4104,25 +4152,49 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-9.5",
+                  "opening_spread": -9.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "9.5",
+                  "opening_spread": 9.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.840",
+                  "odds": "1.910",
                   "opening_odds": "1.840",
                   "odds_trend": "down",
-                  "spread": "-8.5",
+                  "spread": "-9.5",
                   "opening_spread": -8.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.970",
+                  "odds": "1.890",
                   "opening_odds": "1.860",
                   "odds_trend": "up",
-                  "spread": "8.5",
+                  "spread": "9.5",
                   "opening_spread": 8.5
                 }
               ],
@@ -4136,19 +4208,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.840",
+                  "odds": "1.910",
                   "opening_odds": "1.840",
                   "odds_trend": "down",
-                  "spread": "-8.5",
+                  "spread": "-9.5",
                   "opening_spread": -8.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.970",
+                  "odds": "1.890",
                   "opening_odds": "1.860",
                   "odds_trend": "up",
-                  "spread": "8.5",
+                  "spread": "9.5",
                   "opening_spread": 8.5
                 }
               ],
@@ -4186,19 +4258,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "2.000",
+                  "odds": "1.850",
                   "opening_odds": "1.850",
-                  "odds_trend": "up",
-                  "spread": "-10.5",
+                  "odds_trend": "down",
+                  "spread": "-9.5",
                   "opening_spread": -8.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.750",
+                  "odds": "1.900",
                   "opening_odds": "1.900",
-                  "odds_trend": "down",
-                  "spread": "10.5",
+                  "odds_trend": "up",
+                  "spread": "9.5",
                   "opening_spread": 8.5
                 }
               ],
@@ -4212,18 +4284,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.952",
+                  "odds": "1.909",
                   "opening_odds": "1.909",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-9.5",
                   "opening_spread": -9.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.870",
+                  "odds": "1.909",
                   "opening_odds": "1.909",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "9.5",
                   "opening_spread": 9.5
                 }
@@ -4410,25 +4482,47 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-4.5",
+                  "opening_spread": -4.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "4.5",
+                  "opening_spread": 4.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.810",
+                  "odds": "2.030",
                   "opening_odds": "1.900",
-                  "odds_trend": "down",
-                  "spread": "-3.5",
+                  "spread": "-5.5",
                   "opening_spread": -3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.890",
+                  "odds": "1.780",
                   "opening_odds": "1.790",
-                  "odds_trend": "up",
-                  "spread": "3.5",
+                  "spread": "5.5",
                   "opening_spread": 3.5
                 }
               ],
@@ -4442,19 +4536,17 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.810",
+                  "odds": "2.030",
                   "opening_odds": "1.900",
-                  "odds_trend": "down",
-                  "spread": "-3.5",
+                  "spread": "-5.5",
                   "opening_spread": -3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.890",
+                  "odds": "1.780",
                   "opening_odds": "1.790",
-                  "odds_trend": "up",
-                  "spread": "3.5",
+                  "spread": "5.5",
                   "opening_spread": 3.5
                 }
               ],
@@ -4518,7 +4610,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.952",
+                  "odds": "1.909",
                   "opening_odds": "1.952",
                   "odds_trend": "down",
                   "spread": "-4.5",
@@ -4527,7 +4619,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.870",
+                  "odds": "1.909",
                   "opening_odds": "1.870",
                   "odds_trend": "up",
                   "spread": "4.5",
@@ -4717,6 +4809,30 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "1.5",
+                  "opening_spread": 1.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-1.5",
+                  "opening_spread": -1.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
@@ -4799,19 +4915,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "2.050",
+                  "odds": "1.950",
                   "opening_odds": "1.950",
                   "odds_trend": "down",
-                  "spread": "-2.5",
+                  "spread": "-1.5",
                   "opening_spread": -1.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.720",
+                  "odds": "1.800",
                   "opening_odds": "1.800",
                   "odds_trend": "up",
-                  "spread": "2.5",
+                  "spread": "1.5",
                   "opening_spread": 1.5
                 }
               ],
@@ -4953,16 +5069,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.480",
+                  "odds": "1.500",
                   "opening_odds": "1.580",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "2.700",
+                  "odds": "2.650",
                   "opening_odds": "2.450",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.tab.com.au/sports/betting/Basketball/competitions/NBA",
@@ -5020,6 +5136,30 @@
               ],
               "url": "https://sitio.supermatch.com.uy/prematch/492/betting/sports/3/leagues/-1003",
               "countryCode": "UY"
+            },
+            {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-5.5",
+                  "opening_spread": -5.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "5.5",
+                  "opening_spread": 5.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
             },
             {
               "id": "sr:book:6565",
@@ -5104,19 +5244,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.750",
+                  "odds": "1.900",
                   "opening_odds": "1.900",
                   "odds_trend": "down",
-                  "spread": "-4.5",
+                  "spread": "-5.5",
                   "opening_spread": -4.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "2.000",
+                  "odds": "1.850",
                   "opening_odds": "1.850",
                   "odds_trend": "up",
-                  "spread": "4.5",
+                  "spread": "5.5",
                   "opening_spread": 4.5
                 }
               ],
@@ -5323,6 +5463,30 @@
               ],
               "url": "https://sitio.supermatch.com.uy/prematch/492/betting/sports/3/leagues/-1003",
               "countryCode": "UY"
+            },
+            {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-6.5",
+                  "opening_spread": -6.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "6.5",
+                  "opening_spread": 6.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
             },
             {
               "id": "sr:book:6565",
@@ -5585,16 +5749,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.333",
+                  "odds": "1.339",
                   "opening_odds": "1.364",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.400",
+                  "odds": "3.300",
                   "opening_odds": "3.200",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://sports.sportingbet.bet.br/?wm=5507762&utm_source=app-nba-voa&utm_campaign=linkdabioappnba2025&utm_content={{ad.id}}&utm_medium=appnba-{{campaign.id}}_{{adset.id}}_{{ad.id}}&utm_term=5507762-linkdabioappnba2025-sptbet-sprts-br-2025-1-2-pt-app--acq-app&tdpeh=fb-{{ad.id}}{{site_source_name}}{{placement}}",
@@ -5630,6 +5794,30 @@
               ],
               "url": "https://sitio.supermatch.com.uy/prematch/492/betting/sports/3/leagues/-1003",
               "countryCode": "UY"
+            },
+            {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "7.5",
+                  "opening_spread": 7.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-7.5",
+                  "opening_spread": -7.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
             },
             {
               "id": "sr:book:6565",
@@ -5738,18 +5926,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.909",
+                  "odds": "1.870",
                   "opening_odds": "1.952",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "7.5",
                   "opening_spread": 6.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.909",
+                  "odds": "1.952",
                   "opening_odds": "1.870",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "-7.5",
                   "opening_spread": -6.5
                 }
@@ -5868,16 +6056,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "3.200",
+                  "odds": "2.900",
                   "opening_odds": "3.000",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.370",
+                  "odds": "1.440",
                   "opening_odds": "1.410",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://www.tab.com.au/sports/betting/Basketball/competitions/NBA",
@@ -5890,16 +6078,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.364",
+                  "odds": "1.455",
                   "opening_odds": "1.351",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.200",
+                  "odds": "2.800",
                   "opening_odds": "3.300",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://sports.sportingbet.bet.br/?wm=5507762&utm_source=app-nba-voa&utm_campaign=linkdabioappnba2025&utm_content={{ad.id}}&utm_medium=appnba-{{campaign.id}}_{{adset.id}}_{{ad.id}}&utm_term=5507762-linkdabioappnba2025-sptbet-sprts-br-2025-1-2-pt-app--acq-app&tdpeh=fb-{{ad.id}}{{site_source_name}}{{placement}}",
@@ -5937,25 +6125,49 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "6.5",
+                  "opening_spread": 6.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-6.5",
+                  "opening_spread": -6.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.860",
+                  "odds": "1.940",
                   "opening_odds": "1.870",
-                  "odds_trend": "up",
-                  "spread": "6.5",
+                  "odds_trend": "down",
+                  "spread": "5.5",
                   "opening_spread": 3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.940",
+                  "odds": "1.860",
                   "opening_odds": "1.830",
                   "odds_trend": "up",
-                  "spread": "-6.5",
+                  "spread": "-5.5",
                   "opening_spread": -3.5
                 }
               ],
@@ -5969,19 +6181,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.860",
+                  "odds": "1.940",
                   "opening_odds": "1.870",
-                  "odds_trend": "up",
-                  "spread": "6.5",
+                  "odds_trend": "down",
+                  "spread": "5.5",
                   "opening_spread": 3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.940",
+                  "odds": "1.860",
                   "opening_odds": "1.830",
                   "odds_trend": "up",
-                  "spread": "-6.5",
+                  "spread": "-5.5",
                   "opening_spread": -3.5
                 }
               ],
@@ -6021,19 +6233,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.900",
                   "opening_odds": "2.000",
-                  "odds_trend": "up",
-                  "spread": "7.5",
+                  "odds_trend": "down",
+                  "spread": "5.5",
                   "opening_spread": 5.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.900",
+                  "odds": "1.850",
                   "opening_odds": "1.750",
-                  "odds_trend": "down",
-                  "spread": "-7.5",
+                  "odds_trend": "up",
+                  "spread": "-5.5",
                   "opening_spread": -5.5
                 }
               ],
@@ -6047,19 +6259,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.909",
+                  "odds": "1.980",
                   "opening_odds": "1.980",
-                  "odds_trend": "up",
-                  "spread": "6.5",
+                  "odds_trend": "down",
+                  "spread": "4.5",
                   "opening_spread": 6.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.909",
+                  "odds": "1.847",
                   "opening_odds": "1.847",
-                  "odds_trend": "down",
-                  "spread": "-6.5",
+                  "odds_trend": "up",
+                  "spread": "-4.5",
                   "opening_spread": -6.5
                 }
               ],
@@ -6242,6 +6454,30 @@
               ],
               "url": "https://sitio.supermatch.com.uy/prematch/492/betting/sports/3/leagues/-1003",
               "countryCode": "UY"
+            },
+            {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "2.5",
+                  "opening_spread": 2.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-2.5",
+                  "opening_spread": -2.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
             },
             {
               "id": "sr:book:6565",
@@ -6547,6 +6783,30 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-5.5",
+                  "opening_spread": -5.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "5.5",
+                  "opening_spread": 5.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
@@ -6759,14 +7019,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "3.800",
+                  "odds": "3.750",
                   "opening_odds": "4.150",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.286",
+                  "odds": "1.294",
                   "opening_odds": "1.250",
                   "odds_trend": "up"
                 }
@@ -6850,6 +7110,30 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "8.5",
+                  "opening_spread": 8.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-8.5",
+                  "opening_spread": -8.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
@@ -6908,17 +7192,17 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.909",
+                  "odds": "1.943",
                   "opening_odds": "1.909",
-                  "spread": "8.5",
+                  "spread": "8",
                   "opening_spread": 9
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.909",
+                  "odds": "1.877",
                   "opening_odds": "1.909",
-                  "spread": "-8.5",
+                  "spread": "-8",
                   "opening_spread": -9
                 }
               ],
@@ -7088,16 +7372,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.050",
+                  "odds": "2.100",
                   "opening_odds": "2.100",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.800",
+                  "odds": "1.770",
                   "opening_odds": "1.770",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.tab.com.au/sports/betting/Basketball/competitions/NBA",
@@ -7153,6 +7437,30 @@
               ],
               "url": "https://sitio.supermatch.com.uy/prematch/492/betting/sports/3/leagues/-1003",
               "countryCode": "UY"
+            },
+            {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "1.5",
+                  "opening_spread": 1.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-1.5",
+                  "opening_spread": -1.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
             },
             {
               "id": "sr:book:6565",
@@ -7261,18 +7569,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.847",
+                  "odds": "1.870",
                   "opening_odds": "1.870",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "2.5",
                   "opening_spread": 2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.980",
+                  "odds": "1.952",
                   "opening_odds": "1.952",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-2.5",
                   "opening_spread": -2.5
                 }
@@ -7459,6 +7767,30 @@
               "countryCode": "UY"
             },
             {
+              "id": "sr:book:5277",
+              "name": "Mozzartbet",
+              "outcomes": [
+                {
+                  "odds_field_id": 10,
+                  "type": "home",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "6.5",
+                  "opening_spread": 6.5
+                },
+                {
+                  "odds_field_id": 12,
+                  "type": "away",
+                  "odds": "1.900",
+                  "opening_odds": "1.900",
+                  "spread": "-6.5",
+                  "opening_spread": -6.5
+                }
+              ],
+              "url": "https://www.mozzartbet.com/sr/nba?utm_source=nba&utm_medium=mbet&utm_campaign=nba_match_schedule_mbet",
+              "countryCode": "RS"
+            },
+            {
               "id": "sr:book:6565",
               "name": "Novibet",
               "outcomes": [
@@ -7631,7 +7963,7 @@
                   "type": "home",
                   "odds": "1.430",
                   "opening_odds": "1.700",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
@@ -7653,7 +7985,7 @@
                   "type": "home",
                   "odds": "1.430",
                   "opening_odds": "1.700",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
@@ -7794,19 +8126,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.950",
+                  "odds": "1.850",
                   "opening_odds": "1.850",
                   "odds_trend": "up",
-                  "spread": "-6.5",
+                  "spread": "-5.5",
                   "opening_spread": -2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.760",
+                  "odds": "1.850",
                   "opening_odds": "1.850",
                   "odds_trend": "down",
-                  "spread": "6.5",
+                  "spread": "5.5",
                   "opening_spread": 2.5
                 }
               ],
@@ -7820,19 +8152,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.950",
+                  "odds": "1.850",
                   "opening_odds": "1.850",
                   "odds_trend": "up",
-                  "spread": "-6.5",
+                  "spread": "-5.5",
                   "opening_spread": -2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.760",
+                  "odds": "1.850",
                   "opening_odds": "1.850",
                   "odds_trend": "down",
-                  "spread": "6.5",
+                  "spread": "5.5",
                   "opening_spread": 2.5
                 }
               ],
@@ -8283,14 +8615,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.320",
+                  "odds": "1.310",
                   "opening_odds": "1.510",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.400",
+                  "odds": "3.450",
                   "opening_odds": "2.550",
                   "odds_trend": "up"
                 }
@@ -8305,14 +8637,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.320",
+                  "odds": "1.310",
                   "opening_odds": "1.510",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.400",
+                  "odds": "3.450",
                   "opening_odds": "2.550",
                   "odds_trend": "up"
                 }
@@ -8448,7 +8780,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.880",
+                  "odds": "1.860",
                   "opening_odds": "1.750",
                   "odds_trend": "down",
                   "spread": "-7.5",
@@ -8457,7 +8789,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.820",
+                  "odds": "1.830",
                   "opening_odds": "1.950",
                   "odds_trend": "up",
                   "spread": "7.5",
@@ -8474,7 +8806,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.880",
+                  "odds": "1.860",
                   "opening_odds": "1.750",
                   "odds_trend": "down",
                   "spread": "-7.5",
@@ -8483,7 +8815,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.820",
+                  "odds": "1.830",
                   "opening_odds": "1.950",
                   "odds_trend": "up",
                   "spread": "7.5",
@@ -8680,14 +9012,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.550",
+                  "odds": "2.600",
                   "opening_odds": "1.800",
                   "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.540",
+                  "odds": "1.520",
                   "opening_odds": "2.000",
                   "odds_trend": "down"
                 }
@@ -8855,19 +9187,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.950",
+                  "odds": "1.900",
                   "opening_odds": "1.900",
                   "odds_trend": "up",
-                  "spread": "3.5",
+                  "spread": "4.5",
                   "opening_spread": -1.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.800",
+                  "odds": "1.850",
                   "opening_odds": "1.900",
                   "odds_trend": "down",
-                  "spread": "-3.5",
+                  "spread": "-4.5",
                   "opening_spread": 1.5
                 }
               ],
@@ -8881,7 +9213,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.909",
+                  "odds": "1.952",
                   "opening_odds": "1.909",
                   "odds_trend": "up",
                   "spread": "4.5",
@@ -8890,7 +9222,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.909",
+                  "odds": "1.870",
                   "opening_odds": "1.909",
                   "odds_trend": "down",
                   "spread": "-4.5",
