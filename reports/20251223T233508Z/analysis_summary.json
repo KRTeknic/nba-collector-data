@@ -1,0 +1,15 @@
+{
+  "schema": "RESUME_AUTO_ANALYSIS_REPORT_V1",
+  "run_kind": "DELTA_0805",
+  "as_of_kst": "2025-12-24T08:35:13.599334+09:00",
+  "as_of_et": "2025-12-23T18:35:13.599334-05:00",
+  "snapshot_ts": "20251223T233508Z",
+  "baseline_ts": "20251223T135526Z",
+  "slate_date_kst": "2025-12-24",
+  "slate_date_et": "2025-12-23",
+  "anchors_ok": 0,
+  "anchors_fail": 0,
+  "unresolved": [
+    "INJURY_PDF_FAILED"
+  ]
+}
