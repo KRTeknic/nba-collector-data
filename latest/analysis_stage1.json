@@ -1,0 +1,65 @@
+{
+  "schema_version": "ANALYSIS_STAGE_V1",
+  "stage": "STAGE1",
+  "run_ts": "20251223T210022Z",
+  "as_of_utc": "2025-12-23T21:00:25.014090+00:00",
+  "as_of_kst": "2025-12-24T06:00:25.014090+09:00",
+  "as_of_et": "2025-12-23T16:00:25.014090-05:00",
+  "slate_date_kst": "2025-12-24",
+  "slate_date_et": "2025-12-23",
+  "domestic_mode": "ANCHOR",
+  "domestic_lines_count": 14,
+  "market_rows_count": 14,
+  "portfolio": [
+    {
+      "type": "TOTAL",
+      "game": "CLE -9.5 239.5 NOP",
+      "pair_key": "CLE-NOP",
+      "pick": "CLE@NOP Over 239.5",
+      "edge": 6.0,
+      "note": "OVER_VALUE",
+      "market": "CLE -8.5",
+      "market_total": 245.5
+    },
+    {
+      "type": "TOTAL",
+      "game": "IND +1.5 221.5 MIL",
+      "pair_key": "IND-MIL",
+      "pick": "IND@MIL Under 221.5",
+      "edge": 3.0,
+      "note": "UNDER_VALUE",
+      "market": "MIL -1.5",
+      "market_total": 218.5
+    },
+    {
+      "type": "TOTAL",
+      "game": "DAL +7.5 238.5 DEN",
+      "pair_key": "DAL-DEN",
+      "pick": "DAL@DEN Under 238.5",
+      "edge": 3.0,
+      "note": "UNDER_VALUE",
+      "market": "DEN -6.5",
+      "market_total": 235.5
+    },
+    {
+      "type": "TOTAL",
+      "game": "MIN -6.5 226.5 NYK",
+      "pair_key": "MIN-NYK",
+      "pick": "MIN@NYK Over 226.5",
+      "edge": 3.0,
+      "note": "OVER_VALUE",
+      "market": "MIN -7.5",
+      "market_total": 229.5
+    }
+  ],
+  "unresolved": [
+    {
+      "game": "CHA -5.5 235.5 WAS",
+      "reason": "NO_MARKET_MATCH"
+    }
+  ],
+  "manifest_ref": {
+    "run_kind": "MANUAL_DISPATCH",
+    "baseline_ts": "20251223T135526Z"
+  }
+}
