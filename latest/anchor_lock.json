@@ -1,10 +1,9 @@
 {
   "schema_version": "ANCHOR_LOCK_V1",
   "mode": "LOCK",
-  "received_at_utc": "2025-12-23T15:21:22Z",
+  "received_at_utc": "2025-12-23T15:33:42.606Z",
   "chat_id": "5102411363",
-  "kst_slate_date": "2025-12-24",
-  "open_anchor_text": "CHA -5.5 235.5 WAS\nPHI -9.5 218.5 BKN\nATL -4.5 254.5 CHI\nCLE -9.5 239.5 NOP\nIND +1.5 221.5 MIL\nMIA -5.5 229.5 TOR\nDAL +7.5 238.5 DEN\nMIN -6.5 226.5 NYK\nSAS +6.5 235.5 OKC\nPHX -5.5 226.5 LAL\nUTA +2.5 245.5 MEM\nPOR +1.5 234.5 ORL\nSAC +8.5 228.5 DET\nLAC +6.5 221.5 HOU",
+  "open_anchor_text": "CHA -5.5 235.5 WAS\nPHI -9.5 218.5 BKN\nATL -4.5 254.5 CHI\nCLE -9.5 239.5 NOP\nIND +1.5 221.5 MIL\nMIA -5.5 229.5 TOR\nDAL +7.5 238.5 DEN\nMIN -6.5 226.5 NYK\nSAS +6.5 235.5 OKC\nPHX -5.5 226.5 LAL\nUTA +2.5 245.5 MEM\nPOR +1.5 234.5 ORL\nSAC +8.5 228.5 DET\nLAC +6.5 221.5 HOU\n",
   "open_anchor_lines": [
     "CHA -5.5 235.5 WAS",
     "PHI -9.5 218.5 BKN",
