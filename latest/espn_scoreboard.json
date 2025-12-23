@@ -5017,6 +5017,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "6-23"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-10"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-13"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -5177,24 +5195,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "6-23"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "5-10"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-13"
                 }
               ]
             },
@@ -6717,7 +6717,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $65",
-              "numberAvailable": 1813,
+              "numberAvailable": 1817,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-23-2025--sports-nba-basketball/production/5939870?wsUser=717"
@@ -7623,6 +7623,24 @@
                   "displayValue": "40.3"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "21-7"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "9-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "12-2"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -7783,24 +7801,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "21-7"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "9-5"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "12-2"
                 }
               ]
             }
