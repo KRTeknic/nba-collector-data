@@ -3062,24 +3062,6 @@
                   "rankDisplayValue": "1st"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "13-15"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "7-6"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "6-9"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -3240,6 +3222,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "13-15"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "7-6"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "6-9"
                 }
               ]
             }
@@ -4425,7 +4425,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $11",
-              "numberAvailable": 494,
+              "numberAvailable": 473,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-cavaliers-tickets-rocket-arena-12-23-2025--sports-nba-basketball/production/5940029?wsUser=717"
@@ -10117,8 +10117,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $60",
-              "numberAvailable": 509,
+              "summary": "Tickets as low as $65",
+              "numberAvailable": 472,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-antonio-spurs-tickets-frost-bank-center-12-23-2025--sports-nba-basketball/production/5939908?wsUser=717"
