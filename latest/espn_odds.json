@@ -1,8 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2025-12-23T11:59:56.643470+00:00",
-  "as_of_et": "2025-12-23T06:59:56.643470-05:00",
-  "as_of_kst": "2025-12-23T20:59:56.643470+09:00",
+  "as_of_utc": "2025-12-23T12:15:31.470862+00:00",
+  "as_of_et": "2025-12-23T07:15:31.470862-05:00",
+  "as_of_kst": "2025-12-23T21:15:31.470862+09:00",
   "date_et": "20251223",
   "rows": [
     {
@@ -20,7 +20,7 @@
       "home": "PHI",
       "away": "BKN",
       "details": "PHI -9.5",
-      "total": 218.5,
+      "total": 219.5,
       "provider": "Draft Kings"
     },
     {
@@ -65,7 +65,7 @@
       "home": "DAL",
       "away": "DEN",
       "details": "DEN -7.5",
-      "total": 237.5,
+      "total": 238.5,
       "provider": "Draft Kings"
     },
     {
@@ -91,7 +91,7 @@
       "start_utc": "2025-12-24T02:00Z",
       "home": "PHX",
       "away": "LAL",
-      "details": "PHX -6.5",
+      "details": "PHX -5.5",
       "total": 226.5,
       "provider": "Draft Kings"
     },
