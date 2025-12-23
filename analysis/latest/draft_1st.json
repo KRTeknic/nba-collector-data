@@ -1,9 +1,9 @@
 {
   "SNAPSHOT_SOURCE": {
     "verified_at": {
-      "verified_at_utc": "2025-12-22T23:36:29.465263+00:00",
-      "verified_at_et": "2025-12-22T18:36:29.465263-05:00",
-      "verified_at_kst": "2025-12-23T08:36:29.465263+09:00"
+      "verified_at_utc": "2025-12-23T13:55:25.101366+00:00",
+      "verified_at_et": "2025-12-23T08:55:25.101366-05:00",
+      "verified_at_kst": "2025-12-23T22:55:25.101366+09:00"
     },
     "source_urls": {
       "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -12,7 +12,7 @@
     "manifest_status_summary": {
       "ESPN_ODDS": "OK",
       "ESPN_SCOREBOARD": "OK",
-      "NBA_INJURY_PDF": "OK: https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-12-22_08AM.pdf",
+      "NBA_INJURY_PDF": "",
       "NBA_REF_ASSIGNMENTS": "OK",
       "FATIGUE_PACK": ""
     }
@@ -20,105 +20,201 @@
   "MARKET_SNAPSHOT_LOG": {
     "rows": [
       {
-        "match": "CHA@CLE",
-        "details": "CLE -9.5",
-        "total": 239.5,
+        "match": "WSH@CHA",
+        "details": "CHA -5.5",
+        "total": 232.5,
         "provider": "Draft Kings",
-        "start_utc": "2025-12-23T00:00Z",
-        "event_id": "401810257"
+        "start_utc": "2025-12-24T00:00Z",
+        "event_id": "401810264"
       },
       {
-        "match": "IND@BOS",
-        "details": "BOS -11.5",
-        "total": 226.5,
+        "match": "BKN@PHI",
+        "details": "PHI -9.5",
+        "total": 218.5,
         "provider": "Draft Kings",
-        "start_utc": "2025-12-23T00:30Z",
-        "event_id": "401810258"
+        "start_utc": "2025-12-24T00:00Z",
+        "event_id": "401810265"
       },
       {
-        "match": "DAL@NO",
-        "details": "NO -1.5",
-        "total": 241.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-23T01:00Z",
-        "event_id": "401810259"
-      },
-      {
-        "match": "UTAH@DEN",
-        "details": "DEN -12.5",
+        "match": "CHI@ATL",
+        "details": "ATL -4.5",
         "total": 251.5,
         "provider": "Draft Kings",
-        "start_utc": "2025-12-23T02:00Z",
-        "event_id": "401810260"
+        "start_utc": "2025-12-24T00:30Z",
+        "event_id": "401810266"
       },
       {
-        "match": "MEM@OKC",
-        "details": "OKC -15.5",
+        "match": "NO@CLE",
+        "details": "CLE -9.5",
+        "total": 244.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T00:30Z",
+        "event_id": "401810267"
+      },
+      {
+        "match": "MIL@IND",
+        "details": "MIL -1.5",
+        "total": 218.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T00:30Z",
+        "event_id": "401810268"
+      },
+      {
+        "match": "TOR@MIA",
+        "details": "MIA -5.5",
+        "total": 228.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T00:30Z",
+        "event_id": "401810269"
+      },
+      {
+        "match": "DEN@DAL",
+        "details": "DEN -6.5",
+        "total": 235.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T01:00Z",
+        "event_id": "401810270"
+      },
+      {
+        "match": "NY@MIN",
+        "details": "MIN -7.5",
+        "total": 228.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T01:00Z",
+        "event_id": "401810271"
+      },
+      {
+        "match": "OKC@SA",
+        "details": "OKC -5.5",
         "total": 233.5,
         "provider": "Draft Kings",
-        "start_utc": "2025-12-23T02:30Z",
-        "event_id": "401810261"
+        "start_utc": "2025-12-24T01:30Z",
+        "event_id": "401810272"
       },
       {
-        "match": "ORL@GS",
-        "details": "GS -6.5",
+        "match": "LAL@PHX",
+        "details": "PHX -5.5",
+        "total": 226.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T02:00Z",
+        "event_id": "401810273"
+      },
+      {
+        "match": "MEM@UTAH",
+        "details": "MEM -3.5",
+        "total": 243.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T02:00Z",
+        "event_id": "401810274"
+      },
+      {
+        "match": "ORL@POR",
+        "details": "ORL -1.5",
+        "total": 232.5,
+        "provider": "Draft Kings",
+        "start_utc": "2025-12-24T03:00Z",
+        "event_id": "401810275"
+      },
+      {
+        "match": "DET@SAC",
+        "details": "DET -8.5",
         "total": 227.5,
         "provider": "Draft Kings",
-        "start_utc": "2025-12-23T03:00Z",
-        "event_id": "401810262"
+        "start_utc": "2025-12-24T03:00Z",
+        "event_id": "401810276"
       },
       {
-        "match": "DET@POR",
-        "details": "DET -6.5",
-        "total": 234.5,
+        "match": "HOU@LAC",
+        "details": "HOU -7.5",
+        "total": 219.5,
         "provider": "Draft Kings",
-        "start_utc": "2025-12-23T03:00Z",
-        "event_id": "401810263"
+        "start_utc": "2025-12-24T03:30Z",
+        "event_id": "401810277"
       }
     ],
     "drift_vs_open_anchor": []
   },
   "INJURY_SNAPSHOT_LOG": {
-    "nba_injury_report_pdf_present": true,
-    "nba_injury_report_pdf_path": "latest/nba_injury_report.pdf",
+    "nba_injury_report_pdf_present": false,
+    "nba_injury_report_pdf_path": null,
     "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장"
   },
-  "UNRESOLVED_ZONE": [],
+  "UNRESOLVED_ZONE": [
+    {
+      "tag": "U3",
+      "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
+    }
+  ],
   "DRAFT_ANALYSIS_1ST": {
     "status": "OK",
     "candidates": [
       {
-        "match": "CHA@CLE",
+        "match": "WSH@CHA",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       },
       {
-        "match": "IND@BOS",
+        "match": "BKN@PHI",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       },
       {
-        "match": "DAL@NO",
+        "match": "CHI@ATL",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       },
       {
-        "match": "UTAH@DEN",
+        "match": "NO@CLE",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       },
       {
-        "match": "MEM@OKC",
+        "match": "MIL@IND",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       },
       {
-        "match": "ORL@GS",
+        "match": "TOR@MIA",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       },
       {
-        "match": "DET@POR",
+        "match": "DEN@DAL",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "NY@MIN",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "OKC@SA",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "LAL@PHX",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "MEM@UTAH",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "ORL@POR",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "DET@SAC",
+        "candidate": "PASS",
+        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+      },
+      {
+        "match": "HOU@LAC",
         "candidate": "PASS",
         "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
       }
