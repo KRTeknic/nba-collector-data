@@ -1,7 +1,230 @@
 {
-  "source": "cbssports.com/nba/injuries",
-  "as_of_utc": "2025-12-23T21:31:22.484069+00:00",
-  "as_of_et": "2025-12-23T16:31:22.484069-05:00",
-  "as_of_kst": "2025-12-24T06:31:22.484069+09:00",
-  "status": "OK"
+  "source": "CBS+ESPN best-effort",
+  "as_of_utc": "2025-12-23T21:31:38.561373+00:00",
+  "as_of_et": "2025-12-23T16:31:38.561373-05:00",
+  "as_of_kst": "2025-12-24T06:31:38.561373+09:00",
+  "cbs": {
+    "status": "OK",
+    "rows": [
+      {
+        "cols": [
+          "N. Dante N'Faly Dante",
+          "C",
+          "Tue, Dec 23",
+          "Knee",
+          "Out for the season"
+        ]
+      },
+      {
+        "cols": [
+          "D. Daniels Dyson Daniels",
+          "SG",
+          "Mon, Dec 22",
+          "Hip",
+          "Expected to be out until at least Dec 26"
+        ]
+      },
+      {
+        "cols": [
+          "M. Gueye Mouhamed Gueye",
+          "PF",
+          "Mon, Dec 22",
+          "Shoulder",
+          "Game Time Decision"
+        ]
+      },
+      {
+        "cols": [
+          "E. N'Diaye Eli N'Diaye",
+          "PF",
+          "Mon, Dec 22",
+          "Shoulder",
+          "Out for the season"
+        ]
+      },
+      {
+        "cols": [
+          "K. Porzingis Kristaps Porzingis",
+          "C",
+          "Sun, Dec 14",
+          "Illness",
+          "Expected to be out until at least Dec 29"
+        ]
+      }
+    ]
+  },
+  "espn": {
+    "status": "OK",
+    "rows": [
+      {
+        "team": "ATL",
+        "team_id": "1",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "BKN",
+        "team_id": "17",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "CHA",
+        "team_id": "30",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "CHI",
+        "team_id": "4",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "CLE",
+        "team_id": "5",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "DAL",
+        "team_id": "6",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "DEN",
+        "team_id": "7",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "DET",
+        "team_id": "8",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "HOU",
+        "team_id": "10",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "IND",
+        "team_id": "11",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "LAC",
+        "team_id": "12",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "LAL",
+        "team_id": "13",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "MEM",
+        "team_id": "29",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "MIA",
+        "team_id": "14",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "MIL",
+        "team_id": "15",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "MIN",
+        "team_id": "16",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "NO",
+        "team_id": "3",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "NY",
+        "team_id": "18",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "OKC",
+        "team_id": "25",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "ORL",
+        "team_id": "19",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "PHI",
+        "team_id": "20",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "PHX",
+        "team_id": "21",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "POR",
+        "team_id": "22",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "SA",
+        "team_id": "24",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "SAC",
+        "team_id": "23",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "TOR",
+        "team_id": "28",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "UTAH",
+        "team_id": "26",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "WSH",
+        "team_id": "27",
+        "has_injuries_field": false,
+        "injuries": null
+      }
+    ]
+  },
+  "note": "공식 Injury PDF 실패 시 보조 확인용. 충돌 시 분석 단계에서 UNRESOLVED 유지."
 }
