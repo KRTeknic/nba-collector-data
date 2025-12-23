@@ -4546,7 +4546,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-410",
+                    "odds": "-380",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4578,7 +4578,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+320",
+                    "odds": "+300",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5588,7 +5588,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $16",
-              "numberAvailable": 1271,
+              "numberAvailable": 1318,
               "links": [
                 {
                   "href": "https://www.vividseats.com/indiana-pacers-tickets-gainbridge-fieldhouse-12-23-2025--sports-nba-basketball/production/5940472?wsUser=717"
@@ -6164,6 +6164,24 @@
                   "displayValue": "37.0"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "15-14"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "10-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "5-10"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -6324,24 +6342,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "15-14"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "10-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "5-10"
                 }
               ]
             },
@@ -11267,8 +11267,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $122",
-              "numberAvailable": 937,
+              "summary": "Tickets as low as $118",
+              "numberAvailable": 933,
               "links": [
                 {
                   "href": "https://www.vividseats.com/phoenix-suns-tickets-phx-arena-12-23-2025--sports-nba-basketball/production/5939875?wsUser=717"
@@ -11539,7 +11539,7 @@
                 "over": {
                   "close": {
                     "line": "o226.5",
-                    "odds": "-110",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11573,7 +11573,7 @@
                 "under": {
                   "close": {
                     "line": "u226.5",
-                    "odds": "-110",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13855,7 +13855,7 @@
                 "over": {
                   "close": {
                     "line": "o232.5",
-                    "odds": "-112",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13889,7 +13889,7 @@
                 "under": {
                   "close": {
                     "line": "u232.5",
-                    "odds": "-108",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -16012,7 +16012,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+235",
+                    "odds": "+245",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -16044,7 +16044,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-290",
+                    "odds": "-305",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -16081,7 +16081,7 @@
                 "home": {
                   "close": {
                     "line": "+7.5",
-                    "odds": "-112",
+                    "odds": "-102",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -16115,7 +16115,7 @@
                 "away": {
                   "close": {
                     "line": "-7.5",
-                    "odds": "-108",
+                    "odds": "-118",
                     "link": {
                       "language": "en-US",
                       "rel": [
