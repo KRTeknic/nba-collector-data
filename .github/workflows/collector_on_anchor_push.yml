@@ -1,0 +1,313 @@
+name: "NBA Snapshot Collector (Push-Triggered: anchor_lock/anchor_delta)"
+
+on:
+  push:
+    paths:
+      - "latest/anchor_lock.json"
+      - "latest/anchor_delta.json"
+  schedule:
+    - cron: "5 13 * * *"  # 22:05 KST (UTC 13:05)
+    - cron: "5 23 * * *"  # 08:05 KST (UTC 23:05)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-snapshot-push
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data repo (this repo)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install -U pip
+          pip install requests python-dateutil beautifulsoup4 lxml
+
+      - name: Compute RUN_TS (shared)
+        run: |
+          echo "RUN_TS=$(date -u +'%Y%m%dT%H%M%SZ')" >> "$GITHUB_ENV"
+
+      - name: Load OPEN_ANCHOR_TEXT from latest/anchor_lock.json (if exists)
+        id: anchor
+        env:
+          RUN_TS: ${{ env.RUN_TS }}
+        run: |
+          python - << 'PY'
+          import json, base64
+          from pathlib import Path
+
+          lock = Path("latest/anchor_lock.json")
+          txt = ""
+          if lock.exists():
+            obj = json.loads(lock.read_text(encoding="utf-8"))
+            txt = (obj.get("open_anchor_text") or "").strip() + "\n"
+          b64 = base64.b64encode(txt.encode("utf-8")).decode("ascii")
+
+          out = Path("/tmp/gh_out.txt")
+          out.write_text(f"open_anchor_b64={b64}\n", encoding="utf-8")
+          print(out.read_text(encoding="utf-8"))
+          PY
+          cat /tmp/gh_out.txt >> "$GITHUB_OUTPUT"
+
+      - name: Run collector (one-file)
+        env:
+          OPEN_ANCHOR_B64: ${{ steps.anchor.outputs.open_anchor_b64 }}
+          FAIL_FAST_ESPN_ODDS: "0"
+        run: |
+          python - << 'PY'
+          import os, re, json, math, base64
+          from pathlib import Path
+          from datetime import datetime, timedelta, timezone
+          from zoneinfo import ZoneInfo
+
+          import requests
+          from bs4 import BeautifulSoup
+
+          OUT = Path("out")
+          OUT.mkdir(parents=True, exist_ok=True)
+
+          KST = ZoneInfo("Asia/Seoul")
+          ET  = ZoneInfo("America/New_York")
+          now_utc = datetime.now(timezone.utc)
+          now_kst = now_utc.astimezone(KST)
+          now_et  = now_utc.astimezone(ET)
+
+          HEADERS = {
+            "User-Agent": "Mozilla/5.0 (compatible; TeknicCollector/3.0)",
+            "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9,ko;q=0.8",
+            "Referer": "https://www.nba.com/",
+          }
+
+          def get(url, timeout=30, allow_redirects=True):
+            return requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=allow_redirects)
+
+          def write_json(path: Path, obj):
+            path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          def espn_scoreboard(date_et_yyyymmdd: str, timeout=30):
+            url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={date_et_yyyymmdd}"
+            r = get(url, timeout=timeout)
+            r.raise_for_status()
+            return r.json()
+
+          def extract_pairs_from_scoreboard(sb_json):
+            pairs = set()
+            for ev in sb_json.get("events", []):
+              comp = (ev.get("competitions") or [None])[0]
+              if not comp:
+                continue
+              teams = comp.get("competitors") or []
+              home = next((t for t in teams if t.get("homeAway")=="home"), None)
+              away = next((t for t in teams if t.get("homeAway")=="away"), None)
+              h = ((home or {}).get("team", {}) or {}).get("abbreviation")
+              a = ((away or {}).get("team", {}) or {}).get("abbreviation")
+              if h and a:
+                pairs.add("-".join(sorted([h.upper(),a.upper()])))
+            return pairs
+
+          def parse_open_anchor(text: str):
+            games = []
+            if not text:
+              return games
+            for raw in text.splitlines():
+              line = re.sub(r"\s+", " ", raw.strip())
+              if not line:
+                continue
+              m = re.match(r"^([A-Z]{2,4})\s+([+\-]?\d+(\.\d+)?)\s+(\d+(\.\d+)?)\s+([A-Z]{2,4})$", line.upper())
+              if not m:
+                continue
+              t1 = m.group(1).upper()
+              spread = float(m.group(2))
+              total = float(m.group(4))
+              t2 = m.group(6).upper()
+              key = "-".join(sorted([t1, t2]))
+              games.append({"t1": t1, "t2": t2, "pair_key": key, "spread_t1": spread, "total": total, "raw": line})
+            return games
+
+          def resolve_date_et(anchor_games):
+            # 간단/안정: ET 오늘/어제/그저께 후보 중 앵커 매칭 최대치
+            candidates = [(now_et.date() - timedelta(days=2)),
+                          (now_et.date() - timedelta(days=1)),
+                          now_et.date()]
+            anchor_keys = {g["pair_key"] for g in anchor_games} if anchor_games else set()
+
+            best = candidates[1]
+            best_score = -1
+            scores = {}
+            for d in candidates:
+              d_et = d.strftime("%Y%m%d")
+              try:
+                sb = espn_scoreboard(d_et, timeout=20)
+                pairs = extract_pairs_from_scoreboard(sb)
+                sc = len(anchor_keys.intersection(pairs)) if anchor_keys else 0
+                scores[d_et] = {"matched": sc, "events": len(sb.get("events", []))}
+                if sc > best_score:
+                  best_score = sc
+                  best = d
+              except Exception as e:
+                scores[d_et] = {"error": str(e)}
+            return best.strftime("%Y%m%d"), scores
+
+          b64 = (os.getenv("OPEN_ANCHOR_B64","") or "").strip()
+          anchor_text = ""
+          if b64:
+            try:
+              anchor_text = base64.b64decode(b64.encode("ascii")).decode("utf-8")
+            except Exception:
+              anchor_text = ""
+
+          anchor_games = parse_open_anchor(anchor_text)
+          date_et, score_log = resolve_date_et(anchor_games)
+
+          meta = {
+            "as_of_utc": now_utc.isoformat(),
+            "as_of_kst": now_kst.isoformat(),
+            "as_of_et":  now_et.isoformat(),
+            "date_et": date_et,
+            "date_et_resolve_scores": score_log,
+            "status": {}
+          }
+
+          # 1) ESPN Scoreboard
+          scoreboard = None
+          try:
+            sb_url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={date_et}"
+            r = get(sb_url); r.raise_for_status()
+            scoreboard = r.json()
+            write_json(OUT / "espn_scoreboard.json", scoreboard)
+            meta["status"]["ESPN_SCOREBOARD"] = "OK"
+          except Exception as e:
+            meta["status"]["ESPN_SCOREBOARD"] = f"FAILED: {e}"
+
+          # 2) ESPN Odds (payload odds)
+          try:
+            if not scoreboard:
+              raise RuntimeError("Scoreboard not available")
+            rows = []
+            for ev in scoreboard.get("events", []):
+              comp = (ev.get("competitions") or [None])[0]
+              if not comp:
+                continue
+              odds_list = comp.get("odds") or []
+              if not odds_list:
+                continue
+              o = odds_list[0]
+              teams = comp.get("competitors") or []
+              home = next((t for t in teams if t.get("homeAway") == "home"), None)
+              away = next((t for t in teams if t.get("homeAway") == "away"), None)
+              rows.append({
+                "event_id": ev.get("id"),
+                "start_utc": ev.get("date"),
+                "home": ((home or {}).get("team", {}) or {}).get("abbreviation"),
+                "away": ((away or {}).get("team", {}) or {}).get("abbreviation"),
+                "details": o.get("details"),
+                "total": o.get("overUnder"),
+                "provider": (o.get("provider") or {}).get("name"),
+              })
+            write_json(OUT / "espn_odds.json", {
+              "source": "ESPN_SCOREBOARD.odds",
+              "as_of_utc": meta["as_of_utc"],
+              "as_of_et": meta["as_of_et"],
+              "as_of_kst": meta["as_of_kst"],
+              "date_et": date_et,
+              "rows": rows,
+            })
+            meta["status"]["ESPN_ODDS"] = "OK" if rows else "UNAVAILABLE: No odds in payload"
+          except Exception as e:
+            meta["status"]["ESPN_ODDS"] = f"UNAVAILABLE: {e}"
+
+          # 3) NBA schedule
+          try:
+            url = "https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json"
+            r = get(url); r.raise_for_status()
+            write_json(OUT / "nba_schedule_leagueV2.json", r.json())
+            meta["status"]["NBA_SCHEDULE_LEAGUEV2"] = "OK"
+          except Exception as e:
+            meta["status"]["NBA_SCHEDULE_LEAGUEV2"] = f"FAILED: {e}"
+
+          # 4) Ref assignments
+          try:
+            url = "https://official.nba.com/referee-assignments/"
+            r = get(url); r.raise_for_status()
+            soup = BeautifulSoup(r.text, "lxml")
+            table = soup.find("table")
+            rows = []
+            for tr in (table.find_all("tr")[1:] if table else []):
+              tds = [td.get_text(" ", strip=True) for td in tr.find_all(["td","th"])]
+              if len(tds) >= 4:
+                rows.append({"game": tds[0], "crew_chief": tds[1], "referee": tds[2], "umpire": tds[3], "alternate": (tds[4] if len(tds)>4 else None)})
+            write_json(OUT / "ref_assignments.json", {"source":"official.nba.com/referee-assignments","as_of_utc":meta["as_of_utc"],"as_of_et":meta["as_of_et"],"as_of_kst":meta["as_of_kst"],"rows":rows})
+            meta["status"]["NBA_REF_ASSIGNMENTS"] = "OK"
+          except Exception as e:
+            meta["status"]["NBA_REF_ASSIGNMENTS"] = f"FAILED: {e}"
+
+          # 5) RotoWire lineups aux
+          try:
+            url = "https://www.rotowire.com/basketball/nba-lineups.php"
+            r = get(url); r.raise_for_status()
+            (OUT / "rotowire_lineups_raw.html").write_text(r.text, encoding="utf-8")
+            meta["status"]["LINEUPS_AUX"] = "OK"
+            write_json(OUT / "lineups_aux.json", {"source":"rotowire.com/nba-lineups.php","as_of_utc":meta["as_of_utc"],"as_of_et":meta["as_of_et"],"as_of_kst":meta["as_of_kst"],"note":"raw HTML saved"})
+          except Exception as e:
+            meta["status"]["LINEUPS_AUX"] = f"FAILED: {e}"
+            write_json(OUT / "lineups_aux.json", {"source":"rotowire.com/nba-lineups.php","status":"FAILED","error":str(e)})
+
+          # 6) CBS injuries aux
+          try:
+            url = "https://www.cbssports.com/nba/injuries/"
+            r = get(url); r.raise_for_status()
+            meta["status"]["CBS_INJURIES_AUX"] = "OK"
+            write_json(OUT / "injury_aux.json", {"source":"cbssports.com/nba/injuries","as_of_utc":meta["as_of_utc"],"as_of_et":meta["as_of_et"],"as_of_kst":meta["as_of_kst"],"status":"OK"})
+          except Exception as e:
+            meta["status"]["CBS_INJURIES_AUX"] = f"FAILED: {e}"
+            write_json(OUT / "injury_aux.json", {"source":"cbssports.com/nba/injuries","status":"FAILED","error":str(e)})
+
+          # 7) Final scores
+          finals = []
+          if scoreboard:
+            for ev in scoreboard.get("events", []):
+              comp = (ev.get("competitions") or [None])[0]
+              if not comp: continue
+              st = (comp.get("status") or {}).get("type") or {}
+              is_final = bool(st.get("completed"))
+              if not is_final: continue
+              teams = comp.get("competitors") or []
+              home = next((t for t in teams if t.get("homeAway")=="home"), None) or {}
+              away = next((t for t in teams if t.get("homeAway")=="away"), None) or {}
+              finals.append({"event_id":ev.get("id"),"start_utc":ev.get("date"),"home":((home.get("team") or {}).get("abbreviation")),"away":((away.get("team") or {}).get("abbreviation")),"home_score":home.get("score"),"away_score":away.get("score")})
+          write_json(OUT / "final_scores.json", {"source":"ESPN_SCOREBOARD.final_only","as_of_utc":meta["as_of_utc"],"as_of_et":meta["as_of_et"],"as_of_kst":meta["as_of_kst"],"rows":finals})
+
+          write_json(OUT / "manifest.json", meta)
+          print(json.dumps(meta, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Publish latest + history
+        env:
+          RUN_TS: ${{ env.RUN_TS }}
+        run: |
+          set -e
+          TS="${RUN_TS}"
+          mkdir -p latest
+          mkdir -p history/${TS}
+          cp -f out/* latest/
+          cp -f out/* history/${TS}/
+
+          git config user.name "nba-bot"
+          git config user.email "nba-bot@users.noreply.github.com"
+          git add latest history/${TS} || true
+          git commit -m "SSOT snapshot ${TS}" || echo "No changes"
+          git push
