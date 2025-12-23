@@ -457,8 +457,8 @@
                   "abbreviation": "PTS",
                   "leaders": [
                     {
-                      "displayValue": "21.1",
-                      "value": 21.071428298950195,
+                      "displayValue": "20.9",
+                      "value": 20.931034088134766,
                       "athlete": {
                         "id": "4066383",
                         "fullName": "Miles Bridges",
@@ -497,8 +497,8 @@
                   "abbreviation": "REB",
                   "leaders": [
                     {
-                      "displayValue": "7.3",
-                      "value": 7.333333492279053,
+                      "displayValue": "7.6",
+                      "value": 7.5714287757873535,
                       "athlete": {
                         "id": "4433249",
                         "fullName": "Moussa Diabate",
@@ -538,7 +538,7 @@
                   "leaders": [
                     {
                       "displayValue": "8.6",
-                      "value": 8.61111068725586,
+                      "value": 8.631579399108887,
                       "athlete": {
                         "id": "4432816",
                         "fullName": "LaMelo Ball",
@@ -577,8 +577,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "19.2 PPG, 5.6 RPG, 8.6 APG, 1.2 SPG, 0.3 BPG",
-                      "value": 36.14722442626953,
+                      "displayValue": "19.4 PPG, 5.5 RPG, 8.6 APG, 1.1 SPG, 0.3 BPG",
+                      "value": 36.47368240356445,
                       "athlete": {
                         "id": "4432816",
                         "fullName": "LaMelo Ball",
@@ -1063,7 +1063,7 @@
                 "displayName": "Draft Kings"
               },
               "details": "CHA -5.5",
-              "overUnder": 235.5,
+              "overUnder": 234.5,
               "spread": -5.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -1236,8 +1236,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o235.5",
-                    "odds": "-108",
+                    "line": "o234.5",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1245,7 +1245,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33342004%3Foutcomes%3D0OU82700705O23550_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33342004%3Foutcomes%3D0OU82700705O23450_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -1258,7 +1258,7 @@
                           "gameId": 401810264,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:235.5"
+                          "betDetails": "Over:234.5"
                         }
                       }
                     }
@@ -1270,8 +1270,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u235.5",
-                    "odds": "-112",
+                    "line": "u234.5",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1279,7 +1279,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33342004%3Foutcomes%3D0OU82700705U23550_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F33342004%3Foutcomes%3D0OU82700705U23450_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -1292,7 +1292,7 @@
                           "gameId": 401810264,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:235.5"
+                          "betDetails": "Under:234.5"
                         }
                       }
                     }
@@ -4227,8 +4227,8 @@
                   "abbreviation": "PTS",
                   "leaders": [
                     {
-                      "displayValue": "21.2",
-                      "value": 21.185184478759766,
+                      "displayValue": "20.8",
+                      "value": 20.821428298950195,
                       "athlete": {
                         "id": "4397688",
                         "fullName": "Trey Murphy III",
@@ -4267,8 +4267,8 @@
                   "abbreviation": "REB",
                   "leaders": [
                     {
-                      "displayValue": "6.7",
-                      "value": 6.724137783050537,
+                      "displayValue": "6.8",
+                      "value": 6.833333492279053,
                       "athlete": {
                         "id": "4869780",
                         "fullName": "Derik Queen",
@@ -4307,8 +4307,8 @@
                   "abbreviation": "AST",
                   "leaders": [
                     {
-                      "displayValue": "4.0",
-                      "value": 4.0,
+                      "displayValue": "4.1",
+                      "value": 4.066666603088379,
                       "athlete": {
                         "id": "4869780",
                         "fullName": "Derik Queen",
@@ -4347,8 +4347,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "21.2 PPG, 6.4 RPG, 3.5 APG, 1.6 SPG, 0.2 BPG",
-                      "value": 36.36481475830078,
+                      "displayValue": "20.8 PPG, 6.3 RPG, 3.5 APG, 1.7 SPG, 0.2 BPG",
+                      "value": 35.905357360839844,
                       "athlete": {
                         "id": "4397688",
                         "fullName": "Trey Murphy III",
@@ -7301,8 +7301,8 @@
                   "abbreviation": "PTS",
                   "leaders": [
                     {
-                      "displayValue": "18.8",
-                      "value": 18.785715103149414,
+                      "displayValue": "18.7",
+                      "value": 18.689655303955078,
                       "athlete": {
                         "id": "5041939",
                         "fullName": "Cooper Flagg",
@@ -7381,8 +7381,8 @@
                   "abbreviation": "AST",
                   "leaders": [
                     {
-                      "displayValue": "4.1",
-                      "value": 4.115384578704834,
+                      "displayValue": "4.0",
+                      "value": 4.037036895751953,
                       "athlete": {
                         "id": "4397040",
                         "fullName": "Brandon Williams",
@@ -7421,8 +7421,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "19.9 PPG, 11.2 RPG, 3.0 APG, 1.2 SPG, 1.7 BPG",
-                      "value": 39.588462829589844,
+                      "displayValue": "21.0 PPG, 11.6 RPG, 2.9 APG, 1.1 SPG, 1.6 BPG",
+                      "value": 41.11785888671875,
                       "athlete": {
                         "id": "6583",
                         "fullName": "Anthony Davis",
@@ -9920,7 +9920,7 @@
                   "leaders": [
                     {
                       "displayValue": "32.5",
-                      "value": 32.51852035522461,
+                      "value": 32.46428680419922,
                       "athlete": {
                         "id": "4278073",
                         "fullName": "Shai Gilgeous-Alexander",
@@ -9999,8 +9999,8 @@
                   "abbreviation": "AST",
                   "leaders": [
                     {
-                      "displayValue": "6.4",
-                      "value": 6.44444465637207,
+                      "displayValue": "6.5",
+                      "value": 6.5,
                       "athlete": {
                         "id": "4278073",
                         "fullName": "Shai Gilgeous-Alexander",
@@ -10039,8 +10039,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "32.5 PPG, 4.7 RPG, 6.4 APG, 1.4 SPG, 0.8 BPG",
-                      "value": 53.70740509033203,
+                      "displayValue": "32.5 PPG, 4.9 RPG, 6.5 APG, 1.5 SPG, 0.8 BPG",
+                      "value": 53.96428680419922,
                       "athlete": {
                         "id": "4278073",
                         "fullName": "Shai Gilgeous-Alexander",
@@ -13394,7 +13394,7 @@
                   "leaders": [
                     {
                       "displayValue": "20.9",
-                      "value": 20.94444465637207,
+                      "value": 20.947368621826172,
                       "athlete": {
                         "id": "4432573",
                         "fullName": "Paolo Banchero",
@@ -13433,8 +13433,8 @@
                   "abbreviation": "REB",
                   "leaders": [
                     {
-                      "displayValue": "8.4",
-                      "value": 8.38888931274414,
+                      "displayValue": "8.6",
+                      "value": 8.578947067260742,
                       "athlete": {
                         "id": "4432573",
                         "fullName": "Paolo Banchero",
@@ -13513,8 +13513,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "20.9 PPG, 8.4 RPG, 4.4 APG, 0.6 SPG, 0.8 BPG",
-                      "value": 35.73611068725586,
+                      "displayValue": "20.9 PPG, 8.6 RPG, 4.5 APG, 0.6 SPG, 0.7 BPG",
+                      "value": 35.87368392944336,
                       "athlete": {
                         "id": "4432573",
                         "fullName": "Paolo Banchero",
@@ -14180,6 +14180,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "7-22"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-9"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-13"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -14340,24 +14358,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "7-22"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "4-9"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-13"
                 }
               ]
             },
@@ -14745,7 +14745,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $34",
-              "numberAvailable": 402,
+              "numberAvailable": 400,
               "links": [
                 {
                   "href": "https://www.vividseats.com/sacramento-kings-tickets-golden-1-center-12-23-2025--sports-nba-basketball/production/5940817?wsUser=717"

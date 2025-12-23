@@ -1,0 +1,135 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2025-12-23T11:04:26.960047+00:00",
+  "as_of_et": "2025-12-23T06:04:26.960047-05:00",
+  "as_of_kst": "2025-12-23T20:04:26.960047+09:00",
+  "date_et": "20251223",
+  "rows": [
+    {
+      "event_id": "401810264",
+      "start_utc": "2025-12-24T00:00Z",
+      "home": "CHA",
+      "away": "WSH",
+      "details": "CHA -5.5",
+      "total": 234.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810265",
+      "start_utc": "2025-12-24T00:00Z",
+      "home": "PHI",
+      "away": "BKN",
+      "details": "PHI -9.5",
+      "total": 217.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810266",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "ATL",
+      "away": "CHI",
+      "details": "ATL -4.5",
+      "total": 251.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810267",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "CLE",
+      "away": "NO",
+      "details": "CLE -9.5",
+      "total": 242.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810268",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "IND",
+      "away": "MIL",
+      "details": "MIL -1.5",
+      "total": 218.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810269",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "MIA",
+      "away": "TOR",
+      "details": "MIA -5.5",
+      "total": 228.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810270",
+      "start_utc": "2025-12-24T01:00Z",
+      "home": "DAL",
+      "away": "DEN",
+      "details": "DEN -7.5",
+      "total": 237.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810271",
+      "start_utc": "2025-12-24T01:00Z",
+      "home": "MIN",
+      "away": "NY",
+      "details": "MIN -7.5",
+      "total": 227.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810272",
+      "start_utc": "2025-12-24T01:30Z",
+      "home": "SA",
+      "away": "OKC",
+      "details": "OKC -5.5",
+      "total": 234.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810273",
+      "start_utc": "2025-12-24T02:00Z",
+      "home": "PHX",
+      "away": "LAL",
+      "details": "PHX -6.5",
+      "total": 226.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810274",
+      "start_utc": "2025-12-24T02:00Z",
+      "home": "UTAH",
+      "away": "MEM",
+      "details": "MEM -2.5",
+      "total": 243.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810275",
+      "start_utc": "2025-12-24T03:00Z",
+      "home": "POR",
+      "away": "ORL",
+      "details": "ORL -1.5",
+      "total": 232.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810276",
+      "start_utc": "2025-12-24T03:00Z",
+      "home": "SAC",
+      "away": "DET",
+      "details": "DET -8.5",
+      "total": 227.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810277",
+      "start_utc": "2025-12-24T03:30Z",
+      "home": "LAC",
+      "away": "HOU",
+      "details": "HOU -6.5",
+      "total": 220.5,
+      "provider": "Draft Kings"
+    }
+  ]
+}
