@@ -1,8 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.final_only",
-  "as_of_utc": "2025-12-24T13:50:27.354727+00:00",
-  "as_of_et": "2025-12-24T08:50:27.354727-05:00",
-  "as_of_kst": "2025-12-24T22:50:27.354727+09:00",
+  "as_of_utc": "2025-12-24T23:36:14.833606+00:00",
+  "as_of_et": "2025-12-24T18:36:14.833606-05:00",
+  "as_of_kst": "2025-12-25T08:36:14.833606+09:00",
   "rows": [
     {
       "event_id": "401810264",
@@ -10,8 +10,7 @@
       "home": "CHA",
       "away": "WSH",
       "home_score": "126",
-      "away_score": "109",
-      "winner": "CHA"
+      "away_score": "109"
     },
     {
       "event_id": "401810265",
@@ -19,8 +18,7 @@
       "home": "PHI",
       "away": "BKN",
       "home_score": "106",
-      "away_score": "114",
-      "winner": "BKN"
+      "away_score": "114"
     },
     {
       "event_id": "401810266",
@@ -28,8 +26,7 @@
       "home": "ATL",
       "away": "CHI",
       "home_score": "123",
-      "away_score": "126",
-      "winner": "CHI"
+      "away_score": "126"
     },
     {
       "event_id": "401810267",
@@ -37,8 +34,7 @@
       "home": "CLE",
       "away": "NO",
       "home_score": "141",
-      "away_score": "118",
-      "winner": "CLE"
+      "away_score": "118"
     },
     {
       "event_id": "401810268",
@@ -46,8 +42,7 @@
       "home": "IND",
       "away": "MIL",
       "home_score": "94",
-      "away_score": "111",
-      "winner": "MIL"
+      "away_score": "111"
     },
     {
       "event_id": "401810269",
@@ -55,8 +50,7 @@
       "home": "MIA",
       "away": "TOR",
       "home_score": "91",
-      "away_score": "112",
-      "winner": "TOR"
+      "away_score": "112"
     },
     {
       "event_id": "401810270",
@@ -64,8 +58,7 @@
       "home": "DAL",
       "away": "DEN",
       "home_score": "131",
-      "away_score": "130",
-      "winner": "DAL"
+      "away_score": "130"
     },
     {
       "event_id": "401810271",
@@ -73,8 +66,7 @@
       "home": "MIN",
       "away": "NY",
       "home_score": "115",
-      "away_score": "104",
-      "winner": "MIN"
+      "away_score": "104"
     },
     {
       "event_id": "401810272",
@@ -82,8 +74,7 @@
       "home": "SA",
       "away": "OKC",
       "home_score": "130",
-      "away_score": "110",
-      "winner": "SA"
+      "away_score": "110"
     },
     {
       "event_id": "401810273",
@@ -91,8 +82,7 @@
       "home": "PHX",
       "away": "LAL",
       "home_score": "132",
-      "away_score": "108",
-      "winner": "PHX"
+      "away_score": "108"
     },
     {
       "event_id": "401810274",
@@ -100,8 +90,7 @@
       "home": "UTAH",
       "away": "MEM",
       "home_score": "128",
-      "away_score": "137",
-      "winner": "MEM"
+      "away_score": "137"
     },
     {
       "event_id": "401810275",
@@ -109,8 +98,7 @@
       "home": "POR",
       "away": "ORL",
       "home_score": "106",
-      "away_score": "110",
-      "winner": "ORL"
+      "away_score": "110"
     },
     {
       "event_id": "401810276",
@@ -118,8 +106,7 @@
       "home": "SAC",
       "away": "DET",
       "home_score": "127",
-      "away_score": "136",
-      "winner": "DET"
+      "away_score": "136"
     },
     {
       "event_id": "401810277",
@@ -127,9 +114,7 @@
       "home": "LAC",
       "away": "HOU",
       "home_score": "128",
-      "away_score": "108",
-      "winner": "LAC"
+      "away_score": "108"
     }
-  ],
-  "note": "22:05 KST에는 대부분 비어있을 수 있으며, 경기 종료 후 채워집니다."
+  ]
 }

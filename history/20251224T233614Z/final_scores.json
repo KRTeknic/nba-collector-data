@@ -1,0 +1,120 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2025-12-24T23:36:14.833606+00:00",
+  "as_of_et": "2025-12-24T18:36:14.833606-05:00",
+  "as_of_kst": "2025-12-25T08:36:14.833606+09:00",
+  "rows": [
+    {
+      "event_id": "401810264",
+      "start_utc": "2025-12-24T00:00Z",
+      "home": "CHA",
+      "away": "WSH",
+      "home_score": "126",
+      "away_score": "109"
+    },
+    {
+      "event_id": "401810265",
+      "start_utc": "2025-12-24T00:00Z",
+      "home": "PHI",
+      "away": "BKN",
+      "home_score": "106",
+      "away_score": "114"
+    },
+    {
+      "event_id": "401810266",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "ATL",
+      "away": "CHI",
+      "home_score": "123",
+      "away_score": "126"
+    },
+    {
+      "event_id": "401810267",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "CLE",
+      "away": "NO",
+      "home_score": "141",
+      "away_score": "118"
+    },
+    {
+      "event_id": "401810268",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "IND",
+      "away": "MIL",
+      "home_score": "94",
+      "away_score": "111"
+    },
+    {
+      "event_id": "401810269",
+      "start_utc": "2025-12-24T00:30Z",
+      "home": "MIA",
+      "away": "TOR",
+      "home_score": "91",
+      "away_score": "112"
+    },
+    {
+      "event_id": "401810270",
+      "start_utc": "2025-12-24T01:00Z",
+      "home": "DAL",
+      "away": "DEN",
+      "home_score": "131",
+      "away_score": "130"
+    },
+    {
+      "event_id": "401810271",
+      "start_utc": "2025-12-24T01:00Z",
+      "home": "MIN",
+      "away": "NY",
+      "home_score": "115",
+      "away_score": "104"
+    },
+    {
+      "event_id": "401810272",
+      "start_utc": "2025-12-24T01:30Z",
+      "home": "SA",
+      "away": "OKC",
+      "home_score": "130",
+      "away_score": "110"
+    },
+    {
+      "event_id": "401810273",
+      "start_utc": "2025-12-24T02:00Z",
+      "home": "PHX",
+      "away": "LAL",
+      "home_score": "132",
+      "away_score": "108"
+    },
+    {
+      "event_id": "401810274",
+      "start_utc": "2025-12-24T02:00Z",
+      "home": "UTAH",
+      "away": "MEM",
+      "home_score": "128",
+      "away_score": "137"
+    },
+    {
+      "event_id": "401810275",
+      "start_utc": "2025-12-24T03:00Z",
+      "home": "POR",
+      "away": "ORL",
+      "home_score": "106",
+      "away_score": "110"
+    },
+    {
+      "event_id": "401810276",
+      "start_utc": "2025-12-24T03:00Z",
+      "home": "SAC",
+      "away": "DET",
+      "home_score": "127",
+      "away_score": "136"
+    },
+    {
+      "event_id": "401810277",
+      "start_utc": "2025-12-24T03:30Z",
+      "home": "LAC",
+      "away": "HOU",
+      "home_score": "128",
+      "away_score": "108"
+    }
+  ]
+}

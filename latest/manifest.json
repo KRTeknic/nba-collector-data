@@ -1,84 +1,28 @@
 {
-  "as_of_utc": "2025-12-24T13:50:27.354727+00:00",
-  "as_of_kst": "2025-12-24T22:50:27.354727+09:00",
-  "as_of_et": "2025-12-24T08:50:27.354727-05:00",
-  "kst_slate_date_input": null,
-  "open_anchor_lines": [
-    "CHA -5.5 235.5 WAS",
-    "PHI -9.5 218.5 BKN",
-    "ATL -4.5 254.5 CHI",
-    "CLE -9.5 239.5 NOP",
-    "IND +1.5 221.5 MIL",
-    "MIA -5.5 229.5 TOR",
-    "DAL +7.5 238.5 DEN",
-    "MIN -6.5 226.5 NYK",
-    "SAS +6.5 235.5 OKC",
-    "PHX -5.5 226.5 LAL",
-    "UTA +2.5 245.5 MEM",
-    "POR +1.5 234.5 ORL",
-    "SAC +8.5 228.5 DET",
-    "LAC +6.5 221.5 HOU"
-  ],
-  "date_et_resolve": {
-    "mode": "ANCHOR_MATCH",
-    "candidates": [
-      "20251222",
-      "20251223",
-      "20251224"
-    ],
-    "chosen": "20251223",
-    "scores": {
-      "20251222": {
-        "matched": 0,
-        "total_anchors": 14,
-        "events": 7
-      },
-      "20251223": {
-        "matched": 13,
-        "total_anchors": 14,
-        "events": 14
-      },
-      "20251224": {
-        "matched": 0,
-        "total_anchors": 14,
-        "events": 0
-      }
-    },
-    "threshold": 7
-  },
+  "as_of_utc": "2025-12-24T23:36:14.833606+00:00",
+  "as_of_kst": "2025-12-25T08:36:14.833606+09:00",
+  "as_of_et": "2025-12-24T18:36:14.833606-05:00",
   "date_et": "20251223",
+  "date_et_resolve_scores": {
+    "20251222": {
+      "matched": 0,
+      "events": 7
+    },
+    "20251223": {
+      "matched": 9,
+      "events": 14
+    },
+    "20251224": {
+      "matched": 0,
+      "events": 0
+    }
+  },
   "status": {
-    "NBA_SCHEDULE_LEAGUEV2": "OK",
     "ESPN_SCOREBOARD": "OK",
-    "ESPN_ODDS": "UNAVAILABLE: No odds found in ESPN scoreboard payload",
-    "NBA_CDN_SCOREBOARD": "OK",
-    "NBA_CDN_ODDS": "OK",
-    "NBA_INJURY_PDF": "FAILED: Not found (all candidates failed)",
+    "ESPN_ODDS": "UNAVAILABLE: No odds in payload",
+    "NBA_SCHEDULE_LEAGUEV2": "OK",
     "NBA_REF_ASSIGNMENTS": "OK",
-    "FATIGUE_PACK": "OK",
-    "FINAL_SCORES": "OK",
     "LINEUPS_AUX": "OK",
-    "CBS_INJURIES_AUX": "OK",
-    "ESPN_TEAM_INJURIES_AUX": "OK"
-  },
-  "schema_version": "MANIFEST_SCHEMA_RESUME_AUTO_V1",
-  "snapshot_ts": "20251224T135022Z",
-  "run_kind": "SNAPSHOT_2205",
-  "run_kind_source": "schedule:5 13 * * *",
-  "slate_date_et": "2025-12-23",
-  "slate_date_kst": "2025-12-24",
-  "baseline_ts": "20251224T135022Z",
-  "baseline_urls": {
-    "manifest": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/manifest.json",
-    "odds": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/espn_odds.json",
-    "scoreboard": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/espn_scoreboard.json",
-    "injury_pdf": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/nba_injury_report.pdf",
-    "lineups_aux": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/lineups_aux.json",
-    "injury_aux": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/injury_aux.json",
-    "ref_assignments": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/ref_assignments.json",
-    "fatigue_pack": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/fatigue_pack.json",
-    "final_scores": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/history/20251224T135022Z/final_scores.json"
-  },
-  "unresolved_flags": [],
-  "unresolved_notes": []
+    "CBS_INJURIES_AUX": "OK"
+  }
 }
