@@ -1,9 +1,9 @@
 {
   "SNAPSHOT_SOURCE": {
     "verified_at": {
-      "verified_at_utc": "2025-12-23T23:35:01.233264+00:00",
-      "verified_at_et": "2025-12-23T18:35:01.233264-05:00",
-      "verified_at_kst": "2025-12-24T08:35:01.233264+09:00"
+      "verified_at_utc": "2025-12-24T13:50:12.254519+00:00",
+      "verified_at_et": "2025-12-24T08:50:12.254519-05:00",
+      "verified_at_kst": "2025-12-24T22:50:12.254519+09:00"
     },
     "source_urls": {
       "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -20,22 +20,6 @@
   "MARKET_SNAPSHOT_LOG": {
     "rows": [
       {
-        "match": "WSH@CHA",
-        "details": "CHA -6.5",
-        "total": 239.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-24T00:00Z",
-        "event_id": "401810264"
-      },
-      {
-        "match": "BKN@PHI",
-        "details": "PHI -9.5",
-        "total": 218.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-24T00:00Z",
-        "event_id": "401810265"
-      },
-      {
         "match": "CHI@ATL",
         "details": "ATL -3.5",
         "total": 254.5,
@@ -45,7 +29,7 @@
       },
       {
         "match": "NO@CLE",
-        "details": "CLE -8.5",
+        "details": "CLE -9.5",
         "total": 248.5,
         "provider": "Draft Kings",
         "start_utc": "2025-12-24T00:30Z",
@@ -54,7 +38,7 @@
       {
         "match": "MIL@IND",
         "details": "MIL -1.5",
-        "total": 218.5,
+        "total": 216.5,
         "provider": "Draft Kings",
         "start_utc": "2025-12-24T00:30Z",
         "event_id": "401810268"
@@ -70,7 +54,7 @@
       {
         "match": "DEN@DAL",
         "details": "DEN -6.5",
-        "total": 236.5,
+        "total": 237.5,
         "provider": "Draft Kings",
         "start_utc": "2025-12-24T01:00Z",
         "event_id": "401810270"
@@ -85,16 +69,16 @@
       },
       {
         "match": "OKC@SA",
-        "details": "OKC -7.5",
-        "total": 233.5,
+        "details": "OKC -6.5",
+        "total": 235.5,
         "provider": "Draft Kings",
         "start_utc": "2025-12-24T01:30Z",
         "event_id": "401810272"
       },
       {
         "match": "LAL@PHX",
-        "details": "PHX -4.5",
-        "total": 226.5,
+        "details": "PHX -3.5",
+        "total": 227.5,
         "provider": "Draft Kings",
         "start_utc": "2025-12-24T02:00Z",
         "event_id": "401810273"
@@ -148,16 +132,6 @@
   "DRAFT_ANALYSIS_1ST": {
     "status": "OK",
     "candidates": [
-      {
-        "match": "WSH@CHA",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "BKN@PHI",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
       {
         "match": "CHI@ATL",
         "candidate": "PASS",
