@@ -4843,18 +4843,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.920",
+                  "odds": "1.900",
                   "opening_odds": "1.850",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-5.5",
                   "opening_spread": -2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.880",
+                  "odds": "1.900",
                   "opening_odds": "1.850",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "5.5",
                   "opening_spread": 2.5
                 }
@@ -4869,18 +4869,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.920",
+                  "odds": "1.900",
                   "opening_odds": "1.850",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-5.5",
                   "opening_spread": -2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.880",
+                  "odds": "1.900",
                   "opening_odds": "1.850",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "5.5",
                   "opening_spread": 2.5
                 }
@@ -5344,9 +5344,9 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.320",
+                  "odds": "1.310",
                   "opening_odds": "1.510",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
@@ -5366,9 +5366,9 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.320",
+                  "odds": "1.310",
                   "opening_odds": "1.510",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
@@ -5507,19 +5507,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.960",
                   "opening_odds": "1.750",
-                  "odds_trend": "up",
-                  "spread": "-7.5",
+                  "odds_trend": "down",
+                  "spread": "-8.5",
                   "opening_spread": -3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.950",
+                  "odds": "1.840",
                   "opening_odds": "1.950",
-                  "odds_trend": "down",
-                  "spread": "7.5",
+                  "odds_trend": "up",
+                  "spread": "8.5",
                   "opening_spread": 3.5
                 }
               ],
@@ -5533,19 +5533,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.960",
                   "opening_odds": "1.750",
-                  "odds_trend": "up",
-                  "spread": "-7.5",
+                  "odds_trend": "down",
+                  "spread": "-8.5",
                   "opening_spread": -3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.950",
+                  "odds": "1.840",
                   "opening_odds": "1.950",
-                  "odds_trend": "down",
-                  "spread": "7.5",
+                  "odds_trend": "up",
+                  "spread": "8.5",
                   "opening_spread": 3.5
                 }
               ],

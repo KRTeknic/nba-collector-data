@@ -432,6 +432,24 @@
                   "displayValue": "37.9"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "20-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "14-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "5-7"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -592,24 +610,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "20-9"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "14-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "5-7"
                 }
               ]
             },
@@ -3882,6 +3882,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "19-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "7-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "12-5"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -4042,24 +4060,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "19-9"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "7-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "12-5"
                 }
               ]
             },
@@ -5020,24 +5020,6 @@
                   "displayValue": "40.6"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "21-8"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "9-5"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "12-3"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -5198,6 +5180,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "21-8"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "9-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "12-3"
                 }
               ]
             },
