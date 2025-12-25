@@ -1062,6 +1062,225 @@
               "region": "us"
             }
           ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Jalen Brunson scored 34 points, reserve Jordan Clarkson had 25 and the New York Knicks came from 17 down in the fourth quarter to beat the Cleveland Cavaliers 126-124 on Thursday and win on Christmas Day for the third straight year.",
+              "shortLinkText": "Brunson and the reserves lead a Christmas comeback as the Knicks beat the Cavaliers 126-124",
+              "video": [
+                {
+                  "id": 47412310,
+                  "source": "espn",
+                  "headline": "Knicks come from behind to beat Cavaliers",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.jpg",
+                  "duration": 110,
+                  "tracking": {
+                    "sportName": "basketball",
+                    "leagueName": "NBA",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "COM_NBA Highlight (Knicks come from behind to beat Cavaliers) 2025/12/25 ESHEET",
+                    "trackingId": "dm_20251225_NBA_knicks_come_from_behind_to_beat_cavaliers",
+                    "program": "ESPN, ABC"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "desktop",
+                      "ipad",
+                      "settop",
+                      "handset",
+                      "tablet"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "KN",
+                      "SV",
+                      "MU",
+                      "MS",
+                      "PR",
+                      "PY",
+                      "LS",
+                      "PE",
+                      "MG",
+                      "MZ",
+                      "BJ",
+                      "GW",
+                      "MQ",
+                      "SR",
+                      "GA",
+                      "NA",
+                      "HN",
+                      "FJ",
+                      "AM",
+                      "BO",
+                      "CR",
+                      "SC",
+                      "HT",
+                      "CO",
+                      "BW",
+                      "PW",
+                      "TG",
+                      "SN",
+                      "CF",
+                      "BS",
+                      "MF",
+                      "UY",
+                      "CI",
+                      "GY",
+                      "CU",
+                      "IE",
+                      "CG",
+                      "MX",
+                      "GP",
+                      "TZ",
+                      "KE",
+                      "GB",
+                      "UK",
+                      "GH",
+                      "BF",
+                      "EC",
+                      "MP",
+                      "VE",
+                      "ZM",
+                      "ER",
+                      "SL",
+                      "KM",
+                      "ML",
+                      "SZ",
+                      "KY",
+                      "MH",
+                      "AG",
+                      "VG",
+                      "ET",
+                      "ZA",
+                      "CM",
+                      "MW",
+                      "BQ",
+                      "UG",
+                      "GF",
+                      "GT",
+                      "NZ",
+                      "BI",
+                      "ST",
+                      "FM",
+                      "PA",
+                      "RE",
+                      "SS",
+                      "LR",
+                      "VI",
+                      "NE",
+                      "VC",
+                      "GD",
+                      "AS",
+                      "CD",
+                      "GU",
+                      "NG",
+                      "BZ",
+                      "GQ",
+                      "AI",
+                      "PH",
+                      "CL",
+                      "GN",
+                      "NI",
+                      "US",
+                      "UM",
+                      "AO",
+                      "LC",
+                      "CV",
+                      "BR",
+                      "GM",
+                      "DO",
+                      "BB",
+                      "TT",
+                      "TC",
+                      "RW",
+                      "AR",
+                      "AW",
+                      "AU",
+                      "SX",
+                      "ZW",
+                      "BM",
+                      "JM"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip?id=47412310",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip?id=47412310"
+                      },
+                      "seo": {
+                        "href": "https://www.espn.com/video/clip/_/id/47412310"
+                      }
+                    },
+                    "mobile": {
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=47412310"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47412310"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47412310"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/47412310"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a/asset"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=47412310&videoDSI=016eae5dafa93"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
           "highlights": [
             {
               "id": 47412310,
@@ -1284,225 +1503,6 @@
                 "trackingId": "dm_20251225_NBA_knicks_come_from_behind_to_beat_cavaliers",
                 "program": "ESPN, ABC"
               }
-            }
-          ],
-          "headlines": [
-            {
-              "type": "Recap",
-              "description": "— Jalen Brunson scored 34 points, reserve Jordan Clarkson had 25 and the New York Knicks came from 17 down in the fourth quarter to beat the Cleveland Cavaliers 126-124 on Thursday and win on Christmas Day for the third straight year.",
-              "shortLinkText": "Brunson and the reserves lead a Christmas comeback as the Knicks beat the Cavaliers 126-124",
-              "video": [
-                {
-                  "id": 47412310,
-                  "source": "espn",
-                  "headline": "Knicks come from behind to beat Cavaliers",
-                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.jpg",
-                  "duration": 110,
-                  "tracking": {
-                    "sportName": "basketball",
-                    "leagueName": "NBA",
-                    "coverageType": "Final Game Highlight",
-                    "trackingName": "COM_NBA Highlight (Knicks come from behind to beat Cavaliers) 2025/12/25 ESHEET",
-                    "trackingId": "dm_20251225_NBA_knicks_come_from_behind_to_beat_cavaliers",
-                    "program": "ESPN, ABC"
-                  },
-                  "deviceRestrictions": {
-                    "type": "whitelist",
-                    "devices": [
-                      "desktop",
-                      "ipad",
-                      "settop",
-                      "handset",
-                      "tablet"
-                    ]
-                  },
-                  "geoRestrictions": {
-                    "type": "whitelist",
-                    "countries": [
-                      "KN",
-                      "SV",
-                      "MU",
-                      "MS",
-                      "PR",
-                      "PY",
-                      "LS",
-                      "PE",
-                      "MG",
-                      "MZ",
-                      "BJ",
-                      "GW",
-                      "MQ",
-                      "SR",
-                      "GA",
-                      "NA",
-                      "HN",
-                      "FJ",
-                      "AM",
-                      "BO",
-                      "CR",
-                      "SC",
-                      "HT",
-                      "CO",
-                      "BW",
-                      "PW",
-                      "TG",
-                      "SN",
-                      "CF",
-                      "BS",
-                      "MF",
-                      "UY",
-                      "CI",
-                      "GY",
-                      "CU",
-                      "IE",
-                      "CG",
-                      "MX",
-                      "GP",
-                      "TZ",
-                      "KE",
-                      "GB",
-                      "UK",
-                      "GH",
-                      "BF",
-                      "EC",
-                      "MP",
-                      "VE",
-                      "ZM",
-                      "ER",
-                      "SL",
-                      "KM",
-                      "ML",
-                      "SZ",
-                      "KY",
-                      "MH",
-                      "AG",
-                      "VG",
-                      "ET",
-                      "ZA",
-                      "CM",
-                      "MW",
-                      "BQ",
-                      "UG",
-                      "GF",
-                      "GT",
-                      "NZ",
-                      "BI",
-                      "ST",
-                      "FM",
-                      "PA",
-                      "RE",
-                      "SS",
-                      "LR",
-                      "VI",
-                      "NE",
-                      "VC",
-                      "GD",
-                      "AS",
-                      "CD",
-                      "GU",
-                      "NG",
-                      "BZ",
-                      "GQ",
-                      "AI",
-                      "PH",
-                      "CL",
-                      "GN",
-                      "NI",
-                      "US",
-                      "UM",
-                      "AO",
-                      "LC",
-                      "CV",
-                      "BR",
-                      "GM",
-                      "DO",
-                      "BB",
-                      "TT",
-                      "TC",
-                      "RW",
-                      "AR",
-                      "AW",
-                      "AU",
-                      "SX",
-                      "ZW",
-                      "BM",
-                      "JM"
-                    ]
-                  },
-                  "links": {
-                    "web": {
-                      "href": "https://www.espn.com/video/clip?id=47412310",
-                      "self": {
-                        "href": "https://www.espn.com/video/clip?id=47412310"
-                      },
-                      "seo": {
-                        "href": "https://www.espn.com/video/clip/_/id/47412310"
-                      }
-                    },
-                    "mobile": {
-                      "source": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.mp4"
-                      },
-                      "alert": {
-                        "href": "https://m.espn.com/general/video/videoAlert?vid=47412310"
-                      },
-                      "streaming": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47412310"
-                      },
-                      "progressiveDownload": {
-                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=47412310"
-                      }
-                    },
-                    "api": {
-                      "self": {
-                        "href": "https://content.core.api.espn.com/v1/video/clips/47412310"
-                      },
-                      "artwork": {
-                        "href": "https://artwork.api.espn.com/artwork/collections/media/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a"
-                      }
-                    },
-                    "source": {
-                      "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_360p30_1464k.mp4",
-                      "mezzanine": {
-                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.mp4"
-                      },
-                      "flash": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b.smil"
-                      },
-                      "hds": {
-                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_rel.smil/manifest.f4m"
-                      },
-                      "HLS": {
-                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8",
-                        "HD": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8"
-                        },
-                        "cmaf": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8",
-                          "9x16": {
-                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8"
-                          }
-                        },
-                        "9x16": {
-                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b/playlist.m3u8"
-                        },
-                        "shield": {
-                          "href": "https://watch.auth.api.espn.com/video/auth/media/d1e5d4e9-ce6d-471a-baec-dc6b45a90d7a/asset"
-                        }
-                      },
-                      "HD": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_720p30_2896k.mp4"
-                      },
-                      "full": {
-                        "href": "https://media.video-cdn.espn.com/motion/wsc/2025/1225/410a1e1c-c69a-434e-895c-11051b84c42b/410a1e1c-c69a-434e-895c-11051b84c42b_360p30_1464k.mp4"
-                      }
-                    },
-                    "sportscenter": {
-                      "href": "sportscenter://x-callback-url/showVideo?videoID=47412310&videoDSI=016eae5dafa93"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }

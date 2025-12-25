@@ -1,6 +1,6 @@
 {
   "schema_version": "MARKET_CONSENSUS_V1",
-  "as_of_utc": "2025-12-25T16:18:33.497981+00:00",
+  "as_of_utc": "2025-12-25T23:37:26.584042+00:00",
   "rows": [],
   "note": "Consensus market lines (home spread + total). ESPN is not a hard gate."
 }

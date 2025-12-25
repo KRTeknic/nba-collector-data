@@ -1,0 +1,209 @@
+{
+  "source": "rotowire.com/nba-lineups.php",
+  "as_of_utc": "2025-12-25T23:37:17.393793+00:00",
+  "as_of_et": "2025-12-25T18:37:17.393793-05:00",
+  "as_of_kst": "2025-12-26T08:37:17.393793+09:00",
+  "rows": [
+    {
+      "away_team_raw": "CLE",
+      "home_team_raw": "NYK",
+      "away": "CLE",
+      "home": "NYK",
+      "raw_text_sample": "12:00 PM ET Watch Now Tickets Alerts CLE NYK Cavaliers (17-15) Knicks (21-9) Confirmed Lineup PG D. Garland SG D. Mitchell SF Sam Merrill PF Dean Wade C Jarrett Allen Projected Min",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG D. Garland",
+          "SG D. Mitchell",
+          "SF Sam Merrill",
+          "PF Dean Wade",
+          "C Jarrett Allen",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C L. Nance Out",
+          "F Max Strus Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG Jalen Brunson",
+          "SG J. Hart Ques",
+          "SF Mikal Bridges",
+          "PF OG Anunoby",
+          "C K. Towns",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F J. Hart Ques",
+          "G M. McBride Out",
+          "G L. Shamet Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": null,
+      "home_team_raw": null,
+      "away": null,
+      "home": null,
+      "raw_text_sample": "Make The Right Picks If you play on Sleeper, you should check out the RotoWire Picks tool. Get our best picks for today's NBA games. See Our Top Picks For Sleeper",
+      "starters_lists_detected": []
+    },
+    {
+      "away_team_raw": "SAS",
+      "home_team_raw": "OKC",
+      "away": "SAS",
+      "home": "OKC",
+      "raw_text_sample": "2:30 PM ET Watch Now Tickets Alerts SAS OKC Spurs (23-7) Thunder (26-5) Confirmed Lineup PG De'Aaron Fox SG S. Castle SF Devin Vassell PF H. Barnes C Luke Kornet Projected Minutes ",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG De'Aaron Fox",
+          "SG S. Castle",
+          "SF Devin Vassell",
+          "PF H. Barnes",
+          "C Luke Kornet",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "None"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG S. Gilgeous-Alexander",
+          "SG Luguentz Dort",
+          "SF J. Williams",
+          "PF Chet Holmgren",
+          "C I. Hartenstein",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C T. Sorber OFS",
+          "F O. Dieng Out",
+          "G A. Mitchell Out",
+          "G N. Topic Out",
+          "C J. Williams Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "DAL",
+      "home_team_raw": "GSW",
+      "away": "DAL",
+      "home": "GSW",
+      "raw_text_sample": "5:00 PM ET Watch Now Tickets Alerts DAL GSW Mavericks (12-19) Warriors (15-15) Confirmed Lineup PG Ryan Nembhard SG Naji Marshall SF Cooper Flagg PF P. Washington C A. Davis Ques P",
+      "starters_lists_detected": [
+        [
+          "Confirmed Lineup",
+          "PG Ryan Nembhard",
+          "SG Naji Marshall",
+          "SF Cooper Flagg",
+          "PF P. Washington",
+          "C A. Davis Ques",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C A. Davis Ques",
+          "G Dante Exum OFS",
+          "C D. Lively OFS",
+          "G K. Irving Out"
+        ],
+        [
+          "Confirmed Lineup",
+          "PG Stephen Curry",
+          "SG Moses Moody",
+          "SF Jimmy Butler",
+          "PF D. Green",
+          "C Quinten Post",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "G LJ Cryer Out",
+          "G Seth Curry Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "HOU",
+      "home_team_raw": "LAL",
+      "away": "HOU",
+      "home": "LAL",
+      "raw_text_sample": "8:00 PM ET Watch Now Tickets Alerts HOU LAL Rockets (17-10) Lakers (19-9) Expected Lineup PG Amen Thompson SG Josh Okogie SF Kevin Durant PF Jabari Smith C A. Sengun Ques Projected",
+      "starters_lists_detected": [
+        [
+          "Expected Lineup",
+          "PG Amen Thompson",
+          "SG Josh Okogie",
+          "SF Kevin Durant",
+          "PF Jabari Smith",
+          "C A. Sengun Ques",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C A. Sengun Ques",
+          "F J. Tate Ques",
+          "G F. VanVleet Out"
+        ],
+        [
+          "Expected Lineup",
+          "PG Luka Doncic",
+          "SG Austin Reaves",
+          "SF Rui Hachimura",
+          "PF LeBron James",
+          "C Deandre Ayton",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C J. Hayes Out",
+          "G G. Vincent Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": "MIN",
+      "home_team_raw": "DEN",
+      "away": "MIN",
+      "home": "DEN",
+      "raw_text_sample": "10:30 PM ET Watch Now Tickets Alerts MIN DEN Timberwolves (20-10) Nuggets (21-8) Expected Lineup PG D. DiVincenzo SG A. Edwards SF J. McDaniels Prob PF Julius Randle C Rudy Gobert ",
+      "starters_lists_detected": [
+        [
+          "Expected Lineup",
+          "PG D. DiVincenzo",
+          "SG A. Edwards",
+          "SF J. McDaniels Prob",
+          "PF Julius Randle",
+          "C Rudy Gobert",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "F J. McDaniels Prob",
+          "G B. Hyland Ques"
+        ],
+        [
+          "Expected Lineup",
+          "PG Jamal Murray",
+          "SG Tim Hardaway",
+          "SF Spencer Jones",
+          "PF Peyton Watson",
+          "C Nikola Jokic",
+          "Projected Minutes",
+          "On/Off Court Stats",
+          "MAY NOT PLAY",
+          "C J. Valanciunas Prob",
+          "G T. Bates Out",
+          "G C. Braun Out",
+          "F A. Gordon Out",
+          "F C. Johnson Out"
+        ]
+      ]
+    },
+    {
+      "away_team_raw": null,
+      "home_team_raw": null,
+      "away": null,
+      "home": null,
+      "raw_text_sample": "You may also be interested in... Daily Fantasy NBA Tools Build the best lineup for today's NBA games. Lineup Optimizer Generate the optimal NBA lineup. Best NBA Picks & Prop Bets S",
+      "starters_lists_detected": []
+    }
+  ],
+  "note": "best-effort parser. raw HTML saved as rotowire_lineups_raw.html"
+}
