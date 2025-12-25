@@ -1,9 +1,9 @@
 {
   "schema_version": "DELTA_LOCK_V1",
   "mode": "DELTA",
-  "run_ts": "20251224T002023Z",
-  "kst_date": "2025-12-24",
-  "delta_text": "CHA -5.5 234.5 WAS\nPHI -9.5 218.5 BKN\nATL -4.5 251.5 CHI\nCLE -9.5 244.5 NOP\nIND +1.5 220.5 MIL\nMIA -5.5 229.5 TOR\nDAL +7.5 236.5 DEN\nMIN -6.5 228.5 NYK\nSAS +6.5 235.5 OKC\nPHX -5.5 226.5 LAL\nUTA +2.5 245.5 MEM\nPOR +1.5 234.5 ORL\nSAC +8.5 228.5 DET\nLAC +6.5 220.5 HOU\n",
-  "received_at_utc": "2025-12-24T00:20:24.219Z",
+  "run_ts": "20251225T070227Z",
+  "kst_date": "2025-12-25",
+  "delta_text": "NYK -5.5 239.5 CLE\nOKC - 8.5 235.5 SAS\nGSW - 7.5 228.5 DAL\nLAL +2.5 231.5 HOU\nDEN -3.5 239.5 MIN\n",
+  "received_at_utc": "2025-12-25T07:02:27.460Z",
   "note": "Domestic delta lines before 08:05 final. Do not overwrite anchor."
 }
