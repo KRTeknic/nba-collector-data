@@ -4991,14 +4991,14 @@
                   "type": "home",
                   "odds": "1.250",
                   "opening_odds": "1.130",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
                   "odds": "3.300",
                   "opening_odds": "3.800",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://sitio.supermatch.com.uy/prematch/492/betting/sports/3/leagues/-1003",
@@ -5128,17 +5128,17 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.700",
+                  "odds": "1.650",
                   "opening_odds": "1.750",
-                  "spread": "-9.5",
+                  "spread": "-7.5",
                   "opening_spread": -10.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.700",
+                  "odds": "1.730",
                   "opening_odds": "1.650",
-                  "spread": "9.5",
+                  "spread": "7.5",
                   "opening_spread": 10.5
                 }
               ],
