@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2025-12-25T06:29:30.815318+00:00",
-  "as_of_kst": "2025-12-25T15:29:30.815318+09:00",
-  "as_of_et": "2025-12-25T01:29:30.815318-05:00",
+  "as_of_utc": "2025-12-25T06:42:20.529786+00:00",
+  "as_of_kst": "2025-12-25T15:42:20.529786+09:00",
+  "as_of_et": "2025-12-25T01:42:20.529786-05:00",
   "kst_slate_date_input": null,
   "open_anchor_lines": [
     "NYK -5.5 239.5 CLE",
@@ -51,7 +51,7 @@
     "ESPN_TEAM_INJURIES_AUX": "OK"
   },
   "schema_version": "MANIFEST_SCHEMA_RESUME_AUTO_V1",
-  "snapshot_ts": "20251225T062925Z",
+  "snapshot_ts": "20251225T064213Z",
   "run_kind": "MANUAL_DISPATCH",
   "run_kind_source": "workflow_dispatch",
   "slate_date_et": "2025-12-25",
