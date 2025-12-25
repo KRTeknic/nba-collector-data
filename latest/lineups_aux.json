@@ -1,25 +1,7 @@
 {
   "source": "rotowire.com/nba-lineups.php",
-  "as_of_utc": "2025-12-25T06:11:49.840915+00:00",
-  "as_of_et": "2025-12-25T01:11:49.840915-05:00",
-  "as_of_kst": "2025-12-25T15:11:49.840915+09:00",
-  "rows": [
-    {
-      "away_team_raw": null,
-      "home_team_raw": null,
-      "away": null,
-      "home": null,
-      "raw_text_sample": "Estimated Chance To Play This is our best guess for players whose lineup status is in question. If a player doesn't have a color bar next to their position, that indicates that the",
-      "starters_lists_detected": []
-    },
-    {
-      "away_team_raw": null,
-      "home_team_raw": null,
-      "away": null,
-      "home": null,
-      "raw_text_sample": "Very Unlikely Unlikely Toss Up Likely Very Likely",
-      "starters_lists_detected": []
-    }
-  ],
-  "note": "best-effort parser. raw HTML saved as rotowire_lineups_raw.html"
+  "as_of_utc": "2025-12-25T06:29:13.117371+00:00",
+  "as_of_et": "2025-12-25T01:29:13.117371-05:00",
+  "as_of_kst": "2025-12-25T15:29:13.117371+09:00",
+  "note": "raw HTML saved"
 }

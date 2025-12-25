@@ -2232,7 +2232,7 @@
                 ]
               },
               "details": "OKC -9.5",
-              "overUnder": 233.5,
+              "overUnder": 234.5,
               "spread": -9.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -2405,7 +2405,7 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o233.5",
+                    "line": "o234.5",
                     "odds": "-105",
                     "link": {
                       "language": "en-US",
@@ -2414,7 +2414,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631677%3Foutcomes%3D0OU80876000O23350_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631677%3Foutcomes%3D0OU80876000O23450_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -2427,7 +2427,7 @@
                           "gameId": 401809239,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:233.5"
+                          "betDetails": "Over:234.5"
                         }
                       }
                     }
@@ -2439,7 +2439,7 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u233.5",
+                    "line": "u234.5",
                     "odds": "-115",
                     "link": {
                       "language": "en-US",
@@ -2448,7 +2448,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631677%3Foutcomes%3D0OU80876000U23350_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631677%3Foutcomes%3D0OU80876000U23450_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -2461,7 +2461,7 @@
                           "gameId": 401809239,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:233.5"
+                          "betDetails": "Under:234.5"
                         }
                       }
                     }
@@ -3372,7 +3372,7 @@
                 ]
               },
               "details": "GS -8.5",
-              "overUnder": 226.5,
+              "overUnder": 227.5,
               "spread": -8.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -3545,8 +3545,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o226.5",
-                    "odds": "-115",
+                    "line": "o227.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3554,7 +3554,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631683%3Foutcomes%3D0OU80876012O22650_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631683%3Foutcomes%3D0OU80876012O22750_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -3567,7 +3567,7 @@
                           "gameId": 401809240,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:226.5"
+                          "betDetails": "Over:227.5"
                         }
                       }
                     }
@@ -3579,8 +3579,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u226.5",
-                    "odds": "-105",
+                    "line": "u227.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3588,7 +3588,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631683%3Foutcomes%3D0OU80876012U22650_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631683%3Foutcomes%3D0OU80876012U22750_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -3601,7 +3601,7 @@
                           "gameId": 401809240,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:226.5"
+                          "betDetails": "Under:227.5"
                         }
                       }
                     }
