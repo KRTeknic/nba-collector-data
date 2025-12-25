@@ -990,8 +990,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $421",
-              "numberAvailable": 253,
+              "summary": "Tickets as low as $458",
+              "numberAvailable": 187,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-knicks-tickets-madison-square-garden-12-25-2025--sports-nba-basketball/production/5924521?wsUser=717"
@@ -2145,8 +2145,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $95",
-              "numberAvailable": 532,
+              "summary": "Tickets as low as $93",
+              "numberAvailable": 387,
               "links": [
                 {
                   "href": "https://www.vividseats.com/oklahoma-city-thunder-tickets-paycom-center-12-25-2025--sports-nba-basketball/production/5924535?wsUser=717"
@@ -2334,7 +2334,7 @@
                 "home": {
                   "close": {
                     "line": "-9.5",
-                    "odds": "-115",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2368,7 +2368,7 @@
                 "away": {
                   "close": {
                     "line": "+9.5",
-                    "odds": "-105",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3300,8 +3300,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $173",
-              "numberAvailable": 679,
+              "summary": "Tickets as low as $170",
+              "numberAvailable": 710,
               "links": [
                 {
                   "href": "https://www.vividseats.com/golden-state-warriors-tickets-chase-center-12-25-2025--sports-nba-basketball/production/5924541?wsUser=717"
@@ -4439,8 +4439,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $218",
-              "numberAvailable": 675,
+              "summary": "Tickets as low as $233",
+              "numberAvailable": 679,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-lakers-tickets-cryptocom-arena-12-25-2025--sports-nba-basketball/production/5924539?wsUser=717"
@@ -4511,7 +4511,7 @@
                 ]
               },
               "details": "HOU -2.5",
-              "overUnder": 231.5,
+              "overUnder": 232.5,
               "spread": 2.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -4684,8 +4684,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o231.5",
-                    "odds": "-112",
+                    "line": "o232.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4693,7 +4693,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631678%3Foutcomes%3D0OU80876001O23150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631678%3Foutcomes%3D0OU80876001O23250_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -4706,7 +4706,7 @@
                           "gameId": 401809241,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:231.5"
+                          "betDetails": "Over:232.5"
                         }
                       }
                     }
@@ -4718,8 +4718,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u231.5",
-                    "odds": "-108",
+                    "line": "u232.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4727,7 +4727,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631678%3Foutcomes%3D0OU80876001U23150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F32631678%3Foutcomes%3D0OU80876001U23250_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -4740,7 +4740,7 @@
                           "gameId": 401809241,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:231.5"
+                          "betDetails": "Under:232.5"
                         }
                       }
                     }
@@ -5578,7 +5578,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $111",
-              "numberAvailable": 979,
+              "numberAvailable": 970,
               "links": [
                 {
                   "href": "https://www.vividseats.com/denver-nuggets-tickets-ball-arena-12-25-2025--sports-nba-basketball/production/5924542?wsUser=717"

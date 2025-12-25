@@ -1,7 +1,43 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2025-12-25T13:51:00.580174+00:00",
-  "as_of_et": "2025-12-25T08:51:00.580174-05:00",
-  "as_of_kst": "2025-12-25T22:51:00.580174+09:00",
-  "rows": []
+  "as_of_utc": "2025-12-25T14:54:54.514563+00:00",
+  "as_of_et": "2025-12-25T09:54:54.514563-05:00",
+  "as_of_kst": "2025-12-25T23:54:54.514563+09:00",
+  "rows": [
+    {
+      "game": "Cleveland @ New York",
+      "crew_chief": "Courtney Kirkland (#61)",
+      "referee": "Ray Acosta (#54)",
+      "umpire": "Che Flores (#91)",
+      "alternate": ""
+    },
+    {
+      "game": "San Antonio @ Oklahoma City",
+      "crew_chief": "Tony Brothers (#25)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Brandon Schwab (#86)",
+      "alternate": ""
+    },
+    {
+      "game": "Dallas @ Golden State",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Andy Nagy (#83)",
+      "umpire": "Natalie Sago (#9)",
+      "alternate": ""
+    },
+    {
+      "game": "Houston @ L.A. Lakers",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "Jason Goldenberg (#35)",
+      "alternate": ""
+    },
+    {
+      "game": "Minnesota @ Denver",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "Scott Twardoski (#52)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2025-12-25T13:51:00.580174+00:00",
-  "as_of_kst": "2025-12-25T22:51:00.580174+09:00",
-  "as_of_et": "2025-12-25T08:51:00.580174-05:00",
+  "as_of_utc": "2025-12-25T14:54:54.514563+00:00",
+  "as_of_kst": "2025-12-25T23:54:54.514563+09:00",
+  "as_of_et": "2025-12-25T09:54:54.514563-05:00",
   "kst_slate_date_input": null,
   "open_anchor_lines": [
     "NYK -5.5 239.5 CLE",
@@ -48,12 +48,13 @@
     "FINAL_SCORES": "OK",
     "LINEUPS_AUX": "OK",
     "CBS_INJURIES_AUX": "OK",
-    "ESPN_TEAM_INJURIES_AUX": "OK"
+    "ESPN_TEAM_INJURIES_AUX": "OK",
+    "MARKET_CONSENSUS": "UNAVAILABLE: no market rows from any source"
   },
   "schema_version": "MANIFEST_SCHEMA_RESUME_AUTO_V1",
-  "snapshot_ts": "20251225T135055Z",
-  "run_kind": "SNAPSHOT_2205",
-  "run_kind_source": "schedule:5 13 * * *",
+  "snapshot_ts": "20251225T145449Z",
+  "run_kind": "MANUAL_DISPATCH",
+  "run_kind_source": "workflow_dispatch",
   "slate_date_et": "2025-12-25",
   "slate_date_kst": "2025-12-26",
   "baseline_ts": "20251225T135055Z",
