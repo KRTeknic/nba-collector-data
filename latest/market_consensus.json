@@ -1,6 +1,6 @@
 {
   "schema": "MARKET_CONSENSUS_V2",
-  "as_of_utc": "2025-12-26T13:30:00.672396+00:00",
+  "as_of_utc": "2025-12-26T13:30:44.622389+00:00",
   "policy": {
     "primary_if_available": "ESPN",
     "fallback": [
@@ -35,7 +35,7 @@
       "away": "MIA",
       "consensus": {
         "spread_home": -2.5,
-        "total": 247.5,
+        "total": 248.5,
         "details": "ATL -2.5"
       },
       "sources_used": [

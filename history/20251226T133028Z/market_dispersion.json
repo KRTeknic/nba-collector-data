@@ -1,0 +1,141 @@
+{
+  "schema": "MARKET_DISPERSION_V1",
+  "as_of_utc": "2025-12-26T13:30:44.622405+00:00",
+  "rows": [
+    {
+      "pair_key": "ATL-MIA",
+      "spread": {
+        "n": 1,
+        "min": -2.5,
+        "max": -2.5,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 248.5,
+        "max": 248.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "BOS-IND",
+      "spread": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 222.5,
+        "max": 222.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "CHA-ORL",
+      "spread": {
+        "n": 1,
+        "min": -5.5,
+        "max": -5.5,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 232.5,
+        "max": 232.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "CHI-PHI",
+      "spread": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 240.5,
+        "max": 240.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "DET-UTA",
+      "spread": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 243.5,
+        "max": 243.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "LAC-POR",
+      "spread": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 226.5,
+        "max": 226.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "MEM-MIL",
+      "spread": {
+        "n": 1,
+        "min": -5.5,
+        "max": -5.5,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 228.5,
+        "max": 228.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "NOP-PHX",
+      "spread": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 238.5,
+        "max": 238.5,
+        "disp": 0.0
+      }
+    },
+    {
+      "pair_key": "TOR-WSH",
+      "spread": {
+        "n": 0,
+        "min": null,
+        "max": null,
+        "disp": 0.0
+      },
+      "total": {
+        "n": 1,
+        "min": 228.5,
+        "max": 228.5,
+        "disp": 0.0
+      }
+    }
+  ]
+}

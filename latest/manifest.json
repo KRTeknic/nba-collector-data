@@ -1,7 +1,7 @@
 {
-  "as_of_utc": "2025-12-26T13:29:46.510436+00:00",
-  "as_of_kst": "2025-12-26T22:29:46.510436+09:00",
-  "as_of_et": "2025-12-26T08:29:46.510436-05:00",
+  "as_of_utc": "2025-12-26T13:30:34.814136+00:00",
+  "as_of_kst": "2025-12-26T22:30:34.814136+09:00",
+  "as_of_et": "2025-12-26T08:30:34.814136-05:00",
   "kst_slate_date_input": null,
   "open_anchor_lines": [
     "ATL -4.5 246.5 MIA",
@@ -62,7 +62,7 @@
   "unresolved_notes": [],
   "market_policy": "MULTISOURCE_MARKET_V1",
   "schema_version": "MANIFEST_SCHEMA_RESUME_AUTO_V1",
-  "snapshot_ts": "20251226T132940Z",
+  "snapshot_ts": "20251226T133028Z",
   "run_kind": "MANUAL_DISPATCH",
   "run_kind_source": "workflow_dispatch",
   "slate_date_et": "2025-12-26",

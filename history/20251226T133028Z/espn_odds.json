@@ -1,0 +1,90 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2025-12-26T13:30:34.814136+00:00",
+  "as_of_et": "2025-12-26T08:30:34.814136-05:00",
+  "as_of_kst": "2025-12-26T22:30:34.814136+09:00",
+  "date_et": "20251226",
+  "rows": [
+    {
+      "event_id": "401810278",
+      "start_utc": "2025-12-27T00:00Z",
+      "home": "ATL",
+      "away": "MIA",
+      "details": "ATL -2.5",
+      "total": 248.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810279",
+      "start_utc": "2025-12-27T00:00Z",
+      "home": "ORL",
+      "away": "CHA",
+      "details": "ORL -5.5",
+      "total": 232.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810280",
+      "start_utc": "2025-12-27T00:00Z",
+      "home": "WSH",
+      "away": "TOR",
+      "details": "TOR -7.5",
+      "total": 228.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810281",
+      "start_utc": "2025-12-27T00:00Z",
+      "home": "IND",
+      "away": "BOS",
+      "details": "BOS -8.5",
+      "total": 222.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810282",
+      "start_utc": "2025-12-27T00:30Z",
+      "home": "CHI",
+      "away": "PHI",
+      "details": "PHI -1.5",
+      "total": 240.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810283",
+      "start_utc": "2025-12-27T01:00Z",
+      "home": "MEM",
+      "away": "MIL",
+      "details": "MEM -5.5",
+      "total": 228.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810284",
+      "start_utc": "2025-12-27T01:00Z",
+      "home": "NO",
+      "away": "PHX",
+      "details": "PHX -4.5",
+      "total": 238.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810285",
+      "start_utc": "2025-12-27T02:30Z",
+      "home": "UTAH",
+      "away": "DET",
+      "details": "DET -9.5",
+      "total": 243.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401810286",
+      "start_utc": "2025-12-27T03:00Z",
+      "home": "POR",
+      "away": "LAC",
+      "details": "LAC -2.5",
+      "total": 226.5,
+      "provider": "Draft Kings"
+    }
+  ]
+}
