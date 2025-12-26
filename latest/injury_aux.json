@@ -1,8 +1,8 @@
 {
   "source": "CBS+ESPN best-effort",
-  "as_of_utc": "2025-12-25T23:37:17.393793+00:00",
-  "as_of_et": "2025-12-25T18:37:17.393793-05:00",
-  "as_of_kst": "2025-12-26T08:37:17.393793+09:00",
+  "as_of_utc": "2025-12-26T13:29:46.510436+00:00",
+  "as_of_et": "2025-12-26T08:29:46.510436-05:00",
+  "as_of_kst": "2025-12-26T22:29:46.510436+09:00",
   "cbs": {
     "status": "OK",
     "rows": [
@@ -48,62 +48,110 @@
     "status": "OK",
     "rows": [
       {
-        "team": "CLE",
-        "team_id": "5",
+        "team": "ATL",
+        "team_id": "1",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "DAL",
-        "team_id": "6",
+        "team": "BOS",
+        "team_id": "2",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "DEN",
-        "team_id": "7",
+        "team": "CHA",
+        "team_id": "30",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "GS",
-        "team_id": "9",
+        "team": "CHI",
+        "team_id": "4",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "HOU",
-        "team_id": "10",
+        "team": "DET",
+        "team_id": "8",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "LAL",
-        "team_id": "13",
+        "team": "IND",
+        "team_id": "11",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "MIN",
-        "team_id": "16",
+        "team": "LAC",
+        "team_id": "12",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "NY",
-        "team_id": "18",
+        "team": "MEM",
+        "team_id": "29",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "OKC",
-        "team_id": "25",
+        "team": "MIA",
+        "team_id": "14",
         "has_injuries_field": false,
         "injuries": null
       },
       {
-        "team": "SA",
-        "team_id": "24",
+        "team": "MIL",
+        "team_id": "15",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "NO",
+        "team_id": "3",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "ORL",
+        "team_id": "19",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "PHI",
+        "team_id": "20",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "PHX",
+        "team_id": "21",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "POR",
+        "team_id": "22",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "TOR",
+        "team_id": "28",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "UTAH",
+        "team_id": "26",
+        "has_injuries_field": false,
+        "injuries": null
+      },
+      {
+        "team": "WSH",
+        "team_id": "27",
         "has_injuries_field": false,
         "injuries": null
       }

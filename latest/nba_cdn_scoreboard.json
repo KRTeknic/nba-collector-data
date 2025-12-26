@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2025-12-25 06:37:12.3712",
+    "time": "2025-12-26 08:29:34.2934",
     "code": 200
   },
   "scoreboard": {
@@ -10,123 +10,6 @@
     "leagueId": "00",
     "leagueName": "National Basketball Association",
     "games": [
-      {
-        "gameId": "0022500011",
-        "gameCode": "20251225/DALGSW",
-        "gameStatus": 2,
-        "gameStatusText": "Half",
-        "period": 2,
-        "gameClock": "PT00M00.00S",
-        "gameTimeUTC": "2025-12-25T22:00:00Z",
-        "gameEt": "2025-12-25T17:00:00-05:00",
-        "regulationPeriods": 4,
-        "ifNecessary": false,
-        "seriesGameNumber": "",
-        "gameLabel": "",
-        "gameSubLabel": "",
-        "seriesText": "",
-        "seriesConference": "",
-        "poRoundDesc": "",
-        "gameSubtype": "",
-        "isNeutral": false,
-        "homeTeam": {
-          "teamId": 1610612744,
-          "teamName": "Warriors",
-          "teamCity": "Golden State",
-          "teamTricode": "GSW",
-          "wins": 15,
-          "losses": 15,
-          "score": 71,
-          "seed": null,
-          "inBonus": "0",
-          "timeoutsRemaining": 5,
-          "periods": [
-            {
-              "period": 1,
-              "periodType": "REGULAR",
-              "score": 40
-            },
-            {
-              "period": 2,
-              "periodType": "REGULAR",
-              "score": 31
-            },
-            {
-              "period": 3,
-              "periodType": "REGULAR",
-              "score": 0
-            },
-            {
-              "period": 4,
-              "periodType": "REGULAR",
-              "score": 0
-            }
-          ]
-        },
-        "awayTeam": {
-          "teamId": 1610612742,
-          "teamName": "Mavericks",
-          "teamCity": "Dallas",
-          "teamTricode": "DAL",
-          "wins": 12,
-          "losses": 19,
-          "score": 58,
-          "seed": null,
-          "inBonus": "1",
-          "timeoutsRemaining": 3,
-          "periods": [
-            {
-              "period": 1,
-              "periodType": "REGULAR",
-              "score": 28
-            },
-            {
-              "period": 2,
-              "periodType": "REGULAR",
-              "score": 30
-            },
-            {
-              "period": 3,
-              "periodType": "REGULAR",
-              "score": 0
-            },
-            {
-              "period": 4,
-              "periodType": "REGULAR",
-              "score": 0
-            }
-          ]
-        },
-        "gameLeaders": {
-          "homeLeaders": {
-            "personId": 201143,
-            "name": "Al Horford",
-            "jerseyNum": "20",
-            "position": "CF",
-            "teamTricode": "GSW",
-            "playerSlug": "al-horford",
-            "points": 12,
-            "rebounds": 2,
-            "assists": 0
-          },
-          "awayLeaders": {
-            "personId": 1642843,
-            "name": "Cooper Flagg",
-            "jerseyNum": "32",
-            "position": "F",
-            "teamTricode": "DAL",
-            "playerSlug": "cooper-flagg",
-            "points": 12,
-            "rebounds": 4,
-            "assists": 2
-          }
-        },
-        "pbOdds": {
-          "team": null,
-          "odds": 0.0,
-          "suspended": 0
-        }
-      },
       {
         "gameId": "0022500009",
         "gameCode": "20251225/CLENYK",
@@ -362,11 +245,128 @@
         }
       },
       {
+        "gameId": "0022500011",
+        "gameCode": "20251225/DALGSW",
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
+        "gameClock": "",
+        "gameTimeUTC": "2025-12-25T22:00:00Z",
+        "gameEt": "2025-12-25T17:00:00Z",
+        "regulationPeriods": 4,
+        "ifNecessary": false,
+        "seriesGameNumber": "",
+        "gameLabel": "",
+        "gameSubLabel": "",
+        "seriesText": "",
+        "seriesConference": "",
+        "poRoundDesc": "",
+        "gameSubtype": "",
+        "isNeutral": false,
+        "homeTeam": {
+          "teamId": 1610612744,
+          "teamName": "Warriors",
+          "teamCity": "Golden State",
+          "teamTricode": "GSW",
+          "wins": 16,
+          "losses": 15,
+          "score": 126,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 1,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 40
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 31
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 29
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 26
+            }
+          ]
+        },
+        "awayTeam": {
+          "teamId": 1610612742,
+          "teamName": "Mavericks",
+          "teamCity": "Dallas",
+          "teamTricode": "DAL",
+          "wins": 12,
+          "losses": 20,
+          "score": 116,
+          "seed": null,
+          "inBonus": null,
+          "timeoutsRemaining": 0,
+          "periods": [
+            {
+              "period": 1,
+              "periodType": "REGULAR",
+              "score": 28
+            },
+            {
+              "period": 2,
+              "periodType": "REGULAR",
+              "score": 30
+            },
+            {
+              "period": 3,
+              "periodType": "REGULAR",
+              "score": 31
+            },
+            {
+              "period": 4,
+              "periodType": "REGULAR",
+              "score": 27
+            }
+          ]
+        },
+        "gameLeaders": {
+          "homeLeaders": {
+            "personId": 202710,
+            "name": "Jimmy Butler III",
+            "jerseyNum": "10",
+            "position": "F",
+            "teamTricode": "GSW",
+            "playerSlug": null,
+            "points": 14,
+            "rebounds": 9,
+            "assists": 9
+          },
+          "awayLeaders": {
+            "personId": 1642843,
+            "name": "Cooper Flagg",
+            "jerseyNum": "32",
+            "position": "F",
+            "teamTricode": "DAL",
+            "playerSlug": null,
+            "points": 27,
+            "rebounds": 6,
+            "assists": 5
+          }
+        },
+        "pbOdds": {
+          "team": null,
+          "odds": 0.0,
+          "suspended": 0
+        }
+      },
+      {
         "gameId": "0022500012",
         "gameCode": "20251225/HOULAL",
-        "gameStatus": 1,
-        "gameStatusText": "8:00 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final",
+        "period": 4,
         "gameClock": "",
         "gameTimeUTC": "2025-12-26T01:00:00Z",
         "gameEt": "2025-12-25T20:00:00Z",
@@ -386,8 +386,8 @@
           "teamCity": "Los Angeles",
           "teamTricode": "LAL",
           "wins": 19,
-          "losses": 9,
-          "score": 0,
+          "losses": 10,
+          "score": 96,
           "seed": null,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -395,22 +395,22 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 28
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 21
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 22
             }
           ]
         },
@@ -419,57 +419,57 @@
           "teamName": "Rockets",
           "teamCity": "Houston",
           "teamTricode": "HOU",
-          "wins": 17,
+          "wins": 18,
           "losses": 10,
-          "score": 0,
+          "score": 119,
           "seed": null,
           "inBonus": null,
-          "timeoutsRemaining": 0,
+          "timeoutsRemaining": 1,
           "periods": [
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 37
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 29
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 27
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1629029,
+            "name": "Luka DonÄiÄ",
+            "jerseyNum": "77",
+            "position": "F-G",
             "teamTricode": "LAL",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 25,
+            "rebounds": 5,
+            "assists": 7
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1641708,
+            "name": "Amen Thompson",
+            "jerseyNum": "1",
+            "position": "G-F",
             "teamTricode": "HOU",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 26,
+            "rebounds": 7,
+            "assists": 5
           }
         },
         "pbOdds": {
@@ -481,9 +481,9 @@
       {
         "gameId": "0022500013",
         "gameCode": "20251225/MINDEN",
-        "gameStatus": 1,
-        "gameStatusText": "10:30 pm ET",
-        "period": 0,
+        "gameStatus": 3,
+        "gameStatusText": "Final/OT",
+        "period": 5,
         "gameClock": "",
         "gameTimeUTC": "2025-12-26T03:30:00Z",
         "gameEt": "2025-12-25T22:30:00Z",
@@ -502,9 +502,9 @@
           "teamName": "Nuggets",
           "teamCity": "Denver",
           "teamTricode": "DEN",
-          "wins": 21,
+          "wins": 22,
           "losses": 8,
-          "score": 0,
+          "score": 142,
           "seed": null,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -512,22 +512,27 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 32
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 25
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 35
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 27
             }
           ]
         },
@@ -537,8 +542,8 @@
           "teamCity": "Minnesota",
           "teamTricode": "MIN",
           "wins": 20,
-          "losses": 10,
-          "score": 0,
+          "losses": 11,
+          "score": 138,
           "seed": null,
           "inBonus": null,
           "timeoutsRemaining": 0,
@@ -546,47 +551,52 @@
             {
               "period": 1,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 29
             },
             {
               "period": 2,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 26
             },
             {
               "period": 3,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 23
             },
             {
               "period": 4,
               "periodType": "REGULAR",
-              "score": 0
+              "score": 37
+            },
+            {
+              "period": 5,
+              "periodType": "OVERTIME",
+              "score": 23
             }
           ]
         },
         "gameLeaders": {
           "homeLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 203999,
+            "name": "Nikola JokiÄ",
+            "jerseyNum": "15",
+            "position": "C",
             "teamTricode": "DEN",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 56,
+            "rebounds": 16,
+            "assists": 15
           },
           "awayLeaders": {
-            "personId": 0,
-            "name": "",
-            "jerseyNum": "",
-            "position": "",
+            "personId": 1630162,
+            "name": "Anthony Edwards",
+            "jerseyNum": "5",
+            "position": "G",
             "teamTricode": "MIN",
             "playerSlug": null,
-            "points": 0,
-            "rebounds": 0,
-            "assists": 0
+            "points": 44,
+            "rebounds": 6,
+            "assists": 3
           }
         },
         "pbOdds": {
