@@ -1,0 +1,71 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2025-12-26T23:37:36.305951+00:00",
+  "as_of_et": "2025-12-26T18:37:36.305951-05:00",
+  "as_of_kst": "2025-12-27T08:37:36.305951+09:00",
+  "rows": [
+    {
+      "game": "Miami @ Atlanta",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "Nate Green (#41)",
+      "umpire": "Jenna Schroeder (#20)",
+      "alternate": ""
+    },
+    {
+      "game": "Charlotte @ Orlando",
+      "crew_chief": "Kevin Scott (#24)",
+      "referee": "Ashley Moyer-Gleich (#13)",
+      "umpire": "CJ Washington (#12)",
+      "alternate": ""
+    },
+    {
+      "game": "Toronto @ Washington",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "Matt Kallio (#53)",
+      "alternate": ""
+    },
+    {
+      "game": "Boston @ Indiana",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Mousa Dagher (#28)",
+      "umpire": "Brandon Adair (#67)",
+      "alternate": ""
+    },
+    {
+      "game": "Philadelphia @ Chicago",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Phenizee Ransom (#70)",
+      "umpire": "JT Orr (#72)",
+      "alternate": ""
+    },
+    {
+      "game": "Milwaukee @ Memphis",
+      "crew_chief": "Mitchell Ervin (#27)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "Jonathan Sterling (#17)",
+      "alternate": ""
+    },
+    {
+      "game": "Phoenix @ New Orleans",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Simone Jelks (#81)",
+      "alternate": ""
+    },
+    {
+      "game": "Detroit @ Utah",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "Natalie Sago (#9)",
+      "umpire": "Biniam Maru (#94)",
+      "alternate": ""
+    },
+    {
+      "game": "LA Clippers @ Portland",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Justin Van Duyne (#64)",
+      "umpire": "Nate Cearley (#84)",
+      "alternate": ""
+    }
+  ]
+}

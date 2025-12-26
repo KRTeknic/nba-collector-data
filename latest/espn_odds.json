@@ -1,8 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2025-12-26T23:36:48.390853+00:00",
-  "as_of_et": "2025-12-26T18:36:48.390853-05:00",
-  "as_of_kst": "2025-12-27T08:36:48.390853+09:00",
+  "as_of_utc": "2025-12-26T23:37:36.305951+00:00",
+  "as_of_et": "2025-12-26T18:37:36.305951-05:00",
+  "as_of_kst": "2025-12-27T08:37:36.305951+09:00",
   "date_et": "20251226",
   "rows": [
     {
@@ -10,81 +10,109 @@
       "start_utc": "2025-12-27T00:00Z",
       "home": "ATL",
       "away": "MIA",
+      "pair_key": "ATL-MIA",
       "details": "ATL -3.5",
+      "spread_home": -3.5,
       "total": 250.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810279",
       "start_utc": "2025-12-27T00:00Z",
       "home": "ORL",
       "away": "CHA",
+      "pair_key": "CHA-ORL",
       "details": "ORL -5.5",
+      "spread_home": -5.5,
       "total": 227.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810280",
       "start_utc": "2025-12-27T00:00Z",
       "home": "WSH",
       "away": "TOR",
+      "pair_key": "TOR-WSH",
       "details": "TOR -8.5",
+      "spread_home": 8.5,
       "total": 225.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810281",
       "start_utc": "2025-12-27T00:00Z",
       "home": "IND",
       "away": "BOS",
+      "pair_key": "BOS-IND",
       "details": "BOS -8.5",
+      "spread_home": 8.5,
       "total": 222.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810282",
       "start_utc": "2025-12-27T00:30Z",
       "home": "CHI",
       "away": "PHI",
+      "pair_key": "CHI-PHI",
       "details": "PHI -1.5",
+      "spread_home": 1.5,
       "total": 241.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810283",
       "start_utc": "2025-12-27T01:00Z",
       "home": "MEM",
       "away": "MIL",
+      "pair_key": "MEM-MIL",
       "details": "MEM -5.5",
+      "spread_home": -5.5,
       "total": 227.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810284",
       "start_utc": "2025-12-27T01:00Z",
-      "home": "NO",
+      "home": "NOP",
       "away": "PHX",
+      "pair_key": "NOP-PHX",
       "details": "PHX -5.5",
+      "spread_home": 5.5,
       "total": 240.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810285",
       "start_utc": "2025-12-27T02:30Z",
-      "home": "UTAH",
+      "home": "UTA",
       "away": "DET",
+      "pair_key": "DET-UTA",
       "details": "DET -9.5",
+      "spread_home": 9.5,
       "total": 244.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810286",
       "start_utc": "2025-12-27T03:00Z",
       "home": "POR",
       "away": "LAC",
+      "pair_key": "LAC-POR",
       "details": "LAC -2.5",
+      "spread_home": 2.5,
       "total": 227.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     }
-  ]
+  ],
+  "note": "rows include pair_key + spread_home. If ESPN scoreboard lacks odds for an event, a stub row is included with odds_status=MISSING_IN_SCOREBOARD."
 }
