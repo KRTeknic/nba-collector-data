@@ -1,0 +1,9 @@
+{
+  "schema_version": "ANCHOR_LOCK_V1",
+  "mode": "LOCK",
+  "run_ts": "20251227T223712Z",
+  "kst_date": "2025-12-28",
+  "open_anchor_text": "SAC +2.5 232.5 DAL\nORL +4.5 236.5 DEN\nNOP +5.5 239.5 PHX\nATL +6.5 243.5 NYK\nMIA -8.5 231.5 IND\nCHI -6.5 234.5 MIL\nHOU -4.5 236.5 CLE\nMIN -9.5 225.5 BKN\nSAS -16.5 246.5 UTA\n",
+  "received_at_utc": "2025-12-27T22:37:12.373Z",
+  "note": "Latest domestic OPEN anchor lock. Do not overwrite with deltas."
+}
