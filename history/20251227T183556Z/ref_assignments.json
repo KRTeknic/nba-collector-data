@@ -1,0 +1,71 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2025-12-27T18:35:59.794732+00:00",
+  "as_of_et": "2025-12-27T13:35:59.794732-05:00",
+  "as_of_kst": "2025-12-28T03:35:59.794732+09:00",
+  "rows": [
+    {
+      "game": "Dallas @ Sacramento",
+      "crew_chief": "Tony Brothers (#25)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Brandon Schwab (#86)",
+      "alternate": ""
+    },
+    {
+      "game": "Denver @ Orlando",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "John Butler (#30)",
+      "umpire": "Michael Smith (#38)",
+      "alternate": ""
+    },
+    {
+      "game": "Phoenix @ New Orleans",
+      "crew_chief": "Josh Tiven (#58)",
+      "referee": "Nick Buchert (#3)",
+      "umpire": "Suyash Mehta (#82)",
+      "alternate": ""
+    },
+    {
+      "game": "New York @ Atlanta",
+      "crew_chief": "Jacyn Goble (#68)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "JT Orr (#72)",
+      "alternate": ""
+    },
+    {
+      "game": "Indiana @ Miami",
+      "crew_chief": "Ray Acosta (#54)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "Robert Hussey (#85)",
+      "alternate": ""
+    },
+    {
+      "game": "Milwaukee @ Chicago",
+      "crew_chief": "Gediminas Petraitis (#50)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Evan Scott (#78)",
+      "alternate": ""
+    },
+    {
+      "game": "Cleveland @ Houston",
+      "crew_chief": "Marc Davis (#8)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Jenna Reneau (#93)",
+      "alternate": ""
+    },
+    {
+      "game": "Brooklyn @ Minnesota",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Phenizee Ransom (#70)",
+      "umpire": "Pat O'Connell (#90)",
+      "alternate": ""
+    },
+    {
+      "game": "Utah @ San Antonio",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Andy Nagy (#83)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    }
+  ]
+}

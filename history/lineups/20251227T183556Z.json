@@ -1,0 +1,13 @@
+{
+  "schema_version": "LINEUPS_AUX_V2",
+  "status": "FAILED",
+  "source": "rotowire:nba-lineups",
+  "as_of_kst": "2025-12-28T03:35:58.041342+09:00",
+  "as_of_et": "2025-12-27T13:35:58.041342-05:00",
+  "run_ts": "20251227T183558Z",
+  "coverage_score": 0,
+  "games": [],
+  "note": "fail-soft; tries __NEXT_DATA__ first, then HTML fallback.",
+  "error": "parsed 0 games (next_data + html fallback failed)",
+  "sample": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\t        <script src=\"https://bet.rotowire.com/js/app.js\"></script>\r\n        \r\n    <script>\r\n        window.dataLayer = window.dataLayer || [];\r\n        window.dataLayer.push({\"sport_name\":\"nba\",\"sport_content\":\"fantasy\",\"event\":\"content_grouping\"});\r\n    </script>\r\n        <!-- Google Tag Manager -->\r\n    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\n    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n    })(window,document,'script','dataLayer','GTM-WM527Q7');</script>\r\n    <!-- End Google Tag Manager -->\r\n        <script src=\"https://zz.connextra.com/dcs/tagController/tag/b13e35197587/homepage\" defer></script>\r\n            <script src=\"https://script.tapfiliate.com/tapfiliate.js\" type=\"text/javascript\" async></script>\r\n        <script type=\"text/javascript\">\r\n        (function(t,a,p){t.TapfiliateObject=a;t[a]=t[a]||function(){ (t[a].q=t[a].q||[]).push(arguments)}})(window,'tap');\r\n\r\n        const TAPFILIATE_ACCOUNT_ID = \"57673-11d894\";\r\n        \r\n        tap('create', TAPFILIATE_ACCOUNT_ID, { integration: \"javascript\" });\r\n        tap('detect');\r\n        </script>\r\n    \r\n\t<link rel=\"shortcut icon\" href=\"/favicon.ico?v1\" sizes=\"any\">\r\n\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg?v1\" />\r\n\r\n\t<meta charset=\"UTF-8\">\r\n\t<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\r\n\t<meta name=\"viewport\" content=\"width=de"
+}

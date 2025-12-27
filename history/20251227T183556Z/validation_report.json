@@ -1,0 +1,40 @@
+{
+  "ts_utc": "2025-12-27T18:36:12.474027+00:00",
+  "out_dir": "out",
+  "files": {
+    "manifest.json": {
+      "present": true,
+      "errors": []
+    },
+    "espn_odds.json": {
+      "present": true,
+      "errors": [],
+      "metrics": {
+        "rows": 9,
+        "ok_full": 9,
+        "missing_in_scoreboard": 0,
+        "spread_parse_fail": 0,
+        "missing_total": 0
+      }
+    }
+  },
+  "join_audit": {
+    "anchor_pairs": 9,
+    "odds_pairs_full": 9,
+    "intersection": 5,
+    "coverage": 0.5556,
+    "missing_in_odds": [
+      "ATL-NYK",
+      "CHI-MIL",
+      "NOP-PHX",
+      "SAS-UTA"
+    ],
+    "extra_in_odds": [
+      "MIL-CHI",
+      "NYK-ATL",
+      "PHX-NOP",
+      "UTA-SAS"
+    ]
+  },
+  "verdict": "PASS"
+}

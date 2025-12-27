@@ -1,0 +1,308 @@
+{
+  "source": "derived_from_ESPN_scoreboard_recent_days",
+  "as_of_utc": "2025-12-27T18:35:59.794732+00:00",
+  "as_of_et": "2025-12-27T13:35:59.794732-05:00",
+  "as_of_kst": "2025-12-28T03:35:59.794732+09:00",
+  "fatigue": {
+    "SAC": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "DAL": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 2,
+      "4in6_flags_count": 2,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "ORL": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 2,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 1,
+      "travel_km_window": 4063.6,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "DEN": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 2,
+      "4in6_flags_count": 2,
+      "travel_km_window": 4626.8,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "NO": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 2,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 1,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "PHX": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "ATL": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "NY": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "MIA": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1950.5,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "IND": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 2,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 1,
+      "travel_km_window": 2947.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "CHI": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 947.8,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "MIL": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 2219.3,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "HOU": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 1,
+      "travel_km_window": 4216.7,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "CLE": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 1,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "MIN": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 2248.2,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "BKN": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1718.7,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "SA": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "UTAH": {
+      "window_days": 8,
+      "games_in_window": 5,
+      "rest_days": 0,
+      "b2b_flags_count": 2,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 1,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "CHA": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1593.5,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "WSH": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "TOR": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 2307.2,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "BOS": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1986.9,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "PHI": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1072.7,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "MEM": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 678.2,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "DET": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 3938.1,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "POR": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 778.9,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "LAC": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1331.1,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "OKC": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 2,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "GS": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 2,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 0.0,
+      "note": "travel is approximated via home-team arena coordinates"
+    },
+    "LAL": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 2,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0,
+      "travel_km_window": 1153.3,
+      "note": "travel is approximated via home-team arena coordinates"
+    }
+  }
+}
