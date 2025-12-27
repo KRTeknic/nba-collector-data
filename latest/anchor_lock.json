@@ -1,9 +1,9 @@
 {
   "schema_version": "ANCHOR_LOCK_V1",
   "mode": "LOCK",
-  "run_ts": "20251227T023250Z",
+  "run_ts": "20251227T023426Z",
   "kst_date": "2025-12-27",
-  "open_anchor_text": "ATL -4.5 246.5 MIA\nORL -6.5 232.5 CHA\nWAS +8.5 228.5 TOR\nIND +7.5 222.5 BOS\nCHI -1.5 240.5 PHI\nMEM -5.5 227.5 MIL\nNOP +3.5 240.5 PHX\nUTA +9.5 245.5 DET\nPOR +1.5 226.5 LAC\n",
-  "received_at_utc": "2025-12-27T02:32:50.537Z",
+  "open_anchor_text": "ATL -4.5 246.5 MIA\nORL -6.5 232.5 CHA\nWSH +8.5 228.5 TOR\nIND +7.5 222.5 BOS\nCHI -1.5 240.5 PHI\nMEM -5.5 227.5 MIL\nNOP +3.5 240.5 PHX\nUTA +9.5 245.5 DET\nPOR +1.5 226.5 LAC\n",
+  "received_at_utc": "2025-12-27T02:34:27.036Z",
   "note": "Latest domestic OPEN anchor lock. Do not overwrite with deltas."
 }
