@@ -1,9 +1,9 @@
 [SNAPSHOT_SOURCE]
 {
   "verified_at": {
-    "verified_at_utc": "2025-12-27T13:50:08.584902+00:00",
-    "verified_at_et": "2025-12-27T08:50:08.584902-05:00",
-    "verified_at_kst": "2025-12-27T22:50:08.584902+09:00"
+    "verified_at_utc": "2025-12-27T23:34:21.546798+00:00",
+    "verified_at_et": "2025-12-27T18:34:21.546798-05:00",
+    "verified_at_kst": "2025-12-28T08:34:21.546798+09:00"
   },
   "source_urls": {
     "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -22,76 +22,76 @@
 {
   "rows": [
     {
-      "match": "MIA@ATL",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T00:00Z",
-      "event_id": "401810278"
+      "match": "DAL@SAC",
+      "details": "DAL -3.5",
+      "total": 233.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-27T22:00Z",
+      "event_id": "401810287"
     },
     {
-      "match": "CHA@ORL",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T00:00Z",
-      "event_id": "401810279"
-    },
-    {
-      "match": "TOR@WSH",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T00:00Z",
-      "event_id": "401810280"
-    },
-    {
-      "match": "BOS@IND",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T00:00Z",
-      "event_id": "401810281"
-    },
-    {
-      "match": "PHI@CHI",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T00:30Z",
-      "event_id": "401810282"
-    },
-    {
-      "match": "MIL@MEM",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T01:00Z",
-      "event_id": "401810283"
+      "match": "DEN@ORL",
+      "details": "DEN -4.5",
+      "total": 234.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-28T00:00Z",
+      "event_id": "401810288"
     },
     {
       "match": "PHX@NOP",
-      "details": null,
-      "total": null,
-      "provider": null,
-      "start_utc": "2025-12-27T01:00Z",
-      "event_id": "401810284"
+      "details": "PHX -4.5",
+      "total": 237.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-28T00:00Z",
+      "event_id": "401810289"
     },
     {
-      "match": "DET@UTA",
-      "details": "DET -9.5",
-      "total": 245.5,
+      "match": "NYK@ATL",
+      "details": "NY -6.5",
+      "total": 242.5,
       "provider": "Draft Kings",
-      "start_utc": "2025-12-27T02:30Z",
-      "event_id": "401810285"
+      "start_utc": "2025-12-28T01:00Z",
+      "event_id": "401810290"
     },
     {
-      "match": "LAC@POR",
-      "details": "LAC -2.5",
-      "total": 227.5,
+      "match": "IND@MIA",
+      "details": "MIA -7.5",
+      "total": 228.5,
       "provider": "Draft Kings",
-      "start_utc": "2025-12-27T03:00Z",
-      "event_id": "401810286"
+      "start_utc": "2025-12-28T01:00Z",
+      "event_id": "401810291"
+    },
+    {
+      "match": "MIL@CHI",
+      "details": "CHI -2.5",
+      "total": 232.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-28T01:00Z",
+      "event_id": "401810292"
+    },
+    {
+      "match": "CLE@HOU",
+      "details": "HOU -3.5",
+      "total": 234.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-28T01:00Z",
+      "event_id": "401810293"
+    },
+    {
+      "match": "BKN@MIN",
+      "details": "MIN -12.5",
+      "total": 224.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-28T01:00Z",
+      "event_id": "401810294"
+    },
+    {
+      "match": "UTA@SAS",
+      "details": "SA -15.5",
+      "total": 241.5,
+      "provider": "Draft Kings",
+      "start_utc": "2025-12-28T01:00Z",
+      "event_id": "401810295"
     }
   ],
   "drift_vs_open_anchor": []
@@ -117,32 +117,12 @@
   "status": "OK",
   "candidates": [
     {
-      "match": "MIA@ATL",
+      "match": "DAL@SAC",
       "candidate": "PASS",
       "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
     },
     {
-      "match": "CHA@ORL",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "TOR@WSH",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "BOS@IND",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "PHI@CHI",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "MIL@MEM",
+      "match": "DEN@ORL",
       "candidate": "PASS",
       "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
     },
@@ -152,12 +132,32 @@
       "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
     },
     {
-      "match": "DET@UTA",
+      "match": "NYK@ATL",
       "candidate": "PASS",
       "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
     },
     {
-      "match": "LAC@POR",
+      "match": "IND@MIA",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "MIL@CHI",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "CLE@HOU",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "BKN@MIN",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "UTA@SAS",
       "candidate": "PASS",
       "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
     }
