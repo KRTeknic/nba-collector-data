@@ -1,0 +1,32 @@
+{
+  "schema_version": "LINEUPS_AUX_V2",
+  "status": "OK",
+  "source": "rotowire:nba-lineups",
+  "as_of_kst": "2025-12-27T10:41:25.117894+09:00",
+  "as_of_et": "2025-12-26T20:41:25.117894-05:00",
+  "run_ts": "20251227T014125Z",
+  "coverage_score": 100,
+  "games": [
+    {
+      "home": "MEM",
+      "away": "MIA",
+      "projected_starters_home": [
+        "A. Wiggins",
+        "Kel'el Ware",
+        "B. Adebayo",
+        "T. Herro",
+        "T. Rozier"
+      ],
+      "projected_starters_away": [
+        "Watch Now",
+        "MIA ATL",
+        "D. Mitchell",
+        "Norman Powell",
+        "Pelle Larsson"
+      ],
+      "injuries": [],
+      "source_detail": "HTML_FALLBACK"
+    }
+  ],
+  "note": "fail-soft; tries __NEXT_DATA__ first, then HTML fallback."
+}

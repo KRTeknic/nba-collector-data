@@ -1,0 +1,68 @@
+{
+  "as_of_utc": "2025-12-27T01:41:32.499293+00:00",
+  "as_of_kst": "2025-12-27T10:41:32.499293+09:00",
+  "as_of_et": "2025-12-26T20:41:32.499293-05:00",
+  "kst_slate_date_input": null,
+  "open_anchor_lines": [
+    "ATL -4.5 246.5 MIA",
+    "ORL -6.5 232.5 CHA",
+    "WAS +8.5 228.5 TOR",
+    "IND +7.5 222.5 BOS",
+    "CHI -1.5 240.5 PHI",
+    "MEM -5.5 227.5 MIL",
+    "NOP +3.5 240.5 PHX",
+    "UTA +9.5 245.5 DET",
+    "POR +1.5 226.5 LAC"
+  ],
+  "date_et_resolve": {
+    "mode": "ANCHOR_MATCH",
+    "candidates": [
+      "20251225",
+      "20251226",
+      "20251227"
+    ],
+    "chosen": "20251226",
+    "scores": {
+      "20251225": {
+        "matched": 0,
+        "total_anchors": 9,
+        "events": 5
+      },
+      "20251226": {
+        "matched": 8,
+        "total_anchors": 9,
+        "events": 9
+      },
+      "20251227": {
+        "matched": 1,
+        "total_anchors": 9,
+        "events": 9
+      }
+    },
+    "threshold": 5
+  },
+  "date_et": "20251226",
+  "status": {
+    "NBA_SCHEDULE_LEAGUEV2": "OK",
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "OK",
+    "NBA_CDN_SCOREBOARD": "OK",
+    "NBA_CDN_ODDS": "OK",
+    "NBA_INJURY_PDF": "FAILED: Not found (official-parse=no_pdf_links_for_date; brute-force=all_failed)",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": "OK",
+    "FINAL_SCORES": "OK",
+    "LINEUPS_AUX": "OK",
+    "CBS_INJURIES_AUX": "OK",
+    "ESPN_TEAM_INJURIES_AUX": "OK"
+  },
+  "unresolved_flags": [],
+  "unresolved_notes": [],
+  "debug": {
+    "espn_odds_total_events": 9,
+    "espn_odds_rows": 9,
+    "espn_odds_pairs_indexed": 9,
+    "espn_odds_ok_rows": 2,
+    "espn_odds_missing_rows": 7
+  }
+}
