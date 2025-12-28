@@ -1,166 +1,34 @@
 {
-  "SNAPSHOT_SOURCE": {
-    "verified_at": {
-      "verified_at_utc": "2025-12-28T13:46:25.415433+00:00",
-      "verified_at_et": "2025-12-28T08:46:25.415433-05:00",
-      "verified_at_kst": "2025-12-28T22:46:25.415433+09:00"
-    },
-    "source_urls": {
-      "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
-      "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
-    },
-    "manifest_status_summary": {
-      "ESPN_ODDS": "OK",
-      "ESPN_SCOREBOARD": "OK",
-      "NBA_INJURY_PDF": "FAILED: Not found (official-parse=no_pdf_links_for_date; brute-force=all_failed)",
-      "NBA_REF_ASSIGNMENTS": "OK",
-      "FATIGUE_PACK": "OK"
-    }
+  "status": "OK",
+  "verified_at_et": "2025-12-28T08:47:19.230723-05:00",
+  "verified_at_kst": "2025-12-28T22:47:19.230723+09:00",
+  "source_urls": {
+    "manifest": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
+    "odds": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json",
+    "scoreboard": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_scoreboard.json",
+    "injury_pdf": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/nba_injury_report.pdf"
   },
-  "MARKET_SNAPSHOT_LOG": {
-    "rows": [
-      {
-        "match": "DAL@SAC",
-        "details": "DAL -3.5",
-        "total": 233.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-27T22:00Z",
-        "event_id": "401810287"
-      },
-      {
-        "match": "DEN@ORL",
-        "details": "DEN -4.5",
-        "total": 234.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T00:00Z",
-        "event_id": "401810288"
-      },
-      {
-        "match": "PHX@NOP",
-        "details": "PHX -4.5",
-        "total": 237.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T00:00Z",
-        "event_id": "401810289"
-      },
-      {
-        "match": "NYK@ATL",
-        "details": "NY -6.5",
-        "total": 242.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T01:00Z",
-        "event_id": "401810290"
-      },
-      {
-        "match": "IND@MIA",
-        "details": "MIA -7.5",
-        "total": 228.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T01:00Z",
-        "event_id": "401810291"
-      },
-      {
-        "match": "MIL@CHI",
-        "details": "CHI -2.5",
-        "total": 232.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T01:00Z",
-        "event_id": "401810292"
-      },
-      {
-        "match": "CLE@HOU",
-        "details": "HOU -3.5",
-        "total": 234.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T01:00Z",
-        "event_id": "401810293"
-      },
-      {
-        "match": "BKN@MIN",
-        "details": "MIN -12.5",
-        "total": 224.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T01:00Z",
-        "event_id": "401810294"
-      },
-      {
-        "match": "UTA@SAS",
-        "details": "SA -15.5",
-        "total": 241.5,
-        "provider": "Draft Kings",
-        "start_utc": "2025-12-28T01:00Z",
-        "event_id": "401810295"
-      }
-    ],
-    "drift_vs_open_anchor": []
+  "manifest_status": {
+    "NBA_SCHEDULE_LEAGUEV2": "OK",
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "OK",
+    "NBA_CDN_SCOREBOARD": "OK",
+    "NBA_CDN_ODDS": "OK",
+    "NBA_INJURY_PDF": "FAILED: Not found (official-parse=no_pdf_links_for_date; brute-force=all_failed)",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": "OK",
+    "FINAL_SCORES": "OK",
+    "LINEUPS_AUX": "OK",
+    "CBS_INJURIES_AUX": "OK",
+    "ESPN_TEAM_INJURIES_AUX": "OK"
   },
-  "INJURY_SNAPSHOT_LOG": {
-    "nba_injury_report_pdf_present": false,
-    "nba_injury_report_pdf_path": null,
-    "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장"
-  },
-  "UNRESOLVED_ZONE": [
-    {
-      "tag": "U3",
-      "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
-    }
+  "unresolved": [
+    "INJURY=FAILED (allow AUX check, conflicts -> UNRESOLVED)"
   ],
-  "DRAFT_ANALYSIS_1ST": {
-    "status": "OK",
-    "candidates": [
-      {
-        "match": "DAL@SAC",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "DEN@ORL",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "PHX@NOP",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "NYK@ATL",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "IND@MIA",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "MIL@CHI",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "CLE@HOU",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "BKN@MIN",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "UTA@SAS",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      }
-    ],
-    "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
-  },
-  "PROCESS_LOG": [
-    "loaded: latest/manifest.json",
-    "loaded: latest/espn_odds.json",
-    "FAIL_FAST=NO",
-    "anchors_count=0",
-    "drift_rows=0"
+  "candidates": [
+    {
+      "label": "PASS (engine not yet integrated)",
+      "reason": "DRAFT pipeline OK; pick engine integration next"
+    }
   ]
 }
