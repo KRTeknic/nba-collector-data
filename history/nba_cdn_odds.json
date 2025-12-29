@@ -5072,16 +5072,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.360",
+                  "odds": "2.340",
                   "opening_odds": "2.260",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.617",
+                  "odds": "1.633",
                   "opening_odds": "1.676",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://servedby.flashtalking.com/click/8/270247;9354109;369307;211;0/?ft_width=1&ft_height=1&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&us_privacy=${US_PRIVACY}&url=41387574",
@@ -7055,16 +7055,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.071",
+                  "odds": "1.074",
                   "opening_odds": "1.091",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "9.300",
+                  "odds": "9.100",
                   "opening_odds": "8.000",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://servedby.flashtalking.com/click/8/270247;9354109;369307;211;0/?ft_width=1&ft_height=1&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&us_privacy=${US_PRIVACY}&url=41387574",
