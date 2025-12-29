@@ -7878,7 +7878,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $47",
-              "numberAvailable": 1257,
+              "numberAvailable": 1196,
               "links": [
                 {
                   "href": "https://www.vividseats.com/houston-rockets-tickets-toyota-center---tx-12-29-2025--sports-nba-basketball/production/5940770?wsUser=717"
@@ -8800,24 +8800,6 @@
                   "rankDisplayValue": "1st"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "22-9"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "15-2"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "6-7"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -8978,6 +8960,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "22-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "15-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "6-7"
                 }
               ]
             }
