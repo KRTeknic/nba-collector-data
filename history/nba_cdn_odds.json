@@ -4783,16 +4783,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.211",
+                  "odds": "1.200",
                   "opening_odds": "1.211",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "4.600",
+                  "odds": "4.750",
                   "opening_odds": "4.500",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://sports.sportingbet.bet.br/?wm=5507762&utm_source=app-nba-voa&utm_campaign=linkdabioappnba2025&utm_content={{ad.id}}&utm_medium=appnba-{{campaign.id}}_{{adset.id}}_{{ad.id}}&utm_term=5507762-linkdabioappnba2025-sptbet-sprts-br-2025-1-2-pt-app--acq-app&tdpeh=fb-{{ad.id}}{{site_source_name}}{{placement}}",
@@ -8094,14 +8094,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.150",
+                  "odds": "2.180",
                   "opening_odds": "2.000",
                   "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.714",
+                  "odds": "1.690",
                   "opening_odds": "1.833",
                   "odds_trend": "down"
                 }
