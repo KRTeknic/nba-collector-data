@@ -6019,16 +6019,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.010",
+                  "odds": "1.990",
                   "opening_odds": "2.020",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.830",
+                  "odds": "1.850",
                   "opening_odds": "1.800",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -6041,16 +6041,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.010",
+                  "odds": "1.990",
                   "opening_odds": "2.020",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.830",
+                  "odds": "1.850",
                   "opening_odds": "1.800",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -7018,9 +7018,9 @@
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "9.500",
+                  "odds": "9.300",
                   "opening_odds": "9.700",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -7040,9 +7040,9 @@
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "9.500",
+                  "odds": "9.300",
                   "opening_odds": "9.700",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -7509,18 +7509,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.860",
                   "opening_odds": "1.760",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "6.5",
                   "opening_spread": 5.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.960",
+                  "odds": "1.940",
                   "opening_odds": "1.940",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-6.5",
                   "opening_spread": -5.5
                 }
@@ -7535,18 +7535,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.860",
                   "opening_odds": "1.760",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "6.5",
                   "opening_spread": 5.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.960",
+                  "odds": "1.940",
                   "opening_odds": "1.940",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-6.5",
                   "opening_spread": -5.5
                 }
