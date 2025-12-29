@@ -4234,24 +4234,6 @@
                   "displayValue": "40.7"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "22-9"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "10-5"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "12-4"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -4412,6 +4394,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "22-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "10-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "12-4"
                 }
               ]
             }
@@ -9613,6 +9613,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "27-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "15-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "12-3"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -9773,24 +9791,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "27-5"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "15-1"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "12-3"
                 }
               ]
             },
@@ -12450,7 +12450,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $23",
-              "numberAvailable": 1076,
+              "numberAvailable": 1077,
               "links": [
                 {
                   "href": "https://www.vividseats.com/portland-trail-blazers-tickets-moda-center-12-29-2025--sports-nba-basketball/production/5940129?wsUser=717"
