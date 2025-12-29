@@ -4454,7 +4454,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $106",
-              "numberAvailable": 965,
+              "numberAvailable": 991,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-heat-tickets-kaseya-center-12-29-2025--sports-nba-basketball/production/5939898?wsUser=717"
@@ -6173,24 +6173,6 @@
                   "rankDisplayValue": "1st"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "15-16"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "8-7"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "7-9"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -6351,6 +6333,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "15-16"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "8-7"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "7-9"
                 }
               ]
             },
@@ -7658,6 +7658,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "6-26"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-12"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-14"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -7818,24 +7836,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "6-26"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "5-12"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "1-14"
                 }
               ]
             }
