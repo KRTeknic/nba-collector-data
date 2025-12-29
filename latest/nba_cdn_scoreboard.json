@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "https://nba-prod-us-east-1-mediaops-stats.s3.amazonaws.com/NBA/liveData/scoreboard/todaysScoreboard_00.json",
-    "time": "2025-12-29 11:14:11.1411",
+    "time": "2025-12-29 11:15:11.1511",
     "code": 200
   },
   "scoreboard": {
@@ -695,7 +695,7 @@
         "gameLeaders": {
           "homeLeaders": {
             "personId": 1629029,
-            "name": "Luka Doncic",
+            "name": "Luka DonÄiÄ",
             "jerseyNum": "77",
             "position": "F-G",
             "teamTricode": "LAL",
