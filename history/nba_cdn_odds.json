@@ -4739,16 +4739,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "4.700",
+                  "odds": "4.600",
                   "opening_odds": "4.600",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.208",
+                  "odds": "1.217",
                   "opening_odds": "1.217",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://servedby.flashtalking.com/click/8/270247;9354109;369307;211;0/?ft_width=1&ft_height=1&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&us_privacy=${US_PRIVACY}&url=41387574",
