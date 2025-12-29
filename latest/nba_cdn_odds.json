@@ -4761,14 +4761,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "4.800",
+                  "odds": "4.500",
                   "opening_odds": "4.500",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.200",
+                  "odds": "1.220",
                   "opening_odds": "1.220",
                   "odds_trend": "up"
                 }
@@ -4783,16 +4783,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.200",
+                  "odds": "1.211",
                   "opening_odds": "1.211",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "4.750",
+                  "odds": "4.600",
                   "opening_odds": "4.500",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://sports.sportingbet.bet.br/?wm=5507762&utm_source=app-nba-voa&utm_campaign=linkdabioappnba2025&utm_content={{ad.id}}&utm_medium=appnba-{{campaign.id}}_{{adset.id}}_{{ad.id}}&utm_term=5507762-linkdabioappnba2025-sptbet-sprts-br-2025-1-2-pt-app--acq-app&tdpeh=fb-{{ad.id}}{{site_source_name}}{{placement}}",
@@ -5273,15 +5273,17 @@
                   "type": "home",
                   "odds": "1.900",
                   "opening_odds": "1.800",
-                  "spread": "3",
+                  "odds_trend": "down",
+                  "spread": "2.5",
                   "opening_spread": 4.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.900",
+                  "odds": "1.850",
                   "opening_odds": "1.950",
-                  "spread": "-3",
+                  "odds_trend": "up",
+                  "spread": "-2.5",
                   "opening_spread": -4.5
                 }
               ],
@@ -6771,9 +6773,9 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "8.000",
+                  "odds": "7.750",
                   "opening_odds": "8.000",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
@@ -6926,17 +6928,15 @@
                   "type": "home",
                   "odds": "1.900",
                   "opening_odds": "1.900",
-                  "odds_trend": "down",
-                  "spread": "-15.5",
+                  "spread": "-15",
                   "opening_spread": -14.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.850",
+                  "odds": "1.900",
                   "opening_odds": "1.850",
-                  "odds_trend": "up",
-                  "spread": "15.5",
+                  "spread": "15",
                   "opening_spread": 14.5
                 }
               ],
@@ -6950,19 +6950,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.952",
+                  "odds": "1.870",
                   "opening_odds": "1.909",
-                  "odds_trend": "down",
-                  "spread": "-15.5",
+                  "odds_trend": "up",
+                  "spread": "-14.5",
                   "opening_spread": -14.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.870",
+                  "odds": "1.952",
                   "opening_odds": "1.909",
-                  "odds_trend": "up",
-                  "spread": "15.5",
+                  "odds_trend": "down",
+                  "spread": "14.5",
                   "opening_spread": 14.5
                 }
               ],
@@ -7099,9 +7099,9 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "8.250",
+                  "odds": "8.500",
                   "opening_odds": "8.000",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
@@ -7280,19 +7280,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.870",
+                  "odds": "1.952",
                   "opening_odds": "1.909",
-                  "odds_trend": "up",
-                  "spread": "-15.5",
+                  "odds_trend": "down",
+                  "spread": "-16.5",
                   "opening_spread": -15.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.952",
+                  "odds": "1.870",
                   "opening_odds": "1.909",
-                  "odds_trend": "down",
-                  "spread": "15.5",
+                  "odds_trend": "up",
+                  "spread": "16.5",
                   "opening_spread": 15.5
                 }
               ],
@@ -7432,16 +7432,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.400",
+                  "odds": "1.426",
                   "opening_odds": "1.526",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "3.000",
+                  "odds": "2.900",
                   "opening_odds": "2.550",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://sports.sportingbet.bet.br/?wm=5507762&utm_source=app-nba-voa&utm_campaign=linkdabioappnba2025&utm_content={{ad.id}}&utm_medium=appnba-{{campaign.id}}_{{adset.id}}_{{ad.id}}&utm_term=5507762-linkdabioappnba2025-sptbet-sprts-br-2025-1-2-pt-app--acq-app&tdpeh=fb-{{ad.id}}{{site_source_name}}{{placement}}",
@@ -7611,7 +7611,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.870",
+                  "odds": "1.847",
                   "opening_odds": "1.847",
                   "odds_trend": "down",
                   "spread": "6.5",
@@ -7620,7 +7620,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.952",
+                  "odds": "1.980",
                   "opening_odds": "1.980",
                   "odds_trend": "up",
                   "spread": "-6.5",
@@ -7741,14 +7741,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.670",
+                  "odds": "1.730",
                   "opening_odds": "1.500",
                   "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "2.250",
+                  "odds": "2.150",
                   "opening_odds": "2.650",
                   "odds_trend": "down"
                 }
@@ -7763,14 +7763,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.250",
+                  "odds": "2.150",
                   "opening_odds": "2.550",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.667",
+                  "odds": "1.714",
                   "opening_odds": "1.526",
                   "odds_trend": "up"
                 }
@@ -7942,7 +7942,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.870",
+                  "odds": "1.909",
                   "opening_odds": "1.909",
                   "odds_trend": "up",
                   "spread": "-2.5",
@@ -7951,7 +7951,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.952",
+                  "odds": "1.909",
                   "opening_odds": "1.909",
                   "odds_trend": "down",
                   "spread": "2.5",
@@ -8072,14 +8072,14 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "1.730",
+                  "odds": "1.700",
                   "opening_odds": "1.800",
                   "odds_trend": "down"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "2.150",
+                  "odds": "2.200",
                   "opening_odds": "2.050",
                   "odds_trend": "up"
                 }
@@ -8249,19 +8249,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.950",
+                  "odds": "1.850",
                   "opening_odds": "1.950",
                   "odds_trend": "down",
-                  "spread": "-3.5",
+                  "spread": "-2.5",
                   "opening_spread": -1.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.800",
+                  "odds": "1.900",
                   "opening_odds": "1.800",
                   "odds_trend": "up",
-                  "spread": "3.5",
+                  "spread": "2.5",
                   "opening_spread": 1.5
                 }
               ],
@@ -8275,7 +8275,7 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.909",
+                  "odds": "1.870",
                   "opening_odds": "1.909",
                   "odds_trend": "down",
                   "spread": "-2.5",
@@ -8284,7 +8284,7 @@
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.909",
+                  "odds": "1.952",
                   "opening_odds": "1.909",
                   "odds_trend": "up",
                   "spread": "2.5",

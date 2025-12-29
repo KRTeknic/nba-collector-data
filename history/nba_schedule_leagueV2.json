@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2025-12-29T11:02:14.214Z"
+    "time": "2025-12-29T11:07:34.734Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -30588,16 +30588,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627826,
-                "firstName": "Ivica",
-                "lastName": "Zubac",
-                "teamId": 1610612746,
-                "teamCity": "LA",
-                "teamName": "Clippers",
-                "teamTricode": "LAC",
-                "points": 21.0
-              },
-              {
                 "personId": 1626164,
                 "firstName": "Devin",
                 "lastName": "Booker",
@@ -30605,6 +30595,16 @@
                 "teamCity": "Phoenix",
                 "teamName": "Suns",
                 "teamTricode": "PHX",
+                "points": 21.0
+              },
+              {
+                "personId": 1627826,
+                "firstName": "Ivica",
+                "lastName": "Zubac",
+                "teamId": 1610612746,
+                "teamCity": "LA",
+                "teamName": "Clippers",
+                "teamTricode": "LAC",
                 "points": 21.0
               }
             ]
@@ -51645,16 +51645,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1642259,
-                "firstName": "Alex",
-                "lastName": "Sarr",
-                "teamId": 1610612764,
-                "teamCity": "Washington",
-                "teamName": "Wizards",
-                "teamTricode": "WAS",
-                "points": 24.0
-              },
-              {
                 "personId": 1627783,
                 "firstName": "Pascal",
                 "lastName": "Siakam",
@@ -51662,6 +51652,16 @@
                 "teamCity": "Indiana",
                 "teamName": "Pacers",
                 "teamTricode": "IND",
+                "points": 24.0
+              },
+              {
+                "personId": 1642259,
+                "firstName": "Alex",
+                "lastName": "Sarr",
+                "teamId": 1610612764,
+                "teamCity": "Washington",
+                "teamName": "Wizards",
+                "teamTricode": "WAS",
                 "points": 24.0
               }
             ]
@@ -73956,16 +73956,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630162,
-                "firstName": "Anthony",
-                "lastName": "Edwards",
-                "teamId": 1610612750,
-                "teamCity": "Minnesota",
-                "teamName": "Timberwolves",
-                "teamTricode": "MIN",
-                "points": 24.0
-              },
-              {
                 "personId": 1629645,
                 "firstName": "Kevin",
                 "lastName": "Porter Jr.",
@@ -73973,6 +73963,16 @@
                 "teamCity": "Milwaukee",
                 "teamName": "Bucks",
                 "teamTricode": "MIL",
+                "points": 24.0
+              },
+              {
+                "personId": 1630162,
+                "firstName": "Anthony",
+                "lastName": "Edwards",
+                "teamId": 1610612750,
+                "teamCity": "Minnesota",
+                "teamName": "Timberwolves",
+                "teamTricode": "MIN",
                 "points": 24.0
               }
             ]
