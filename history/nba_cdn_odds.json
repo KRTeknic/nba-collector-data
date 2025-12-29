@@ -5359,16 +5359,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.450",
+                  "odds": "2.550",
                   "opening_odds": "2.600",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.580",
+                  "odds": "1.540",
                   "opening_odds": "1.500",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -5381,16 +5381,16 @@
                 {
                   "odds_field_id": 1,
                   "type": "home",
-                  "odds": "2.450",
+                  "odds": "2.550",
                   "opening_odds": "2.600",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 },
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "1.580",
+                  "odds": "1.540",
                   "opening_odds": "1.500",
-                  "odds_trend": "up"
+                  "odds_trend": "down"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -5524,18 +5524,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.860",
+                  "odds": "1.910",
                   "opening_odds": "1.950",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "4.5",
                   "opening_spread": 3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.940",
+                  "odds": "1.890",
                   "opening_odds": "1.760",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-4.5",
                   "opening_spread": -3.5
                 }
@@ -5550,18 +5550,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.860",
+                  "odds": "1.910",
                   "opening_odds": "1.950",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "4.5",
                   "opening_spread": 3.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.940",
+                  "odds": "1.890",
                   "opening_odds": "1.760",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-4.5",
                   "opening_spread": -3.5
                 }
@@ -7018,9 +7018,9 @@
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "9.200",
+                  "odds": "9.500",
                   "opening_odds": "9.700",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -7040,9 +7040,9 @@
                 {
                   "odds_field_id": 2,
                   "type": "away",
-                  "odds": "9.200",
+                  "odds": "9.500",
                   "opening_odds": "9.700",
-                  "odds_trend": "down"
+                  "odds_trend": "up"
                 }
               ],
               "url": "https://www.novibet.gr/stoixima/mpasket/4372811/united-states/nba/5142827?btag=20045[â€¦]ce=2004578_&utm_medium=affiliate&utm_campaign=STOIXIMAGENERIC",
@@ -7916,19 +7916,19 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.850",
+                  "odds": "1.950",
                   "opening_odds": "1.750",
                   "odds_trend": "up",
-                  "spread": "-2.5",
+                  "spread": "-3.5",
                   "opening_spread": -4.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.900",
+                  "odds": "1.800",
                   "opening_odds": "2.000",
                   "odds_trend": "down",
-                  "spread": "2.5",
+                  "spread": "3.5",
                   "opening_spread": 4.5
                 }
               ],
