@@ -1575,6 +1575,24 @@
                   "displayValue": "35.7"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "7-23"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-10"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-13"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -1735,24 +1753,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "7-23"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "4-10"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-13"
                 }
               ]
             },
