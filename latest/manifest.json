@@ -1,28 +1,70 @@
 {
-  "as_of_utc": "2025-12-29T16:57:53.092477+00:00",
-  "as_of_kst": "2025-12-30T01:57:53.092477+09:00",
-  "as_of_et": "2025-12-29T11:57:53.092477-05:00",
-  "date_et": "20251229",
-  "date_et_resolve_scores": {
-    "20251227": {
-      "matched": 0,
-      "events": 9
+  "snapshot_ts": "20251229T165808Z",
+  "as_of_utc": "2025-12-29T16:58:09.121223+00:00",
+  "as_of_kst": "2025-12-30T01:58:09.121223+09:00",
+  "as_of_et": "2025-12-29T11:58:09.121223-05:00",
+  "kst_slate_date_input": "2025-12-30",
+  "open_anchor_lines": [
+    "MIL -2.5 228.5 CHA",
+    "PHX -10.5 235.5 WSH",
+    "GSW -3.5 221.5 BKN",
+    "DEN -2.5 246.5 MIA",
+    "ORL -1.5 223.5 TOR",
+    "MIN -5.5 240.5 CHI",
+    "IND +14.5 222.5 HOU",
+    "NYK -8.5 243.5 NOP",
+    "ATL +15.5 237.5 OKC",
+    "CLE +4.5 242.5 SAS",
+    "DAL +1.5 236.5 POR"
+  ],
+  "date_et_resolve": {
+    "mode": "ANCHOR_MATCH",
+    "candidates": [
+      "20251228",
+      "20251229",
+      "20251230"
+    ],
+    "chosen": "20251229",
+    "scores": {
+      "20251228": {
+        "matched": 0,
+        "total_anchors": 11,
+        "events": 6
+      },
+      "20251229": {
+        "matched": 11,
+        "total_anchors": 11,
+        "events": 11
+      },
+      "20251230": {
+        "matched": 0,
+        "total_anchors": 11,
+        "events": 4
+      }
     },
-    "20251228": {
-      "matched": 0,
-      "events": 6
-    },
-    "20251229": {
-      "matched": 8,
-      "events": 11
-    }
+    "threshold": 6
   },
+  "date_et": "20251229",
   "status": {
+    "NBA_SCHEDULE_LEAGUEV2": "OK",
     "ESPN_SCOREBOARD": "OK",
     "ESPN_ODDS": "OK",
-    "NBA_SCHEDULE_LEAGUEV2": "OK",
+    "NBA_CDN_SCOREBOARD": "OK",
+    "NBA_CDN_ODDS": "OK",
+    "NBA_INJURY_PDF": "FAILED: Not found (official-parse=no_pdf_links_for_date; brute-force=all_failed)",
     "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": "OK",
+    "FINAL_SCORES": "OK",
     "LINEUPS_AUX": "OK",
-    "CBS_INJURIES_AUX": "OK"
+    "CBS_INJURIES_AUX": "OK",
+    "ESPN_TEAM_INJURIES_AUX": "OK"
+  },
+  "unresolved_flags": [],
+  "unresolved_notes": [],
+  "debug": {
+    "espn_odds_total_events": 11,
+    "espn_odds_rows": 11,
+    "espn_odds_ok_full": 11,
+    "espn_odds_spread_parse_fail": 0
   }
 }
