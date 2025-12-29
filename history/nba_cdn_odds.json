@@ -7818,7 +7818,7 @@
                   "type": "home",
                   "odds": "1.900",
                   "opening_odds": "1.900",
-                  "spread": "-1.5",
+                  "spread": "-2.5",
                   "opening_spread": -4.5
                 },
                 {
@@ -7826,7 +7826,7 @@
                   "type": "away",
                   "odds": "1.900",
                   "opening_odds": "1.900",
-                  "spread": "1.5",
+                  "spread": "2.5",
                   "opening_spread": 4.5
                 }
               ],
@@ -8151,7 +8151,7 @@
                   "type": "home",
                   "odds": "1.900",
                   "opening_odds": "1.900",
-                  "spread": "-2.5",
+                  "spread": "-1.5",
                   "opening_spread": -1.5
                 },
                 {
@@ -8159,7 +8159,7 @@
                   "type": "away",
                   "odds": "1.900",
                   "opening_odds": "1.900",
-                  "spread": "2.5",
+                  "spread": "1.5",
                   "opening_spread": 1.5
                 }
               ],
