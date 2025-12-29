@@ -1,7 +1,32 @@
 {
-  "source": "rotowire.com/nba-lineups.php",
-  "as_of_utc": "2025-12-29T16:39:53.309226+00:00",
-  "as_of_et": "2025-12-29T11:39:53.309226-05:00",
-  "as_of_kst": "2025-12-30T01:39:53.309226+09:00",
-  "note": "raw HTML saved"
+  "schema_version": "LINEUPS_AUX_V2",
+  "status": "OK",
+  "source": "rotowire:nba-lineups",
+  "as_of_kst": "2025-12-30T01:39:58.082990+09:00",
+  "as_of_et": "2025-12-29T11:39:58.082990-05:00",
+  "run_ts": "20251229T163958Z",
+  "coverage_score": 100,
+  "games": [
+    {
+      "home": "SAS",
+      "away": "PHX",
+      "projected_starters_home": [
+        "Royce O'Neale",
+        "Oso Ighodaro",
+        "R. Dunn",
+        "G. Allen",
+        "J. Green"
+      ],
+      "projected_starters_away": [
+        "Watch Now",
+        "PHX WAS",
+        "C. Gillespie",
+        "Devin Booker",
+        "Dillon Brooks"
+      ],
+      "injuries": [],
+      "source_detail": "HTML_FALLBACK"
+    }
+  ],
+  "note": "fail-soft; tries __NEXT_DATA__ first, then HTML fallback."
 }

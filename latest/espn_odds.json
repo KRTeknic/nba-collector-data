@@ -1,8 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2025-12-29T16:39:53.309226+00:00",
-  "as_of_et": "2025-12-29T11:39:53.309226-05:00",
-  "as_of_kst": "2025-12-30T01:39:53.309226+09:00",
+  "as_of_utc": "2025-12-29T16:39:59.975349+00:00",
+  "as_of_et": "2025-12-29T11:39:59.975349-05:00",
+  "as_of_kst": "2025-12-30T01:39:59.975349+09:00",
   "date_et": "20251229",
   "rows": [
     {
@@ -10,99 +10,133 @@
       "start_utc": "2025-12-30T00:00Z",
       "home": "CHA",
       "away": "MIL",
+      "pair_key": "MIL-CHA",
       "details": "MIL -3.5",
+      "spread_home": 3.5,
       "total": 227.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810303",
       "start_utc": "2025-12-30T00:00Z",
       "home": "WSH",
       "away": "PHX",
+      "pair_key": "PHX-WSH",
       "details": "PHX -10.5",
+      "spread_home": 10.5,
       "total": 233.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810304",
       "start_utc": "2025-12-30T00:30Z",
       "home": "BKN",
-      "away": "GS",
+      "away": "GSW",
+      "pair_key": "GSW-BKN",
       "details": "GS -4.5",
+      "spread_home": 4.5,
       "total": 221.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810305",
       "start_utc": "2025-12-30T00:30Z",
       "home": "MIA",
       "away": "DEN",
+      "pair_key": "DEN-MIA",
       "details": "DEN -2.5",
+      "spread_home": 2.5,
       "total": 244.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810306",
       "start_utc": "2025-12-30T00:30Z",
       "home": "TOR",
       "away": "ORL",
+      "pair_key": "ORL-TOR",
       "details": "ORL -1.5",
+      "spread_home": 1.5,
       "total": 220.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810307",
       "start_utc": "2025-12-30T01:00Z",
       "home": "CHI",
       "away": "MIN",
+      "pair_key": "MIN-CHI",
       "details": "MIN -6.5",
+      "spread_home": 6.5,
       "total": 242.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810308",
       "start_utc": "2025-12-30T01:00Z",
       "home": "HOU",
       "away": "IND",
+      "pair_key": "IND-HOU",
       "details": "HOU -15.5",
+      "spread_home": -15.5,
       "total": 221.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810309",
       "start_utc": "2025-12-30T01:00Z",
-      "home": "NO",
-      "away": "NY",
+      "home": "NOP",
+      "away": "NYK",
+      "pair_key": "NYK-NOP",
       "details": "NY -8.5",
+      "spread_home": 8.5,
       "total": 246.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810310",
       "start_utc": "2025-12-30T01:00Z",
       "home": "OKC",
       "away": "ATL",
+      "pair_key": "ATL-OKC",
       "details": "OKC -16.5",
+      "spread_home": -16.5,
       "total": 236.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810311",
       "start_utc": "2025-12-30T01:00Z",
-      "home": "SA",
+      "home": "SAS",
       "away": "CLE",
+      "pair_key": "CLE-SAS",
       "details": "SA -2.5",
+      "spread_home": -2.5,
       "total": 241.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     },
     {
       "event_id": "401810312",
       "start_utc": "2025-12-30T03:30Z",
       "home": "POR",
       "away": "DAL",
+      "pair_key": "DAL-POR",
       "details": "POR -2.5",
+      "spread_home": -2.5,
       "total": 230.5,
-      "provider": "Draft Kings"
+      "provider": "Draft Kings",
+      "odds_status": "OK"
     }
-  ]
+  ],
+  "note": "pair_key is AWAY-HOME (matches anchor). OK means spread_home + total both present."
 }
