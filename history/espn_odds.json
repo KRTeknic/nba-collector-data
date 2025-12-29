@@ -1,8 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2025-12-29T16:09:27.266174+00:00",
-  "as_of_et": "2025-12-29T11:09:27.266174-05:00",
-  "as_of_kst": "2025-12-30T01:09:27.266174+09:00",
+  "as_of_utc": "2025-12-29T16:10:24.458369+00:00",
+  "as_of_et": "2025-12-29T11:10:24.458369-05:00",
+  "as_of_kst": "2025-12-30T01:10:24.458369+09:00",
   "date_et": "20251229",
   "rows": [
     {
@@ -49,7 +49,7 @@
       "pair_key": "DEN-MIA",
       "details": "DEN -2.5",
       "spread_home": 2.5,
-      "total": 245.5,
+      "total": 244.5,
       "provider": "Draft Kings",
       "odds_status": "OK"
     },
