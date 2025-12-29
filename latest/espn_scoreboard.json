@@ -11891,24 +11891,6 @@
                   "rankDisplayValue": "1st"
                 }
               ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "13-19"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "6-9"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "7-10"
-                }
-              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -12069,6 +12051,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "13-19"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-9"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "7-10"
                 }
               ]
             },

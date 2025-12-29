@@ -2,9 +2,9 @@
   "schema_version": "LINEUPS_AUX_V2",
   "status": "OK",
   "source": "rotowire:nba-lineups",
-  "as_of_kst": "2025-12-30T02:00:04.690745+09:00",
-  "as_of_et": "2025-12-29T12:00:04.690745-05:00",
-  "run_ts": "20251229T170004Z",
+  "as_of_kst": "2025-12-30T02:01:10.377580+09:00",
+  "as_of_et": "2025-12-29T12:01:10.377580-05:00",
+  "run_ts": "20251229T170110Z",
   "coverage_score": 100,
   "games": [
     {
