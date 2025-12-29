@@ -5837,7 +5837,7 @@
                 "over": {
                   "close": {
                     "line": "o220.5",
-                    "odds": "-108",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5871,7 +5871,7 @@
                 "under": {
                   "close": {
                     "line": "u220.5",
-                    "odds": "-112",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
