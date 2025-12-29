@@ -3314,7 +3314,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $182",
-              "numberAvailable": 1193,
+              "numberAvailable": 1108,
               "links": [
                 {
                   "href": "https://www.vividseats.com/brooklyn-nets-tickets-barclays-center-12-29-2025--sports-nba-basketball/production/5939907?wsUser=717"
@@ -6173,6 +6173,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "15-16"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "8-7"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "7-9"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -6333,24 +6351,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "15-16"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "8-7"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "7-9"
                 }
               ]
             },
