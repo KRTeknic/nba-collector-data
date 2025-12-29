@@ -2,7 +2,7 @@
   "meta": {
     "version": 1,
     "request": "http://nba.cloud/league/00/2025-26/scheduleleaguev2?Format=json",
-    "time": "2025-12-29T11:50:13.5013Z"
+    "time": "2025-12-29T11:55:34.5534Z"
   },
   "leagueSchedule": {
     "seasonYear": "2025-26",
@@ -41347,16 +41347,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1630595,
-                "firstName": "Cade",
-                "lastName": "Cunningham",
-                "teamId": 1610612765,
-                "teamCity": "Detroit",
-                "teamName": "Pistons",
-                "teamTricode": "DET",
-                "points": 25.0
-              },
-              {
                 "personId": 1630552,
                 "firstName": "Jalen",
                 "lastName": "Johnson",
@@ -41364,6 +41354,16 @@
                 "teamCity": "Atlanta",
                 "teamName": "Hawks",
                 "teamTricode": "ATL",
+                "points": 25.0
+              },
+              {
+                "personId": 1630595,
+                "firstName": "Cade",
+                "lastName": "Cunningham",
+                "teamId": 1610612765,
+                "teamCity": "Detroit",
+                "teamName": "Pistons",
+                "teamTricode": "DET",
                 "points": 25.0
               }
             ]
@@ -62673,16 +62673,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1627742,
-                "firstName": "Brandon",
-                "lastName": "Ingram",
-                "teamId": 1610612761,
-                "teamCity": "Toronto",
-                "teamName": "Raptors",
-                "teamTricode": "TOR",
-                "points": 30.0
-              },
-              {
                 "personId": 1627759,
                 "firstName": "Jaylen",
                 "lastName": "Brown",
@@ -62690,6 +62680,16 @@
                 "teamCity": "Boston",
                 "teamName": "Celtics",
                 "teamTricode": "BOS",
+                "points": 30.0
+              },
+              {
+                "personId": 1627742,
+                "firstName": "Brandon",
+                "lastName": "Ingram",
+                "teamId": 1610612761,
+                "teamCity": "Toronto",
+                "teamName": "Raptors",
+                "teamTricode": "TOR",
                 "points": 30.0
               }
             ]
@@ -74743,16 +74743,6 @@
             },
             "pointsLeaders": [
               {
-                "personId": 1628374,
-                "firstName": "Lauri",
-                "lastName": "Markkanen",
-                "teamId": 1610612762,
-                "teamCity": "Utah",
-                "teamName": "Jazz",
-                "teamTricode": "UTA",
-                "points": 27.0
-              },
-              {
                 "personId": 1627750,
                 "firstName": "Jamal",
                 "lastName": "Murray",
@@ -74760,6 +74750,16 @@
                 "teamCity": "Denver",
                 "teamName": "Nuggets",
                 "teamTricode": "DEN",
+                "points": 27.0
+              },
+              {
+                "personId": 1628374,
+                "firstName": "Lauri",
+                "lastName": "Markkanen",
+                "teamId": 1610612762,
+                "teamCity": "Utah",
+                "teamName": "Jazz",
+                "teamTricode": "UTA",
                 "points": 27.0
               }
             ]
