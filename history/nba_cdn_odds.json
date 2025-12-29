@@ -5295,18 +5295,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.909",
+                  "odds": "1.870",
                   "opening_odds": "1.980",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "3.5",
                   "opening_spread": 2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.909",
+                  "odds": "1.952",
                   "opening_odds": "1.847",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "-3.5",
                   "opening_spread": -2.5
                 }
@@ -5626,18 +5626,18 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.847",
+                  "odds": "1.870",
                   "opening_odds": "1.870",
-                  "odds_trend": "down",
+                  "odds_trend": "up",
                   "spread": "4.5",
                   "opening_spread": 4.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.980",
+                  "odds": "1.952",
                   "opening_odds": "1.952",
-                  "odds_trend": "up",
+                  "odds_trend": "down",
                   "spread": "-4.5",
                   "opening_spread": -4.5
                 }
