@@ -11414,7 +11414,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-148",
+                    "odds": "-135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11446,7 +11446,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+124",
+                    "odds": "+114",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11483,7 +11483,7 @@
                 "home": {
                   "close": {
                     "line": "-2.5",
-                    "odds": "-115",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
