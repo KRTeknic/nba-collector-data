@@ -5145,19 +5145,17 @@
                 {
                   "odds_field_id": 10,
                   "type": "home",
-                  "odds": "1.750",
+                  "odds": "1.700",
                   "opening_odds": "1.650",
-                  "odds_trend": "up",
-                  "spread": "2.5",
+                  "spread": "3.5",
                   "opening_spread": 2.5
                 },
                 {
                   "odds_field_id": 12,
                   "type": "away",
-                  "odds": "1.650",
+                  "odds": "1.700",
                   "opening_odds": "1.730",
-                  "odds_trend": "down",
-                  "spread": "-2.5",
+                  "spread": "-3.5",
                   "opening_spread": -2.5
                 }
               ],
