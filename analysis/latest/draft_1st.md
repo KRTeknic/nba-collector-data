@@ -1,9 +1,9 @@
 [SNAPSHOT_SOURCE]
 {
   "verified_at": {
-    "verified_at_utc": "2025-12-29T23:35:54.579063+00:00",
-    "verified_at_et": "2025-12-29T18:35:54.579063-05:00",
-    "verified_at_kst": "2025-12-30T08:35:54.579063+09:00"
+    "verified_at_utc": "2025-12-30T14:00:24.132456+00:00",
+    "verified_at_et": "2025-12-30T09:00:24.132456-05:00",
+    "verified_at_kst": "2025-12-30T23:00:24.132456+09:00"
   },
   "source_urls": {
     "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -24,7 +24,7 @@
     {
       "match": "MIL@CHA",
       "details": "MIL -3.5",
-      "total": 228.5,
+      "total": 227.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T00:00Z",
       "event_id": "401810302"
@@ -32,22 +32,22 @@
     {
       "match": "PHX@WSH",
       "details": "PHX -10.5",
-      "total": 232.5,
+      "total": 233.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T00:00Z",
       "event_id": "401810303"
     },
     {
       "match": "GS@BKN",
-      "details": "GS -4.5",
-      "total": 221.5,
+      "details": "GS -6.5",
+      "total": 226.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T00:30Z",
       "event_id": "401810304"
     },
     {
       "match": "DEN@MIA",
-      "details": "DEN -2.5",
+      "details": "DEN -1.5",
       "total": 244.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T00:30Z",
@@ -64,15 +64,15 @@
     {
       "match": "MIN@CHI",
       "details": "MIN -6.5",
-      "total": 242.5,
+      "total": 243.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T01:00Z",
       "event_id": "401810307"
     },
     {
       "match": "IND@HOU",
-      "details": "HOU -15.5",
-      "total": 221.5,
+      "details": "HOU -13.5",
+      "total": 222.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T01:00Z",
       "event_id": "401810308"
@@ -80,23 +80,23 @@
     {
       "match": "NY@NO",
       "details": "NY -8.5",
-      "total": 245.5,
+      "total": 247.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T01:00Z",
       "event_id": "401810309"
     },
     {
       "match": "ATL@OKC",
-      "details": "OKC -16.5",
-      "total": 236.5,
+      "details": "OKC -17.5",
+      "total": 232.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T01:00Z",
       "event_id": "401810310"
     },
     {
       "match": "CLE@SA",
-      "details": "SA -2.5",
-      "total": 243.5,
+      "details": "SA -3.5",
+      "total": 244.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T01:00Z",
       "event_id": "401810311"
@@ -104,7 +104,7 @@
     {
       "match": "DAL@POR",
       "details": "POR -2.5",
-      "total": 231.5,
+      "total": 232.5,
       "provider": "Draft Kings",
       "start_utc": "2025-12-30T03:30Z",
       "event_id": "401810312"
