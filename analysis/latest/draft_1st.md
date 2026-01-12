@@ -1,16 +1,16 @@
 [SNAPSHOT_SOURCE]
 {
   "verified_at": {
-    "verified_at_utc": "2026-01-11T23:36:31.018665+00:00",
-    "verified_at_et": "2026-01-11T18:36:31.018665-05:00",
-    "verified_at_kst": "2026-01-12T08:36:31.018665+09:00"
+    "verified_at_utc": "2026-01-12T14:01:26.412321+00:00",
+    "verified_at_et": "2026-01-12T09:01:26.412321-05:00",
+    "verified_at_kst": "2026-01-12T23:01:26.412321+09:00"
   },
   "source_urls": {
     "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
     "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
   },
   "manifest_status_summary": {
-    "ESPN_ODDS": "UNAVAILABLE: No odds in payload",
+    "ESPN_ODDS": "OK",
     "ESPN_SCOREBOARD": "OK",
     "NBA_INJURY_PDF": "",
     "NBA_REF_ASSIGNMENTS": "OK",
@@ -20,7 +20,56 @@
 
 [MARKET_SNAPSHOT_LOG]
 {
-  "rows": [],
+  "rows": [
+    {
+      "match": "SA@MIN",
+      "details": "MIN -2.5",
+      "total": 232.5,
+      "provider": "Draft Kings",
+      "start_utc": "2026-01-12T00:00Z",
+      "event_id": "401810407"
+    },
+    {
+      "match": "MIA@OKC",
+      "details": "OKC -14.5",
+      "total": 235.5,
+      "provider": "Draft Kings",
+      "start_utc": "2026-01-12T00:00Z",
+      "event_id": "401810408"
+    },
+    {
+      "match": "MIL@DEN",
+      "details": "MIL -3.5",
+      "total": 218.5,
+      "provider": "Draft Kings",
+      "start_utc": "2026-01-12T01:00Z",
+      "event_id": "401810409"
+    },
+    {
+      "match": "WSH@PHX",
+      "details": "PHX -14.5",
+      "total": 230.5,
+      "provider": "Draft Kings",
+      "start_utc": "2026-01-12T01:00Z",
+      "event_id": "401810410"
+    },
+    {
+      "match": "ATL@GS",
+      "details": "GS -6.5",
+      "total": 236.5,
+      "provider": "Draft Kings",
+      "start_utc": "2026-01-12T01:30Z",
+      "event_id": "401810411"
+    },
+    {
+      "match": "HOU@SAC",
+      "details": "HOU -13.5",
+      "total": 222.5,
+      "provider": "Draft Kings",
+      "start_utc": "2026-01-12T02:00Z",
+      "event_id": "401810412"
+    }
+  ],
   "drift_vs_open_anchor": []
 }
 
@@ -34,10 +83,6 @@
 [UNRESOLVED_ZONE]
 [
   {
-    "tag": "U0",
-    "reason": "MARKET_UNAVAILABLE (FAIL-FAST) — manifest.status.ESPN_ODDS != OK"
-  },
-  {
     "tag": "U3",
     "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
   }
@@ -45,14 +90,45 @@
 
 [DRAFT_ANALYSIS_1ST]
 {
-  "status": "BLOCKED",
-  "candidates": [],
+  "status": "OK",
+  "candidates": [
+    {
+      "match": "SA@MIN",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "MIA@OKC",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "MIL@DEN",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "WSH@PHX",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "ATL@GS",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "HOU@SAC",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    }
+  ],
   "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
 }
 
 [PROCESS_LOG]
 loaded: latest/manifest.json
 loaded: latest/espn_odds.json
-FAIL_FAST=YES
+FAIL_FAST=NO
 anchors_count=0
 drift_rows=0
