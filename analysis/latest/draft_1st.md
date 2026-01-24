@@ -1,29 +1,58 @@
 [SNAPSHOT_SOURCE]
-- verified_at (ET/KST): 2026-01-23T08:48:40.578239-05:00 / 2026-01-23T22:48:40.578239+09:00
-- source_urls: https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json , https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json
-- manifest.status: {"ESPN_SCOREBOARD": "OK", "ESPN_ODDS": "OK", "NBA_SCHEDULE_LEAGUEV2": "OK", "NBA_REF_ASSIGNMENTS": "OK", "LINEUPS_AUX": "OK", "CBS_INJURIES_AUX": "OK"}
+{
+  "verified_at": {
+    "verified_at_utc": "2026-01-24T13:33:39.482366+00:00",
+    "verified_at_et": "2026-01-24T08:33:39.482366-05:00",
+    "verified_at_kst": "2026-01-24T22:33:39.482366+09:00"
+  },
+  "source_urls": {
+    "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
+    "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
+  },
+  "manifest_status_summary": {
+    "ESPN_ODDS": "UNAVAILABLE: No odds in payload",
+    "ESPN_SCOREBOARD": "OK",
+    "NBA_INJURY_PDF": "",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": ""
+  }
+}
 
 [MARKET_SNAPSHOT_LOG]
-- CHA@ORL | spread(details): ORL -3.5 | total: 225.5 | provider: Draft Kings | start_utc: 2026-01-23T00:00Z
-- HOU@PHI | spread(details): HOU -2.5 | total: 221.5 | provider: Draft Kings | start_utc: 2026-01-23T00:00Z
-- DEN@WSH | spread(details): DEN -5.5 | total: 227.5 | provider: Draft Kings | start_utc: 2026-01-23T00:00Z
-- GS@DAL | spread(details): GS -6.5 | total: 234.5 | provider: Draft Kings | start_utc: 2026-01-23T00:30Z
-- CHI@MIN | spread(details): MIN -9.5 | total: 238.5 | provider: Draft Kings | start_utc: 2026-01-23T01:00Z
-- SA@UTAH | spread(details): SA -13.5 | total: 236.5 | provider: Draft Kings | start_utc: 2026-01-23T02:00Z
-- LAL@LAC | spread(details): LAL -1.5 | total: 222.5 | provider: Draft Kings | start_utc: 2026-01-23T03:00Z
-- MIA@POR | spread(details): POR -2.5 | total: 235.5 | provider: Draft Kings | start_utc: 2026-01-23T03:00Z
+{
+  "rows": [],
+  "drift_vs_open_anchor": []
+}
 
 [INJURY_SNAPSHOT_LOG]
-- nba_injury_report.pdf: UNAVAILABLE (manifest missing)
-- AUX(가능): RotoWire lineups / CBS injuries / ESPN injury page (충돌 시 UNRESOLVED)
+{
+  "nba_injury_report_pdf_present": false,
+  "nba_injury_report_pdf_path": null,
+  "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장"
+}
 
 [UNRESOLVED_ZONE]
-- INJURY=FAILED (allow AUX check, conflicts -> UNRESOLVED)
+[
+  {
+    "tag": "U0",
+    "reason": "MARKET_UNAVAILABLE (FAIL-FAST) — manifest.status.ESPN_ODDS != OK"
+  },
+  {
+    "tag": "U3",
+    "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
+  }
+]
 
 [DRAFT_ANALYSIS_1ST]
-- 픽조합 v1.0 준수(같은 경기 핸디+언오버 한 조합 중복 금지, 최소 2폴)
-- PASS (engine not yet integrated): DRAFT pipeline OK; pick engine integration next
+{
+  "status": "BLOCKED",
+  "candidates": [],
+  "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
+}
 
 [PROCESS_LOG]
-- opened: manifest, odds (scoreboard/pdf optional)
-- errors: none
+loaded: latest/manifest.json
+loaded: latest/espn_odds.json
+FAIL_FAST=YES
+anchors_count=0
+drift_rows=0
