@@ -1,9 +1,9 @@
 [SNAPSHOT_SOURCE]
 {
   "verified_at": {
-    "verified_at_utc": "2026-02-02T23:37:19.454215+00:00",
-    "verified_at_et": "2026-02-02T18:37:19.454215-05:00",
-    "verified_at_kst": "2026-02-03T08:37:19.454215+09:00"
+    "verified_at_utc": "2026-02-03T14:06:21.124214+00:00",
+    "verified_at_et": "2026-02-03T09:06:21.124214-05:00",
+    "verified_at_kst": "2026-02-03T23:06:21.124214+09:00"
   },
   "source_urls": {
     "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -22,17 +22,9 @@
 {
   "rows": [
     {
-      "match": "NO@CHA",
-      "details": "CHA -6.5",
-      "total": 231.5,
-      "provider": "Draft Kings",
-      "start_utc": "2026-02-02T20:00Z",
-      "event_id": "401810567"
-    },
-    {
       "match": "HOU@IND",
       "details": "HOU -6.5",
-      "total": 219.5,
+      "total": 218.5,
       "provider": "Draft Kings",
       "start_utc": "2026-02-03T00:00Z",
       "event_id": "401810568"
@@ -40,15 +32,15 @@
     {
       "match": "MIN@MEM",
       "details": "MIN -7.5",
-      "total": 229.5,
+      "total": 231.5,
       "provider": "Draft Kings",
       "start_utc": "2026-02-03T00:30Z",
       "event_id": "401810569"
     },
     {
       "match": "PHI@LAC",
-      "details": "LAC -2.5",
-      "total": 220.5,
+      "details": "PHI -1.5",
+      "total": 218.5,
       "provider": "Draft Kings",
       "start_utc": "2026-02-03T03:00Z",
       "event_id": "401810570"
@@ -76,11 +68,6 @@
 {
   "status": "OK",
   "candidates": [
-    {
-      "match": "NO@CHA",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
     {
       "match": "HOU@IND",
       "candidate": "PASS",
