@@ -1,9 +1,9 @@
 [SNAPSHOT_SOURCE]
 {
   "verified_at": {
-    "verified_at_utc": "2026-03-27T23:40:20.181489+00:00",
-    "verified_at_et": "2026-03-27T19:40:20.181489-04:00",
-    "verified_at_kst": "2026-03-28T08:40:20.181489+09:00"
+    "verified_at_utc": "2026-03-28T13:53:10.734013+00:00",
+    "verified_at_et": "2026-03-28T09:53:10.734013-04:00",
+    "verified_at_kst": "2026-03-28T22:53:10.734013+09:00"
   },
   "source_urls": {
     "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -22,33 +22,9 @@
 {
   "rows": [
     {
-      "match": "LAC@IND",
-      "details": "LAC -8.5",
-      "total": 239.5,
-      "provider": "Draft Kings",
-      "start_utc": "2026-03-27T23:00Z",
-      "event_id": "401810921"
-    },
-    {
-      "match": "ATL@BOS",
-      "details": "BOS -5.5",
-      "total": 226.5,
-      "provider": "Draft Kings",
-      "start_utc": "2026-03-27T23:30Z",
-      "event_id": "401810922"
-    },
-    {
-      "match": "MIA@CLE",
-      "details": "CLE -5.5",
-      "total": 242.5,
-      "provider": "Draft Kings",
-      "start_utc": "2026-03-27T23:30Z",
-      "event_id": "401810923"
-    },
-    {
       "match": "HOU@MEM",
       "details": "HOU -13.5",
-      "total": 227.5,
+      "total": 229.5,
       "provider": "Draft Kings",
       "start_utc": "2026-03-28T00:00Z",
       "event_id": "401810924"
@@ -56,7 +32,7 @@
     {
       "match": "CHI@OKC",
       "details": "OKC -19.5",
-      "total": 239.5,
+      "total": 241.5,
       "provider": "Draft Kings",
       "start_utc": "2026-03-28T00:00Z",
       "event_id": "401810925"
@@ -71,16 +47,16 @@
     },
     {
       "match": "UTAH@DEN",
-      "details": "DEN -18.5",
-      "total": 248.5,
+      "details": "DEN -19.5",
+      "total": 246.5,
       "provider": "Draft Kings",
       "start_utc": "2026-03-28T01:00Z",
       "event_id": "401810927"
     },
     {
       "match": "WSH@GS",
-      "details": "GS -13.5",
-      "total": 232.5,
+      "details": "GS -12.5",
+      "total": 230.5,
       "provider": "Draft Kings",
       "start_utc": "2026-03-28T02:00Z",
       "event_id": "401810928"
@@ -88,15 +64,15 @@
     {
       "match": "DAL@POR",
       "details": "POR -10.5",
-      "total": 239.5,
+      "total": 240.5,
       "provider": "Draft Kings",
       "start_utc": "2026-03-28T02:00Z",
       "event_id": "401810929"
     },
     {
       "match": "BKN@LAL",
-      "details": "LAL -16.5",
-      "total": 222.5,
+      "details": "LAL -18.5",
+      "total": 224.5,
       "provider": "Draft Kings",
       "start_utc": "2026-03-28T02:30Z",
       "event_id": "401810930"
@@ -124,21 +100,6 @@
 {
   "status": "OK",
   "candidates": [
-    {
-      "match": "LAC@IND",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "ATL@BOS",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "MIA@CLE",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
     {
       "match": "HOU@MEM",
       "candidate": "PASS",
