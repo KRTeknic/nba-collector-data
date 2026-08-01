@@ -1,9 +1,9 @@
 [SNAPSHOT_SOURCE]
 {
   "verified_at": {
-    "verified_at_utc": "2026-08-01T00:07:05.950104+00:00",
-    "verified_at_et": "2026-07-31T20:07:05.950104-04:00",
-    "verified_at_kst": "2026-08-01T09:07:05.950104+09:00"
+    "verified_at_utc": "2026-08-01T14:35:55.839989+00:00",
+    "verified_at_et": "2026-08-01T10:35:55.839989-04:00",
+    "verified_at_kst": "2026-08-01T23:35:55.839989+09:00"
   },
   "source_urls": {
     "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
