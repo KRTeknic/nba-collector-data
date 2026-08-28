@@ -1,9 +1,9 @@
 {
   "SNAPSHOT_SOURCE": {
     "verified_at": {
-      "verified_at_utc": "2026-08-28T06:51:35.251770+00:00",
-      "verified_at_et": "2026-08-28T02:51:35.251770-04:00",
-      "verified_at_kst": "2026-08-28T15:51:35.251770+09:00"
+      "verified_at_utc": "2026-08-28T22:57:11.332415+00:00",
+      "verified_at_et": "2026-08-28T18:57:11.332415-04:00",
+      "verified_at_kst": "2026-08-29T07:57:11.332415+09:00"
     },
     "source_urls": {
       "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
@@ -11,7 +11,7 @@
     },
     "manifest_status_summary": {
       "ESPN_ODDS": "UNAVAILABLE: Scoreboard not available",
-      "ESPN_SCOREBOARD": "FAILED: 403 Client Error: Forbidden for url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260826",
+      "ESPN_SCOREBOARD": "FAILED: 403 Client Error: Forbidden for url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260827",
       "NBA_INJURY_PDF": "",
       "NBA_REF_ASSIGNMENTS": "OK",
       "FATIGUE_PACK": ""
