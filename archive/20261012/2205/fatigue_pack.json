@@ -1,0 +1,248 @@
+{
+  "source": "derived_from_ESPN_scoreboard_recent_days",
+  "as_of_utc": "2026-10-11T18:00:25.356243+00:00",
+  "as_of_et": "2026-10-11T14:00:25.356243-04:00",
+  "as_of_kst": "2026-10-12T03:00:25.356243+09:00",
+  "fatigue": {
+    "HOU": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "DAL": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "CLE": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "ORL": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "CHA": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "MIL": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "DEN": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "CHI": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 0,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "TOR": {
+      "window_days": 8,
+      "games_in_window": 1,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "LAC": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "IND": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "ATL": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "WSH": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "DET": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "MIA": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "MIN": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "BOS": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "PHI": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "GS": {
+      "window_days": 8,
+      "games_in_window": 4,
+      "rest_days": 1,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0
+    },
+    "SAC": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "PHX": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "SA": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 1,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "MEM": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 2,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "NO": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 3,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "BKN": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 3,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "NY": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 3,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "LAL": {
+      "window_days": 8,
+      "games_in_window": 3,
+      "rest_days": 3,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 1,
+      "4in6_flags_count": 0
+    },
+    "OKC": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 4,
+      "b2b_flags_count": 1,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "POR": {
+      "window_days": 8,
+      "games_in_window": 1,
+      "rest_days": 4,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    },
+    "UTAH": {
+      "window_days": 8,
+      "games_in_window": 2,
+      "rest_days": 5,
+      "b2b_flags_count": 0,
+      "3in4_flags_count": 0,
+      "4in6_flags_count": 0
+    }
+  }
+}

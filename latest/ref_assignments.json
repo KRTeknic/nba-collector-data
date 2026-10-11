@@ -1,56 +1,35 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-10-11T01:47:47.640059+00:00",
-  "as_of_et": "2026-10-10T21:47:47.640059-04:00",
-  "as_of_kst": "2026-10-11T10:47:47.640059+09:00",
+  "as_of_utc": "2026-10-11T18:00:25.356243+00:00",
+  "as_of_et": "2026-10-11T14:00:25.356243-04:00",
+  "as_of_kst": "2026-10-12T03:00:25.356243+09:00",
   "rows": [
     {
-      "game": "Minnesota @ Miami",
-      "crew_chief": "Zach Zarba (#15)",
-      "referee": "Sean Corbin (#33)",
-      "umpire": "Jenna Schroeder (#20)",
+      "game": "Dallas @ Houston",
+      "crew_chief": "Jacyn Goble (#68)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "Matt Myers (#43)",
       "alternate": ""
     },
     {
-      "game": "Atlanta @ Indiana",
-      "crew_chief": "Tyler Ford (#39)",
-      "referee": "Robert Hussey (#85)",
-      "umpire": "Agon Abazi (#88)",
+      "game": "Milwaukee @ Charlotte",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Suyash Mehta (#47)",
       "alternate": ""
     },
     {
-      "game": "Philadelphia @ Boston",
-      "crew_chief": "Courtney Kirkland (#61)",
-      "referee": "Bill Kennedy (#55)",
-      "umpire": "Klajdi Mulla (#97)",
+      "game": "Orlando @ Cleveland",
+      "crew_chief": "Tre Maddox (#23)",
+      "referee": "Derrick Collins (#11)",
+      "umpire": "Leon Wood (#40)",
       "alternate": ""
     },
     {
-      "game": "Sacramento @ Golden State",
-      "crew_chief": "Kevin Scott (#24)",
-      "referee": "Mousa Dagher (#28)",
-      "umpire": "Chelisa Painter (#79)",
-      "alternate": ""
-    },
-    {
-      "game": "LA Clippers @ Toronto",
-      "crew_chief": "Ed Malloy (#7)",
-      "referee": "Brandon Schwab (#49)",
-      "umpire": "Rodney Mott (#71)",
-      "alternate": ""
-    },
-    {
-      "game": "Detroit @ Washington",
-      "crew_chief": "Ben Taylor (#46)",
-      "referee": "Matt Kallio (#53)",
-      "umpire": "JP Primm (#82)",
-      "alternate": ""
-    },
-    {
-      "game": "San Antonio @ Phoenix",
-      "crew_chief": "Justin Van Duyne (#64)",
-      "referee": "John Butler (#30)",
-      "umpire": "Tyler Ricks (#95)",
+      "game": "Chicago @ Denver",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Biniam Maru (#94)",
       "alternate": ""
     }
   ]
