@@ -1,0 +1,32 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2026-10-12T02:16:59.265679+00:00",
+  "as_of_et": "2026-10-11T22:16:59.265679-04:00",
+  "as_of_kst": "2026-10-12T11:16:59.265679+09:00",
+  "rows": [
+    {
+      "event_id": "401898400",
+      "start_utc": "2026-10-11T10:00Z",
+      "home": "HOU",
+      "away": "DAL",
+      "home_score": "115",
+      "away_score": "132"
+    },
+    {
+      "event_id": "401898401",
+      "start_utc": "2026-10-11T22:30Z",
+      "home": "CLE",
+      "away": "ORL",
+      "home_score": "119",
+      "away_score": "105"
+    },
+    {
+      "event_id": "401901821",
+      "start_utc": "2026-10-11T23:00Z",
+      "home": "CHA",
+      "away": "MIL",
+      "home_score": "105",
+      "away_score": "90"
+    }
+  ]
+}
