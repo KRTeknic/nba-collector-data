@@ -1,35 +1,42 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-10-12T02:16:59.265679+00:00",
-  "as_of_et": "2026-10-11T22:16:59.265679-04:00",
-  "as_of_kst": "2026-10-12T11:16:59.265679+09:00",
+  "as_of_utc": "2026-10-12T21:42:01.429468+00:00",
+  "as_of_et": "2026-10-12T17:42:01.429468-04:00",
+  "as_of_kst": "2026-10-13T06:42:01.429468+09:00",
   "rows": [
     {
-      "game": "Dallas @ Houston",
-      "crew_chief": "Jacyn Goble (#68)",
-      "referee": "Andy Nagy (#18)",
-      "umpire": "Matt Myers (#43)",
+      "game": "Oklahoma City @ Atlanta",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "Jonathan Sterling (#17)",
+      "umpire": "Kastine Evans (#78)",
       "alternate": ""
     },
     {
-      "game": "Milwaukee @ Charlotte",
-      "crew_chief": "Curtis Blair (#74)",
-      "referee": "Dedric Taylor (#21)",
-      "umpire": "Suyash Mehta (#47)",
+      "game": "London @ Portland",
+      "crew_chief": "Brian Forte (#45)",
+      "referee": "Sha'Rae Mitchell (#98)",
+      "umpire": "Matt Kallio (#53)",
       "alternate": ""
     },
     {
-      "game": "Orlando @ Cleveland",
-      "crew_chief": "Tre Maddox (#23)",
-      "referee": "Derrick Collins (#11)",
-      "umpire": "Leon Wood (#40)",
+      "game": "Minnesota @ New York",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Aaron Smith (#51)",
+      "umpire": "Dannica Baroody (#89)",
       "alternate": ""
     },
     {
-      "game": "Chicago @ Denver",
-      "crew_chief": "Mark Lindsay (#29)",
-      "referee": "Eric Dalen (#37)",
-      "umpire": "Biniam Maru (#94)",
+      "game": "San Antonio @ Utah",
+      "crew_chief": "Kevin Scott (#24)",
+      "referee": "Ed Malloy (#7)",
+      "umpire": "Nate Cearley (#84)",
+      "alternate": ""
+    },
+    {
+      "game": "Brooklyn @ Washington",
+      "crew_chief": "Josh Tiven (#58)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Julian Scott (#76)",
       "alternate": ""
     }
   ]
