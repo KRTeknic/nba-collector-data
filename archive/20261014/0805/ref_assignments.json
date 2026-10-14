@@ -1,0 +1,43 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-14T01:48:08.071295+00:00",
+  "as_of_et": "2026-10-13T21:48:08.071295-04:00",
+  "as_of_kst": "2026-10-14T10:48:08.071295+09:00",
+  "rows": [
+    {
+      "game": "Cleveland @ Orlando",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Robert Hussey (#85)",
+      "umpire": "Intae Hwang (#73)",
+      "alternate": ""
+    },
+    {
+      "game": "New York @ Toronto",
+      "crew_chief": "Kevin Cutler (#34)",
+      "referee": "Eric Lewis (#42)",
+      "umpire": "Gina Catanzariti (#75)",
+      "alternate": ""
+    },
+    {
+      "game": "Indiana @ Oklahoma City",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "JP Primm (#82)",
+      "alternate": ""
+    },
+    {
+      "game": "Golden State @ L.A. Lakers",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Nate Cearley (#84)",
+      "alternate": ""
+    },
+    {
+      "game": "Portland @ Sacramento",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "John Butler (#30)",
+      "umpire": "Scott Twardoski (#52)",
+      "alternate": ""
+    }
+  ]
+}
