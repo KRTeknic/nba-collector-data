@@ -1,0 +1,22 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-15T17:43:18.780242+00:00",
+  "as_of_et": "2026-10-15T13:43:18.780242-04:00",
+  "as_of_kst": "2026-10-16T02:43:18.780242+09:00",
+  "rows": [
+    {
+      "game": "Oklahoma City @ Houston",
+      "crew_chief": "Brent Barnaky (#36)",
+      "referee": "Mark Lindsay (#29)",
+      "umpire": "Phenizee Ransom (#70)",
+      "alternate": ""
+    },
+    {
+      "game": "Toronto @ New York",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "Biniam Maru (#94)",
+      "alternate": ""
+    }
+  ]
+}
