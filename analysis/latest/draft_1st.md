@@ -1,95 +1,24 @@
 [SNAPSHOT_SOURCE]
-{
-  "verified_at": {
-    "verified_at_utc": "2026-10-17T16:12:36.195945+00:00",
-    "verified_at_et": "2026-10-17T12:12:36.195945-04:00",
-    "verified_at_kst": "2026-10-18T01:12:36.195945+09:00"
-  },
-  "source_urls": {
-    "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
-    "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
-  },
-  "manifest_status_summary": {
-    "ESPN_ODDS": "OK",
-    "ESPN_SCOREBOARD": "OK",
-    "NBA_INJURY_PDF": "",
-    "NBA_REF_ASSIGNMENTS": "OK",
-    "FATIGUE_PACK": ""
-  }
-}
+- verified_at (ET/KST): 2026-10-17T12:17:02.184601-04:00 / 2026-10-18T01:17:02.184601+09:00
+- source_urls: https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json , https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json
+- manifest.status: {"ESPN_SCOREBOARD": "OK", "ESPN_ODDS": "OK", "NBA_SCHEDULE_LEAGUEV2": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json", "NBA_REF_ASSIGNMENTS": "OK", "LINEUPS_AUX": "OK", "CBS_INJURIES_AUX": "OK"}
 
 [MARKET_SNAPSHOT_LOG]
-{
-  "rows": [
-    {
-      "match": "POR@GS",
-      "details": "POR -1.5",
-      "total": 225.5,
-      "provider": "DraftKings",
-      "start_utc": "2026-10-17T02:00Z",
-      "event_id": "401898409"
-    },
-    {
-      "match": "UTAH@PHX",
-      "details": "PHX -4.5",
-      "total": 225.5,
-      "provider": "DraftKings",
-      "start_utc": "2026-10-17T02:00Z",
-      "event_id": "401908948"
-    },
-    {
-      "match": "DEN@LAL",
-      "details": "LAL -3.5",
-      "total": 229.5,
-      "provider": "DraftKings",
-      "start_utc": "2026-10-17T02:30Z",
-      "event_id": "401898719"
-    }
-  ],
-  "drift_vs_open_anchor": []
-}
+- POR@GS | spread(details): POR -1.5 | total: 225.5 | provider: DraftKings | start_utc: 2026-10-17T02:00Z
+- UTAH@PHX | spread(details): PHX -4.5 | total: 225.5 | provider: DraftKings | start_utc: 2026-10-17T02:00Z
+- DEN@LAL | spread(details): LAL -3.5 | total: 229.5 | provider: DraftKings | start_utc: 2026-10-17T02:30Z
 
 [INJURY_SNAPSHOT_LOG]
-{
-  "nba_injury_report_pdf_present": false,
-  "nba_injury_report_pdf_path": null,
-  "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장"
-}
+- nba_injury_report.pdf: UNAVAILABLE (manifest missing)
+- AUX(가능): RotoWire lineups / CBS injuries / ESPN injury page (충돌 시 UNRESOLVED)
 
 [UNRESOLVED_ZONE]
-[
-  {
-    "tag": "U3",
-    "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
-  }
-]
+- INJURY=FAILED (allow AUX check, conflicts -> UNRESOLVED)
 
 [DRAFT_ANALYSIS_1ST]
-{
-  "status": "OK",
-  "candidates": [
-    {
-      "match": "POR@GS",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "UTAH@PHX",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    },
-    {
-      "match": "DEN@LAL",
-      "candidate": "PASS",
-      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-    }
-  ],
-  "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
-}
+- 픽조합 v1.0 준수(같은 경기 핸디+언오버 한 조합 중복 금지, 최소 2폴)
+- PASS (engine not yet integrated): DRAFT pipeline OK; pick engine integration next
 
 [PROCESS_LOG]
-loaded: latest/manifest.json
-loaded: latest/espn_odds.json
-FAIL_FAST=NO
-anchors_count=0
-drift_rows=0
+- opened: manifest, odds (scoreboard/pdf optional)
+- errors: none
