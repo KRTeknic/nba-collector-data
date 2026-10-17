@@ -1,17 +1,28 @@
 {
-  "status": "OK",
-  "run_slot": "2205",
-  "as_of_utc": "2026-10-16T17:20:38.703617+00:00",
-  "as_of_kst": "2026-10-17T02:20:38.703617+09:00",
-  "as_of_et": "2026-10-16T13:20:38.703617-04:00",
+  "as_of_utc": "2026-10-17T01:14:38.391907+00:00",
+  "as_of_kst": "2026-10-17T10:14:38.391907+09:00",
+  "as_of_et": "2026-10-16T21:14:38.391907-04:00",
   "date_et": "20261016",
-  "status_detail": {
+  "date_et_resolve_scores": {
+    "20261014": {
+      "matched": 0,
+      "events": 7
+    },
+    "20261015": {
+      "matched": 0,
+      "events": 2
+    },
+    "20261016": {
+      "matched": 1,
+      "events": 12
+    }
+  },
+  "status": {
     "ESPN_SCOREBOARD": "OK",
     "ESPN_ODDS": "OK",
-    "NBA_CDN_SCOREBOARD": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
     "NBA_SCHEDULE_LEAGUEV2": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json",
-    "NBA_REF_ASSIGNMENTS": "FAILED: 403 Client Error: Forbidden for url: https://official.nba.com/referee-assignments/",
-    "NBA_INJURY_PDF": "FAILED: Not found (all candidates failed)",
-    "FATIGUE_PACK": "OK"
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "LINEUPS_AUX": "OK",
+    "CBS_INJURIES_AUX": "OK"
   }
 }

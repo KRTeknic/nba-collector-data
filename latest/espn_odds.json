@@ -1,98 +1,18 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-10-16T17:20:38.703617+00:00",
-  "as_of_et": "2026-10-16T13:20:38.703617-04:00",
-  "as_of_kst": "2026-10-17T02:20:38.703617+09:00",
+  "as_of_utc": "2026-10-17T01:14:38.391907+00:00",
+  "as_of_et": "2026-10-16T21:14:38.391907-04:00",
+  "as_of_kst": "2026-10-17T10:14:38.391907+09:00",
+  "date_et": "20261016",
   "rows": [
-    {
-      "event_id": "401898406",
-      "start_utc": "2026-10-16T23:00Z",
-      "home": "ORL",
-      "away": "MIA",
-      "details": "ORL -2.5",
-      "total": 234.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401898407",
-      "start_utc": "2026-10-16T23:00Z",
-      "home": "PHI",
-      "away": "BOS",
-      "details": "PHI -4.5",
-      "total": 225.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401908946",
-      "start_utc": "2026-10-16T23:00Z",
-      "home": "DET",
-      "away": "TOR",
-      "details": "DET -10.5",
-      "total": 218.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401914126",
-      "start_utc": "2026-10-16T23:00Z",
-      "home": "IND",
-      "away": "MIL",
-      "details": "IND -7.5",
-      "total": 234.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401898408",
-      "start_utc": "2026-10-17T00:00Z",
-      "home": "DAL",
-      "away": "ATL",
-      "details": "DAL -1.5",
-      "total": 233.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401898843",
-      "start_utc": "2026-10-17T00:00Z",
-      "home": "SA",
-      "away": "SAC",
-      "details": "SA -16.5",
-      "total": 230.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401901822",
-      "start_utc": "2026-10-17T00:00Z",
-      "home": "MEM",
-      "away": "CHA",
-      "details": "CHA -1.5",
-      "total": 231.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401906509",
-      "start_utc": "2026-10-17T00:00Z",
-      "home": "NO",
-      "away": "WSH",
-      "details": "WSH -2.5",
-      "total": 230.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401908943",
-      "start_utc": "2026-10-17T00:00Z",
-      "home": "CHI",
-      "away": "MIN",
-      "details": "MIN -1.5",
-      "total": 234.5,
-      "provider": "Draft Kings"
-    },
     {
       "event_id": "401898409",
       "start_utc": "2026-10-17T02:00Z",
       "home": "GS",
       "away": "POR",
-      "details": "POR -3.5",
+      "details": "POR -1.5",
       "total": 225.5,
-      "provider": "Draft Kings"
+      "provider": "DraftKings"
     },
     {
       "event_id": "401908948",
@@ -101,16 +21,16 @@
       "away": "UTAH",
       "details": "PHX -4.5",
       "total": 225.5,
-      "provider": "Draft Kings"
+      "provider": "DraftKings"
     },
     {
       "event_id": "401898719",
       "start_utc": "2026-10-17T02:30Z",
       "home": "LAL",
       "away": "DEN",
-      "details": "LAL -6.5",
-      "total": 231.5,
-      "provider": "Draft Kings"
+      "details": "LAL -3.5",
+      "total": 229.5,
+      "provider": "DraftKings"
     }
   ]
 }
