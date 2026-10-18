@@ -2086,7 +2086,7 @@
                         "team": {
                           "id": "2"
                         },
-                        "active": true
+                        "active": false
                       },
                       "team": {
                         "id": "2"
@@ -2126,7 +2126,7 @@
                         "team": {
                           "id": "2"
                         },
-                        "active": true
+                        "active": false
                       },
                       "team": {
                         "id": "2"
@@ -10119,7 +10119,7 @@
                         "team": {
                           "id": "16"
                         },
-                        "active": true
+                        "active": false
                       },
                       "team": {
                         "id": "16"
@@ -10199,7 +10199,7 @@
                         "team": {
                           "id": "16"
                         },
-                        "active": true
+                        "active": false
                       },
                       "team": {
                         "id": "16"
