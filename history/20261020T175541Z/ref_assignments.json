@@ -1,0 +1,29 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-20T17:55:41.562296+00:00",
+  "as_of_et": "2026-10-20T13:55:41.562296-04:00",
+  "as_of_kst": "2026-10-21T02:55:41.562296+09:00",
+  "rows": [
+    {
+      "game": "Boston @ Detroit",
+      "crew_chief": "Kevin Scott (#24)",
+      "referee": "Ed Malloy (#7)",
+      "umpire": "Aaron Smith (#51)",
+      "alternate": ""
+    },
+    {
+      "game": "Philadelphia @ New York",
+      "crew_chief": "Josh Tiven (#58)",
+      "referee": "Justin Van Duyne (#64)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    },
+    {
+      "game": "Oklahoma City @ San Antonio",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "JT Orr (#72)",
+      "alternate": ""
+    }
+  ]
+}
