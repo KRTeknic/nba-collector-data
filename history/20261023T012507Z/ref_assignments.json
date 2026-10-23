@@ -1,0 +1,22 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-23T01:25:07.739609+00:00",
+  "as_of_et": "2026-10-22T21:25:07.739609-04:00",
+  "as_of_kst": "2026-10-23T10:25:07.739609+09:00",
+  "rows": [
+    {
+      "game": "Cleveland @ Philadelphia",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Aaron Smith (#51)",
+      "umpire": "CJ Washington (#12)",
+      "alternate": ""
+    },
+    {
+      "game": "Denver @ Oklahoma City",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Robert Hussey (#85)",
+      "alternate": ""
+    }
+  ]
+}
