@@ -1,0 +1,64 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-24T16:32:04.372874+00:00",
+  "as_of_et": "2026-10-24T12:32:04.372874-04:00",
+  "as_of_kst": "2026-10-25T01:32:04.372874+09:00",
+  "rows": [
+    {
+      "game": "Miami @ Charlotte",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Natalie Sago (#9)",
+      "umpire": "Simone Jelks (#81)",
+      "alternate": ""
+    },
+    {
+      "game": "Brooklyn @ Cleveland",
+      "crew_chief": "Courtney Kirkland (#61)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Suyash Mehta (#47)",
+      "alternate": ""
+    },
+    {
+      "game": "Milwaukee @ Philadelphia",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Robert Hussey (#85)",
+      "alternate": ""
+    },
+    {
+      "game": "Houston @ Atlanta",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "CJ Washington (#12)",
+      "alternate": ""
+    },
+    {
+      "game": "Washington @ Chicago",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Gediminas Petraitis (#50)",
+      "umpire": "Matt Kallio (#53)",
+      "alternate": ""
+    },
+    {
+      "game": "San Antonio @ Dallas",
+      "crew_chief": "Karl Lane (#77)",
+      "referee": "Tre Maddox (#23)",
+      "umpire": "Phenizee Ransom (#70)",
+      "alternate": ""
+    },
+    {
+      "game": "New Orleans @ Denver",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "John Butler (#30)",
+      "umpire": "Nate Cearley (#84)",
+      "alternate": ""
+    },
+    {
+      "game": "Golden State @ Phoenix",
+      "crew_chief": "Ray Acosta (#54)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Derrick Collins (#11)",
+      "alternate": ""
+    }
+  ]
+}
