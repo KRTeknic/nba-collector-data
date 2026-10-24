@@ -1,0 +1,96 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2026-10-24T01:29:15.947205+00:00",
+  "as_of_et": "2026-10-23T21:29:15.947205-04:00",
+  "as_of_kst": "2026-10-24T10:29:15.947205+09:00",
+  "rows": [
+    {
+      "event_id": "401909834",
+      "start_utc": "2026-10-21T23:00Z",
+      "home": "ORL",
+      "away": "ATL",
+      "home_score": "125",
+      "away_score": "132"
+    },
+    {
+      "event_id": "401909835",
+      "start_utc": "2026-10-21T23:00Z",
+      "home": "WSH",
+      "away": "MIL",
+      "home_score": "128",
+      "away_score": "116"
+    },
+    {
+      "event_id": "401909091",
+      "start_utc": "2026-10-21T23:30Z",
+      "home": "MIA",
+      "away": "MIN",
+      "home_score": "106",
+      "away_score": "131"
+    },
+    {
+      "event_id": "401909836",
+      "start_utc": "2026-10-21T23:30Z",
+      "home": "BKN",
+      "away": "CHA",
+      "home_score": "103",
+      "away_score": "110"
+    },
+    {
+      "event_id": "401909837",
+      "start_utc": "2026-10-21T23:30Z",
+      "home": "TOR",
+      "away": "CHI",
+      "home_score": "135",
+      "away_score": "92"
+    },
+    {
+      "event_id": "401909838",
+      "start_utc": "2026-10-22T00:00Z",
+      "home": "MEM",
+      "away": "UTAH",
+      "home_score": "123",
+      "away_score": "103"
+    },
+    {
+      "event_id": "401909839",
+      "start_utc": "2026-10-22T00:00Z",
+      "home": "NO",
+      "away": "IND",
+      "home_score": "120",
+      "away_score": "123"
+    },
+    {
+      "event_id": "401909840",
+      "start_utc": "2026-10-22T00:30Z",
+      "home": "HOU",
+      "away": "DAL",
+      "home_score": "128",
+      "away_score": "110"
+    },
+    {
+      "event_id": "401909092",
+      "start_utc": "2026-10-22T02:00Z",
+      "home": "LAL",
+      "away": "GS",
+      "home_score": "127",
+      "away_score": "105"
+    },
+    {
+      "event_id": "401909841",
+      "start_utc": "2026-10-22T02:00Z",
+      "home": "POR",
+      "away": "PHX",
+      "home_score": "124",
+      "away_score": "83"
+    },
+    {
+      "event_id": "401909842",
+      "start_utc": "2026-10-22T02:30Z",
+      "home": "LAC",
+      "away": "SAC",
+      "home_score": "121",
+      "away_score": "96"
+    }
+  ]
+}
