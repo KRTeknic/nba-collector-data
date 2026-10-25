@@ -1,0 +1,57 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-25T17:01:12.226826+00:00",
+  "as_of_et": "2026-10-25T13:01:12.226826-04:00",
+  "as_of_kst": "2026-10-26T02:01:12.226826+09:00",
+  "rows": [
+    {
+      "game": "L.A. Lakers @ Utah",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Mark Lindsay (#29)",
+      "umpire": "Brandon Adair (#67)",
+      "alternate": ""
+    },
+    {
+      "game": "Indiana @ Brooklyn",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "Dannica Baroody (#89)",
+      "alternate": ""
+    },
+    {
+      "game": "Orlando @ New York",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "JD Ralls (#80)",
+      "alternate": ""
+    },
+    {
+      "game": "Toronto @ Minnesota",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Pat Fraher (#26)",
+      "umpire": "Michael Smith (#38)",
+      "alternate": ""
+    },
+    {
+      "game": "LA Clippers @ Oklahoma City",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Brandon Schwab (#49)",
+      "alternate": ""
+    },
+    {
+      "game": "Detroit @ Philadelphia",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Sha'Rae Mitchell (#98)",
+      "alternate": ""
+    },
+    {
+      "game": "Memphis @ Sacramento",
+      "crew_chief": "Mitchell Ervin (#27)",
+      "referee": "John Butler (#30)",
+      "umpire": "Evan Scott (#22)",
+      "alternate": ""
+    }
+  ]
+}
