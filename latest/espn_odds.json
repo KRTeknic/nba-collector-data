@@ -1,8 +1,26 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-10-24T16:32:04.372874+00:00",
-  "as_of_et": "2026-10-24T12:32:04.372874-04:00",
-  "as_of_kst": "2026-10-25T01:32:04.372874+09:00",
-  "date_et": "20261022",
-  "rows": []
+  "as_of_utc": "2026-10-25T01:01:02.043004+00:00",
+  "as_of_et": "2026-10-24T21:01:02.043004-04:00",
+  "as_of_kst": "2026-10-25T10:01:02.043004+09:00",
+  "rows": [
+    {
+      "event_id": "401909859",
+      "start_utc": "2026-10-25T01:00Z",
+      "home": "DEN",
+      "away": "NO",
+      "details": "DEN -11.5",
+      "total": 239.5,
+      "provider": "Draft Kings"
+    },
+    {
+      "event_id": "401909860",
+      "start_utc": "2026-10-25T02:00Z",
+      "home": "PHX",
+      "away": "GS",
+      "details": "PHX -9.5",
+      "total": 221.5,
+      "provider": "Draft Kings"
+    }
+  ]
 }

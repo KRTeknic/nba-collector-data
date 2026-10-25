@@ -1,0 +1,17 @@
+{
+  "status": "OK",
+  "run_slot": "0805",
+  "as_of_utc": "2026-10-25T01:01:02.043004+00:00",
+  "as_of_kst": "2026-10-25T10:01:02.043004+09:00",
+  "as_of_et": "2026-10-24T21:01:02.043004-04:00",
+  "date_et": "20261024",
+  "status_detail": {
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "OK",
+    "NBA_CDN_SCOREBOARD": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
+    "NBA_SCHEDULE_LEAGUEV2": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "NBA_INJURY_PDF": "FAILED: Not found (all candidates failed)",
+    "FATIGUE_PACK": "OK"
+  }
+}
