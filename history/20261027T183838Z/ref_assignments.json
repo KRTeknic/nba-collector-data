@@ -1,0 +1,36 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-27T18:38:39.142594+00:00",
+  "as_of_et": "2026-10-27T14:38:39.142594-04:00",
+  "as_of_kst": "2026-10-28T03:38:39.142594+09:00",
+  "rows": [
+    {
+      "game": "Brooklyn @ Boston",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Jonathan Sterling (#17)",
+      "umpire": "JD Ralls (#80)",
+      "alternate": ""
+    },
+    {
+      "game": "Detroit @ New York",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Brett Nansel (#44)",
+      "alternate": ""
+    },
+    {
+      "game": "Sacramento @ San Antonio",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Natalie Sago (#9)",
+      "umpire": "Suyash Mehta (#47)",
+      "alternate": ""
+    },
+    {
+      "game": "Portland @ L.A. Lakers",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "Che Flores (#91)",
+      "umpire": "Nate Cearley (#84)",
+      "alternate": ""
+    }
+  ]
+}

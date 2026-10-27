@@ -1,70 +1,35 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-10-27T01:59:16.620033+00:00",
-  "as_of_et": "2026-10-26T21:59:16.620033-04:00",
-  "as_of_kst": "2026-10-27T10:59:16.620033+09:00",
+  "as_of_utc": "2026-10-27T18:38:39.142594+00:00",
+  "as_of_et": "2026-10-27T14:38:39.142594-04:00",
+  "as_of_kst": "2026-10-28T03:38:39.142594+09:00",
   "rows": [
     {
-      "game": "Washington @ Charlotte",
-      "crew_chief": "Ed Malloy (#7)",
-      "referee": "Eric Dalen (#37)",
-      "umpire": "Biniam Maru (#94)",
+      "game": "Brooklyn @ Boston",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Jonathan Sterling (#17)",
+      "umpire": "JD Ralls (#80)",
       "alternate": ""
     },
     {
-      "game": "Minnesota @ Cleveland",
-      "crew_chief": "Sean Wright (#4)",
-      "referee": "Bill Kennedy (#55)",
-      "umpire": "Tyler Ricks (#95)",
+      "game": "Detroit @ New York",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Brett Nansel (#44)",
       "alternate": ""
     },
     {
-      "game": "Chicago @ Boston",
-      "crew_chief": "Zach Zarba (#15)",
-      "referee": "Jacyn Goble (#68)",
-      "umpire": "Klajdi Mulla (#97)",
+      "game": "Sacramento @ San Antonio",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Natalie Sago (#9)",
+      "umpire": "Suyash Mehta (#47)",
       "alternate": ""
     },
     {
-      "game": "Dallas @ Miami",
-      "crew_chief": "Josh Tiven (#58)",
-      "referee": "Kevin Scott (#24)",
-      "umpire": "Chelisa Painter (#79)",
-      "alternate": ""
-    },
-    {
-      "game": "Indiana @ Milwaukee",
-      "crew_chief": "Marc Davis (#8)",
-      "referee": "Gediminas Petraitis (#50)",
-      "umpire": "Julian Scott (#76)",
-      "alternate": ""
-    },
-    {
-      "game": "Phoenix @ Oklahoma City",
-      "crew_chief": "Tony Brothers (#25)",
-      "referee": "Eric Lewis (#42)",
-      "umpire": "John Conley (#56)",
-      "alternate": ""
-    },
-    {
-      "game": "Atlanta @ Houston",
-      "crew_chief": "Ray Acosta (#54)",
-      "referee": "Brent Barnaky (#36)",
-      "umpire": "Mousa Dagher (#28)",
-      "alternate": ""
-    },
-    {
-      "game": "Memphis @ Utah",
+      "game": "Portland @ L.A. Lakers",
       "crew_chief": "Scott Foster (#48)",
-      "referee": "Karl Lane (#77)",
+      "referee": "Che Flores (#91)",
       "umpire": "Nate Cearley (#84)",
-      "alternate": ""
-    },
-    {
-      "game": "Golden State @ Denver",
-      "crew_chief": "Tre Maddox (#23)",
-      "referee": "Marat Kogut (#32)",
-      "umpire": "JT Orr (#72)",
       "alternate": ""
     }
   ]
