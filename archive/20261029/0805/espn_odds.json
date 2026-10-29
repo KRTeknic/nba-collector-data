@@ -1,0 +1,17 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2026-10-29T02:19:37.555813+00:00",
+  "as_of_et": "2026-10-28T22:19:37.555813-04:00",
+  "as_of_kst": "2026-10-29T11:19:37.555813+09:00",
+  "rows": [
+    {
+      "event_id": "401909892",
+      "start_utc": "2026-10-29T02:30Z",
+      "home": "LAC",
+      "away": "LAL",
+      "details": "LAC -1.5",
+      "total": 224.5,
+      "provider": "Draft Kings"
+    }
+  ]
+}
