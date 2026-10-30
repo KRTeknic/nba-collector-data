@@ -1,0 +1,29 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-10-30T02:31:59.188195+00:00",
+  "as_of_et": "2026-10-29T22:31:59.188195-04:00",
+  "as_of_kst": "2026-10-30T11:31:59.188195+09:00",
+  "rows": [
+    {
+      "game": "Cleveland @ Atlanta",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Jacyn Goble (#68)",
+      "umpire": "Matt Kallio (#53)",
+      "alternate": ""
+    },
+    {
+      "game": "Sacramento @ New Orleans",
+      "crew_chief": "Josh Tiven (#58)",
+      "referee": "Gediminas Petraitis (#50)",
+      "umpire": "Chelisa Painter (#79)",
+      "alternate": ""
+    },
+    {
+      "game": "Memphis @ Portland",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Catherine Chang (#83)",
+      "alternate": ""
+    }
+  ]
+}
