@@ -1,71 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-10-31T17:39:38.255553+00:00",
-  "as_of_et": "2026-10-31T13:39:38.255553-04:00",
-  "as_of_kst": "2026-11-01T02:39:38.255553+09:00",
-  "rows": [
-    {
-      "event_id": "401909896",
-      "start_utc": "2026-10-31T19:00Z",
-      "home": "UTAH",
-      "away": "POR",
-      "details": "POR -7.5",
-      "total": 231.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401909897",
-      "start_utc": "2026-10-31T22:00Z",
-      "home": "CHA",
-      "away": "PHI",
-      "details": "CHA -1.5",
-      "total": 213.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401909898",
-      "start_utc": "2026-10-31T23:00Z",
-      "home": "NO",
-      "away": "ATL",
-      "details": "ATL -4.5",
-      "total": 240.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401909899",
-      "start_utc": "2026-11-01T00:00Z",
-      "home": "MEM",
-      "away": "SAC",
-      "details": "MEM -8.5",
-      "total": 230.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401909900",
-      "start_utc": "2026-11-01T00:00Z",
-      "home": "MIL",
-      "away": "CLE",
-      "details": "CLE -9.5",
-      "total": 235.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401909901",
-      "start_utc": "2026-11-01T00:00Z",
-      "home": "SA",
-      "away": "MIN",
-      "details": "SA -12.5",
-      "total": 225.5,
-      "provider": "Draft Kings"
-    },
-    {
-      "event_id": "401909902",
-      "start_utc": "2026-11-01T00:30Z",
-      "home": "HOU",
-      "away": "OKC",
-      "details": "HOU -2.5",
-      "total": 219.5,
-      "provider": "Draft Kings"
-    }
-  ]
+  "as_of_utc": "2026-11-01T02:05:48.194955+00:00",
+  "as_of_et": "2026-10-31T22:05:48.194955-04:00",
+  "as_of_kst": "2026-11-01T11:05:48.194955+09:00",
+  "date_et": "20261030",
+  "rows": []
 }
