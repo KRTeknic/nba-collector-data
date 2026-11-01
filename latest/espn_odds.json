@@ -1,8 +1,44 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-11-01T18:23:02.938220+00:00",
-  "as_of_et": "2026-11-01T13:23:02.938220-05:00",
-  "as_of_kst": "2026-11-02T03:23:02.938220+09:00",
-  "date_et": "20261030",
-  "rows": []
+  "as_of_utc": "2026-11-01T18:23:44.211673+00:00",
+  "as_of_et": "2026-11-01T13:23:44.211673-05:00",
+  "as_of_kst": "2026-11-02T03:23:44.211673+09:00",
+  "rows": [
+    {
+      "event_id": "401909903",
+      "start_utc": "2026-11-01T20:30Z",
+      "home": "ORL",
+      "away": "BOS",
+      "details": "BOS -7.5",
+      "total": 221.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909904",
+      "start_utc": "2026-11-01T22:00Z",
+      "home": "IND",
+      "away": "BKN",
+      "details": "IND -3.5",
+      "total": 230.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909905",
+      "start_utc": "2026-11-02T01:30Z",
+      "home": "GS",
+      "away": "LAC",
+      "details": "GS -2.5",
+      "total": 221.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909906",
+      "start_utc": "2026-11-02T02:00Z",
+      "home": "LAL",
+      "away": "TOR",
+      "details": "LAL -2.5",
+      "total": 224.5,
+      "provider": "DraftKings"
+    }
+  ]
 }

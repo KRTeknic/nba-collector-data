@@ -1,0 +1,36 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-01T18:23:44.211673+00:00",
+  "as_of_et": "2026-11-01T13:23:44.211673-05:00",
+  "as_of_kst": "2026-11-02T03:23:44.211673+09:00",
+  "rows": [
+    {
+      "game": "Boston @ Orlando",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Gediminas Petraitis (#50)",
+      "umpire": "Che Flores (#91)",
+      "alternate": ""
+    },
+    {
+      "game": "Brooklyn @ Indiana",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Robert Hussey (#85)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    },
+    {
+      "game": "LA Clippers @ Golden State",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Justin Van Duyne (#64)",
+      "umpire": "Derrick Collins (#11)",
+      "alternate": ""
+    },
+    {
+      "game": "Toronto @ L.A. Lakers",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "Catherine Chang (#83)",
+      "alternate": ""
+    }
+  ]
+}
