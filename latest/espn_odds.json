@@ -1,8 +1,143 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-11-02T02:21:39.263312+00:00",
-  "as_of_et": "2026-11-01T21:21:39.263312-05:00",
-  "as_of_kst": "2026-11-02T11:21:39.263312+09:00",
-  "date_et": "20261030",
-  "rows": []
+  "as_of_utc": "2026-11-02T22:16:29.915760+00:00",
+  "as_of_et": "2026-11-02T17:16:29.915760-05:00",
+  "as_of_kst": "2026-11-03T07:16:29.915760+09:00",
+  "rows": [
+    {
+      "event_id": "401909907",
+      "start_utc": "2026-11-03T00:00Z",
+      "home": "CLE",
+      "away": "OKC",
+      "details": "CLE -4.5",
+      "total": 229.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909908",
+      "start_utc": "2026-11-03T00:30Z",
+      "home": "CHA",
+      "away": "DET",
+      "details": "DET -5.5",
+      "total": 209.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909909",
+      "start_utc": "2026-11-03T00:30Z",
+      "home": "IND",
+      "away": "ATL",
+      "details": "ATL -10.5",
+      "total": 229.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909910",
+      "start_utc": "2026-11-03T00:30Z",
+      "home": "NY",
+      "away": "BKN",
+      "details": "NY -14.5",
+      "total": 218.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909911",
+      "start_utc": "2026-11-03T00:30Z",
+      "home": "ORL",
+      "away": "WSH",
+      "details": "ORL -2.5",
+      "total": 225.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909912",
+      "start_utc": "2026-11-03T00:30Z",
+      "home": "PHI",
+      "away": "CHI",
+      "details": "PHI -9.5",
+      "total": 238.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909913",
+      "start_utc": "2026-11-03T01:00Z",
+      "home": "DAL",
+      "away": "SAC",
+      "details": "DAL -8.5",
+      "total": 231.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909914",
+      "start_utc": "2026-11-03T01:00Z",
+      "home": "MEM",
+      "away": "NO",
+      "details": "MEM -5.5",
+      "total": 232.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909915",
+      "start_utc": "2026-11-03T01:00Z",
+      "home": "MIN",
+      "away": "MIL",
+      "details": "MIN -10.5",
+      "total": 230.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909916",
+      "start_utc": "2026-11-03T01:30Z",
+      "home": "HOU",
+      "away": "BOS",
+      "details": "HOU -4.5",
+      "total": 214.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909917",
+      "start_utc": "2026-11-03T01:30Z",
+      "home": "SA",
+      "away": "UTAH",
+      "details": "SA -16.5",
+      "total": 228.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909918",
+      "start_utc": "2026-11-03T02:00Z",
+      "home": "DEN",
+      "away": "POR",
+      "details": "DEN -4.5",
+      "total": 231.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909919",
+      "start_utc": "2026-11-03T03:00Z",
+      "home": "GS",
+      "away": "PHX",
+      "details": "GS -2.5",
+      "total": 227.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909920",
+      "start_utc": "2026-11-03T03:00Z",
+      "home": "LAC",
+      "away": "TOR",
+      "details": "TOR -4.5",
+      "total": 219.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909921",
+      "start_utc": "2026-11-03T03:00Z",
+      "home": "LAL",
+      "away": "MIA",
+      "details": "LAL -2.5",
+      "total": 236.5,
+      "provider": "DraftKings"
+    }
+  ]
 }
