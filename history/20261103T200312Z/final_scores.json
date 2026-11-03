@@ -1,0 +1,40 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2026-11-03T20:03:12.889578+00:00",
+  "as_of_et": "2026-11-03T15:03:12.889578-05:00",
+  "as_of_kst": "2026-11-04T05:03:12.889578+09:00",
+  "rows": [
+    {
+      "event_id": "401909903",
+      "start_utc": "2026-11-01T20:30Z",
+      "home": "ORL",
+      "away": "BOS",
+      "home_score": "97",
+      "away_score": "108"
+    },
+    {
+      "event_id": "401909904",
+      "start_utc": "2026-11-01T22:00Z",
+      "home": "IND",
+      "away": "BKN",
+      "home_score": "90",
+      "away_score": "98"
+    },
+    {
+      "event_id": "401909905",
+      "start_utc": "2026-11-02T01:30Z",
+      "home": "GS",
+      "away": "LAC",
+      "home_score": "124",
+      "away_score": "112"
+    },
+    {
+      "event_id": "401909906",
+      "start_utc": "2026-11-02T02:00Z",
+      "home": "LAL",
+      "away": "TOR",
+      "home_score": "131",
+      "away_score": "125"
+    }
+  ]
+}
