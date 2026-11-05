@@ -1,0 +1,17 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2026-11-05T03:25:35.957955+00:00",
+  "as_of_et": "2026-11-04T22:25:35.957955-05:00",
+  "as_of_kst": "2026-11-05T12:25:35.957955+09:00",
+  "rows": [
+    {
+      "event_id": "401909935",
+      "start_utc": "2026-11-05T03:30Z",
+      "home": "LAC",
+      "away": "MIA",
+      "details": "MIA -6.5",
+      "total": 233.5,
+      "provider": "DraftKings"
+    }
+  ]
+}
