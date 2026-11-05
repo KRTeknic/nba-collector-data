@@ -1,0 +1,22 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-05T20:35:58.475506+00:00",
+  "as_of_et": "2026-11-05T15:35:58.475506-05:00",
+  "as_of_kst": "2026-11-06T05:35:58.475506+09:00",
+  "rows": [
+    {
+      "game": "Orlando @ Phoenix",
+      "crew_chief": "Karl Lane (#77)",
+      "referee": "Mark Lindsay (#29)",
+      "umpire": "Dannica Baroody (#89)",
+      "alternate": ""
+    },
+    {
+      "game": "Miami @ Golden State",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Chelisa Painter (#79)",
+      "alternate": ""
+    }
+  ]
+}
