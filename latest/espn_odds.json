@@ -1,26 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-11-05T20:36:51.688600+00:00",
-  "as_of_et": "2026-11-05T15:36:51.688600-05:00",
-  "as_of_kst": "2026-11-06T05:36:51.688600+09:00",
-  "rows": [
-    {
-      "event_id": "401909936",
-      "start_utc": "2026-11-06T02:00Z",
-      "home": "PHX",
-      "away": "ORL",
-      "details": "PHX -1.5",
-      "total": 221.5,
-      "provider": "DraftKings"
-    },
-    {
-      "event_id": "401909937",
-      "start_utc": "2026-11-06T03:00Z",
-      "home": "GS",
-      "away": "MIA",
-      "details": "GS -6.5",
-      "total": 232.5,
-      "provider": "DraftKings"
-    }
-  ]
+  "as_of_utc": "2026-11-06T03:21:18.339936+00:00",
+  "as_of_et": "2026-11-05T22:21:18.339936-05:00",
+  "as_of_kst": "2026-11-06T12:21:18.339936+09:00",
+  "date_et": "20261103",
+  "rows": []
 }
