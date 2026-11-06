@@ -1,7 +1,120 @@
 {
   "source": "ESPN_SCOREBOARD.final_only",
-  "as_of_utc": "2026-11-06T03:21:18.339936+00:00",
-  "as_of_et": "2026-11-05T22:21:18.339936-05:00",
-  "as_of_kst": "2026-11-06T12:21:18.339936+09:00",
-  "rows": []
+  "as_of_utc": "2026-11-06T19:55:27.227175+00:00",
+  "as_of_et": "2026-11-06T14:55:27.227175-05:00",
+  "as_of_kst": "2026-11-07T04:55:27.227175+09:00",
+  "rows": [
+    {
+      "event_id": "401909922",
+      "start_utc": "2026-11-05T00:00Z",
+      "home": "DET",
+      "away": "PHI",
+      "home_score": "106",
+      "away_score": "112"
+    },
+    {
+      "event_id": "401909923",
+      "start_utc": "2026-11-05T00:00Z",
+      "home": "WSH",
+      "away": "ATL",
+      "home_score": "105",
+      "away_score": "120"
+    },
+    {
+      "event_id": "401909924",
+      "start_utc": "2026-11-05T00:30Z",
+      "home": "BOS",
+      "away": "MIL",
+      "home_score": "109",
+      "away_score": "102"
+    },
+    {
+      "event_id": "401909925",
+      "start_utc": "2026-11-05T00:30Z",
+      "home": "BKN",
+      "away": "CHA",
+      "home_score": "114",
+      "away_score": "104"
+    },
+    {
+      "event_id": "401909926",
+      "start_utc": "2026-11-05T00:30Z",
+      "home": "NY",
+      "away": "CHI",
+      "home_score": "135",
+      "away_score": "105"
+    },
+    {
+      "event_id": "401909927",
+      "start_utc": "2026-11-05T01:00Z",
+      "home": "MEM",
+      "away": "IND",
+      "home_score": "103",
+      "away_score": "107"
+    },
+    {
+      "event_id": "401909928",
+      "start_utc": "2026-11-05T01:00Z",
+      "home": "NO",
+      "away": "UTAH",
+      "home_score": "120",
+      "away_score": "113"
+    },
+    {
+      "event_id": "401909929",
+      "start_utc": "2026-11-05T01:00Z",
+      "home": "OKC",
+      "away": "CLE",
+      "home_score": "124",
+      "away_score": "116"
+    },
+    {
+      "event_id": "401909930",
+      "start_utc": "2026-11-05T01:30Z",
+      "home": "HOU",
+      "away": "MIN",
+      "home_score": "107",
+      "away_score": "117"
+    },
+    {
+      "event_id": "401909931",
+      "start_utc": "2026-11-05T02:00Z",
+      "home": "DEN",
+      "away": "TOR",
+      "home_score": "128",
+      "away_score": "109"
+    },
+    {
+      "event_id": "401909932",
+      "start_utc": "2026-11-05T02:00Z",
+      "home": "PHX",
+      "away": "POR",
+      "home_score": "119",
+      "away_score": "132"
+    },
+    {
+      "event_id": "401909933",
+      "start_utc": "2026-11-05T02:30Z",
+      "home": "SA",
+      "away": "DAL",
+      "home_score": "112",
+      "away_score": "111"
+    },
+    {
+      "event_id": "401909934",
+      "start_utc": "2026-11-05T03:00Z",
+      "home": "SAC",
+      "away": "LAL",
+      "home_score": "103",
+      "away_score": "116"
+    },
+    {
+      "event_id": "401909935",
+      "start_utc": "2026-11-05T03:30Z",
+      "home": "LAC",
+      "away": "MIA",
+      "home_score": "116",
+      "away_score": "117"
+    }
+  ]
 }
