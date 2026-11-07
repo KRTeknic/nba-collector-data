@@ -1,70 +1,56 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-11-07T02:41:34.755156+00:00",
-  "as_of_et": "2026-11-06T21:41:34.755156-05:00",
-  "as_of_kst": "2026-11-07T11:41:34.755156+09:00",
+  "as_of_utc": "2026-11-07T17:59:35.694839+00:00",
+  "as_of_et": "2026-11-07T12:59:35.694839-05:00",
+  "as_of_kst": "2026-11-08T02:59:35.694839+09:00",
   "rows": [
     {
-      "game": "Washington @ Atlanta",
-      "crew_chief": "Ray Acosta (#54)",
-      "referee": "John Butler (#30)",
-      "umpire": "Phenizee Ransom (#70)",
+      "game": "Denver @ Indiana",
+      "crew_chief": "Gediminas Petraitis (#50)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "Brandon Schwab (#49)",
+      "alternate": "Evan Scott (#22)"
+    },
+    {
+      "game": "Brooklyn @ Atlanta",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Biniam Maru (#94)",
       "alternate": ""
     },
     {
-      "game": "Boston @ Charlotte",
-      "crew_chief": "Tony Brothers (#25)",
-      "referee": "Marat Kogut (#32)",
-      "umpire": "Brent Haskill (#92)",
+      "game": "New York @ Cleveland",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Ed Malloy (#7)",
+      "umpire": "Ashley Moyer-Gleich (#13)",
       "alternate": ""
     },
     {
-      "game": "Philadelphia @ Cleveland",
-      "crew_chief": "Kevin Scott (#24)",
-      "referee": "JB DeRosa (#14)",
-      "umpire": "Pat O'Connell (#90)",
+      "game": "Washington @ Oklahoma City",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Scott Twardoski (#52)",
       "alternate": ""
     },
     {
-      "game": "Utah @ Dallas",
-      "crew_chief": "Tyler Ford (#39)",
-      "referee": "Nick Buchert (#3)",
-      "umpire": "Che Flores (#91)",
+      "game": "Orlando @ Golden State",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Robert Hussey (#85)",
+      "umpire": "Intae Hwang (#73)",
       "alternate": ""
     },
     {
-      "game": "Oklahoma City @ Memphis",
-      "crew_chief": "Justin Van Duyne (#64)",
-      "referee": "Brent Barnaky (#36)",
-      "umpire": "Brett Nansel (#44)",
+      "game": "Houston @ Phoenix",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Jenna Reneau (#93)",
       "alternate": ""
     },
     {
-      "game": "Toronto @ Milwaukee",
-      "crew_chief": "Scott Foster (#48)",
-      "referee": "Mousa Dagher (#28)",
-      "umpire": "Leon Wood (#40)",
-      "alternate": ""
-    },
-    {
-      "game": "Minnesota @ New Orleans",
-      "crew_chief": "James Williams (#60)",
-      "referee": "Aaron Smith (#51)",
-      "umpire": "Simone Jelks (#81)",
-      "alternate": ""
-    },
-    {
-      "game": "Portland @ L.A. Lakers",
-      "crew_chief": "Sean Wright (#4)",
-      "referee": "Sean Corbin (#33)",
-      "umpire": "JT Orr (#72)",
-      "alternate": ""
-    },
-    {
-      "game": "San Antonio @ Sacramento",
-      "crew_chief": "Jacyn Goble (#68)",
-      "referee": "Nate Green (#41)",
-      "umpire": "Robert Hussey (#85)",
+      "game": "San Antonio @ Portland",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Tre Maddox (#23)",
+      "umpire": "Dannica Baroody (#89)",
       "alternate": ""
     }
   ]

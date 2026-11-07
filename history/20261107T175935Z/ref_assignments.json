@@ -1,0 +1,57 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-07T17:59:35.694839+00:00",
+  "as_of_et": "2026-11-07T12:59:35.694839-05:00",
+  "as_of_kst": "2026-11-08T02:59:35.694839+09:00",
+  "rows": [
+    {
+      "game": "Denver @ Indiana",
+      "crew_chief": "Gediminas Petraitis (#50)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "Brandon Schwab (#49)",
+      "alternate": "Evan Scott (#22)"
+    },
+    {
+      "game": "Brooklyn @ Atlanta",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Biniam Maru (#94)",
+      "alternate": ""
+    },
+    {
+      "game": "New York @ Cleveland",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Ed Malloy (#7)",
+      "umpire": "Ashley Moyer-Gleich (#13)",
+      "alternate": ""
+    },
+    {
+      "game": "Washington @ Oklahoma City",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Scott Twardoski (#52)",
+      "alternate": ""
+    },
+    {
+      "game": "Orlando @ Golden State",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Robert Hussey (#85)",
+      "umpire": "Intae Hwang (#73)",
+      "alternate": ""
+    },
+    {
+      "game": "Houston @ Phoenix",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Jenna Reneau (#93)",
+      "alternate": ""
+    },
+    {
+      "game": "San Antonio @ Portland",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Tre Maddox (#23)",
+      "umpire": "Dannica Baroody (#89)",
+      "alternate": ""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2026-11-07T17:59:35.694839+00:00",
+  "as_of_et": "2026-11-07T12:59:35.694839-05:00",
+  "as_of_kst": "2026-11-08T02:59:35.694839+09:00",
+  "rows": [
+    {
+      "event_id": "401909936",
+      "start_utc": "2026-11-06T02:00Z",
+      "home": "PHX",
+      "away": "ORL",
+      "home_score": "117",
+      "away_score": "104"
+    },
+    {
+      "event_id": "401909937",
+      "start_utc": "2026-11-06T03:00Z",
+      "home": "GS",
+      "away": "MIA",
+      "home_score": "120",
+      "away_score": "100"
+    }
+  ]
+}
