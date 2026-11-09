@@ -1,0 +1,64 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-09T22:57:20.705646+00:00",
+  "as_of_et": "2026-11-09T17:57:20.705646-05:00",
+  "as_of_kst": "2026-11-10T07:57:20.705646+09:00",
+  "rows": [
+    {
+      "game": "L.A. Lakers @ Atlanta",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Brian Forte (#45)",
+      "umpire": "Che Flores (#91)",
+      "alternate": ""
+    },
+    {
+      "game": "Cleveland @ Charlotte",
+      "crew_chief": "Ray Acosta (#54)",
+      "referee": "Aaron Smith (#51)",
+      "umpire": "Suyash Mehta (#47)",
+      "alternate": ""
+    },
+    {
+      "game": "Washington @ Detroit",
+      "crew_chief": "Tony Brothers (#25)",
+      "referee": "Jacyn Goble (#68)",
+      "umpire": "Pat O'Connell (#90)",
+      "alternate": ""
+    },
+    {
+      "game": "Memphis @ Toronto",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Ashley Moyer-Gleich (#13)",
+      "umpire": "Derrick Collins (#11)",
+      "alternate": ""
+    },
+    {
+      "game": "Indiana @ Dallas",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "JB DeRosa (#14)",
+      "umpire": "JD Ralls (#80)",
+      "alternate": ""
+    },
+    {
+      "game": "Denver @ Houston",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "John Butler (#30)",
+      "umpire": "Robert Hussey (#85)",
+      "alternate": ""
+    },
+    {
+      "game": "San Antonio @ Phoenix",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Natalie Sago (#9)",
+      "umpire": "Brandon Adair (#67)",
+      "alternate": ""
+    },
+    {
+      "game": "New Orleans @ Golden State",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Nate Green (#41)",
+      "umpire": "Brandon Schwab (#49)",
+      "alternate": ""
+    }
+  ]
+}
