@@ -1,0 +1,57 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-09T02:34:18.527640+00:00",
+  "as_of_et": "2026-11-08T21:34:18.527640-05:00",
+  "as_of_kst": "2026-11-09T11:34:18.527640+09:00",
+  "rows": [
+    {
+      "game": "Philadelphia @ Chicago",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Che Flores (#91)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    },
+    {
+      "game": "L.A. Lakers @ Detroit",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "Brett Nansel (#44)",
+      "alternate": ""
+    },
+    {
+      "game": "Utah @ Minnesota",
+      "crew_chief": "Mitchell Ervin (#27)",
+      "referee": "Mousa Dagher (#28)",
+      "umpire": "John Conley (#56)",
+      "alternate": ""
+    },
+    {
+      "game": "Brooklyn @ Dallas",
+      "crew_chief": "Marc Davis (#8)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Kastine Evans (#78)",
+      "alternate": ""
+    },
+    {
+      "game": "Boston @ Milwaukee",
+      "crew_chief": "Kevin Scott (#24)",
+      "referee": "Jonathan Sterling (#17)",
+      "umpire": "Pat O'Connell (#90)",
+      "alternate": ""
+    },
+    {
+      "game": "New Orleans @ LA Clippers",
+      "crew_chief": "Kevin Cutler (#34)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Nate Cearley (#84)",
+      "alternate": ""
+    },
+    {
+      "game": "Miami @ Sacramento",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Eric Lewis (#42)",
+      "umpire": "Rodney Mott (#71)",
+      "alternate": ""
+    }
+  ]
+}
