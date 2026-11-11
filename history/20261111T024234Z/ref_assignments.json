@@ -1,0 +1,50 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-11T02:42:34.485742+00:00",
+  "as_of_et": "2026-11-10T21:42:34.485742-05:00",
+  "as_of_kst": "2026-11-11T11:42:34.485742+09:00",
+  "rows": [
+    {
+      "game": "Milwaukee @ New York",
+      "crew_chief": "Mark Lindsay (#29)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "Michael Smith (#38)",
+      "alternate": ""
+    },
+    {
+      "game": "Boston @ Philadelphia",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Ed Malloy (#7)",
+      "umpire": "Intae Hwang (#73)",
+      "alternate": ""
+    },
+    {
+      "game": "LA Clippers @ Phoenix",
+      "crew_chief": "Mitchell Ervin (#27)",
+      "referee": "Eric Lewis (#42)",
+      "umpire": "Brent Haskill (#92)",
+      "alternate": ""
+    },
+    {
+      "game": "Miami @ Utah",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "JP Primm (#82)",
+      "alternate": ""
+    },
+    {
+      "game": "Orlando @ Sacramento",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    },
+    {
+      "game": "Oklahoma City @ Portland",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Brandon Schwab (#49)",
+      "alternate": ""
+    }
+  ]
+}
