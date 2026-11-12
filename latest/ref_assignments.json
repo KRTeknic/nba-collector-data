@@ -1,77 +1,35 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-11-12T03:45:22.620519+00:00",
-  "as_of_et": "2026-11-11T22:45:22.620519-05:00",
-  "as_of_kst": "2026-11-12T12:45:22.620519+09:00",
+  "as_of_utc": "2026-11-12T20:45:00.326868+00:00",
+  "as_of_et": "2026-11-12T15:45:00.326868-05:00",
+  "as_of_kst": "2026-11-13T05:45:00.326868+09:00",
   "rows": [
     {
-      "game": "Washington @ Indiana",
-      "crew_chief": "Tyler Ford (#39)",
-      "referee": "Dedric Taylor (#21)",
-      "umpire": "CJ Washington (#12)",
-      "alternate": ""
-    },
-    {
-      "game": "Cleveland @ New York",
-      "crew_chief": "Karl Lane (#77)",
+      "game": "Toronto @ Philadelphia",
+      "crew_chief": "Ray Acosta (#54)",
       "referee": "Marat Kogut (#32)",
-      "umpire": "Jenna Reneau (#93)",
+      "umpire": "Tyler Ricks (#95)",
       "alternate": ""
     },
     {
-      "game": "Boston @ Toronto",
-      "crew_chief": "Gediminas Petraitis (#50)",
-      "referee": "Justin Van Duyne (#64)",
-      "umpire": "JT Orr (#72)",
+      "game": "Detroit @ Washington",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Aaron Smith (#51)",
+      "umpire": "Jenna Schroeder (#20)",
       "alternate": ""
     },
     {
-      "game": "San Antonio @ Chicago",
-      "crew_chief": "Kevin Scott (#24)",
-      "referee": "Brian Forte (#45)",
-      "umpire": "JD Ralls (#80)",
+      "game": "Dallas @ Minnesota",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Brent Haskill (#92)",
       "alternate": ""
     },
     {
-      "game": "Denver @ Memphis",
-      "crew_chief": "James Williams (#60)",
-      "referee": "Tre Maddox (#23)",
-      "umpire": "Pat O'Connell (#90)",
-      "alternate": ""
-    },
-    {
-      "game": "L.A. Lakers @ Milwaukee",
-      "crew_chief": "Tony Brothers (#25)",
-      "referee": "Jason Goldenberg (#35)",
-      "umpire": "Chelisa Painter (#79)",
-      "alternate": ""
-    },
-    {
-      "game": "Brooklyn @ New Orleans",
-      "crew_chief": "Zach Zarba (#15)",
-      "referee": "John Butler (#30)",
-      "umpire": "Scott Twardoski (#52)",
-      "alternate": ""
-    },
-    {
-      "game": "Orlando @ Utah",
-      "crew_chief": "Marc Davis (#8)",
-      "referee": "Natalie Sago (#9)",
-      "umpire": "Rodney Mott (#71)",
-      "alternate": ""
-    },
-    {
-      "game": "Golden State @ Houston",
-      "crew_chief": "Mitchell Ervin (#27)",
-      "referee": "Eric Lewis (#42)",
-      "umpire": "Brandon Adair (#67)",
-      "alternate": ""
-    },
-    {
-      "game": "Oklahoma City @ Portland",
-      "crew_chief": "Ben Taylor (#46)",
-      "referee": "Nate Green (#41)",
-      "umpire": "Sha'Rae Mitchell (#98)",
+      "game": "Charlotte @ Phoenix",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Matt Myers (#43)",
       "alternate": ""
     }
   ]
