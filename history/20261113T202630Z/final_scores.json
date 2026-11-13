@@ -1,0 +1,88 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2026-11-13T20:26:30.477949+00:00",
+  "as_of_et": "2026-11-13T15:26:30.477949-05:00",
+  "as_of_kst": "2026-11-14T05:26:30.477949+09:00",
+  "rows": [
+    {
+      "event_id": "401909966",
+      "start_utc": "2026-11-12T00:00Z",
+      "home": "IND",
+      "away": "WSH",
+      "home_score": "114",
+      "away_score": "101"
+    },
+    {
+      "event_id": "401909967",
+      "start_utc": "2026-11-12T00:00Z",
+      "home": "NY",
+      "away": "CLE",
+      "home_score": "107",
+      "away_score": "115"
+    },
+    {
+      "event_id": "401909968",
+      "start_utc": "2026-11-12T00:00Z",
+      "home": "TOR",
+      "away": "BOS",
+      "home_score": "93",
+      "away_score": "98"
+    },
+    {
+      "event_id": "401909969",
+      "start_utc": "2026-11-12T01:00Z",
+      "home": "CHI",
+      "away": "SA",
+      "home_score": "119",
+      "away_score": "124"
+    },
+    {
+      "event_id": "401909970",
+      "start_utc": "2026-11-12T01:00Z",
+      "home": "MEM",
+      "away": "DEN",
+      "home_score": "118",
+      "away_score": "123"
+    },
+    {
+      "event_id": "401909971",
+      "start_utc": "2026-11-12T01:00Z",
+      "home": "MIL",
+      "away": "LAL",
+      "home_score": "112",
+      "away_score": "123"
+    },
+    {
+      "event_id": "401909972",
+      "start_utc": "2026-11-12T01:00Z",
+      "home": "NO",
+      "away": "BKN",
+      "home_score": "111",
+      "away_score": "145"
+    },
+    {
+      "event_id": "401909973",
+      "start_utc": "2026-11-12T02:00Z",
+      "home": "UTAH",
+      "away": "ORL",
+      "home_score": "108",
+      "away_score": "123"
+    },
+    {
+      "event_id": "401909974",
+      "start_utc": "2026-11-12T02:30Z",
+      "home": "HOU",
+      "away": "GS",
+      "home_score": "115",
+      "away_score": "108"
+    },
+    {
+      "event_id": "401909975",
+      "start_utc": "2026-11-12T03:00Z",
+      "home": "POR",
+      "away": "OKC",
+      "home_score": "118",
+      "away_score": "108"
+    }
+  ]
+}
