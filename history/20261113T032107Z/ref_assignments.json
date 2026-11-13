@@ -1,0 +1,36 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-13T03:21:08.447497+00:00",
+  "as_of_et": "2026-11-12T22:21:08.447497-05:00",
+  "as_of_kst": "2026-11-13T12:21:08.447497+09:00",
+  "rows": [
+    {
+      "game": "Toronto @ Philadelphia",
+      "crew_chief": "Ray Acosta (#54)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "Tyler Ricks (#95)",
+      "alternate": ""
+    },
+    {
+      "game": "Detroit @ Washington",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Aaron Smith (#51)",
+      "umpire": "Jenna Schroeder (#20)",
+      "alternate": ""
+    },
+    {
+      "game": "Dallas @ Minnesota",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Brent Haskill (#92)",
+      "alternate": ""
+    },
+    {
+      "game": "Charlotte @ Phoenix",
+      "crew_chief": "Scott Foster (#48)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    }
+  ]
+}
