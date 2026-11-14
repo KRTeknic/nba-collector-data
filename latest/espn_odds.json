@@ -1,8 +1,54 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-11-14T03:03:25.532552+00:00",
-  "as_of_et": "2026-11-13T22:03:25.532552-05:00",
-  "as_of_kst": "2026-11-14T12:03:25.532552+09:00",
-  "date_et": "20261111",
-  "rows": []
+  "as_of_utc": "2026-11-14T18:42:28.976336+00:00",
+  "as_of_et": "2026-11-14T13:42:28.976336-05:00",
+  "as_of_kst": "2026-11-15T03:42:28.976336+09:00",
+  "date_et": "20261114",
+  "rows": [
+    {
+      "event_id": "401909980",
+      "start_utc": "2026-11-15T00:00Z",
+      "home": "NO",
+      "away": "DEN",
+      "details": "DEN -12.5",
+      "total": 235.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909981",
+      "start_utc": "2026-11-15T00:30Z",
+      "home": "CLE",
+      "away": "DAL",
+      "details": "DAL -4.5",
+      "total": 228.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909982",
+      "start_utc": "2026-11-15T01:00Z",
+      "home": "MIA",
+      "away": "DET",
+      "details": "DET -3.5",
+      "total": 229.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909983",
+      "start_utc": "2026-11-15T01:00Z",
+      "home": "MEM",
+      "away": "BKN",
+      "details": "MEM -2.5",
+      "total": 228.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401909984",
+      "start_utc": "2026-11-15T01:00Z",
+      "home": "MIN",
+      "away": "CHI",
+      "details": "MIN -15.5",
+      "total": 234.5,
+      "provider": "DraftKings"
+    }
+  ]
 }
