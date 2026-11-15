@@ -1,21 +1,21 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-11-14T18:42:28.976336+00:00",
-  "as_of_et": "2026-11-14T13:42:28.976336-05:00",
-  "as_of_kst": "2026-11-15T03:42:28.976336+09:00",
+  "as_of_utc": "2026-11-15T02:32:06.048807+00:00",
+  "as_of_et": "2026-11-14T21:32:06.048807-05:00",
+  "as_of_kst": "2026-11-15T11:32:06.048807+09:00",
   "rows": [
     {
       "game": "Denver @ New Orleans",
       "crew_chief": "James Capers (#19)",
-      "referee": "Kevin Scott (#24)",
-      "umpire": "Tyler Ricks (#95)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "CJ Washington (#12)",
       "alternate": ""
     },
     {
       "game": "Dallas @ Cleveland",
       "crew_chief": "Tyler Ford (#39)",
-      "referee": "Brian Forte (#45)",
-      "umpire": "Eric Lewis (#42)",
+      "referee": "Eric Lewis (#42)",
+      "umpire": "Jenna Schroeder (#20)",
       "alternate": ""
     },
     {
@@ -29,13 +29,13 @@
       "game": "Brooklyn @ Memphis",
       "crew_chief": "Josh Tiven (#58)",
       "referee": "Nate Green (#41)",
-      "umpire": "John Conley (#56)",
+      "umpire": "Michael Smith (#38)",
       "alternate": ""
     },
     {
       "game": "Chicago @ Minnesota",
       "crew_chief": "Nick Buchert (#3)",
-      "referee": "Jason Goldenberg (#35)",
+      "referee": "Brian Forte (#45)",
       "umpire": "Scott Twardoski (#52)",
       "alternate": ""
     }
