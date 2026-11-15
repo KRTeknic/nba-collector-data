@@ -1,0 +1,71 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-15T19:19:45.689505+00:00",
+  "as_of_et": "2026-11-15T14:19:45.689505-05:00",
+  "as_of_kst": "2026-11-16T04:19:45.689505+09:00",
+  "rows": [
+    {
+      "game": "Indiana @ Philadelphia",
+      "crew_chief": "Karl Lane (#77)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    },
+    {
+      "game": "L.A. Lakers @ Phoenix",
+      "crew_chief": "James Williams (#60)",
+      "referee": "John Butler (#30)",
+      "umpire": "Sha'Rae Mitchell (#98)",
+      "alternate": ""
+    },
+    {
+      "game": "Charlotte @ LA Clippers",
+      "crew_chief": "Marc Davis (#8)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "Biniam Maru (#94)",
+      "alternate": ""
+    },
+    {
+      "game": "San Antonio @ Utah",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Pat O'Connell (#90)",
+      "alternate": ""
+    },
+    {
+      "game": "Dallas @ Boston",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Ray Acosta (#54)",
+      "umpire": "Derrick Collins (#11)",
+      "alternate": ""
+    },
+    {
+      "game": "New York @ Toronto",
+      "crew_chief": "Tony Brothers (#25)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Phenizee Ransom (#70)",
+      "alternate": ""
+    },
+    {
+      "game": "Houston @ Washington",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Jacyn Goble (#68)",
+      "umpire": "Simone Jelks (#81)",
+      "alternate": ""
+    },
+    {
+      "game": "Atlanta @ Milwaukee",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Gina Catanzariti (#75)",
+      "alternate": ""
+    },
+    {
+      "game": "Oklahoma City @ Sacramento",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Tre Maddox (#23)",
+      "umpire": "Dannica Baroody (#89)",
+      "alternate": ""
+    }
+  ]
+}
