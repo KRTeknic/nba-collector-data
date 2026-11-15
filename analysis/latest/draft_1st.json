@@ -1,16 +1,16 @@
 {
   "SNAPSHOT_SOURCE": {
     "verified_at": {
-      "verified_at_utc": "2026-11-15T02:30:40.577210+00:00",
-      "verified_at_et": "2026-11-14T21:30:40.577210-05:00",
-      "verified_at_kst": "2026-11-15T11:30:40.577210+09:00"
+      "verified_at_utc": "2026-11-15T19:17:22.697569+00:00",
+      "verified_at_et": "2026-11-15T14:17:22.697569-05:00",
+      "verified_at_kst": "2026-11-16T04:17:22.697569+09:00"
     },
     "source_urls": {
       "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
       "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
     },
     "manifest_status_summary": {
-      "ESPN_ODDS": "OK",
+      "ESPN_ODDS": "UNAVAILABLE: No odds in payload",
       "ESPN_SCOREBOARD": "OK",
       "NBA_INJURY_PDF": "",
       "NBA_REF_ASSIGNMENTS": "OK",
@@ -18,48 +18,7 @@
     }
   },
   "MARKET_SNAPSHOT_LOG": {
-    "rows": [
-      {
-        "match": "DEN@NO",
-        "details": "DEN -12.5",
-        "total": 235.5,
-        "provider": "DraftKings",
-        "start_utc": "2026-11-15T00:00Z",
-        "event_id": "401909980"
-      },
-      {
-        "match": "DAL@CLE",
-        "details": "DAL -4.5",
-        "total": 228.5,
-        "provider": "DraftKings",
-        "start_utc": "2026-11-15T00:30Z",
-        "event_id": "401909981"
-      },
-      {
-        "match": "DET@MIA",
-        "details": "DET -3.5",
-        "total": 229.5,
-        "provider": "DraftKings",
-        "start_utc": "2026-11-15T01:00Z",
-        "event_id": "401909982"
-      },
-      {
-        "match": "BKN@MEM",
-        "details": "MEM -2.5",
-        "total": 228.5,
-        "provider": "DraftKings",
-        "start_utc": "2026-11-15T01:00Z",
-        "event_id": "401909983"
-      },
-      {
-        "match": "CHI@MIN",
-        "details": "MIN -15.5",
-        "total": 234.5,
-        "provider": "DraftKings",
-        "start_utc": "2026-11-15T01:00Z",
-        "event_id": "401909984"
-      }
-    ],
+    "rows": [],
     "drift_vs_open_anchor": []
   },
   "INJURY_SNAPSHOT_LOG": {
@@ -69,45 +28,23 @@
   },
   "UNRESOLVED_ZONE": [
     {
+      "tag": "U0",
+      "reason": "MARKET_UNAVAILABLE (FAIL-FAST) — manifest.status.ESPN_ODDS != OK"
+    },
+    {
       "tag": "U3",
       "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
     }
   ],
   "DRAFT_ANALYSIS_1ST": {
-    "status": "OK",
-    "candidates": [
-      {
-        "match": "DEN@NO",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "DAL@CLE",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "DET@MIA",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "BKN@MEM",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      },
-      {
-        "match": "CHI@MIN",
-        "candidate": "PASS",
-        "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
-      }
-    ],
+    "status": "BLOCKED",
+    "candidates": [],
     "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
   },
   "PROCESS_LOG": [
     "loaded: latest/manifest.json",
     "loaded: latest/espn_odds.json",
-    "FAIL_FAST=NO",
+    "FAIL_FAST=YES",
     "anchors_count=0",
     "drift_rows=0"
   ]
