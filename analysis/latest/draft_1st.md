@@ -1,23 +1,121 @@
 [SNAPSHOT_SOURCE]
-- verified_at (ET/KST): 2026-11-14T13:41:36.343343-05:00 / 2026-11-15T03:41:36.343343+09:00
-- source_urls: https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json , https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json
-- manifest.status: {"ESPN_SCOREBOARD": "OK", "ESPN_ODDS": "UNAVAILABLE: No odds in payload", "NBA_SCHEDULE_LEAGUEV2": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json", "NBA_REF_ASSIGNMENTS": "OK", "LINEUPS_AUX": "OK", "CBS_INJURIES_AUX": "OK"}
+{
+  "verified_at": {
+    "verified_at_utc": "2026-11-15T02:30:40.577210+00:00",
+    "verified_at_et": "2026-11-14T21:30:40.577210-05:00",
+    "verified_at_kst": "2026-11-15T11:30:40.577210+09:00"
+  },
+  "source_urls": {
+    "manifest.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/manifest.json",
+    "espn_odds.json": "https://raw.githubusercontent.com/KRTeknic/nba-collector-data/main/latest/espn_odds.json"
+  },
+  "manifest_status_summary": {
+    "ESPN_ODDS": "OK",
+    "ESPN_SCOREBOARD": "OK",
+    "NBA_INJURY_PDF": "",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "FATIGUE_PACK": ""
+  }
+}
 
 [MARKET_SNAPSHOT_LOG]
-- MARKET=UNAVAILABLE (FAIL-FAST)
+{
+  "rows": [
+    {
+      "match": "DEN@NO",
+      "details": "DEN -12.5",
+      "total": 235.5,
+      "provider": "DraftKings",
+      "start_utc": "2026-11-15T00:00Z",
+      "event_id": "401909980"
+    },
+    {
+      "match": "DAL@CLE",
+      "details": "DAL -4.5",
+      "total": 228.5,
+      "provider": "DraftKings",
+      "start_utc": "2026-11-15T00:30Z",
+      "event_id": "401909981"
+    },
+    {
+      "match": "DET@MIA",
+      "details": "DET -3.5",
+      "total": 229.5,
+      "provider": "DraftKings",
+      "start_utc": "2026-11-15T01:00Z",
+      "event_id": "401909982"
+    },
+    {
+      "match": "BKN@MEM",
+      "details": "MEM -2.5",
+      "total": 228.5,
+      "provider": "DraftKings",
+      "start_utc": "2026-11-15T01:00Z",
+      "event_id": "401909983"
+    },
+    {
+      "match": "CHI@MIN",
+      "details": "MIN -15.5",
+      "total": 234.5,
+      "provider": "DraftKings",
+      "start_utc": "2026-11-15T01:00Z",
+      "event_id": "401909984"
+    }
+  ],
+  "drift_vs_open_anchor": []
+}
 
 [INJURY_SNAPSHOT_LOG]
-- nba_injury_report.pdf: UNAVAILABLE (manifest missing)
-- AUX(가능): RotoWire lineups / CBS injuries / ESPN injury page (충돌 시 UNRESOLVED)
+{
+  "nba_injury_report_pdf_present": false,
+  "nba_injury_report_pdf_path": null,
+  "note": "보조 확인(RotoWire/CBS/ESPN)은 다음 단계에서 별도 수집기로 분리 권장"
+}
 
 [UNRESOLVED_ZONE]
-- MARKET=UNAVAILABLE (FAIL-FAST: ESPN_ODDS not OK)
-- INJURY=FAILED (allow AUX check, conflicts -> UNRESOLVED)
+[
+  {
+    "tag": "U3",
+    "reason": "INJURY PDF missing — INJURY=FAILED (보조확인 필요)"
+  }
+]
 
 [DRAFT_ANALYSIS_1ST]
-- 픽조합 v1.0 준수(같은 경기 핸디+언오버 한 조합 중복 금지, 최소 2폴)
-- 후보 없음 (MARKET UNAVAILABLE 또는 엔진 미연결)
+{
+  "status": "OK",
+  "candidates": [
+    {
+      "match": "DEN@NO",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "DAL@CLE",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "DET@MIA",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "BKN@MEM",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    },
+    {
+      "match": "CHI@MIN",
+      "candidate": "PASS",
+      "reason": "현재 단계: SSOT/드리프트/게이트 자동화 완료. 모델 코어(백서 11.5a) 픽 엔진 연결은 다음 단계에서 적용."
+    }
+  ],
+  "note": "FAIL-FAST: ESPN_ODDS OK가 아니면 종료(대체 마켓 금지)."
+}
 
 [PROCESS_LOG]
-- opened: manifest, odds (scoreboard/pdf optional)
-- errors: none
+loaded: latest/manifest.json
+loaded: latest/espn_odds.json
+FAIL_FAST=NO
+anchors_count=0
+drift_rows=0
