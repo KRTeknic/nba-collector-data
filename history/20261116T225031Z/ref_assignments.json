@@ -1,0 +1,64 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-16T22:50:31.718392+00:00",
+  "as_of_et": "2026-11-16T17:50:31.718392-05:00",
+  "as_of_kst": "2026-11-17T07:50:31.718392+09:00",
+  "rows": [
+    {
+      "game": "Orlando @ Boston",
+      "crew_chief": "Kevin Scott (#24)",
+      "referee": "Nate Green (#41)",
+      "umpire": "Matt Kallio (#53)",
+      "alternate": ""
+    },
+    {
+      "game": "Chicago @ Cleveland",
+      "crew_chief": "Curtis Blair (#74)",
+      "referee": "Ray Acosta (#54)",
+      "umpire": "Rodney Mott (#71)",
+      "alternate": ""
+    },
+    {
+      "game": "Memphis @ Washington",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "Mousa Dagher (#28)",
+      "umpire": "Tyler Ricks (#95)",
+      "alternate": ""
+    },
+    {
+      "game": "Philadelphia @ Brooklyn",
+      "crew_chief": "JB DeRosa (#14)",
+      "referee": "Jacyn Goble (#68)",
+      "umpire": "Jenna Reneau (#93)",
+      "alternate": ""
+    },
+    {
+      "game": "Houston @ Miami",
+      "crew_chief": "Gediminas Petraitis (#50)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "John Conley (#56)",
+      "alternate": ""
+    },
+    {
+      "game": "Portland @ Minnesota",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Eric Dalen (#37)",
+      "umpire": "JD Ralls (#80)",
+      "alternate": ""
+    },
+    {
+      "game": "Golden State @ New Orleans",
+      "crew_chief": "Brian Forte (#45)",
+      "referee": "Mark Lindsay (#29)",
+      "umpire": "Michael Smith (#38)",
+      "alternate": ""
+    },
+    {
+      "game": "Phoenix @ Denver",
+      "crew_chief": "Nick Buchert (#3)",
+      "referee": "Dedric Taylor (#21)",
+      "umpire": "Suyash Mehta (#47)",
+      "alternate": ""
+    }
+  ]
+}
