@@ -1,0 +1,43 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-17T21:42:10.877742+00:00",
+  "as_of_et": "2026-11-17T16:42:10.877742-05:00",
+  "as_of_kst": "2026-11-18T06:42:10.877742+09:00",
+  "rows": [
+    {
+      "game": "New York @ Toronto",
+      "crew_chief": "Mitchell Ervin (#27)",
+      "referee": "Eric Lewis (#42)",
+      "umpire": "Evan Scott (#22)",
+      "alternate": ""
+    },
+    {
+      "game": "Portland @ Minnesota",
+      "crew_chief": "Josh Tiven (#58)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "Derrick Collins (#11)",
+      "alternate": ""
+    },
+    {
+      "game": "Detroit @ San Antonio",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Che Flores (#91)",
+      "umpire": "Biniam Maru (#94)",
+      "alternate": ""
+    },
+    {
+      "game": "Charlotte @ L.A. Lakers",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Nick Buchert (#3)",
+      "umpire": "Jonathan Sterling (#17)",
+      "alternate": ""
+    },
+    {
+      "game": "Utah @ LA Clippers",
+      "crew_chief": "James Williams (#60)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "Agon Abazi (#88)",
+      "alternate": ""
+    }
+  ]
+}
