@@ -1,0 +1,17 @@
+{
+  "source": "ESPN_SCOREBOARD.odds",
+  "as_of_utc": "2026-11-18T04:09:16.869396+00:00",
+  "as_of_et": "2026-11-17T23:09:16.869396-05:00",
+  "as_of_kst": "2026-11-18T13:09:16.869396+09:00",
+  "rows": [
+    {
+      "event_id": "401910005",
+      "start_utc": "2026-11-18T04:00Z",
+      "home": "LAL",
+      "away": "CHA",
+      "details": "LAL -7.5",
+      "total": 221.5,
+      "provider": "DraftKings"
+    }
+  ]
+}
