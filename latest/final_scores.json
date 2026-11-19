@@ -1,8 +1,8 @@
 {
   "source": "ESPN_SCOREBOARD.final_only",
-  "as_of_utc": "2026-11-19T04:05:03.820854+00:00",
-  "as_of_et": "2026-11-18T23:05:03.820854-05:00",
-  "as_of_kst": "2026-11-19T13:05:03.820854+09:00",
+  "as_of_utc": "2026-11-19T21:23:47.388452+00:00",
+  "as_of_et": "2026-11-19T16:23:47.388452-05:00",
+  "as_of_kst": "2026-11-20T06:23:47.388452+09:00",
   "rows": [
     {
       "event_id": "401910007",
@@ -75,6 +75,30 @@
       "away": "GS",
       "home_score": "116",
       "away_score": "94"
+    },
+    {
+      "event_id": "401910015",
+      "start_utc": "2026-11-19T02:30Z",
+      "home": "DEN",
+      "away": "BOS",
+      "home_score": "105",
+      "away_score": "101"
+    },
+    {
+      "event_id": "401910017",
+      "start_utc": "2026-11-19T03:00Z",
+      "home": "LAL",
+      "away": "UTAH",
+      "home_score": "97",
+      "away_score": "109"
+    },
+    {
+      "event_id": "401910018",
+      "start_utc": "2026-11-19T03:00Z",
+      "home": "SAC",
+      "away": "PHX",
+      "home_score": "107",
+      "away_score": "128"
     }
   ]
 }
