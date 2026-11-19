@@ -1,8 +1,44 @@
 {
   "source": "ESPN_SCOREBOARD.odds",
-  "as_of_utc": "2026-11-19T21:23:47.388452+00:00",
-  "as_of_et": "2026-11-19T16:23:47.388452-05:00",
-  "as_of_kst": "2026-11-20T06:23:47.388452+09:00",
-  "date_et": "20261118",
-  "rows": []
+  "as_of_utc": "2026-11-19T21:24:33.316604+00:00",
+  "as_of_et": "2026-11-19T16:24:33.316604-05:00",
+  "as_of_kst": "2026-11-20T06:24:33.316604+09:00",
+  "rows": [
+    {
+      "event_id": "401910019",
+      "start_utc": "2026-11-20T01:00Z",
+      "home": "MEM",
+      "away": "GS",
+      "details": "MEM -5.5",
+      "total": 224.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401910020",
+      "start_utc": "2026-11-20T01:00Z",
+      "home": "MIL",
+      "away": "POR",
+      "details": "POR -10.5",
+      "total": 230.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401910021",
+      "start_utc": "2026-11-20T01:00Z",
+      "home": "MIN",
+      "away": "NY",
+      "details": "NY -1.5",
+      "total": 216.5,
+      "provider": "DraftKings"
+    },
+    {
+      "event_id": "401910022",
+      "start_utc": "2026-11-20T01:00Z",
+      "home": "SA",
+      "away": "LAC",
+      "details": "SA -15.5",
+      "total": 224.5,
+      "provider": "DraftKings"
+    }
+  ]
 }
