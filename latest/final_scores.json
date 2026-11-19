@@ -1,7 +1,80 @@
 {
   "source": "ESPN_SCOREBOARD.final_only",
-  "as_of_utc": "2026-11-18T21:20:27.473915+00:00",
-  "as_of_et": "2026-11-18T16:20:27.473915-05:00",
-  "as_of_kst": "2026-11-19T06:20:27.473915+09:00",
-  "rows": []
+  "as_of_utc": "2026-11-19T04:05:03.820854+00:00",
+  "as_of_et": "2026-11-18T23:05:03.820854-05:00",
+  "as_of_kst": "2026-11-19T13:05:03.820854+09:00",
+  "rows": [
+    {
+      "event_id": "401910007",
+      "start_utc": "2026-11-19T00:00Z",
+      "home": "CLE",
+      "away": "MEM",
+      "home_score": "121",
+      "away_score": "124"
+    },
+    {
+      "event_id": "401910008",
+      "start_utc": "2026-11-19T00:00Z",
+      "home": "IND",
+      "away": "HOU",
+      "home_score": "104",
+      "away_score": "119"
+    },
+    {
+      "event_id": "401910009",
+      "start_utc": "2026-11-19T00:00Z",
+      "home": "MIA",
+      "away": "MIL",
+      "home_score": "137",
+      "away_score": "130"
+    },
+    {
+      "event_id": "401910010",
+      "start_utc": "2026-11-19T00:00Z",
+      "home": "ORL",
+      "away": "PHI",
+      "home_score": "116",
+      "away_score": "121"
+    },
+    {
+      "event_id": "401910011",
+      "start_utc": "2026-11-19T00:30Z",
+      "home": "BKN",
+      "away": "CHI",
+      "home_score": "107",
+      "away_score": "137"
+    },
+    {
+      "event_id": "401910012",
+      "start_utc": "2026-11-19T00:30Z",
+      "home": "TOR",
+      "away": "WSH",
+      "home_score": "99",
+      "away_score": "103"
+    },
+    {
+      "event_id": "401910013",
+      "start_utc": "2026-11-19T01:00Z",
+      "home": "NO",
+      "away": "DET",
+      "home_score": "109",
+      "away_score": "122"
+    },
+    {
+      "event_id": "401910014",
+      "start_utc": "2026-11-19T01:00Z",
+      "home": "OKC",
+      "away": "ATL",
+      "home_score": "112",
+      "away_score": "117"
+    },
+    {
+      "event_id": "401910016",
+      "start_utc": "2026-11-19T01:00Z",
+      "home": "DAL",
+      "away": "GS",
+      "home_score": "116",
+      "away_score": "94"
+    }
+  ]
 }
