@@ -1,0 +1,71 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-20T21:00:15.696954+00:00",
+  "as_of_et": "2026-11-20T16:00:15.696954-05:00",
+  "as_of_kst": "2026-11-21T06:00:15.696954+09:00",
+  "rows": [
+    {
+      "game": "Charlotte @ Atlanta",
+      "crew_chief": "Josh Tiven (#58)",
+      "referee": "Jacyn Goble (#68)",
+      "umpire": "Leon Wood (#40)",
+      "alternate": ""
+    },
+    {
+      "game": "Orlando @ Brooklyn",
+      "crew_chief": "Bill Kennedy (#55)",
+      "referee": "Mark Lindsay (#29)",
+      "umpire": "Sha'Rae Mitchell (#98)",
+      "alternate": ""
+    },
+    {
+      "game": "Indiana @ Cleveland",
+      "crew_chief": "Sean Wright (#4)",
+      "referee": "Nick Buchert (#3)",
+      "umpire": "Tyler Ricks (#95)",
+      "alternate": ""
+    },
+    {
+      "game": "Toronto @ Detroit",
+      "crew_chief": "James Williams (#60)",
+      "referee": "JB DeRosa (#14)",
+      "umpire": "Dedric Taylor (#21)",
+      "alternate": ""
+    },
+    {
+      "game": "Washington @ Chicago",
+      "crew_chief": "James Capers (#19)",
+      "referee": "Eric Lewis (#42)",
+      "umpire": "Derrick Collins (#11)",
+      "alternate": ""
+    },
+    {
+      "game": "New Orleans @ Oklahoma City",
+      "crew_chief": "Ed Malloy (#7)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "Intae Hwang (#73)",
+      "alternate": ""
+    },
+    {
+      "game": "Phoenix @ Utah",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Brent Barnaky (#36)",
+      "umpire": "Che Flores (#91)",
+      "alternate": ""
+    },
+    {
+      "game": "Houston @ Denver",
+      "crew_chief": "Zach Zarba (#15)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Dannica Baroody (#89)",
+      "alternate": ""
+    },
+    {
+      "game": "Sacramento @ L.A. Lakers",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Ashley Moyer-Gleich (#13)",
+      "umpire": "Robert Hussey (#85)",
+      "alternate": ""
+    }
+  ]
+}
