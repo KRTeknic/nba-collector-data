@@ -1,0 +1,50 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-22T02:59:22.091313+00:00",
+  "as_of_et": "2026-11-21T21:59:22.091313-05:00",
+  "as_of_kst": "2026-11-22T11:59:22.091313+09:00",
+  "rows": [
+    {
+      "game": "Milwaukee @ Philadelphia",
+      "crew_chief": "Tre Maddox (#23)",
+      "referee": "Jason Goldenberg (#35)",
+      "umpire": "Jonathan Sterling (#17)",
+      "alternate": ""
+    },
+    {
+      "game": "Portland @ New York",
+      "crew_chief": "Gediminas Petraitis (#50)",
+      "referee": "John Butler (#30)",
+      "umpire": "Matt Myers (#43)",
+      "alternate": ""
+    },
+    {
+      "game": "LA Clippers @ Dallas",
+      "crew_chief": "Tony Brothers (#25)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "John Conley (#56)",
+      "alternate": ""
+    },
+    {
+      "game": "Memphis @ Minnesota",
+      "crew_chief": "Brian Forte (#45)",
+      "referee": "Kevin Cutler (#34)",
+      "umpire": "Brandon Adair (#67)",
+      "alternate": ""
+    },
+    {
+      "game": "New Orleans @ San Antonio",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Mousa Dagher (#28)",
+      "umpire": "Suyash Mehta (#47)",
+      "alternate": ""
+    },
+    {
+      "game": "Boston @ Sacramento",
+      "crew_chief": "Tyler Ford (#39)",
+      "referee": "Sean Corbin (#33)",
+      "umpire": "Brett Nansel (#44)",
+      "alternate": ""
+    }
+  ]
+}
