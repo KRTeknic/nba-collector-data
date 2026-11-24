@@ -1,0 +1,29 @@
+{
+  "source": "official.nba.com/referee-assignments",
+  "as_of_utc": "2026-11-24T22:58:47.474242+00:00",
+  "as_of_et": "2026-11-24T17:58:47.474242-05:00",
+  "as_of_kst": "2026-11-25T07:58:47.474242+09:00",
+  "rows": [
+    {
+      "game": "Detroit @ Orlando",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Evan Scott (#22)",
+      "alternate": ""
+    },
+    {
+      "game": "Boston @ Washington",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "Jenna Reneau (#93)",
+      "alternate": ""
+    },
+    {
+      "game": "Dallas @ Denver",
+      "crew_chief": "Justin Van Duyne (#64)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "Nate Green (#41)",
+      "alternate": ""
+    }
+  ]
+}

@@ -1,77 +1,28 @@
 {
   "source": "official.nba.com/referee-assignments",
-  "as_of_utc": "2026-11-24T06:54:22.878291+00:00",
-  "as_of_et": "2026-11-24T01:54:22.878291-05:00",
-  "as_of_kst": "2026-11-24T15:54:22.878291+09:00",
+  "as_of_utc": "2026-11-24T22:58:47.474242+00:00",
+  "as_of_et": "2026-11-24T17:58:47.474242-05:00",
+  "as_of_kst": "2026-11-25T07:58:47.474242+09:00",
   "rows": [
     {
-      "game": "Memphis @ Charlotte",
-      "crew_chief": "James Williams (#60)",
-      "referee": "Tre Maddox (#23)",
-      "umpire": "JP Primm (#82)",
+      "game": "Detroit @ Orlando",
+      "crew_chief": "John Goble (#10)",
+      "referee": "Karl Lane (#77)",
+      "umpire": "Evan Scott (#22)",
       "alternate": ""
     },
     {
-      "game": "Portland @ Philadelphia",
-      "crew_chief": "Kevin Cutler (#34)",
-      "referee": "Sha'Rae Mitchell (#98)",
-      "umpire": "Scott Twardoski (#52)",
+      "game": "Boston @ Washington",
+      "crew_chief": "Ben Taylor (#46)",
+      "referee": "Marat Kogut (#32)",
+      "umpire": "Jenna Reneau (#93)",
       "alternate": ""
     },
     {
-      "game": "Oklahoma City @ Indiana",
-      "crew_chief": "Tony Brothers (#25)",
-      "referee": "Ashley Moyer-Gleich (#13)",
-      "umpire": "John Conley (#56)",
-      "alternate": ""
-    },
-    {
-      "game": "Milwaukee @ Toronto",
-      "crew_chief": "Sean Wright (#4)",
-      "referee": "Jacyn Goble (#68)",
-      "umpire": "Matt Myers (#43)",
-      "alternate": ""
-    },
-    {
-      "game": "Brooklyn @ Minnesota",
-      "crew_chief": "Scott Foster (#48)",
-      "referee": "John Butler (#30)",
-      "umpire": "Agon Abazi (#88)",
-      "alternate": ""
-    },
-    {
-      "game": "Cleveland @ Chicago",
-      "crew_chief": "Ed Malloy (#7)",
-      "referee": "Natalie Sago (#9)",
-      "umpire": "Brent Haskill (#92)",
-      "alternate": ""
-    },
-    {
-      "game": "Phoenix @ New Orleans",
-      "crew_chief": "JB DeRosa (#14)",
-      "referee": "Eric Dalen (#37)",
-      "umpire": "Brandon Adair (#67)",
-      "alternate": ""
-    },
-    {
-      "game": "LA Clippers @ Houston",
+      "game": "Dallas @ Denver",
       "crew_chief": "Justin Van Duyne (#64)",
-      "referee": "Mousa Dagher (#28)",
-      "umpire": "Jonathan Sterling (#17)",
-      "alternate": ""
-    },
-    {
-      "game": "Utah @ L.A. Lakers",
-      "crew_chief": "Mark Lindsay (#29)",
-      "referee": "Sean Corbin (#33)",
-      "umpire": "Simone Jelks (#81)",
-      "alternate": ""
-    },
-    {
-      "game": "San Antonio @ Sacramento",
-      "crew_chief": "Brent Barnaky (#36)",
-      "referee": "CJ Washington (#12)",
-      "umpire": "JT Orr (#72)",
+      "referee": "Andy Nagy (#18)",
+      "umpire": "Nate Green (#41)",
       "alternate": ""
     }
   ]
