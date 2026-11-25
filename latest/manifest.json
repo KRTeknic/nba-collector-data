@@ -1,28 +1,17 @@
 {
-  "as_of_utc": "2026-11-25T22:25:00.442822+00:00",
-  "as_of_kst": "2026-11-26T07:25:00.442822+09:00",
-  "as_of_et": "2026-11-25T17:25:00.442822-05:00",
-  "date_et": "20261123",
-  "date_et_resolve_scores": {
-    "20261123": {
-      "matched": 0,
-      "events": 10
-    },
-    "20261124": {
-      "matched": 0,
-      "events": 3
-    },
-    "20261125": {
-      "matched": 0,
-      "events": 9
-    }
-  },
-  "status": {
+  "status": "OK",
+  "run_slot": "2205",
+  "as_of_utc": "2026-11-25T22:25:56.504946+00:00",
+  "as_of_kst": "2026-11-26T07:25:56.504946+09:00",
+  "as_of_et": "2026-11-25T17:25:56.504946-05:00",
+  "date_et": "20261125",
+  "status_detail": {
     "ESPN_SCOREBOARD": "OK",
-    "ESPN_ODDS": "UNAVAILABLE: No odds in payload",
+    "ESPN_ODDS": "OK",
+    "NBA_CDN_SCOREBOARD": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json",
     "NBA_SCHEDULE_LEAGUEV2": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json",
     "NBA_REF_ASSIGNMENTS": "OK",
-    "LINEUPS_AUX": "OK",
-    "CBS_INJURIES_AUX": "OK"
+    "NBA_INJURY_PDF": "FAILED: Not found (all candidates failed)",
+    "FATIGUE_PACK": "OK"
   }
 }
