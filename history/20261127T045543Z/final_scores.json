@@ -1,0 +1,32 @@
+{
+  "source": "ESPN_SCOREBOARD.final_only",
+  "as_of_utc": "2026-11-27T04:55:44.197597+00:00",
+  "as_of_et": "2026-11-26T23:55:44.197597-05:00",
+  "as_of_kst": "2026-11-27T13:55:44.197597+09:00",
+  "rows": [
+    {
+      "event_id": "401909314",
+      "start_utc": "2026-11-25T00:00Z",
+      "home": "ORL",
+      "away": "DET",
+      "home_score": "86",
+      "away_score": "104"
+    },
+    {
+      "event_id": "401909315",
+      "start_utc": "2026-11-25T01:00Z",
+      "home": "WSH",
+      "away": "BOS",
+      "home_score": "116",
+      "away_score": "131"
+    },
+    {
+      "event_id": "401909316",
+      "start_utc": "2026-11-25T03:00Z",
+      "home": "DEN",
+      "away": "DAL",
+      "home_score": "101",
+      "away_score": "120"
+    }
+  ]
+}

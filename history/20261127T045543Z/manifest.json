@@ -1,0 +1,28 @@
+{
+  "as_of_utc": "2026-11-27T04:55:44.197597+00:00",
+  "as_of_kst": "2026-11-27T13:55:44.197597+09:00",
+  "as_of_et": "2026-11-26T23:55:44.197597-05:00",
+  "date_et": "20261124",
+  "date_et_resolve_scores": {
+    "20261124": {
+      "matched": 0,
+      "events": 3
+    },
+    "20261125": {
+      "matched": 0,
+      "events": 9
+    },
+    "20261126": {
+      "matched": 0,
+      "events": 0
+    }
+  },
+  "status": {
+    "ESPN_SCOREBOARD": "OK",
+    "ESPN_ODDS": "UNAVAILABLE: No odds in payload",
+    "NBA_SCHEDULE_LEAGUEV2": "FAILED: 403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2.json",
+    "NBA_REF_ASSIGNMENTS": "OK",
+    "LINEUPS_AUX": "OK",
+    "CBS_INJURIES_AUX": "OK"
+  }
+}
